@@ -2,3 +2,4 @@ site_name: "PubCaseFinder Spec"
 
 theme:
   name: readthedocs
+  locale: ja
