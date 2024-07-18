@@ -22,3 +22,5 @@ nav:
   - Stats:
     - 統計情報: 'docs/cases/edit/basicInfo.md'
     - 各グラフ: 'docs/cases/edit/basicInfo.md'
+extra_css:
+  - css/extra.css
