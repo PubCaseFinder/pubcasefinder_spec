@@ -2,3 +2,5 @@ site_name: "PubCaseFinder Spec"
 
 theme:
   name: readthedocs
+extra_css:
+  - css/extra.css
