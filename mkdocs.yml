@@ -35,4 +35,5 @@ nav:
   - File merge:
     - 'File merge/仕様.md'
 extra_css:
-  - css/extra.css
+  - assets/css/custom.css
+  - assets/css/override.css
