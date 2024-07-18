@@ -1,3 +1,5 @@
+# 遺伝型
+
 ## 検査について
 <table>
   <thead>
@@ -5,8 +7,7 @@
       <th colspan="3">項目名</th>
       <th rowspan="2" class="text-vertical-align-middle">ID</th>
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="3">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th colspan="3">選択肢（初期値：チェック項目）</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
       <th colspan="3">一覧表示/操作</th>
@@ -20,8 +21,8 @@
       <th>JA</th>
       <th>KO</th>
       <th>デフォルト表示</th>
-      <th>編集可否</th>
-      <th>列追加可否</th>
+      <th>編集可能</th>
+      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -40,7 +41,6 @@
         </ul>
       </td>
       <td></td>
-      <td>不明</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -63,7 +63,6 @@
         </ul>
       </td>
       <td></td>
-      <td>不明</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -77,7 +76,6 @@
       <td><strong></strong></td>
       <td>genotype_analysis</td>
       <td>テキストエリア</td>
-      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
