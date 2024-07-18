@@ -5,22 +5,34 @@ theme:
 
 nav:
   - Home: index.md
+  - 全体構成:
+    - 画面仕様: '全体構成/画面仕様.md'
   - Cases:
-    - 表:
-      - 項目説明: 'docs/cases/table/column.md'
-      - 表操作: 'docs/cases/table/column.md'
-      - 項目追加: 'docs/cases/table/column.md'
-      - キーワード検索: 'docs/cases/table/column.md'
+    - 一覧表の表示内容:
+      - 初期表示項目: 'Cases/一覧表の表示内容/初期表示項目.md'
+      - 追加項目: 'Cases/一覧表の表示内容/追加項目.md'
+    - 操作:
+      - 画面仕様: 'Cases/操作/画面仕様.md'
+      - キーワード検索: 'Cases/操作/キーワード検索.md'
+      - 項目追加: 'Cases/操作/項目追加.md'
+      - フィルター: 'Cases/操作/フィルター.md'
+      - その他: 'Cases/操作/その他.md'
     - 編集:
-      - 症例基本情報: 'cases/edit/basicInfo.md'
-      - 診療: 'docs/cases/edit/basicInfo.md'
-      - 表現型: 'docs/cases/edit/basicInfo.md'
-      - 遺伝型: 'docs/cases/edit/basicInfo.md'
-      - 家系: 'docs/cases/edit/basicInfo.md'
-      - 検体・検査: 'docs/cases/edit/basicInfo.md'
-      - 登録: 'docs/cases/edit/basicInfo.md'
+      - 症例基本情報: 'Cases/編集/症例基本情報.md'
+      - 診療: 'Cases/編集/診療.md'
+      - 表現型: 'Cases/編集/表現型.md'
+      - 遺伝型: 'Cases/編集/遺伝型.md'
   - Stats:
-    - 統計情報: 'docs/cases/edit/basicInfo.md'
-    - 各グラフ: 'docs/cases/edit/basicInfo.md'
+    - 画面仕様: 'Stats/画面仕様.md'
+    - 年齢: 'Stats/年齢.md'
+    - 性別: 'Stats/性別.md'
+    - グループ名: 'Stats/グループ名.md'
+    - 症状: 'Stats/症状.md'
+  - File open:
+    - 'File open/仕様.md'
+  - File save:
+    - 'File save/仕様.md'
+  - File merge:
+    - 'File merge/仕様.md'
 extra_css:
   - css/extra.css
