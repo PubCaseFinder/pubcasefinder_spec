@@ -2,4 +2,38 @@ site_name: "PubCaseFinder Spec"
 
 theme:
   name: readthedocs
-  locale: ja
+
+nav:
+  - Home: index
+  - 全体構成:
+    - 画面仕様: 'overall-structure/screen-specifications'
+  - Cases:
+    - 一覧表の表示内容:
+      - 初期表示項目: 'cases/list-display-contents/initial-display-items'
+      - 追加項目: 'cases/list-display-contents/additional-items'
+    - 操作:
+      - 画面仕様: 'cases/operations/screen-specifications'
+      - キーワード検索: 'cases/operations/keyword-search'
+      - 項目追加: 'cases/operations/add-items'
+      - フィルター: 'cases/operations/filter'
+      - その他: 'cases/operations/other'
+    - 編集:
+      - 症例基本情報: 'cases/edit/case-basic-information'
+      - 診療: 'cases/edit/medical-examination'
+      - 表現型: 'cases/edit/phenotype'
+      - 遺伝型: 'cases/edit/genotype'
+  - Stats:
+    - 画面仕様: 'stats/screen-specifications'
+    - 年齢: 'stats/age'
+    - 性別: 'stats/gender'
+    - グループ名: 'stats/group-name'
+    - 症状: 'stats/symptoms'
+  - File open:
+    - 仕様: 'file-open/specifications'
+  - File save:
+    - 仕様: 'file-save/specifications'
+  - File merge:
+    - 仕様: 'file-merge/specifications'
+extra_css:
+  - assets/css/custom.css
+  - assets/css/override.css

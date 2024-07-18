@@ -1,0 +1,14 @@
+.text-vertical-align-middle {
+  vertical-align: middle;
+}
+
+.no-list-style {
+  li {
+    list-style: none !important;
+    margin-left: 0 !important;
+  }
+}
+
+.readonly-input {
+  pointer-events: none;
+}
