@@ -2,6 +2,7 @@ site_name: "PubCaseFinder Spec"
 
 theme:
   name: readthedocs
+  locale: ja
 
 nav:
   - Home: index
@@ -34,6 +35,7 @@ nav:
     - 仕様: 'file-save/specifications'
   - File merge:
     - 仕様: 'file-merge/specifications'
+
 extra_css:
   - assets/css/custom.css
   - assets/css/override.css
