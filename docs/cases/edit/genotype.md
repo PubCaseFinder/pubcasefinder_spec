@@ -69,7 +69,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
@@ -112,7 +112,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
@@ -131,7 +131,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
@@ -352,3 +352,539 @@
 </table>
 
 ## 結果詳細
+
+- 下記項目群を1つの結果詳細とし、複数の結果詳細を登録可能
+- 結果詳細はボタン操作で「追加」「削除」が可能
+    - 「削除」ボタン押下時は「削除しますか？」と確認アラートを表示し、「OK」押下時のみ実行
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="4">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>値</th>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+      <th>列追加可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Gene symbol</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td>genotype_gene</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>NCBI Gene ID</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td>genotype_ncbi_gene_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Ensemble ID</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td>genotype_ensembl_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Interpretation Status</strong></td>
+      <td><strong>Interpretation Status</strong></td>
+      <td><strong>Interpretation Status</strong></td>
+      <td>genotype_status</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>Unknown Status</li>
+          <li>Rejected</li>
+          <li>Candidate</li>
+          <li>Contributory</li>
+          <li>Causative</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown Status</li>
+          <li>Rejected</li>
+          <li>Candidate</li>
+          <li>Contributory</li>
+          <li>Causative</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown Status</li>
+          <li>Rejected</li>
+          <li>Candidate</li>
+          <li>Contributory</li>
+          <li>Causative</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown Status</li>
+          <li>Rejected</li>
+          <li>Candidate</li>
+          <li>Contributory</li>
+          <li>Causative</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>cDNA Change</strong></td>
+      <td><strong>cDNA Change</strong></td>
+      <td><strong>cDNA Change</strong></td>
+      <td>genotype_cdna_change</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Pathogenicity</strong></td>
+      <td><strong>Pathogenicity</strong></td>
+      <td><strong>Pathogenicity</strong></td>
+      <td>genotype_pathogenicity</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>NOT_PROVIDED</li>
+          <li>BENIGN</li>
+          <li>LIKELY_BENIGN</li>
+          <li>UNCERTAIN_SIGNIFICANCE</li>
+          <li>LIKELY_PATHOGENIC</li>
+          <li>PATHOGENIC</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>NOT_PROVIDED</li>
+          <li>BENIGN</li>
+          <li>LIKELY_BENIGN</li>
+          <li>UNCERTAIN_SIGNIFICANCE</li>
+          <li>LIKELY_PATHOGENIC</li>
+          <li>PATHOGENIC</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>NOT_PROVIDED</li>
+          <li>BENIGN</li>
+          <li>LIKELY_BENIGN</li>
+          <li>UNCERTAIN_SIGNIFICANCE</li>
+          <li>LIKELY_PATHOGENIC</li>
+          <li>PATHOGENIC</li>
+        </ul>
+      </td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Genotype</strong></td>
+      <td><strong>Genotype</strong></td>
+      <td><strong>Genotype</strong></td>
+      <td>genotype_allelic_state</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>heterozygous</li>
+          <li>homozygous</li>
+          <li>hemizygous</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>heterozygous</li>
+          <li>homozygous</li>
+          <li>hemizygous</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>heterozygous</li>
+          <li>homozygous</li>
+          <li>hemizygous</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>heterozygous</li>
+          <li>homozygous</li>
+          <li>hemizygous</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Reference</strong></td>
+      <td><strong>Reference</strong></td>
+      <td><strong>Reference</strong></td>
+      <td>genotype_reference</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>"GRCh37 (hg19)"</li>
+          <li>"GRCh38 (hg38)"</li>
+          <li>"GRCh36 (hg18)"</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>"GRCh37 (hg19)"</li>
+          <li>"GRCh38 (hg38)"</li>
+          <li>"GRCh36 (hg18)"</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>"GRCh37 (hg19)"</li>
+          <li>"GRCh38 (hg38)"</li>
+          <li>"GRCh36 (hg18)"</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>"GRCh37 (hg19)"</li>
+          <li>"GRCh38 (hg38)"</li>
+          <li>"GRCh36 (hg18)"</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Chr:Position</strong></td>
+      <td><strong>Chr:Position</strong></td>
+      <td><strong>Chr:Position</strong></td>
+      <td>genotype_chr_position</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Transcript</strong></td>
+      <td><strong>Transcript</strong></td>
+      <td><strong>Transcript</strong></td>
+      <td>genotype_transcript</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Protein Charge</strong></td>
+      <td><strong>Protein Charge</strong></td>
+      <td><strong>Protein Charge</strong></td>
+      <td>genotype_protein_charge</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Annotation</strong></td>
+      <td><strong>Annotation</strong></td>
+      <td><strong>Annotation</strong></td>
+      <td>genotype_annotation</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>frameshift deletion</li>
+          <li>frameshift insertion</li>
+          <li>frameshift substitution</li>
+          <li>nonframeshift deletion</li>
+          <li>nonframeshift insertion</li>
+          <li>nonframeshift substitution</li>
+          <li>synonymous SNV</li>
+          <li>nonsynonymous SNV</li>
+          <li>stopgain SNV</li>
+          <li>stoploss SNV</li>
+          <li>stopgain</li>
+          <li>stoploss</li>
+          <li>splicing</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>frameshift deletion</li>
+          <li>frameshift insertion</li>
+          <li>frameshift substitution</li>
+          <li>nonframeshift deletion</li>
+          <li>nonframeshift insertion</li>
+          <li>nonframeshift substitution</li>
+          <li>synonymous SNV</li>
+          <li>nonsynonymous SNV</li>
+          <li>stopgain SNV</li>
+          <li>stoploss SNV</li>
+          <li>stopgain</li>
+          <li>stoploss</li>
+          <li>splicing</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>frameshift deletion</li>
+          <li>frameshift insertion</li>
+          <li>frameshift substitution</li>
+          <li>nonframeshift deletion</li>
+          <li>nonframeshift insertion</li>
+          <li>nonframeshift substitution</li>
+          <li>synonymous SNV</li>
+          <li>nonsynonymous SNV</li>
+          <li>stopgain SNV</li>
+          <li>stoploss SNV</li>
+          <li>stopgain</li>
+          <li>stoploss</li>
+          <li>splicing</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>frameshift deletion</li>
+          <li>frameshift insertion</li>
+          <li>frameshift substitution</li>
+          <li>nonframeshift deletion</li>
+          <li>nonframeshift insertion</li>
+          <li>nonframeshift substitution</li>
+          <li>synonymous SNV</li>
+          <li>nonsynonymous SNV</li>
+          <li>stopgain SNV</li>
+          <li>stoploss SNV</li>
+          <li>stopgain</li>
+          <li>stoploss</li>
+          <li>splicing</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Inheritance</strong></td>
+      <td><strong>Inheritance</strong></td>
+      <td><strong>Inheritance</strong></td>
+      <td>genotype_inheritance</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>autosomal recessive - compound heterozygous</li>
+          <li>autosomal recessive - homozygous</li>
+          <li>autosomal dominant</li>
+          <li>autosomal dominant - new mutation</li>
+          <li>autosomal dominant - Inherited mutation</li>
+          <li>x-linked recessive</li>
+          <li>x-linked dominant</li>
+          <li>paternal imprinting</li>
+          <li>maternal imprinting</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>autosomal recessive - compound heterozygous</li>
+          <li>autosomal recessive - homozygous</li>
+          <li>autosomal dominant</li>
+          <li>autosomal dominant - new mutation</li>
+          <li>autosomal dominant - Inherited mutation</li>
+          <li>x-linked recessive</li>
+          <li>x-linked dominant</li>
+          <li>paternal imprinting</li>
+          <li>maternal imprinting</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>autosomal recessive - compound heterozygous</li>
+          <li>autosomal recessive - homozygous</li>
+          <li>autosomal dominant</li>
+          <li>autosomal dominant - new mutation</li>
+          <li>autosomal dominant - Inherited mutation</li>
+          <li>x-linked recessive</li>
+          <li>x-linked dominant</li>
+          <li>paternal imprinting</li>
+          <li>maternal imprinting</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>autosomal recessive - compound heterozygous</li>
+          <li>autosomal recessive - homozygous</li>
+          <li>autosomal dominant</li>
+          <li>autosomal dominant - new mutation</li>
+          <li>autosomal dominant - Inherited mutation</li>
+          <li>x-linked recessive</li>
+          <li>x-linked dominant</li>
+          <li>paternal imprinting</li>
+          <li>maternal imprinting</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Comments</strong></td>
+      <td><strong>Comments</strong></td>
+      <td><strong>Comments</strong></td>
+      <td>genotype_comments</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
