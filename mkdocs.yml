@@ -11,6 +11,15 @@ nav:
   - Cases:
     - 一覧表の表示内容:
       - 初期表示項目: 'cases/list-display-contents/initial-display-items'
+      - アンカーリンク1: 'cases/list-display-contents/initial-display-items#1'
+      - アンカーリンク2: 'cases/list-display-contents/initial-display-items#2'
+      - アンカーリンク3: 'cases/list-display-contents/initial-display-items#3'
+      - アンカーリンク4: 'cases/list-display-contents/initial-display-items#4'
+      - アンカーリンク5: 'cases/list-display-contents/initial-display-items#5'
+      - アンカーリンク6: 'cases/list-display-contents/initial-display-items#6'
+      - アンカーリンク7: 'cases/list-display-contents/initial-display-items#7'
+      - アンカーリンク8: 'cases/list-display-contents/initial-display-items#8'
+      - アンカーリンク9: 'cases/list-display-contents/initial-display-items#9'
       - 追加項目: 'cases/list-display-contents/additional-items'
     - 操作:
       - 画面仕様: 'cases/operations/screen-specifications'
