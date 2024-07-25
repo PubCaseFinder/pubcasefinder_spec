@@ -1,6 +1,6 @@
-# 遺伝型
+# 遺伝型（EN: `Genotype`, KO: `유전자형 정보`）
 
-## 検査について
+## 検査について（EN: `About testing`, KO: `검사에 대하여`）
 
 <table>
   <thead>
@@ -11,8 +11,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="4">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
@@ -138,13 +138,14 @@
   </tbody>
 </table>
 
-## 検査結果
+## 検査結果（EN: `Testing Result`, KO: `검사 결과`）
 
 - 下記項目群を1つの検査結果とし、複数の検査結果を登録可能
     - 各項目のデータは検査結果の登録数分の配列
         - 例）1つ目の検査結果は各項目の配列の0番目
 - 検査結果はボタン操作で「追加」「削除」が可能
-    - 「削除」ボタン押下時は「削除しますか？」と確認アラートを表示し、「OK」押下時のみ実行
+    - 「削除」ボタン押下時は下記文言の確認アラートを表示し、「OK」押下時のみ実行
+        - 「削除しますか？（EN: `Are you sure you want to delete this item?`, KO: `삭제하시겠습니까?`）」
 
 <table>
   <thead>
@@ -155,8 +156,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="4">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
@@ -353,13 +354,14 @@
   </tbody>
 </table>
 
-## 結果詳細
+## 結果詳細（EN: `Details of Result`, KO: `결과 상세`）
 
 - 下記項目群を1つの結果詳細とし、複数の結果詳細を登録可能
     - 各項目のデータは結果詳細の登録数分の配列
         - 例）1つ目の結果詳細は各項目の配列の0番目
 - 結果詳細はボタン操作で「追加」「削除」が可能
-    - 「削除」ボタン押下時は「削除しますか？」と確認アラートを表示し、「OK」押下時のみ実行
+    - 「削除」ボタン押下時は下記文言の確認アラートを表示し、「OK」押下時のみ実行
+        - 「削除しますか？（EN: `Are you sure you want to delete this item?`, KO: `삭제하시겠습니까?`）」
 
 <table>
   <thead>
@@ -370,8 +372,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="4">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
