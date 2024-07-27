@@ -5,7 +5,7 @@ theme:
   locale: ja
 
 nav:
-  - Home: /
+  - CaseSharing Specについて: /
   - 全体構成:
     - 画面仕様: 'overall-structure/screen-specifications'
   - Cases:
