@@ -9,7 +9,7 @@
 <table>
   <thead>
     <tr>
-      <th colspan="5">項目名</th>
+      <th colspan="3">項目名</th>
       <th rowspan="2" class="text-vertical-align-middle">ID</th>
       <th rowspan="2" class="text-vertical-align-middle">型定義</th>
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
@@ -24,8 +24,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>CN/簡</th>
-      <th>CN/繁</th>
       <th>値</th>
       <th>EN</th>
       <th>JA</th>
@@ -40,8 +38,6 @@
       <td><strong>Body height (cm)</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td><strong>신장 (cm)</strong></td>
-      <td><strong>身高 (cm)</strong></td>
-      <td><strong>身高 (cm)</strong></td>
       <td>medical_body_height_at_birth</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
@@ -61,8 +57,6 @@
       <td><strong>Body weight (g)</strong></td>
       <td><strong>体重 (g)</strong></td>
       <td><strong>체중 (g)</strong></td>
-      <td><strong>体重 (g)</strong></td>
-      <td><strong>體重 (g)</strong></td>
       <td>medical_body_weight_at_birth</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
@@ -82,8 +76,6 @@
       <td><strong>Head circumference (cm)</strong></td>
       <td><strong>頭囲 (cm)</strong></td>
       <td><strong>머리둘레 (cm)</strong></td>
-      <td><strong>头围 (cm)</strong></td>
-      <td><strong>頭圍 (cm)</strong></td>
       <td>medical_head_circumference_at_birth</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
@@ -107,7 +99,7 @@
 <table>
   <thead>
     <tr>
-      <th colspan="5">項目名</th>
+      <th colspan="3">項目名</th>
       <th rowspan="2" class="text-vertical-align-middle">ID</th>
       <th rowspan="2" class="text-vertical-align-middle">型定義</th>
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
@@ -122,8 +114,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>CN/簡</th>
-      <th>CN/繁</th>
       <th>値</th>
       <th>EN</th>
       <th>JA</th>
@@ -138,8 +128,6 @@
       <td><strong>Body height (cm)</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td><strong>신장 (cm)</strong></td>
-      <td><strong>身高 (cm)</strong></td>
-      <td><strong>身高 (cm)</strong></td>
       <td>medical_body_height_at_registration</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
@@ -159,8 +147,6 @@
       <td><strong>Body weight (kg)</strong></td>
       <td><strong>体重 (kg)</strong></td>
       <td><strong>체중 (kg)</strong></td>
-      <td><strong>体重 (kg)</strong></td>
-      <td><strong>體重 (kg)</strong></td>
       <td>medical_body_height_at_registration</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
@@ -180,8 +166,6 @@
       <td><strong>Head circumference (cm)</strong></td>
       <td><strong>頭囲 (cm)</strong></td>
       <td><strong>머리둘레 (cm)</strong></td>
-      <td><strong>头围 (cm)</strong></td>
-      <td><strong>頭圍 (cm)</strong></td>
       <td>medical_head_circumference_at_registration</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
@@ -201,8 +185,6 @@
       <td><strong>Age at Measurement (YM)</strong></td>
       <td><strong>測定時年齢 (YM)</strong></td>
       <td><strong>측정 시 연령 (YM)</strong></td>
-      <td><strong>-</strong></td>
-      <td><strong>-</strong></td>
       <td>medical_age_at_measurement</td>
       <td>テキスト</td>
       <td>
