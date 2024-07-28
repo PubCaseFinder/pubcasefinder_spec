@@ -182,17 +182,12 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>Age at Measurement (YM)</strong></td>
-      <td><strong>測定時年齢 (YM)</strong></td>
-      <td><strong>측정 시 연령 (YM)</strong></td>
-      <td>medical_age_at_measurement</td>
-      <td>テキスト</td>
-      <td>
-        <ul>
-          <li>セレクトボックス (数字)</li>
-          <li>セレクトボックス</li>
-        </ul>
-      </td>
+      <td rowspan="2"><strong>Age at Measurement (YM)</strong></td> 
+      <td rowspan="2"><strong>測定時年齢 (YM)</strong></td>
+      <td rowspan="2"><strong>측정 시 연령 (YM)</strong></td>
+      <td rowspan="2">medical_age_at_measurement</td>
+      <td rowspan="2">テキスト</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -203,10 +198,28 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2">
+      「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M」の形式でjsonに保存される
+      </td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>0~11</td>
+      <td>0~11</td>
+      <td>0~11</td>
+      <td>0~11</td>
+      <td>- ヶ月を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
   </tbody>
 </table>
+
+### 診察時身体情報
 
 ## 常用薬・アレルギー・嗜好品 {: #regular-medications-allergies-preferences}
 
