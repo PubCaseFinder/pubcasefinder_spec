@@ -5,3 +5,7 @@
 .readonly-input {
   pointer-events: none;
 }
+
+.highlight-text {
+  color: #ff7272;
+}
