@@ -386,6 +386,56 @@
 
 ### 検査初見
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="4">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>値</th>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+      <th>列追加可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Examination Findings</strong></td>
+      <td><strong>検査初見</strong></td>
+      <td><strong>검사 소견</strong></td>
+      <td>medical_examination_findings</td>
+      <td>テキスト</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>""</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## 常用薬・アレルギー・嗜好品 {: #regular-medications-allergies-preferences}
 
 ## 疑い病名 {: #suspected-case}
