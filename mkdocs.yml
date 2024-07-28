@@ -30,7 +30,10 @@ nav:
         - 指定難病: 'cases/edit/medical-examination/#designated-incurable-disease'
         - 小児慢性特定疾病: 'cases/edit/medical-examination/#chronic-childhood-diseases'
       - 表現型: 'cases/edit/phenotype'
-      - 遺伝型: 'cases/edit/genotype'
+      - 遺伝型:
+        - 検査について: 'cases/edit/genotype#about-testing'
+        - 検査結果: 'cases/edit/genotype#testing-result'
+        - 結果詳細: 'cases/edit/genotype#details-of-result'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
     - 年齢: 'stats/age'

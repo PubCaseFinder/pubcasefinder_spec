@@ -1,6 +1,6 @@
-# 遺伝型（EN: `Genotype`, KO: `유전자형 정보`）
+# 遺伝型（EN: `Genotype`, KO: `유전자형 정보`） {: #genotype}
 
-## 検査について（EN: `About testing`, KO: `검사에 대하여`）
+## 検査について（EN: `About testing`, KO: `검사에 대하여`） {: #about-testing}
 
 <table>
   <thead>
@@ -138,7 +138,7 @@
   </tbody>
 </table>
 
-## 検査結果（EN: `Testing Result`, KO: `검사 결과`）
+## 検査結果（EN: `Testing Result`, KO: `검사 결과`） {: #testing-result}
 
 - 下記項目群を1つの検査結果とし、複数の検査結果を登録可能
     - 各項目のデータは検査結果の登録数分の配列
@@ -354,7 +354,7 @@
   </tbody>
 </table>
 
-## 結果詳細（EN: `Details of Result`, KO: `결과 상세`）
+## 結果詳細（EN: `Details of Result`, KO: `결과 상세`） {: #details-of-result}
 
 - 下記項目群を1つの結果詳細とし、複数の結果詳細を登録可能
     - 各項目のデータは結果詳細の登録数分の配列
