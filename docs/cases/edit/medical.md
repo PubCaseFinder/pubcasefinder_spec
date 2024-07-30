@@ -4,12 +4,11 @@
 
 ## 身体情報・所見 （EN: `Body Info`, KO: `신체 정보・소견`） {: #physical-information-and-findings}
 
-### 出生時身体情報 （EN: `Body Info at Birth`, KO: `출생 시 신체 정보`）
-
 <table>
   <thead>
     <tr>
-      <th colspan="3">項目名</th>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">小項目名</th>
       <th rowspan="2" class="text-vertical-align-middle">ID</th>
       <th rowspan="2" class="text-vertical-align-middle">型定義</th>
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
@@ -24,6 +23,9 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
       <th>値</th>
       <th>EN</th>
       <th>JA</th>
@@ -35,6 +37,9 @@
   </thead>
   <tbody>
     <tr>
+      <td rowspan="3"><strong>Body Info at Birth</strong></td>
+      <td rowspan="3"><strong>出生時身体情報</strong></td>
+      <td rowspan="3"><strong>출생 시 신체 정보</strong></td>
       <td><strong>Body height (cm)</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td><strong>신장 (cm)</strong></td>
@@ -91,40 +96,10 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
-  </tbody>
-</table>
-
-### 登録時身体情報 （EN: `Body Info at Registration`, KO: `출생 시 신체 정보`）
-
-<table>
-  <thead>
     <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+      <td rowspan="5"><strong>Body Info at Registration</strong></td>
+      <td rowspan="5"><strong>登録時身体情報</strong></td>
+      <td rowspan="5"><strong>출생 시 신체 정보</strong></td>
       <td><strong>Body height (cm)</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td><strong>신장 (cm)</strong></td>
@@ -214,46 +189,11 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-### 診察時身体情報 （EN: `Body Info at Examination`, KO: `검사 시 신체 정보`）
-
-<!-- TODO: 配列の保存上限があるか確認 -->
-
-追加ボタンから項目を増やすことが可能。各キーには配列として保存される。
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+      <td rowspan="4"><strong>Body Info at Examination</strong></td>
+      <td rowspan="4"><strong>診察時身体情報</strong></td>
+      <td rowspan="4"><strong>검사 시 신체 정보</strong></td>
       <td><strong>Date(yyyy/mm/dd)</strong></td>
       <td><strong>日付(yyyy/mm/dd)</strong></td>
       <td><strong>날짜(yyyy/mm/dd)</strong></td>
@@ -270,7 +210,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td rowspan="4">追加ボタンから項目を増やすことが可能。各キーには配列として保存される。</td>
     </tr>
     <tr>
       <td><strong>Body height (cm)</strong></td>
@@ -289,7 +229,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Body weight (kg)</strong></td>
@@ -308,7 +247,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Head circumference (cm)</strong></td>
@@ -327,45 +265,14 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
-  </tbody>
-</table>
-
-### 身体所見 （EN: `Physical Findings`, KO: `신체 소견`）
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Physical Findings</strong></td>
       <td><strong>身体所見</strong></td>
       <td><strong>신체 소견</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
       <td>medical_physical_findings</td>
       <td>テキスト</td>
       <td>テキストエリア</td>
@@ -381,43 +288,13 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
-  </tbody>
-</table>
-
-### 検査所見 （EN: `Examination Findings`, KO: `검사 소견`）
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Examination Findings</strong></td>
       <td><strong>検査初見</strong></td>
       <td><strong>검사 소견</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
       <td>medical_examination_findings</td>
       <td>テキスト</td>
       <td>テキストエリア</td>
@@ -436,11 +313,7 @@
   </tbody>
 </table>
 
----
-
 ## 常用薬・アレルギー・嗜好品 （EN: `Regular Medicine and Allergy and Preference`, KO: `상비약・알레르기・기호품`） {: #regular-medications-allergies-preferences}
-
-### 常用薬 （EN: `Medications`, KO: `상용약`）
 
 <table>
   <thead>
@@ -489,39 +362,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
-  </tbody>
-</table>
-
-### アレルギー （EN: `Medications`, KO: `상용약`）
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Allergies</strong></td>
       <td><strong>アレルギー</strong></td>
@@ -541,39 +381,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
-  </tbody>
-</table>
-
-### 飲酒習慣の有無 （EN: `Presence of Drinking Habits`, KO: `음주 습관 유무`）
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Presence of Drinking Habits</strong></td>
       <td><strong>飲酒習慣の有無</strong></td>
@@ -621,41 +428,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
-  </tbody>
-</table>
-
-### 飲酒量 （EN: `Drinking`, KO: `음주량`）
-
-- 「飲酒習慣の有無」が「あり」の場合のみ入力可能となる。
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Drinking</strong></td>
       <td><strong>飲酒量</strong></td>
@@ -673,41 +445,8 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>「飲酒習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
-  </tbody>
-</table>
-
-### 喫煙習慣の有無 （EN: `Presence of Smoking Habits`, KO: `흡연 습관 유무`）
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Presence of Smoking Habits</strong></td>
       <td><strong>喫煙習慣の有無</strong></td>
@@ -755,41 +494,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
-  </tbody>
-</table>
-
-### 本数 (本/日) （EN: `Number (per day)`, KO: `개수 (개/일)`）
-
-- 「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Number (per day)</strong></td>
       <td><strong>本数 (本/日)</strong></td>
@@ -807,43 +511,8 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
-  </tbody>
-</table>
-
-### 喫煙年数（年）（EN: `Years of Smoking`, KO: `흡연기간(년)`）
-
-- 「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3">項目名</th>
-      <th rowspan="2" class="text-vertical-align-middle">ID</th>
-      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
-      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><strong>Years of Smoking</strong></td>
       <td><strong>喫煙年数（年）</strong></td>
@@ -861,7 +530,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
   </tbody>
 </table>
