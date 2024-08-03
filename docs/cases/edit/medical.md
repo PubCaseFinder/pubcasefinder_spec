@@ -1162,9 +1162,9 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3"><strong>-</strong></td>
-      <td rowspan="3"><strong>-</strong></td>
-      <td rowspan="3"><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
       <td><strong>Presence of Designated Intractable Disease Certification</strong></td>
       <td><strong>指定難病認定の有無</strong></td>
       <td><strong>지정 난치병 인정 여부</strong></td>
@@ -1280,9 +1280,9 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3"><strong>-</strong></td>
-      <td rowspan="3"><strong>-</strong></td>
-      <td rowspan="3"><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
       <td><strong>Presence of Pediatric Chronic Specific Disease Certification</strong></td>
       <td><strong>小児慢性特定疾病認定の有無</strong></td>
       <td><strong>소아 만성 특정질환 인정 여부</strong></td>
