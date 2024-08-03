@@ -1,6 +1,24 @@
-# 遺伝型（EN: `Genotype`, KO: `유전자형 정보`） {: #genotype}
+# 遺伝型 {: #genotype}
 
-## 検査について（EN: `About testing`, KO: `검사에 대하여`） {: #about-testing}
+| EN | KO |
+| ---- | ---- |
+| Genotype | 유전자형 정보 |
+
+遺伝型のタブでは、下記の項目群を編集することができます。
+
+## 項目群
+
+| EN | JA | KO | 説明 |
+| ---- | ---- | ---- | ---- |
+| **About testing** | **[検査について](#about-testing)** | **검사에 대하여** | 遺伝学的検査についての情報を編集することができます。 |
+| **Testing Result** | **[検査結果](#testing-result)** | **검사 결과** | 検査結果についての情報を編集することができます。<br>検査結果は複数登録が可能です。 |
+| **Details of Result** | **[結果詳細](#details-of-result)** | **검사 결과** | 検査結果の詳細についての情報を編集することができます。<br>検査結果の詳細は複数登録が可能です。 |
+
+---
+
+## 詳細
+
+### 検査について {: #about-testing}
 
 <table>
   <thead>
@@ -142,14 +160,16 @@
   </tbody>
 </table>
 
-## 検査結果（EN: `Testing Result`, KO: `검사 결과`） {: #testing-result}
+### 検査結果 {: #testing-result}
 
 - 下記項目群を1つの検査結果とし、複数の検査結果を登録可能
     - 各項目のデータは検査結果の登録数分の配列
         - 例）1つ目の検査結果は各項目の配列の0番目
 - 検査結果はボタン操作で「追加」「削除」が可能
     - 「削除」ボタン押下時は下記文言の確認アラートを表示し、「OK」押下時のみ実行
-        - 「削除しますか？（EN: `Are you sure you want to delete this item?`, KO: `삭제하시겠습니까?`）」
+        - 「削除しますか？」
+            - EN: `Are you sure you want to delete this item?`
+            - KO: `삭제하시겠습니까?`
 
 <table>
   <thead>
@@ -364,14 +384,16 @@
   </tbody>
 </table>
 
-## 結果詳細（EN: `Details of Result`, KO: `결과 상세`） {: #details-of-result}
+### 結果詳細 {: #details-of-result}
 
 - 下記項目群を1つの結果詳細とし、複数の結果詳細を登録可能
     - 各項目のデータは結果詳細の登録数分の配列
         - 例）1つ目の結果詳細は各項目の配列の0番目
 - 結果詳細はボタン操作で「追加」「削除」が可能
     - 「削除」ボタン押下時は下記文言の確認アラートを表示し、「OK」押下時のみ実行
-        - 「削除しますか？（EN: `Are you sure you want to delete this item?`, KO: `삭제하시겠습니까?`）」
+        - 「削除しますか？」
+            - EN: `Are you sure you want to delete this item?`
+            - KO: `삭제하시겠습니까?`
 
 <table>
   <thead>
