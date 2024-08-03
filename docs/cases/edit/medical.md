@@ -900,6 +900,233 @@
 
 ## 診断 （EN: `Diagnosis`, KO: `진단`） {: #diagnosis}
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">小項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="4">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>値</th>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+      <th>列追加可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>Case Solved</strong></td>
+      <td><strong>診断状況</strong></td>
+      <td><strong>진단상황</strong></td>
+      <td>medical_case_solved</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>UNKNOWN_PROGRESS</li>
+          <li>IN_PROGRESS</li>
+          <li>COMPLETED</li>
+          <li>SOLVED</li>
+          <li>UNSOLVED</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>UNKNOWN_PROGRESS</li>
+          <li>IN_PROGRESS</li>
+          <li>COMPLETED</li>
+          <li>SOLVED</li>
+          <li>UNSOLVED</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>進行状況不明</li>
+          <li>進行中</li>
+          <li>完了</li>
+          <li>解決済み</li>
+          <li>未解決</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없는 진행 상황</li>
+          <li>진행 중</li>
+          <li>완료됨</li>
+          <li>해결됨</li>
+          <li>해결되지 않음</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>-</strong></td>
+      <td><strong>Confirmation of Clinical Diagnosis</strong></td>
+      <td><strong>臨床診断名確定の有無</strong></td>
+      <td><strong>임상진단명 확정 여부</strong></td>
+      <td>medical_confirmation_of_clinical_diagnosis</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Clinical Diagnosis</strong></td>
+      <td rowspan="2"><strong>臨床診断</strong></td>
+      <td rowspan="2"><strong>임상 진단</strong></td>
+      <td><strong>Disease Name</strong></td>
+      <td><strong>疾患名</strong></td>
+      <td><strong>질병명</strong></td>
+      <td>medical_suspected_disease_name</td>
+      <td>Array&lt;string&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>
+        <ul>
+          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>追加ボタンを押すと、新しい行が追加される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Diagnosis Date (yyyy/mm/dd)</strong></td>
+      <td><strong>診断年月（yyyy/mm/dd）</strong></td>
+      <td><strong>진단 날짜 (yyyy/mm/dd)</strong></td>
+      <td>medical_clinical_diagnosis_date</td>
+      <td>Array&lt;string&gt;</td>
+      <td>日付選択インターフェース</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>追加ボタンを押すと、新しい行が追加される</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Final Diagnosis</strong></td>
+      <td rowspan="2"><strong>確定診断</strong></td>
+      <td rowspan="2"><strong>최종진단</strong></td>
+      <td><strong>Disease Name</strong></td>
+      <td><strong>疾患名</strong></td>
+      <td><strong>질병명</strong></td>
+      <td>medical_final_diagnosis_name</td>
+      <td>Array&lt;string&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>
+        <ul>
+          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>追加ボタンを押すと、新しい行が追加される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Diagnosis Date (yyyy/mm/dd)</strong></td>
+      <td><strong>診断年月（yyyy/mm/dd）</strong></td>
+      <td><strong>진단 날짜 (yyyy/mm/dd)</strong></td>
+      <td>medical_final_diagnosis_date</td>
+      <td>Array&lt;string&gt;</td>
+      <td>日付選択インターフェース</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>追加ボタンを押すと、新しい行が追加される</td>
+    </tr>
+  </tbody>
+</table>
+
 ## 指定難病 （EN: `Designated Intractable Disease`, KO: `지정 난치병`） {: #designated-incurable-disease}
 
 ## 小児慢性特定疾病 （EN: `Pediatric Chronic Specific Disease`, KO: `소아 만성 특정 질환`） {: #chronic-childhood-diseases}
