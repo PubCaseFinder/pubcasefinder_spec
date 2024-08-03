@@ -1129,4 +1129,120 @@
 
 ## 指定難病 （EN: `Designated Intractable Disease`, KO: `지정 난치병`） {: #designated-incurable-disease}
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">小項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="4">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>値</th>
+      <th>EN</th>
+      <th>JA</th>
+      <th>KO</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+      <th>列追加可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3"><strong>-</strong></td>
+      <td rowspan="3"><strong>-</strong></td>
+      <td rowspan="3"><strong>-</strong></td>
+      <td><strong>Presence of Designated Intractable Disease Certification</strong></td>
+      <td><strong>指定難病認定の有無</strong></td>
+      <td><strong>지정 난치병 인정 여부</strong></td>
+      <td>medical_presence_of_designated_intractable_disease_certification</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>not_applied</li>
+          <li>in_progress</li>
+          <li>approved</li>
+          <li>not_approved</li>
+          <li>other</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Other</li>
+          <li>Not applied</li>
+          <li>In progress</li>
+          <li>Approved</li>
+          <li>Not approved</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>該当なし</li>
+          <li>未申請</li>
+          <li>申請中</li>
+          <li>認定</li>
+          <li>非認定</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>해당사항 없음</li>
+          <li>미신청</li>
+          <li>애플리케이션에서</li>
+          <li>인증</li>
+          <li>비인증</li>
+        </ul>
+      </td>
+      <td>"not_applied"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Designated intractable disease applied for</strong></td>
+      <td><strong>申請した指定難病</strong></td>
+      <td><strong>신청한 난치병 병명</strong></td>
+      <td><strong>Disease Name</strong></td>
+      <td><strong>疾患名</strong></td>
+      <td><strong>질병명</strong></td>
+      <td>medical_applied_intractable_disease_name</td>
+      <td>Array&lt;string&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>
+        <ul>
+          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>追加ボタンを押すと、新しい行が追加される</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## 小児慢性特定疾病 （EN: `Pediatric Chronic Specific Disease`, KO: `소아 만성 특정 질환`） {: #chronic-childhood-diseases}
