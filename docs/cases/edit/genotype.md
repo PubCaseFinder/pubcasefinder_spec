@@ -1,6 +1,24 @@
-# 遺伝型（EN: `Genotype`, KO: `유전자형 정보`） {: #genotype}
+# 遺伝型 {: #genotype}
 
-## 検査について（EN: `About testing`, KO: `검사에 대하여`） {: #about-testing}
+| EN | KO |
+| ---- | ---- |
+| Genotype | 유전자형 정보 |
+
+遺伝型のタブでは、下記の項目群を編集することができます。
+
+## 項目群
+
+| EN | JA | KO | 説明 |
+| ---- | ---- | ---- | ---- |
+| **About testing** | **[検査について](#about-testing)** | **검사에 대하여** | 遺伝学的検査についての情報を編集することができます。 |
+| **Testing Result** | **[検査結果](#testing-result)** | **검사 결과** | 検査結果についての情報を編集することができます。<br>検査結果は複数登録が可能です。 |
+| **Details of Result** | **[結果詳細](#details-of-result)** | **검사 결과** | 検査結果の詳細についての情報を編集することができます。<br>検査結果の詳細は複数登録が可能です。 |
+
+---
+
+## 詳細
+
+### 検査について {: #about-testing}
 
 <table>
   <thead>
@@ -14,6 +32,7 @@
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -72,6 +91,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Presence of Abnormalities in Genetic Testing</strong></td>
@@ -115,6 +135,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Genetic Analysis</strong></td>
@@ -133,19 +154,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td>proband.interpretation.interpretation</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-## 検査結果（EN: `Testing Result`, KO: `검사 결과`） {: #testing-result}
+### 検査結果 {: #testing-result}
 
 - 下記項目群を1つの検査結果とし、複数の検査結果を登録可能
     - 各項目のデータは検査結果の登録数分の配列
         - 例）1つ目の検査結果は各項目の配列の0番目
 - 検査結果はボタン操作で「追加」「削除」が可能
     - 「削除」ボタン押下時は下記文言の確認アラートを表示し、「OK」押下時のみ実行
-        - 「削除しますか？（EN: `Are you sure you want to delete this item?`, KO: `삭제하시겠습니까?`）」
+        - 「削除しますか？」
+            - EN: `Are you sure you want to delete this item?`
+            - KO: `삭제하시겠습니까?`
 
 <table>
   <thead>
@@ -159,6 +183,7 @@
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -192,6 +217,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td>値の持ち方は、YYYY-MM-DD形式</td>
     </tr>
     <tr>
@@ -233,6 +259,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -281,6 +308,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Other Details of Testing</strong></td>
@@ -299,6 +327,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td>
         検査種別で「その他」を選択している時のみ入力可<br>
         （それ以外の場合は非活性）
@@ -350,18 +379,21 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
-## 結果詳細（EN: `Details of Result`, KO: `결과 상세`） {: #details-of-result}
+### 結果詳細 {: #details-of-result}
 
 - 下記項目群を1つの結果詳細とし、複数の結果詳細を登録可能
     - 各項目のデータは結果詳細の登録数分の配列
         - 例）1つ目の結果詳細は各項目の配列の0番目
 - 結果詳細はボタン操作で「追加」「削除」が可能
     - 「削除」ボタン押下時は下記文言の確認アラートを表示し、「OK」押下時のみ実行
-        - 「削除しますか？（EN: `Are you sure you want to delete this item?`, KO: `삭제하시겠습니까?`）」
+        - 「削除しますか？」
+            - EN: `Are you sure you want to delete this item?`
+            - KO: `삭제하시겠습니까?`
 
 <table>
   <thead>
@@ -375,6 +407,7 @@
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -408,6 +441,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.gene.symbol</td>
       <td></td>
     </tr>
     <tr>
@@ -428,6 +462,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Ensemble ID</strong></td>
@@ -446,6 +481,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -497,6 +533,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.interpretationStatus</td>
       <td></td>
     </tr>
     <tr>
@@ -516,6 +553,10 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td>
+        proband.interpretation.diagnosis.genomic_interpretations[i]<br>.call.variation_descriptor.expressions.valueのkey名<br><br>
+        ※key名に対する値はgenotype_transcript
+      </td>
       <td></td>
     </tr>
     <tr>
@@ -562,6 +603,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.variantInterpretation.acmgPathogenicityClassification</td>
       <td></td>
     </tr>
     <tr>
@@ -605,6 +647,17 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td>
+        proband.interpretation.diagnosis.genomic_interpretations[i]<br>.call.variation_descriptor.allelic_state<br><br>
+        ※下記objectで格納<br>
+        { id: xxx, label: genotype_allelic_state }<br>
+        →idのxxx部分はgenotype_allelic_stateの値によって下記対応する値<br>
+        <ul>
+          <li>heterozygous: GENO:0000135</li>
+          <li>homozygous: GENO:0000136</li>
+          <li>hemizygous: GENO:0000134</li>
+        </ul>
+      </td>
       <td></td>
     </tr>
     <tr>
@@ -649,6 +702,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Chr:Position</strong></td>
@@ -668,6 +722,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Transcript</strong></td>
@@ -686,6 +741,10 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td>
+        proband.interpretation.diagnosis.genomic_interpretations[i]<br>.call.variation_descriptor.expressions.valueのkeyに対する値<br><br>
+        ※key名はgenotype_cdna_change
+      </td>
       <td></td>
     </tr>
     <tr>
@@ -705,6 +764,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -797,6 +857,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Inheritance</strong></td>
@@ -872,6 +933,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>Comments</strong></td>
@@ -890,6 +952,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>

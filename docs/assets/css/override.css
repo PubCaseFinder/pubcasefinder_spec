@@ -1,3 +1,7 @@
 .wy-nav-content {
   max-width: fit-content;
 }
+
+ul {
+  margin-bottom: 0 !important;
+}
