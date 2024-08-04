@@ -1,5 +1,10 @@
 # 画面仕様
 
+- 一覧表には[Handsontable](https://handsontable.com/)を使用
+    - 2024年8月現在、使用バージョンは`12.3.1`
+
+<br>
+
 ![Casesのスクリーンショット](/assets/images/cases_20240804.png)
 
 <!-- TODO: Cases編集の家系、検体・検査、登録がファイル作成したら7.症例編集の詳細にリンク追加 -->
