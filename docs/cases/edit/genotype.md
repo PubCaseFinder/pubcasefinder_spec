@@ -160,7 +160,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>値の持ち方は、YYYY-MM-DD形式</td>
+      <td>値の持ち方は、yyyy-MM-dd形式</td>
     </tr>
     <tr>
       <td><strong>検査会社/施設名</strong></td>
