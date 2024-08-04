@@ -14,7 +14,7 @@ nav:
       - 初期表示項目: 'cases/list-display-contents/initial-display-items'
       - 追加項目: 'cases/list-display-contents/additional-items'
     - 操作:
-      - キーワード検索: 'cases/operations/keyword-search'
+      - キーワード検索: 'cases/operations/search-keyword'
       - 項目追加: 'cases/operations/add-items'
       - 症例追加: 'cases/operations/add-case'
       - 列の操作: 'cases/operations/operation-column'
