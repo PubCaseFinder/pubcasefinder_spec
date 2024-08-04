@@ -496,7 +496,7 @@
   <tbody>
     <tr>
       <td>確認アラート</td>
-      <td>削除しますか？</td>
+      <td><strong>削除しますか？</strong></td>
       <td>Are you sure you want to delete this item?</td>
       <td>삭제하시겠습니까?</td>
     </tr>
