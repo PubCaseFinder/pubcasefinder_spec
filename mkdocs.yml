@@ -36,6 +36,14 @@ nav:
           - 検査について: 'cases/edit/genotype#about-testing'
           - 検査結果: 'cases/edit/genotype#testing-result'
           - 結果詳細: 'cases/edit/genotype#details-of-result'
+      - 翻訳:
+        - 概要: 'cases/edit/translate'
+        - 詳細:
+          - 症例基本情報: 'cases/edit/translate#case-basic-information'
+          - 診療: 'cases/edit/translate#medical'
+          - 表現型: 'cases/edit/translate#phenotype'
+          - 遺伝型: 'cases/edit/translate#genotype'
+          - その他: 'cases/edit/translate#other'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
     - 年齢: 'stats/age'
