@@ -1,8 +1,8 @@
-# 診療 （EN: `Medical`, KO: `찰 정보`） {: #medical-examination}
+# 診療 {: #medical-examination}
 
-## 病歴・生活歴 （EN: `Disease and Life History`, KO: `병력・생활력`） {: #medical-and-life-history}
+## 病歴・生活歴 {: #medical-and-life-history}
 
-## 身体情報・所見 （EN: `Body Info`, KO: `신체 정보・소견`） {: #physical-information-and-findings}
+## 身体情報・所見 {: #physical-information-and-findings}
 
 <table>
   <thead>
@@ -313,7 +313,7 @@
   </tbody>
 </table>
 
-## 常用薬・アレルギー・嗜好品 （EN: `Regular Medicine and Allergy and Preference`, KO: `상비약・알레르기・기호품`） {: #regular-medications-allergies-preferences}
+## 常用薬・アレルギー・嗜好品 {: #regular-medications-allergies-preferences}
 
 <table>
   <thead>
@@ -535,7 +535,7 @@
   </tbody>
 </table>
 
-## 疑い病名 （EN: `Suspected Disease`, KO: `의심 병명`） {: #suspected-case}
+## 疑い病名 {: #suspected-case}
 
 <table>
   <thead>
@@ -599,7 +599,7 @@
   </tbody>
 </table>
 
-## 遺伝性疾患と考える根拠 （EN: `Basis of Genetic Disease`, KO: `유전성 질환으로 보는 근거`） {: #rationale-for-considering-it-a-genetic-disease}
+## 遺伝性疾患と考える根拠 {: #rationale-for-considering-it-a-genetic-disease}
 
 <table>
   <thead>
@@ -898,7 +898,7 @@
   </tbody>
 </table>
 
-## 診断 （EN: `Diagnosis`, KO: `진단`） {: #diagnosis}
+## 診断 {: #diagnosis}
 
 <table>
   <thead>
@@ -1127,7 +1127,7 @@
   </tbody>
 </table>
 
-## 指定難病 （EN: `Designated Intractable Disease`, KO: `지정 난치병`） {: #designated-incurable-disease}
+## 指定難病 {: #designated-incurable-disease}
 
 <table>
   <thead>
@@ -1245,7 +1245,7 @@
   </tbody>
 </table>
 
-## 小児慢性特定疾病 （EN: `Pediatric Chronic Specific Disease`, KO: `소아 만성 특정 질환`） {: #chronic-childhood-diseases}
+## 小児慢性特定疾病 {: #chronic-childhood-diseases}
 
 <table>
   <thead>
