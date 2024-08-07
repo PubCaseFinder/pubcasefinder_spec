@@ -604,6 +604,166 @@
 </table>
 
 ## 出生時（EN: `Birth Info`, KO: `출생 정보`） {: #birth-info}
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">項目名</th>
+      <th rowspan="2">ID</th>
+      <th rowspan="2">型定義</th>
+      <th rowspan="2">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2">初期値</th>
+      <th rowspan="2">clearボタン</th>
+      <th rowspan="2">deleteボタン</th>
+      <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2">Phenopackets</th>
+      <th rowspan="2">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+      <th>列追加可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>出生前（胎児）の異常の有無</strong></td>
+      <td>case_presence_of_prenatal_abnormalities</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>不明</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>異常（黄疸等）の有無</strong></td>
+      <td>case_presence_of_abnormalities_at_birth</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>不明</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>医療介助の有無（出産時）</strong></td>
+      <td>case_presence_of_medical_assistance_at_birth</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>不明</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>在胎週数 (週)</strong></td>
+      <td>case_gestational_age_at_birth</td>
+      <td>string</td>
+      <td>テキストボックス (数字)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>母親の年齢 (YMD)</strong></td>
+      <td>case_age_of_mother_at_birth</td>
+      <td>string</td>
+      <td>テキストボックス (数字)、セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>父親の年齢 (YMD)</strong></td>
+      <td>case_age_of_father_at_birth</td>
+      <td>string</td>
+      <td>テキストボックス (数字)、セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## 生殖補助（EN: `Assisted Reproduction`, KO: `보조 생식`） {: #assisted-reproduction}
 ## 入力者情報（EN: `Inputter Info`, KO: `입력자 정보`） {: #inputter-info}
 ## 国マスタ {: #country-master}
