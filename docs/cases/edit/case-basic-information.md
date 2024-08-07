@@ -765,6 +765,94 @@
 </table>
 
 ## 生殖補助（EN: `Assisted Reproduction`, KO: `보조 생식`） {: #assisted-reproduction}
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">項目名</th>
+      <th rowspan="2">ID</th>
+      <th rowspan="2">型定義</th>
+      <th rowspan="2">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2">初期値</th>
+      <th rowspan="2">clearボタン</th>
+      <th rowspan="2">deleteボタン</th>
+      <th colspan="3">一覧表示/操作</th>
+      <th rowspan="2">Phenopackets</th>
+      <th rowspan="2">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+      <th>列追加可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>生殖補助医療の有無</strong></td>
+      <td>case_presence_of_assisted_reproductive_technology</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>不明</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>生殖補助医療の種類</strong></td>
+      <td>case_type_of_assisted_reproductive_technology</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>チェックボックス</td>
+      <td>
+        <ul>
+          <li>ivf_et</li>
+          <li>icsi</li>
+          <li>frozen_embryo</li>
+          <li>other</li>
+          <li>unknown</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>体外受精・胚移植（IVF-ET）</li>
+          <li>顕微授精（卵細胞質内精子注入法、ICSI）</li>
+          <li>凍結胚・融解移植</li>
+          <li>その他</li>
+          <li>不明</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## 入力者情報（EN: `Inputter Info`, KO: `입력자 정보`） {: #inputter-info}
 ## 国マスタ {: #country-master}
 <table>
