@@ -45,12 +45,13 @@ nav:
           - 検査結果: 'cases/edit/genotype#testing-result'
           - 結果詳細: 'cases/edit/genotype#details-of-result'
       - 家系:
-        - 家族歴: 'cases/edit/'
-        - 遺伝形式: 'cases/edit/'
-        - 親族（がん・生活習慣病）: 'cases/edit/'
-        - 民族: 'cases/edit/'
-        - 近親婚: 'cases/edit/'
-        - 家系図: 'cases/edit/'
+        - 概要: 'cases/edit/family-info'
+        - 家族歴: 'cases/edit/family-info#family-history'
+        - 遺伝形式: 'cases/edit/family-info#mode-of-inheritance'
+        - 親族（がん・生活習慣病）: 'cases/edit/family-info#relatives'
+        - 民族: 'cases/edit/family-info#ethnicity'
+        - 近親婚: 'cases/edit/family-info#consanguinity'
+        - 家系図: 'cases/edit/family-info#pedigree'
       - 翻訳:
         - 概要: 'cases/edit/translate'
         - 詳細:
