@@ -110,12 +110,18 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>不明</li>
           <li>なし</li>
           <li>あり</li>
         </ul>
       </td>
-      <td>-</td>
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -187,12 +193,18 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>不明</li>
           <li>なし</li>
           <li>あり</li>
         </ul>
       </td>
-      <td>-</td>
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -250,12 +262,18 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>不明</li>
           <li>なし</li>
           <li>あり</li>
         </ul>
       </td>
-      <td>-</td>
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -290,12 +308,18 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>不明</li>
           <li>なし</li>
           <li>あり</li>
         </ul>
       </td>
-      <td>-</td>
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -330,12 +354,18 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>不明</li>
           <li>なし</li>
           <li>あり</li>
         </ul>
       </td>
-      <td>-</td>
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -405,25 +435,144 @@
     <tr>
       <td rowspan="5">教育歴・社会歴</td>
       <td>生育歴および教育歴</td>
+      <td>-</td>
+      <td>medical_early_developmental_and_schooling_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>就労の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_employment</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>職業分類</td>
+      <td>-</td>
+      <td>medical_occupational_classification</td>
+      <td>Array&lt;string&gt;</td>
+      <td>チェックボックス</td>
+      <td>
+        <ul>
+          <li>managerial_occupation</li>
+          <li>professional_technical_occupation</li>
+          <li>clerical_occupation</li>
+          <li>sales_occupation</li>
+          <li>service_occupation</li>
+          <li>security_occupation</li>
+          <li>agriculture_forestry_fishing_occupation</li>
+          <li>production_process_occupation</li>
+          <li>transportation_machine_operation_occupation</li>
+          <li>construction_mining_occupation</li>
+          <li>transportation_cleaning_packaging_occupation</li>
+          <li>others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>管理的職業</li>
+          <li>専門的・技術的職業</li>
+          <li>事務的職業</li>
+          <li>販売の職業</li>
+          <li>サービスの職業</li>
+          <li>保安の職業</li>
+          <li>農林漁業の職業</li>
+          <li>生産工程の職業</li>
+          <li>輸送・機械運転の職業</li>
+          <li>建設・採掘の職業</li>
+          <li>運輸・清掃・包装の職業</li>
+          <li>その他</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>その他をチェックすると「その他詳細」欄が活性化します</td>
     </tr>
     <tr>
       <td>その他詳細</td>
+      <td>-</td>
+      <td>medical_occupational_classification_other_details</td>
+      <td>string</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>「職業分類」欄で「その他」にチェックすると活性化します</td>
     </tr>
     <tr>
       <td>社会歴</td>
+      <td>-</td>
+      <td>medical_social_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td rowspan="2">渡航歴・予防接種歴</td>
       <td>渡航歴</td>
+      <td>-</td>
+      <td>medical_travel_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>予防接種歴</td>
+      <td>-</td>
+      <td>medical_vaccination_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
