@@ -1211,6 +1211,167 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 表現型 {: #phenotype}
+各項目の編集については[こちら](/cases/edit/phenotype)
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th colspan="3">一覧表</th>
+      <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
+      <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>表示可能</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>HPO ID</strong></td>
+      <td>phenotype_hpo_id</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>症状</strong></td>
+      <td>phenotype_hpo_label</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>現病歴</strong></td>
+      <td>phenotype_medical_current_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>既往歴</strong></td>
+      <td>phenotype_medical_previous_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>経過</strong></td>
+      <td>phenotype_process</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>家族歴</strong></td>
+      <td>phenotype_family_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>症状の有無</strong></td>
+      <td>phenotype_excluded</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>重要性</strong></td>
+      <td>phenotype_clinical_relevance</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>重症度</strong></td>
+      <td>phenotype_severity</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>発症年齢 (YMD)</strong></td>
+      <td>phenotype_age_onset</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>発症パターン</strong></td>
+      <td>phenotype_temporal_pattern</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>進行速度</strong></td>
+      <td>phenotype_pace_progression</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>消失年齢 (YMD)</strong></td>
+      <td>phenotype_resolution</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>コメント</strong></td>
+      <td>phenotype_comments</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 遺伝型 {: #genotype}
 
@@ -1219,12 +1380,3 @@ Casesでは下記の項目を扱うことができます。
 ### 検体・検査 {: #sample}
 
 ### 登録 {: #registration}
-
-[
-  'medical_presence_of_designated_intractable_disease_certification',
-  'medical_applied_intractable_disease_id',
-  'medical_applied_intractable_disease_name',
-  'medical_presence_of_pediatric_chronic_specific_disease_certification',
-  'medical_applied_pediatric_disease_id',
-  'medical_applied_pediatric_disease_name'
-]
