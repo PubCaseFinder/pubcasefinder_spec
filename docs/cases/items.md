@@ -426,6 +426,674 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 診療 {: #medical}
+各項目の編集については[こちら](/cases/edit/medical)
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th colspan="3">一覧表</th>
+      <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>表示可能</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>発症年齢 (YMD)</strong></td>
+      <td>medical_age_onset</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>主訴</strong></td>
+      <td>medical_chief_complaint</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>経過</strong></td>
+      <td>medical_process</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>現病歴</strong></td>
+      <td>medical_current_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>既往歴の有無</strong></td>
+      <td>medical_presence_of_previous_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>MONDO / ICD-10</strong></td>
+      <td>medical_disease_of_previous_history_id</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>既往歴疾患名</strong></td>
+      <td>medical_disease_of_previous_history_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>既往歴疾患名_備考</strong></td>
+      <td>medical_note_of_previous_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>既往歴</strong></td>
+      <td>medical_previous_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>出生前および周産期の病歴</strong></td>
+      <td>medical_prenatal_perinatal_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>合併症の有無</strong></td>
+      <td>medical_presence_of_complications</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>MONDO / ICD-10</strong></td>
+      <td>medical_complication_history_id</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>合併症疾患名</strong></td>
+      <td>medical_complication_history_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>合併症疾患名_備考</strong></td>
+      <td>medical_note_of_complications</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>合併症歴</strong></td>
+      <td>medical_complications_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>妊娠の有無</strong></td>
+      <td>medical_presence_of_pregnancy</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>妊娠回数（回）</strong></td>
+      <td>medical_number_of_pregnancy</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>出産の有無</strong></td>
+      <td>medical_presence_of_childbirth</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>出産回数 (回)</strong></td>
+      <td>medical_number_of_childbirth</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>死産・流産の有無</strong></td>
+      <td>medical_presence_of_miscarriage_or_stillbirth</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>死産の回数 (回)</strong></td>
+      <td>medical_number_of_stillbirth</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>流産 (自然)の回数 (回)</strong></td>
+      <td>medical_number_of_miscarriage</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>流産 (人工)の回数 (回)</strong></td>
+      <td>medical_number_of_artificial_abortion</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>生育歴および教育歴</strong></td>
+      <td>medical_early_developmental_and_schooling_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>就労の有無</strong></td>
+      <td>medical_presence_of_employment</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>職業分類</strong></td>
+      <td>medical_occupational_classification</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>medical_occupational_classification_other_details</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>社会歴</strong></td>
+      <td>medical_social_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>渡航歴</strong></td>
+      <td>medical_travel_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>予防接種歴</strong></td>
+      <td>medical_vaccination_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>出生時身長 (cm)</strong></td>
+      <td>medical_body_height_at_birth</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>出生時体重 (g)</strong></td>
+      <td>medical_body_weight_at_birth</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>出生時頭囲 (cm)</strong></td>
+      <td>medical_head_circumference_at_birth</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>登録時身長 (cm)</strong></td>
+      <td>medical_body_height_at_registration</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>登録時体重 (kg)</strong></td>
+      <td>medical_body_weight_at_registration</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>登録時頭囲 (cm)</strong></td>
+      <td>medical_head_circumference_at_registration</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>測定時年齢 (YM)</strong></td>
+      <td>medical_age_at_measurement</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>診察時身体情報</strong></td>
+      <td>medical_body_info_date_at_examination</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>診察時身長 (cm)</strong></td>
+      <td>medical_body_height_at_examination</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>診察時体重 (kg)</strong></td>
+      <td>medical_body_weight_at_examination</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>診察時頭囲 (cm)</strong></td>
+      <td>medical_head_circumference_at_examination</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>身体所見</strong></td>
+      <td>medical_physical_findings</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>検査所見</strong></td>
+      <td>medical_examination_findings</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>常用薬</strong></td>
+      <td>medical_medications</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>アレルギー</strong></td>
+      <td>medical_allergies</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>飲酒習慣の有無</strong></td>
+      <td>medical_presence_of_drinking_habits</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>飲酒量</strong></td>
+      <td>medical_drinking</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>喫煙習慣の有無</strong></td>
+      <td>medical_presence_of_smoking_habits</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>本数 (本/日)</strong></td>
+      <td>medical_number_of_smoking</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>喫煙年数（年）</strong></td>
+      <td>medical_years_of_smoking</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>MONDO / ICD-10</strong></td>
+      <td>medical_suspected_disease_id</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>疑い病名</strong></td>
+      <td>medical_suspected_disease_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝性疾患の疑い</strong></td>
+      <td>medical_suspection_of_genetic_disease</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>家族性への該当の有無</strong></td>
+      <td>medical_presence_of_familiality</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>家系内に関連する症状等</strong></td>
+      <td>medical_symptoms_related_within_family_lineage</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>多系統疾患への該当の有無</strong></td>
+      <td>presence_of_multisystem_disorder</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>疾患領域</strong></td>
+      <td>medical_disease_area</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>medical_disease_area_details</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>診断状況</strong></td>
+      <td>medical_case_solved</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>臨床診断名確定の有無</strong></td>
+      <td>medical_confirmation_of_clinical_diagnosis</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>MONDO / ICD-10</strong></td>
+      <td>medical_clinical_diagnosis_id</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>臨床診断</strong></td>
+      <td>medical_clinical_diagnosis_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>臨床診断_診断年月</strong></td>
+      <td>medical_clinical_diagnosis_date</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>MONDO / ICD-10</strong></td>
+      <td>medical_final_diagnosis_id</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>確定診断</strong></td>
+      <td>medical_final_diagnosis_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>確定診断_診断年月</strong></td>
+      <td>medical_final_diagnosis_date</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>指定難病認定の有無</strong></td>
+      <td>medical_presence_of_designated_intractable_disease_certification</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>NANDO</strong></td>
+      <td>medical_applied_intractable_disease_id</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>申請した指定難病</strong></td>
+      <td>medical_applied_intractable_disease_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>小児慢性特定疾病認定</strong></td>
+      <td>medical_presence_of_pediatric_chronic_specific_disease_certification</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>NANDO</strong></td>
+      <td>medical_applied_pediatric_disease_id</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>申請した小児慢性特定疾病</strong></td>
+      <td>medical_applied_pediatric_disease_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 表現型 {: #phenotype}
 
