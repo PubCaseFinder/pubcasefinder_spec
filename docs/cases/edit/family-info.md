@@ -596,5 +596,78 @@
 
 ## 近親婚 {: #consanguinity}
 
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">項目名</th>
+      <th rowspan="2">ID</th>
+      <th rowspan="2">型定義</th>
+      <th rowspan="2">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2">初期値</th>
+      <th rowspan="2">clearボタン</th>
+      <th rowspan="2">deleteボタン</th>
+      <th rowspan="2">Phenopackets</th>
+      <th rowspan="2">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>近親婚（本人）</strong></td>
+      <td>family_consanguinity</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>"unknown"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>近親婚(患者両親)</strong></td>
+      <td>family_consanguinity_of_parents</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>"unknown"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## 家系図 {: #pedigree}
 
