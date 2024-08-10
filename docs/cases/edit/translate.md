@@ -516,9 +516,9 @@
     </tr>
     <!-- 診断 -->
     <tr>
-      <td rowspan="10"><strong>診断</strong></td>
-      <td rowspan="10">Diagnosis</td>
-      <td rowspan="10">진단</td>
+      <td rowspan="9"><strong>診断</strong></td>
+      <td rowspan="9">Diagnosis</td>
+      <td rowspan="9">진단</td>
     </tr>
     <tr>
       <td>-</td>
@@ -633,12 +633,12 @@
       <td rowspan="3">지정 난치병</td>
     </tr>
     <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td><strong>指定難病認定の有無</strong></td>
       <td>Presence of Designated Intractable Disease Certification</td>
       <td>지정 난치병 인정 여부</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
       <td>
         <ul>
           <li><strong>該当なし</strong></li>
@@ -671,6 +671,23 @@
       <td><strong>申請した指定難病</strong></td>
       <td>Designated intractable disease applied for</td>
       <td>신청한 난치병 병명</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
+      <td>질병명</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <!-- 小児慢性特定疾病 -->
+    <tr>
+      <td rowspan="3"><strong>小児慢性特定疾病</strong></td>
+      <td rowspan="3">Pediatric Chronic Specific Disease</td>
+      <td rowspan="3">소아 만성 특정 질환</td>
+    </tr>
+    <tr>
+      <td><strong>指定難病認定の有無</strong></td>
+      <td>Pediatric Chronic Specific Disease</td>
+      <td>소아 만성 특정 질환</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -702,14 +719,17 @@
         </ul>
       </td>
     </tr>
-    <!-- 小児慢性特定疾病 -->
     <tr>
-      <td rowspan="5"><strong>小児慢性特定疾病</strong></td>
-      <td rowspan="5">Pediatric Chronic Specific Disease</td>
-      <td rowspan="5">소아 만성 특정 질환</td>
+      <td><strong>申請した指定難病</strong></td>
+      <td>Designated intractable disease applied for</td>
+      <td>신청한 난치병 병명</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
+      <td>질병명</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
     </tr>
-    <tr></tr>
-    <tr></tr>
   </tbody>
 </table>
 
