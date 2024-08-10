@@ -2,6 +2,581 @@
 
 ## 病歴・生活歴 {: #medical-and-life-history}
 
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" class="text-vertical-align-middle">大項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">中項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">小項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">現病歴</td>
+      <td rowspan="3">発症年齢 (年)</td>
+      <td rowspan="3">-</td>
+      <td rowspan="3">medical_age_onset</td>
+      <td rowspan="3">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- ヶ月を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- 日を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>主訴</td>
+      <td>-</td>
+      <td>medical_chief_complaint</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>経過</td>
+      <td>-</td>
+      <td>medical_process</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>現病歴</td>
+      <td>-</td>
+      <td>medical_current_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="5">既往歴</td>
+      <td>既往歴の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_previous_history</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>既往歴疾患名</td>
+      <td>疾患名</td>
+      <td>medical_disease_of_previous_history_name</td>
+      <td>Array&lt;string&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>追加ボタンから複数登録が可能です。</td>
+    </tr>
+    <tr>
+      <td>既往歴疾患名_備考</td>
+      <td>-</td>
+      <td>medical_note_of_previous_history</td>
+      <td>string</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>既往歴</td>
+      <td>-</td>
+      <td>medical_previous_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>出生前および周産期の病歴</td>
+      <td>-</td>
+      <td>medical_prenatal_perinatal_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="4">合併病歴</td>
+      <td>合併症の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_complications</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>合併症疾患名</td>
+      <td>疾患名</td>
+      <td>medical_complication_history_name</td>
+      <td>Array&lt;string&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>合併症疾患名_備考</td>
+      <td>-</td>
+      <td>medical_note_of_complications</td>
+      <td>string</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>合併症歴</td>
+      <td>-</td>
+      <td>medical_complication_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="13">妊娠・出産情報</td>
+      <td>妊娠の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_pregnancy</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>「あり」を選択すると「妊娠回数 (回)」欄が活性化します</td>
+    </tr>
+    <tr>
+      <td rowspan="2">妊娠回数（回）</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_pregnancy</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2">チェックすると、テキストボックス（数字）欄が非活性になり、入力した値をクリアします</td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>出産の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_childbirth</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>「あり」を選択すると「出産回数 (回)」欄が活性化します</td>
+    </tr>
+    <tr>
+      <td rowspan="2">出産回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_childbirth</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2">チェックすると、テキストボックス（数字）欄が非活性になり、入力した値をクリアします</td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>死産・流産の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_stillbirth_miscarriage</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>「あり」を選択すると「死産の回数 (回)」、「流産 (自然)の回数 (回)」、「流産 (人工)の回数 (回)」欄が活性化します</td>
+    </tr>
+    <tr>
+      <td rowspan="2">死産の回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_stillbirth</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td rowspan="2">流産 (自然)の回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_miscarriage</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td rowspan="2">流産 (人工)の回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_artificial_abortion</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td rowspan="5">教育歴・社会歴</td>
+      <td>生育歴および教育歴</td>
+      <td>-</td>
+      <td>medical_early_developmental_and_schooling_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>就労の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_employment</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>職業分類</td>
+      <td>-</td>
+      <td>medical_occupational_classification</td>
+      <td>Array&lt;string&gt;</td>
+      <td>チェックボックス</td>
+      <td>
+        <ul>
+          <li>managerial_occupation</li>
+          <li>professional_technical_occupation</li>
+          <li>clerical_occupation</li>
+          <li>sales_occupation</li>
+          <li>service_occupation</li>
+          <li>security_occupation</li>
+          <li>agriculture_forestry_fishing_occupation</li>
+          <li>production_process_occupation</li>
+          <li>transportation_machine_operation_occupation</li>
+          <li>construction_mining_occupation</li>
+          <li>transportation_cleaning_packaging_occupation</li>
+          <li>others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>管理的職業</li>
+          <li>専門的・技術的職業</li>
+          <li>事務的職業</li>
+          <li>販売の職業</li>
+          <li>サービスの職業</li>
+          <li>保安の職業</li>
+          <li>農林漁業の職業</li>
+          <li>生産工程の職業</li>
+          <li>輸送・機械運転の職業</li>
+          <li>建設・採掘の職業</li>
+          <li>運輸・清掃・包装の職業</li>
+          <li>その他</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>その他をチェックすると「その他詳細」欄が活性化します</td>
+    </tr>
+    <tr>
+      <td>その他詳細</td>
+      <td>-</td>
+      <td>medical_occupational_classification_other_details</td>
+      <td>string</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>「職業分類」欄で「その他」にチェックすると活性化します</td>
+    </tr>
+    <tr>
+      <td>社会歴</td>
+      <td>-</td>
+      <td>medical_social_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">渡航歴・予防接種歴</td>
+      <td>渡航歴</td>
+      <td>-</td>
+      <td>medical_travel_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>予防接種歴</td>
+      <td>-</td>
+      <td>medical_vaccination_history</td>
+      <td>string</td>
+      <td>テキストエリア</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## 身体情報・所見 {: #physical-information-and-findings}
 
 <table>
