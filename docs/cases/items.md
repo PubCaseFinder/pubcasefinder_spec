@@ -1374,6 +1374,247 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 遺伝型 {: #genotype}
+各項目の編集については[こちら](/cases/edit/genotype)
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th colspan="3">一覧表</th>
+      <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
+      <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
+    </tr>
+    <tr>
+      <th>表示可能</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>遺伝学的検査実施の有無</strong></td>
+      <td>genotype_presence_of_genetic_testing</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝学的検査での異常の有無</strong></td>
+      <td>genotype_presence_of_abnormalities_in_genetic_testing</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝子解析</strong></td>
+      <td>genotype_analysis</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>検査実施日(yyyy/mm/dd)</strong></td>
+      <td>genotype_date_of_testing</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>検査会社/施設名</strong></td>
+      <td>genotype_testing_company_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>検査種別</strong></td>
+      <td>genotype_type_of_testing</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>genotype_testing_other_details</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>検査結果</strong></td>
+      <td>genotype_result_of_testing</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Gene symbol</strong></td>
+      <td>genotype_gene</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>NCBI Gene ID</strong></td>
+      <td>genotype_ncbi_gene_id</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Ensemble ID</strong></td>
+      <td>genotype_ensembl_id</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Interpretation Status</strong></td>
+      <td>genotype_status</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>cDNA Change</strong></td>
+      <td>genotype_cdna_change</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Pathogenicity</strong></td>
+      <td>genotype_pathogenicity</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Genotype</strong></td>
+      <td>genotype_allelic_state</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Reference</strong></td>
+      <td>genotype_reference</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Chr:Position</strong></td>
+      <td>genotype_chr_position</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Transcript</strong></td>
+      <td>genotype_transcript</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Protein Charge</strong></td>
+      <td>genotype_protein_charge</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Annotation</strong></td>
+      <td>genotype_annotation</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Inheritance</strong></td>
+      <td>genotype_inheritance</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Comments</strong></td>
+      <td>genotype_comments</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 家系 {: #family}
 
