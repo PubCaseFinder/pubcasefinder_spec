@@ -5,7 +5,7 @@
 
 <br>
 
-![Casesのスクリーンショット](/assets/images/cases_20240804.png)
+![Casesのスクリーンショット](./assets/images/cases_20240804.png)
 
 <!-- TODO: Cases編集の家系、検体・検査、登録がファイル作成したら7.症例編集の詳細にリンク追加 -->
 
