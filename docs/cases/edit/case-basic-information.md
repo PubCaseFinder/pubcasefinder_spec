@@ -1,4 +1,4 @@
-# 症例基本情報（EN: `Case Info`, KO: `의료사례 기본 정보`） {: #case-info}
+# 症例基本情報
 
 ## 大項目
 
@@ -14,7 +14,7 @@
 ---
 
 
-## ID（EN: `ID`, KO: `ID`） {: #id}
+## ID {: #id}
 
 <table>
   <thead>
@@ -107,7 +107,7 @@
   </tbody>
 </table>
 
-## 基本情報（EN: `Basic Info`, KO: `기본 정보`） {: #basic-info}
+## 基本情報 {: #basic-info}
 
 <table>
   <thead>
@@ -484,7 +484,7 @@
   </tbody>
 </table>
 
-## 民族・出生地（EN: `Etnicity`, KO: `민족・출신지`） {: #etnicity}
+## 民族・出生地 {: #etnicity}
 
 <table>
   <thead>
@@ -617,7 +617,7 @@
   </tbody>
 </table>
 
-## 出生時（EN: `Birth Info`, KO: `출생 정보`） {: #birth-info}
+## 出生時 {: #birth-info}
 
 <table>
   <thead>
@@ -778,7 +778,7 @@
   </tbody>
 </table>
 
-## 生殖補助（EN: `Assisted Reproduction`, KO: `보조 생식`） {: #assisted-reproduction}
+## 生殖補助 {: #assisted-reproduction}
 
 <table>
   <thead>
@@ -867,7 +867,7 @@
   </tbody>
 </table>
 
-## 入力者情報（EN: `Inputter Info`, KO: `입력자 정보`） {: #inputter-info}
+## 入力者情報 {: #inputter-info}
 
 <table>
   <thead>
@@ -1071,8 +1071,7 @@
     </tr>
   </tbody>
 </table>
-
-## 国マスタ {: #country-master}
+ {: #country-master}
 <table>
   <thead>
     <tr>
