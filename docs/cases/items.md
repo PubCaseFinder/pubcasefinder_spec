@@ -25,12 +25,12 @@ Casesでは下記の項目を扱うことができます。
 | 続柄 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> |
 | 血縁者の本研究参加の有無 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 性別 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> |
-| 性別 その他詳細 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
+| 性別 その他詳細 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" /> |
 | 発症の有無 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> |
 | 状態 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> |
 | 生年月 (yyyy/mm) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> |
-| 登録時年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> |
-| 診察時年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
+| 登録時年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> |
+| 診察時年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" /> |
 | 没年月 (yyyy/mm) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 死因 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 当該疾患以外のときの死因詳細 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
@@ -46,10 +46,10 @@ Casesでは下記の項目を扱うことができます。
 | 異常（黄疸等）の有無 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 医療介助の有無（出産時） | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 在胎週数 (週) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
-| 母親の年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
-| 父親の年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
+| 母親の年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" /> |
+| 父親の年齢 (YMD) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" /> |
 | 生殖補助医療の有無 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
-| 生殖補助医療の種類 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
+| 生殖補助医療の種類 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" /> |
 | 調査実施日 (yyyy/mm/dd) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 診察日 (yyyy/mm/dd) | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" checked /> |
 | 施設名 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
@@ -59,8 +59,8 @@ Casesでは下記の項目を扱うことができます。
 | 入力者名（姓） | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 入力者名（名） | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
 | 備考 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
-| 作成日時 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
-| 更新日時 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" checked /> |
+| 作成日時 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" /> |
+| 更新日時 | <input type="checkbox" class="readonly-input" checked /> | <input type="checkbox" class="readonly-input" /> | <input type="checkbox" class="readonly-input" /> |
 
 ### 診療 {: #medical}
 
