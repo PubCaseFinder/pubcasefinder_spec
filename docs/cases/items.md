@@ -14,7 +14,10 @@ Casesでは下記の項目を扱うことができます。
 
 ---
 
-### [症例基本情報](/cases/edit/case-basic-information) {: #case-info}
+### 症例基本情報 {: #case-info}
+各項目の編集については[こちら](/cases/edit/case-basic-information)
+
+<!-- TODO: 編集モーダルとの違いを列追加 -->
 
 | 項目名 | 表示可能 | デフォルト表示 | 編集可能 |
 | ---- | ---- | ---- | ---- |
