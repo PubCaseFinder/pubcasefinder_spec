@@ -242,7 +242,7 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="8">妊娠・出産情報</td>
+      <td rowspan="13">妊娠・出産情報</td>
       <td>妊娠の有無</td>
       <td>-</td>
       <td>medical_presence_of_pregnancy</td>
@@ -303,19 +303,104 @@
       <td>「あり」を選択すると「出産回数 (回)」欄が活性化します</td>
     </tr>
     <tr>
-      <td>出産回数 (回)</td>
+      <td rowspan="2">出産回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_childbirth</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2">チェックすると、テキストボックス（数字）欄が非活性になり、入力した値をクリアします</td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>死産・流産の有無</td>
+      <td>-</td>
+      <td>medical_presence_of_stillbirth_miscarriage</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
+        </ul>
+      </td>
+      <td>-</td>
+      <td>unknown</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>「あり」を選択すると「死産の回数 (回)」、「流産 (自然)の回数 (回)」、「流産 (人工)の回数 (回)」欄が活性化します</td>
     </tr>
     <tr>
-      <td>死産の回数 (回)</td>
+      <td rowspan="2">死産の回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_stillbirth</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
     </tr>
     <tr>
-      <td>流産 (自然)の回数 (回)</td>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>流産 (人工)の回数 (回)</td>
+      <td rowspan="2">流産 (自然)の回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_miscarriage</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td rowspan="2">流産 (人工)の回数 (回)</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">medical_number_of_artificial_abortion</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td>チェックボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
     </tr>
     <tr>
       <td rowspan="5">教育歴・社会歴</td>
