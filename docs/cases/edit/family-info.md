@@ -26,16 +26,12 @@
       <th rowspan="2">初期値</th>
       <th rowspan="2">clearボタン</th>
       <th rowspan="2">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2">Phenopackets</th>
       <th rowspan="2">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -49,9 +45,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -77,9 +70,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -105,9 +95,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -133,9 +120,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -149,9 +133,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -165,9 +146,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -181,9 +159,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -191,6 +166,96 @@
 </table>
 
 ## 遺伝形式 {: #mode-of-inheritance}
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">項目名</th>
+      <th rowspan="2">ID</th>
+      <th rowspan="2">型定義</th>
+      <th rowspan="2">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2">初期値</th>
+      <th rowspan="2">clearボタン</th>
+      <th rowspan="2">deleteボタン</th>
+      <th rowspan="2">Phenopackets</th>
+      <th rowspan="2">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>遺伝形式</strong></td>
+      <td>family_mode_inheritance</td>
+      <td>string</td>
+      <td>ラジオボタン（階層あり）</td>
+      <td>
+        <ul>
+          <li>Sporadic</li>
+          <li>Autosomal dominant inheritance</li>
+          <li>Sex-limited autosomal dominant</li>
+          <li>Autosomal dominant somatic cell mutation</li>
+          <li>Autosomal dominant contiguous gene syndrome</li>
+          <li>Autosomal recessive inheritance</li>
+          <li>
+            Gonosomal inheritance
+            <ul>
+              <li>X-linked inheritance</li>
+              <li>X-linked dominant inheritance</li>
+              <li>X-linked recessive inheritance</li>
+              <li>Y-linked inheritance</li>
+            </ul>
+          </li>
+          <li>
+            Multifactorial inheritance
+            <ul>
+              <li>Digenic inheritance</li>
+              <li>Oligogenic inheritance</li>
+              <li>Polygenic inheritance</li>
+            </ul>
+          </li>
+          <li>Mitochondrial inheritance</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Sporadic</li>
+          <li>Autosomal dominant inheritance</li>
+          <li>Sex-limited autosomal dominant</li>
+          <li>Autosomal dominant somatic cell mutation</li>
+          <li>Autosomal dominant contiguous gene syndrome</li>
+          <li>Autosomal recessive inheritance</li>
+          <li>
+            Gonosomal inheritance
+            <ul>
+              <li>X-linked inheritance</li>
+              <li>X-linked dominant inheritance</li>
+              <li>X-linked recessive inheritance</li>
+              <li>Y-linked inheritance</li>
+            </ul>
+          </li>
+          <li>
+            Multifactorial inheritance
+            <ul>
+              <li>Digenic inheritance</li>
+              <li>Oligogenic inheritance</li>
+              <li>Polygenic inheritance</li>
+            </ul>
+          </li>
+          <li>Mitochondrial inheritance</li>
+        </ul>
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 親族（がん・生活習慣病） {: #relatives}
 
