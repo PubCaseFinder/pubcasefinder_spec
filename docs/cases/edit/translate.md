@@ -9,7 +9,7 @@
 | **[表現型](#phenotype)** | Phenotype | 표현형 정보 |
 | **[遺伝型](#genotype)** | Genotype | 유전자형 정보 |
 | **[家系](#family-info)** | Family | 가계 정보 |
-| **検体・検査** | Sample/Test | 검체・검사 |
+| **[検体・検査](#sample-info)** | Sample/Test | 검체・검사 |
 | **登録** | Registration | 등록하기 |
 | **[その他](#other)** |  |  |
 
@@ -1135,8 +1135,20 @@
           <li><strong>あり</strong></li>
         </ul>
       </td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>その他の罹患近親者</strong></td>
@@ -1149,8 +1161,20 @@
           <li><strong>あり</strong></li>
         </ul>
       </td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>母親の死産・流産の有無</strong></td>
@@ -1163,8 +1187,20 @@
           <li><strong>あり</strong></li>
         </ul>
       </td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>死産の回数</strong></td>
@@ -1556,6 +1592,10 @@
     </tr>
   </tbody>
 </table>
+
+### 検体・検査 {: #sample-info}
+
+
 
 ### その他 {: #other}
 
