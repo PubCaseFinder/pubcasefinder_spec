@@ -189,6 +189,132 @@
 
 ## 血液検査等 {: #blood_test}
 
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">項目名</th>
+      <th rowspan="2">ID</th>
+      <th rowspan="2">型定義</th>
+      <th rowspan="2">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2">初期値</th>
+      <th rowspan="2">clearボタン</th>
+      <th rowspan="2">deleteボタン</th>
+      <th rowspan="2">Phenopackets</th>
+      <th rowspan="2">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>検査実施日（yyyy/mm/dd）</strong></td>
+      <td>sample_test_date</td>
+      <td>string|null</td>
+      <td>日付入力インターフェース</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>白血球数（WBC）</strong></td>
+      <td>sample_wbc</td>
+      <td>string|null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>赤血球数（RBC）</strong></td>
+      <td>sample_rbc</td>
+      <td>string|null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>血色素（ヘモグロビン）</strong></td>
+      <td>sample_hemoglobin</td>
+      <td>string|null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>ヘマトクリット</strong></td>
+      <td>sample_hematocrit</td>
+      <td>string|null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>血小板数（PLT）</strong></td>
+      <td>sample_plt</td>
+      <td>string|null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>総タンパク（TP）</strong></td>
+      <td>sample_tp</td>
+      <td>string|null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>アルブミン（ALB）</strong></td>
+      <td>sample_alb</td>
+      <td>string|null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ## その他検査 {: #other_test}
 
