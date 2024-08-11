@@ -57,6 +57,10 @@ nav:
         - 検体採取: 'cases/edit/sample-info#sample-collection'
         - 血液検査等: 'cases/edit/sample-info#blood-test'
         - その他検査: 'cases/edit/sample-info#other-test'
+      - 登録:
+        - 概要: 'cases/edit/registration'
+        - 患者について: 'cases/edit/registration#patient-info'
+        - 同意書・アセント: 'cases/edit/registration#consent-ascent'
       - 翻訳:
         - 概要: 'cases/edit/translate'
         - 詳細:
