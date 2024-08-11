@@ -54,6 +54,11 @@ nav:
         - 民族: 'cases/edit/family-info#ethnicity'
         - 近親婚: 'cases/edit/family-info#consanguinity'
         - 家系図: 'cases/edit/family-info#pedigree'
+      - 検体・検査:
+        - 概要: 'cases/edit/sample-info'
+        - 検体採取: 'cases/edit/sample-info#sample-collection'
+        - 血液検査等: 'cases/edit/sample-info#blood-test'
+        - その他検査: 'cases/edit/sample-info#other-test'
       - 翻訳:
         - 概要: 'cases/edit/translate'
         - 詳細:
