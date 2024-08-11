@@ -1595,7 +1595,301 @@
 
 ### 検体・検査 {: #sample-info}
 
-
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">大項目名</th>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">小項目名</th>
+      <th colspan="3">選択肢</th>
+    </tr>
+    <tr>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8"><strong>検体採取</strong></td>
+      <td rowspan="8">Sample Collection</td>
+      <td rowspan="8">시료채취</td>
+      <td><strong>採取時年月日（yyyy/mm/dd）</strong></td>
+      <td>Sampling date</td>
+      <td>촬영한 일 월 연도（yyyy/mm/dd）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>検体識別ID</strong></td>
+      <td>Sample ID</td>
+      <td>시료 식별 ID</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>採取時の治療薬の有無</strong></td>
+      <td>Presence of treatment drug at sampling</td>
+      <td>채취 시 치료약 유무</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>検体種別</strong></td>
+      <td>Sample type</td>
+      <td>시료 종류</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td>
+        <ul>
+          <li><strong>血液</strong></li>
+          <li><strong>組織</strong></li>
+          <li><strong>唾液</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Blood</li>
+          <li>Tissue</li>
+          <li>Saliva</li>
+          <li>Other</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>혈액</li>
+          <li>조직</li>
+          <li>타액</li>
+          <li>기타</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>Other detail</td>
+      <td>기타 상세 정보</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>検体採取時の処方内容</strong></td>
+      <td rowspan="3">Prescription details at the time of collection</td>
+      <td rowspan="3">검체 채취 시 처방 내용</td>
+      <td><strong>処方内容</strong></td>
+      <td>Prescription</td>
+      <td>처방 내용</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>投与経路</strong></td>
+      <td>Route of administration</td>
+      <td>투여 경로</td>
+      <td>
+        <ul>
+          <li><strong>内服</strong></li>
+          <li><strong>注射</strong></li>
+          <li><strong>外用</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Oral</li>
+          <li>Injection</li>
+          <li>External</li>
+          <li>Other</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>내복</li>
+          <li>주사</li>
+          <li>외용</li>
+          <li>기타</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>YJコード</strong></td>
+      <td>YJ code</td>
+      <td>YJ 코드</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="8"><strong>血液検査等</strong></td>
+      <td rowspan="8">Blood Test</td>
+      <td rowspan="8">혈액 검사 등</td>
+      <td><strong>検査実施日（yyyy/mm/dd）</strong></td>
+      <td>Test date</td>
+      <td>검사 실시일（yyyy/mm/dd）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>白血球数（WBC）</strong></td>
+      <td>White blood cell count (WBC)</td>
+      <td>백혈구 수（WBC）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>赤血球数（RBC）</strong></td>
+      <td>Red blood cell count (RBC)</td>
+      <td>적혈구 수（RBC）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>血色素（ヘモグロビン）</strong></td>
+      <td>Hemoglobin</td>
+      <td>혈색소(헤모글로빈)</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>ヘマトクリット</strong></td>
+      <td>Hematocrit</td>
+      <td>헤마토크릿</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>血小板数（PLT）</strong></td>
+      <td>Platelet count (PLT)</td>
+      <td>혈소판 수（PLT）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>総タンパク（TP）</strong></td>
+      <td>Total protein (TP)</td>
+      <td>총 단백질（TP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アルブミン（ALB）</strong></td>
+      <td>Albumin (ALB)</td>
+      <td>알부민（ALB）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>その他検査</strong></td>
+      <td rowspan="3">Other Test</td>
+      <td rowspan="3">기타 검사</td>
+      <td><strong>検査項目名</strong></td>
+      <td>Test item</td>
+      <td>검사 항목명</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>検査値</strong></td>
+      <td>Test value</td>
+      <td>검사값</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>単位</strong></td>
+      <td>Unit</td>
+      <td>단위</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 ### その他 {: #other}
 
