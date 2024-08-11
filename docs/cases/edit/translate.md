@@ -1093,6 +1093,470 @@
 
 ### 家系 {: #family-info}
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">大項目名</th>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">選択肢</th>
+    </tr>
+    <tr>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7"><strong>家族歴</strong></td>
+      <td rowspan="7">Family History</td>
+      <td rowspan="7">가족력</td>
+      <td><strong>家族歴</strong></td>
+      <td>Family History</td>
+      <td>가족력</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>家族内発症の有無</strong></td>
+      <td>Presence of Onset in Family</td>
+      <td>가족 내 발병 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>その他の罹患近親者</strong></td>
+      <td>Other Affected Relatives</td>
+      <td>영향을 받는 다른 친척</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>母親の死産・流産の有無</strong></td>
+      <td>Presence of Miscarriage or Stillbirth of Mother</td>
+      <td>산모의 사산 및 유산 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>死産の回数</strong></td>
+      <td>Number of Stillbirth</td>
+      <td>사산 횟수</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>流産 (自然) の回数</strong></td>
+      <td>Number of Miscarriage</td>
+      <td>유산(자연유산) 횟수</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>流産 (人工) の回数</strong></td>
+      <td>Number of Artificial Abortion</td>
+      <td>유산(인공) 횟수</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>遺伝形式</strong></td>
+      <td>Mode of Inheritance</td>
+      <td>유전형식</td>
+      <td><strong>遺伝形式</strong></td>
+      <td>Mode of Inheritance</td>
+      <td>유전자 목록</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="11"><strong>親族（がん・生活習慣病）</strong></td>
+      <td rowspan="11">Relatives (Cancer & Lifestyle Disease)</td>
+      <td rowspan="11">친족(암, 생활습관병)</td>
+      <td><strong>親族名称</strong></td>
+      <td>Relative Name</td>
+      <td>친족명칭</td>
+      <td>
+        <ul>
+          <li><strong>父</strong></li>
+          <li><strong>母</strong></li>
+          <li><strong>親（詳細不明）</strong></li>
+          <li><strong>同胞</strong></li>
+          <li><strong>子ども</strong></li>
+          <li><strong>祖父母（父方）</strong></li>
+          <li><strong>祖父母（母方）</strong></li>
+          <li><strong>祖父母（詳細不明）</strong></li>
+          <li><strong>おじ（父方）</strong></li>
+          <li><strong>おじ（母方）</strong></li>
+          <li><strong>おば（父方）</strong></li>
+          <li><strong>おば（母方）</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Father</li>
+          <li>Mother</li>
+          <li>Parent (unknown details)</li>
+          <li>Siblings</li>
+          <li>Child</li>
+          <li>Grandparents (paternal)</li>
+          <li>Grandparents (maternal)</li>
+          <li>Grandparents (unknown details)</li>
+          <li>Uncle (paternal)</li>
+          <li>Uncle (maternal)</li>
+          <li>Aunt (paternal)</li>
+          <li>Aunt (maternal)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>아버지</li>
+          <li>어머니</li>
+          <li>부모(상세불명)</li>
+          <li>동포</li>
+          <li>어린이</li>
+          <li>조부모(부친 쪽)</li>
+          <li>조부모(어머니 측)</li>
+          <li>조부모(자세한 내용은 알 수 없음)</li>
+          <li>삼촌(부계)</li>
+          <li>삼촌(모계)</li>
+          <li>이모(부계)</li>
+          <li>이모(모계)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>家系図における世代番号 (親族)</strong></td>
+      <td>Generation Number of Relative</td>
+      <td>가계도의 세대번호 (친척)</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>遺伝性がん検査実施の有無</strong></td>
+      <td>Presence of Genetic Cancer Testing</td>
+      <td>유전성 암 검사 실시 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>遺伝性がん検査の結果ファイル</strong></td>
+      <td>Genetic Cancer Testing Result File</td>
+      <td>유전성 암 검사 결과 파일</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>がん罹患歴の有無</strong></td>
+      <td>Presence of Cancer History</td>
+      <td>암 병력 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>がん種</strong></td>
+      <td>Cancer Type</td>
+      <td>암종</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>罹患年齢</strong></td>
+      <td>Age of Onset</td>
+      <td>발병 연령</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>10歳未満</strong></li>
+          <li><strong>10歳台</strong></li>
+          <li><strong>20歳台</strong></li>
+          <li><strong>30歳台</strong></li>
+          <li><strong>40歳台</strong></li>
+          <li><strong>50歳台</strong></li>
+          <li><strong>60歳台</strong></li>
+          <li><strong>70歳台</strong></li>
+          <li><strong>80歳台</strong></li>
+          <li><strong>90歳以上</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Under 10 years old</li>
+          <li>10s</li>
+          <li>20s</li>
+          <li>30s</li>
+          <li>40s</li>
+          <li>50s</li>
+          <li>60s</li>
+          <li>70s</li>
+          <li>80s</li>
+          <li>90 and above</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>10세 미만</li>
+          <li>10세대</li>
+          <li>20세대</li>
+          <li>30세대</li>
+          <li>40세대</li>
+          <li>50세대</li>
+          <li>60세대</li>
+          <li>70세대</li>
+          <li>80세대</li>
+          <li>90세 이상</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>生活習慣病罹患歴の有無</strong></td>
+      <td>Presence of Lifestyle Disease History</td>
+      <td>생활습관병 병력 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>生活習慣病罹患歴詳細</strong></td>
+      <td>Lifestyle Disease History</td>
+      <td>생활 습관병 상세 정보</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>高血圧</strong></li>
+          <li><strong>2型糖尿病</strong></li>
+          <li><strong>肥満症/メタボリックシンドローム</strong></li>
+          <li><strong>慢性閉塞性肺疾患（COPD）</strong></li>
+          <li><strong>糖質異常症</strong></li>
+          <li><strong>高尿酸血症</strong></li>
+          <li><strong>循環器病（先天性のものを除く）</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Hypertension</li>
+          <li>Type 2 Diabetes</li>
+          <li>Obesity/Metabolic Syndrome</li>
+          <li>Chronic Obstructive Pulmonary Disease (COPD)</li>
+          <li>Dyslipidemia</li>
+          <li>Hyperuricemia</li>
+          <li>Circulatory Disease (excluding congenital)</li>
+          <li>Other</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>고혈압</li>
+          <li>제2형 당뇨병</li>
+          <li>비만증/대사증후군</li>
+          <li>만성 폐쇄성 폐질환(COPD)</li>
+          <li>혈당 이상</li>
+          <li>고요산혈증</li>
+          <li>순환기 질환(선천성 질환 제외)</li>
+          <li>기타</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>民族</strong></td>
+      <td rowspan="2">Ethnicity</td>
+      <td rowspan="2">민족</td>
+      <td><strong>父方の民族</strong></td>
+      <td>Paternal Ethnicity</td>
+      <td>부계 민족성</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>母方の民族</strong></td>
+      <td>Maternal Ethnicity</td>
+      <td>모계 민족성</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>近親婚</strong></td>
+      <td rowspan="2">Consanguinity</td>
+      <td rowspan="2">근친교배</td>
+      <td><strong>近親婚（本人）</strong></td>
+      <td>Consanguinity</td>
+      <td>근친혼</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>近親婚(患者両親)</strong></td>
+      <td>Consanguinity of Parents</td>
+      <td>근친상간(환자 태일)</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>家系図</strong></td>
+      <td>Pedigree</td>
+      <td>가계도</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
 ### その他 {: #other}
 
 <table>
