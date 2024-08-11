@@ -38,49 +38,40 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>ID</strong></td>
-      <td>ID</td>
-      <td>ID</td>
+      <td rowspan="4"><strong>ID</strong></td>
+      <td rowspan="4">ID</td>
+      <td rowspan="4">ID</td>
       <td><strong>PCF No.</strong></td>
       <td>PCF No.</td>
       <td>PCF No.</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>症例ID</strong></td>
       <td>Case ID</td>
       <td>의료사례 ID</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>家族ID</strong></td>
       <td>Family ID</td>
       <td>가족 ID</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>グループ名</strong></td>
       <td>Group</td>
       <td>그룹명</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong>基本情報</strong></td>
-      <td>Basic Info</td>
-      <td>기본 정보</td>
+      <td rowspan="14"><strong>基本情報</strong></td>
+      <td rowspan="14">Basic Info</td>
+      <td rowspan="14">기본 정보</td>
       <td><strong>続柄</strong></td>
       <td>Relationship</td>
       <td>관계</td>
@@ -166,9 +157,6 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>血縁者の本研究参加の有無</strong></td>
       <td>Participation of relatives in this study</td>
       <td>본 연구에 가족이 참여하는지 여부</td>
@@ -197,9 +185,6 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>性別</strong></td>
       <td>Sex</td>
       <td>성별</td>
@@ -228,19 +213,13 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>性別 その他詳細</strong></td>
       <td>Sex Other Details</td>
       <td>성별 기타 상세 정보</td>
       <td><strong>-</strong></td>
-      <td></td>
-      <td></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>発症の有無</strong></td>
       <td>Presence or absence of onset</td>
       <td>발병 유무</td>
@@ -266,9 +245,6 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>状態</strong></td>
       <td>Life Status</td>
       <td>상태</td>
@@ -294,49 +270,34 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>生年月 (yyyy/mm)</strong></td>
       <td>Birth (yyyy/mm)</td>
       <td>출생 연월 (yyyy/mm)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>登録時年齢 (YMD)</strong></td>
       <td>Age on Registration (YMD)</td>
       <td>등록시 연령 (YMD)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>診察時年齢 (YMD)</strong></td>
       <td>Age on Examination (YMD)</td>
       <td>진찰시 연령 (YMD)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>没年月 (yyyy/mm)</strong></td>
       <td>Death (yyyy/mm)</td>
       <td>사망 연월 (yyyy/mm)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>死因</strong></td>
       <td>Cause of death</td>
       <td>사망 원인</td>
@@ -359,99 +320,75 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>当該疾患以外のときの死因詳細</strong></td>
       <td>Detail of Cause of death</td>
       <td>기타 질병으로 인한 사망 원인 상세 정보</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>死因ICD-11コード</strong></td>
       <td>ICD-11 code of cause of death</td>
       <td>사망 원인 ICD-11 코드</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>最終生存確認日 (yyyy/mm/dd)</strong></td>
       <td>Last date of confirmation of survival (yyyy/mm/dd)</td>
       <td>생존 확인 최종 일자 (yyyy/mm/dd)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong>民族・出生地</strong></td>
-      <td>Etnicity</td>
-      <td>민족・출신지</td>
+      <td rowspan="6"><strong>民族・出生地</strong></td>
+      <td rowspan="6">Etnicity</td>
+      <td rowspan="6">민족・출신지</td>
       <td><strong>民族 / 集団</strong></td>
       <td>Ethnicity / Group</td>
       <td>민족 / 그룹</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>自由記載</strong></td>
       <td>Free Comment</td>
       <td>기타</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>出生地 国</strong></td>
       <td>Country</td>
       <td>국가</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>都道府県</strong></td>
       <td>State</td>
       <td>시도</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>市区町村</strong></td>
       <td>City</td>
       <td>시군구</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>自由記載</strong></td>
       <td>Free Comment</td>
       <td>상세 주소</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong>出生時</strong></td>
-      <td>Birth Info</td>
-      <td>출생 정보</td>
+      <td rowspan="6"><strong>出生時</strong></td>
+      <td rowspan="6">Birth Info</td>
+      <td rowspan="6">출생 정보</td>
       <td><strong>出生前（胎児）の異常の有無</strong></td>
       <td>Presence of prenatal abnormalities</td>
       <td>출산 전(태아) 이상의 유무</td>
@@ -477,9 +414,6 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>異常（黄疸等）の有無</strong></td>
       <td>Presence of abnormalities (jaundice, etc.)</td>
       <td>이상 유무 (황달 등)</td>
@@ -505,9 +439,6 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>医療介助の有無（出産時）</strong></td>
       <td>Presence of medical assistance at birth</td>
       <td>출산 시 의료 지원의 유무</td>
@@ -533,39 +464,30 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>在胎週数 (週)</strong></td>
       <td>Gestational age at (weeks)</td>
       <td>임신 주수 (주)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>母親の年齢 (YMD)</strong></td>
       <td>Age of mother (YMD)</td>
       <td>어머니의 나이 (YMD)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>父親の年齢 (YMD)</strong></td>
       <td>Age of father (YMD)</td>
-      <td></td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong>生殖補助</strong></td>
-      <td>Assisted Reproduction</td>
-      <td>보조 생식</td>
+      <td rowspan="2"><strong>生殖補助</strong></td>
+      <td rowspan="2">Assisted Reproduction</td>
+      <td rowspan="2">보조 생식</td>
       <td><strong>生殖補助医療の有無</strong></td>
       <td>Presence of assisted reproductive technology</td>
       <td>보조 생식 기술의 사용 유무</td>
@@ -591,9 +513,6 @@
         </ul>
       </td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>生殖補助医療の種類</strong></td>
       <td>Type of assisted reproductive technology</td>
       <td>보조 생식 기술의 종류</td>
@@ -625,115 +544,85 @@
         </ul>
       </td>
     <tr>
-      <td><strong>入力者情報</strong></td>
-      <td>Inputter Info</td>
-      <td>입력자 정보</td>
+      <td rowspan="11"><strong>入力者情報</strong></td>
+      <td rowspan="11">Inputter Info</td>
+      <td rowspan="11">입력자 정보</td>
       <td><strong>調査実施日 (yyyy/mm/dd)</strong></td>
       <td>Date of survey</td>
       <td>조사 날짜 (yyyy/mm/dd)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>診察日 (yyyy/mm/dd)</strong></td>
       <td>Examination day</td>
       <td>진찰 날짜 (yyyy/mm/dd)</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>施設名</strong></td>
       <td>Facility</td>
       <td>시설명</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>施設コード</strong></td>
       <td>Code Of Facility</td>
       <td>시설 코드</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>担当医師名（姓）</strong></td>
       <td>Family Name Of Doctor In Charge</td>
       <td>담당 의사 성</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>担当医師名（名）</strong></td>
       <td>First Name Of Doctor In Charge</td>
       <td>담당 의사 이름</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>入力者名（姓）</strong></td>
       <td>Family Name Of Inputter</td>
       <td>입력자 성</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>入力者名（名）</strong></td>
       <td>First Name Of Inputter</td>
       <td>입력자 이름</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>備考</strong></td>
       <td>Note</td>
       <td>비고</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>作成日時</strong></td>
       <td>Created At</td>
       <td>작성 날짜</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
     <tr>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
       <td><strong>更新日時</strong></td>
       <td>Updated At</td>
       <td>업데이트 날짜</td>
-      <td><strong></strong></td>
-      <td></td>
-      <td></td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
   </tbody>
 </table>
 
