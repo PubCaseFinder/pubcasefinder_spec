@@ -4,13 +4,13 @@
 
 | JA | EN | KO |
 | ---- | ---- | ---- |
-| **[症例基本情報](#case-basic-information)** |  |  |
-| **[診療](#medical)** |  |  |
-| **[表現型](#phenotype)** |  |  |
+| **[症例基本情報](#case-basic-information)** | Case Info | 의료사례 기본 정보 |
+| **[診療](#medical)** | Medical | 찰 정보 |
+| **[表現型](#phenotype)** | Phenotype | 표현형 정보 |
 | **[遺伝型](#genotype)** | Genotype | 유전자형 정보 |
-| **家系** |  |  |
-| **検体・検査** |  |  |
-| **登録** |  |  |
+| **[家系](#family-info)** | Family | 가계 정보 |
+| **検体・検査** | Sample/Test | 검체・검사 |
+| **登録** | Registration | 등록하기 |
 | **[その他](#other)** |  |  |
 
 ---
@@ -1090,6 +1090,8 @@
     </tr>
   </tbody>
 </table>
+
+### 家系 {: #family-info}
 
 ### その他 {: #other}
 
