@@ -10,9 +10,7 @@ nav:
     - 画面仕様: 'overall-structure/screen-specifications'
   - Cases:
     - 画面仕様: 'cases/screen-specifications'
-    - 一覧表の表示内容:
-      - 初期表示項目: 'cases/list-display-contents/initial-display-items'
-      - 追加項目: 'cases/list-display-contents/additional-items'
+    - 項目: 'cases/items'
     - 操作:
       - キーワード検索: 'cases/operations/search-keyword'
       - 項目追加: 'cases/operations/add-items'
@@ -70,6 +68,9 @@ nav:
           - 診療: 'cases/edit/translate#medical'
           - 表現型: 'cases/edit/translate#phenotype'
           - 遺伝型: 'cases/edit/translate#genotype'
+          - 家系: 'cases/edit/translate#family-info'
+          - 検体・検査: 'cases/edit/translate#sample-info'
+          - 登録: 'cases/edit/translate#registration'
           - その他: 'cases/edit/translate#other'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
