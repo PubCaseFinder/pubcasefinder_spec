@@ -1617,6 +1617,260 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 家系 {: #family}
+各項目の編集については[こちら](/cases/edit/family-info)
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th colspan="3">一覧表</th>
+      <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
+      <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
+    </tr>
+    <tr>
+      <th>表示可能</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>家族歴</strong></td>
+      <td>family_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>家族内発症の有無</strong></td>
+      <td>family_presence_of_onset_in_family</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>その他の罹患近親者</strong></td>
+      <td>family_other_affected_relatives</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>母親の死産・流産の有無</strong></td>
+      <td>family_presence_of_miscarriage_or_stillbirth_of_mother</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>死産の回数</strong></td>
+      <td>family_number_of_stillbirth_of_mother</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>流産 (自然) の回数</strong></td>
+      <td>family_number_of_miscarriage_of_mother</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>流産 (人工) の回数</strong></td>
+      <td>family_number_of_artificial_abortion_of_mother</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝形式</strong></td>
+      <td>family_mode_inheritance</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>親族名称</strong></td>
+      <td>family_relative_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>家系図における世代番号 (親族)</strong></td>
+      <td>family_generation_number_of_relative</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝性がん検査実施の有無</strong></td>
+      <td>family_presence_of_genetic_cancer_testing</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝性がん検査の結果ファイル</strong></td>
+      <td>family_genetic_cancer_testing_result_file</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>がん罹患歴の有無</strong></td>
+      <td>family_presence_of_cancer_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>がん種</strong></td>
+      <td>family_cancer_history_cancer_type</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>family_cancer_history_cancer_type_other_details</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>罹患年齢</strong></td>
+      <td>family_cancer_history_age_of_onset</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>生活習慣病罹患歴の有無</strong></td>
+      <td>family_presence_of_lifestyle_disease_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>生活習慣病罹患歴詳細</strong></td>
+      <td>family_lifestyle_disease_history</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>family_lifestyle_disease_history_other_details</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>父方の民族</strong></td>
+      <td>family_paternal_ethnicity</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>母方の民族</strong></td>
+      <td>family_maternal_ethnicity</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>近親婚（本人）</strong></td>
+      <td>family_consanguinity</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>近親婚(患者両親)</strong></td>
+      <td>family_consanguinity_of_parents</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>家系図PDF</strong></td>
+      <td>family_family_tree_pdf</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>家系図作成日 (yyyy/mm/dd)</strong></td>
+      <td>family_date_of_family_tree</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>家系図における世代番号 (本人)</strong></td>
+      <td>family_generation_number_of_proband</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 検体・検査 {: #sample}
 
