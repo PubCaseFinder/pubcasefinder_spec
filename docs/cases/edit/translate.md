@@ -10,7 +10,7 @@
 | **[遺伝型](#genotype)** | Genotype | 유전자형 정보 |
 | **[家系](#family-info)** | Family | 가계 정보 |
 | **[検体・検査](#sample-info)** | Sample/Test | 검체・검사 |
-| **登録** | Registration | 등록하기 |
+| **[登録](#registration)** | Registration | 등록하기 |
 | **[その他](#other)** |  |  |
 
 ---
@@ -1884,6 +1884,414 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+### 登録 {: #registration}
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">大項目名</th>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">選択肢</th>
+    </tr>
+    <tr>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3"><strong>患者について</strong></td>
+      <td rowspan="3">Patient Information</td>
+      <td rowspan="3">환자에 대하여</td>
+      <td><strong>主病名（疑い病名、症状含む）</strong></td>
+      <td>Main disease name (including suspected disease name and symptoms)</td>
+      <td>주병명(의심병명, 증상 포함)</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>未診断 / 既診断 / 非罹患者</strong></td>
+      <td>Undiagnosed / Diagnosed / Non-affected</td>
+      <td>미진단 / 기진단 / 비환자</td>
+      <td>
+        <ul>
+          <li><strong>該当なし</strong></li>
+          <li><strong>未診断</strong></li>
+          <li><strong>既診断</strong></li>
+          <li><strong>非罹患者</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Not applicable</li>
+          <li>Undiagnosed</li>
+          <li>Diagnosed</li>
+          <li>Non-affected</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>해당사항 없음</li>
+          <li>미진단</li>
+          <li>기진단</li>
+          <li>비환자</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>小児 / 成人</strong></td>
+      <td>Child / Adult</td>
+      <td>소아 / 성인</td>
+      <td>
+        <ul>
+          <li><strong>該当なし</strong></li>
+          <li><strong>小児</strong></li>
+          <li><strong>成人</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Not applicable</li>
+          <li>Child</li>
+          <li>Adult</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>해당사항 없음</li>
+          <li>소아</li>
+          <li>성인</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="16"><strong>同意書・アセント</strong></td>
+      <td rowspan="16">Consent and Ascent</td>
+      <td rowspan="16">동의서・어센트</td>
+      <td><strong>同意書の種別</strong></td>
+      <td>Consent form type</td>
+      <td>동의서 종류</td>
+      <td>
+        <ul>
+          <li><strong>該当なし</strong></li>
+          <li><strong>初回同意</strong></li>
+          <li><strong>再同意</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Not applicable</li>
+          <li>Initial consent</li>
+          <li>Re-consent</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>해당사항 없음</li>
+          <li>최초 동의</li>
+          <li>재동의</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>同意取得者</strong></td>
+      <td>Consent acquirer</td>
+      <td>동의 취득자</td>
+      <td>
+        <ul>
+          <li><strong>該当なし</strong></li>
+          <li><strong>本人</strong></li>
+          <li><strong>代諾者</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Not applicable</li>
+          <li>Patient</li>
+          <li>Proxy</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>해당사항 없음</li>
+          <li>본인</li>
+          <li>대리인</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄</strong></td>
+      <td>Proxy relation</td>
+      <td>대리인 등의 속사정</td>
+      <td>
+        <ul>
+          <li><strong>父</strong></li>
+          <li><strong>母</strong></li>
+          <li><strong>祖父</strong></li>
+          <li><strong>祖母</strong></li>
+          <li><strong>配偶者</strong></li>
+          <li><strong>子ども</strong></li>
+          <li><strong>同胞</strong></li>
+          <li><strong>おじ</strong></li>
+          <li><strong>おば</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Father</li>
+          <li>Mother</li>
+          <li>Grandfather</li>
+          <li>Grandmother</li>
+          <li>Spouse</li>
+          <li>Child</li>
+          <li>Sibling</li>
+          <li>Uncle</li>
+          <li>Aunt</li>
+          <li>Other</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>아버지</li>
+          <li>어머니</li>
+          <li>할아버지</li>
+          <li>할머니</li>
+          <li>배우자</li>
+          <li>어린이</li>
+          <li>동포</li>
+          <li>아저씨</li>
+          <li>아줌마</li>
+          <li>기타</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td>Proxy relation other details</td>
+      <td>대리인 등의 속사정 기타 자세한 내용</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>同意書のバージョン</strong></td>
+      <td>Consent form version</td>
+      <td>동의서 버전</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アセントの有無</strong></td>
+      <td>Ascent</td>
+      <td>어센트 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>アセントのバージョン</strong></td>
+      <td>Ascent version</td>
+      <td>어센트 버전</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>同意取得日（yyyy/mm/dd）</strong></td>
+      <td>Consent acquisition date</td>
+      <td>취득일 동의（yyyy/mm/dd）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回の有無</strong></td>
+      <td>Consent withdrawal</td>
+      <td>동의 철회 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回者</strong></td>
+      <td>Consent withdrawer</td>
+      <td>동의 철회자</td>
+      <td>
+        <ul>
+          <li><strong>該当なし</strong></li>
+          <li><strong>本人</strong></li>
+          <li><strong>代諾者等</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Not applicable</li>
+          <li>Patient</li>
+          <li>Proxy</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>해당사항 없음</li>
+          <li>본인</li>
+          <li>대리인 등</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄</strong></td>
+      <td>Proxy relation</td>
+      <td>대리인 등의 속사정</td>
+      <td>
+        <ul>
+          <li><strong>父</strong></li>
+          <li><strong>母</strong></li>
+          <li><strong>祖父</strong></li>
+          <li><strong>祖母</strong></li>
+          <li><strong>配偶者</strong></li>
+          <li><strong>子ども</strong></li>
+          <li><strong>同胞</strong></li>
+          <li><strong>おじ</strong></li>
+          <li><strong>おば</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>father</li>
+          <li>mother</li>
+          <li>grandfather</li>
+          <li>grandmother</li>
+          <li>spouse</li>
+          <li>child</li>
+          <li>sibling</li>
+          <li>uncle</li>
+          <li>aunt</li>
+          <li>other</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>아버지</li>
+          <li>어머니</li>
+          <li>할아버지</li>
+          <li>할머니</li>
+          <li>배우자</li>
+          <li>어린이</li>
+          <li>동포</li>
+          <li>아저씨</li>
+          <li>아줌마</li>
+          <li>기타</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td>Proxy relation other details</td>
+      <td>대리인 등의 속사정 기타 자세한 내용</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回書のバージョン</strong></td>
+      <td>Consent withdrawal version</td>
+      <td>동의 철회서 버전</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回アセントの有無</strong></td>
+      <td>Ascent withdrawer</td>
+      <td>동의철회 어센트 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>なし</strong></li>
+          <li><strong>あり</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回アセントのバージョン</strong></td>
+      <td>Ascent withdrawal version</td>
+      <td>동의 철회 어센트 버전</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回日（yyyy/mm/dd）</strong></td>
+      <td>Consent withdrawal date</td>
+      <td>동의 철회일（yyyy/mm/dd）</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
