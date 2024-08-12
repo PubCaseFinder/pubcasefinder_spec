@@ -2118,3 +2118,221 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 登録 {: #registration}
+各項目の編集については[こちら](/cases/edit/registration)
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th colspan="3">一覧表</th>
+      <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
+      <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
+    </tr>
+    <tr>
+      <th>表示可能</th>
+      <th>デフォルト表示</th>
+      <th>編集可能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>主病名（疑い病名、症状含む）</strong></td>
+      <td>registration_disease_name</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>未診断 / 既診断 / 非罹患者</strong></td>
+      <td>registration_diagnosis_status</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>小児 / 成人</strong></td>
+      <td>registration_age_group</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝性疾患 / 非遺伝性疾患</strong></td>
+      <td>registration_genetic_status</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>罹患有無</strong></td>
+      <td>registration_affection</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>備考</strong></td>
+      <td>registration_note</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意書の種別</strong></td>
+      <td>registration_consent_form_type</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意取得者</strong></td>
+      <td>registration_consent_acquirer</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄</strong></td>
+      <td>registration_proxy_relation</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td>registration_proxy_relation_other</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意書のバージョン</strong></td>
+      <td>registration_consent_form_version</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>アセントの有無</strong></td>
+      <td>registration_ascent</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>アセントのバージョン</strong></td>
+      <td>registration_ascent_version</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意取得日（yyyy/mm/dd）</strong></td>
+      <td>registration_consent_acquisition_date</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回の有無</strong></td>
+      <td>registration_consent_withdrawal</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回者</strong></td>
+      <td>registration_consent_withdrawer</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄</strong></td>
+      <td>registration_proxy_relation_withdrawer</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td>registration_proxy_relation_withdrawer_other_details</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回書のバージョン</strong></td>
+      <td>registration_consent_withdrawal_version</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回アセントの有無</strong></td>
+      <td>registration_ascent_withdrawer</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回アセントのバージョン</strong></td>
+      <td>registration_ascent_withdrawal_version</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+    <tr>
+      <td><strong>同意撤回日（yyyy/mm/dd）</strong></td>
+      <td>registration_consent_withdrawal_date</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+    </tr>
+  </tbody>
+</table>
