@@ -342,16 +342,16 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>不明</li>
-          <li>なし</li>
-          <li>あり</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
         </ul>
       </td>
       <td>[]</td>
@@ -380,16 +380,16 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>不明</li>
-          <li>なし</li>
-          <li>あり</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
         </ul>
       </td>
       <td>[]</td>
@@ -472,16 +472,16 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>不明</li>
-          <li>なし</li>
-          <li>あり</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>不明</li>
+          <li>なし</li>
+          <li>あり</li>
         </ul>
       </td>
       <td>[]</td>
