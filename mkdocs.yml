@@ -68,6 +68,9 @@ nav:
           - 診療: 'cases/edit/translate#medical'
           - 表現型: 'cases/edit/translate#phenotype'
           - 遺伝型: 'cases/edit/translate#genotype'
+          - 家系: 'cases/edit/translate#family-info'
+          - 検体・検査: 'cases/edit/translate#sample-info'
+          - 登録: 'cases/edit/translate#registration'
           - その他: 'cases/edit/translate#other'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
