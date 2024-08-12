@@ -25,7 +25,6 @@ Casesでは下記の項目を扱うことができます。
       <th colspan="3">一覧表</th>
       <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
       <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>表示可能</th>
@@ -42,7 +41,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>症例ID</strong></td>
@@ -52,7 +50,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>家族ID</strong></td>
@@ -62,7 +59,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>グループ名</strong></td>
@@ -72,7 +68,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>続柄</strong></td>
@@ -82,7 +77,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>血縁者の本研究参加の有無</strong></td>
@@ -92,7 +86,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>性別</strong></td>
@@ -102,7 +95,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>性別 その他詳細</strong></td>
@@ -112,7 +104,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>発症の有無</strong></td>
@@ -122,7 +113,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>状態</strong></td>
@@ -132,7 +122,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>生年月 (yyyy/mm)</strong></td>
@@ -142,7 +131,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>登録時年齢 (YMD)</strong></td>
@@ -152,7 +140,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>診察時年齢 (YMD)</strong></td>
@@ -162,7 +149,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>没年月 (yyyy/mm)</strong></td>
@@ -172,7 +158,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>死因</strong></td>
@@ -182,7 +167,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>当該疾患以外のときの死因詳細</strong></td>
@@ -192,7 +176,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>死因ICD-11コード</strong></td>
@@ -202,7 +185,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>最終生存確認日 (yyyy/mm/dd)</strong></td>
@@ -212,7 +194,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>民族 / 集団</strong></td>
@@ -222,7 +203,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>自由記載</strong></td>
@@ -232,7 +212,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>国</strong></td>
@@ -242,7 +221,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>都道府県</strong></td>
@@ -252,7 +230,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>市区町村</strong></td>
@@ -262,7 +239,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>自由記載</strong></td>
@@ -272,7 +248,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>出生前（胎児）の異常の有無</strong></td>
@@ -282,7 +257,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>異常（黄疸等）の有無</strong></td>
@@ -292,7 +266,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>医療介助の有無（出産時）</strong></td>
@@ -302,7 +275,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>在胎週数 (週)</strong></td>
@@ -312,7 +284,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>母親の年齢 (YMD)</strong></td>
@@ -322,7 +293,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>父親の年齢 (YMD)</strong></td>
@@ -332,7 +302,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>生殖補助医療の有無</strong></td>
@@ -342,7 +311,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>生殖補助医療の種類</strong></td>
@@ -352,7 +320,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>調査実施日 (yyyy/mm/dd)</strong></td>
@@ -362,7 +329,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>診察日 (yyyy/mm/dd)</strong></td>
@@ -372,7 +338,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>施設名</strong></td>
@@ -382,7 +347,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>施設コード</strong></td>
@@ -392,7 +356,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>担当医師名（姓）</strong></td>
@@ -402,7 +365,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>担当医師名（名）</strong></td>
@@ -412,7 +374,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>入力者名（姓）</strong></td>
@@ -422,7 +383,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>入力者名（名）</strong></td>
@@ -432,7 +392,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>備考</strong></td>
@@ -442,7 +401,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>作成日時</strong></td>
@@ -452,7 +410,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>更新日時</strong></td>
@@ -462,7 +419,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -478,7 +434,6 @@ Casesでは下記の項目を扱うことができます。
       <th colspan="3">一覧表</th>
       <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
       <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>表示可能</th>
@@ -495,7 +450,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>主訴</strong></td>
@@ -505,7 +459,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>経過</strong></td>
@@ -515,7 +468,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>現病歴</strong></td>
@@ -525,7 +477,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>既往歴の有無</strong></td>
@@ -535,7 +486,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>MONDO / ICD-10</strong></td>
@@ -545,7 +495,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>既往歴疾患名</strong></td>
@@ -555,7 +504,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>既往歴疾患名_備考</strong></td>
@@ -565,7 +513,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>既往歴</strong></td>
@@ -575,7 +522,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>出生前および周産期の病歴</strong></td>
@@ -585,7 +531,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>合併症の有無</strong></td>
@@ -595,7 +540,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>MONDO / ICD-10</strong></td>
@@ -605,7 +549,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>合併症疾患名</strong></td>
@@ -615,7 +558,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>合併症疾患名_備考</strong></td>
@@ -625,7 +567,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>合併症歴</strong></td>
@@ -635,7 +576,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>妊娠の有無</strong></td>
@@ -645,7 +585,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>妊娠回数（回）</strong></td>
@@ -655,7 +594,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>出産の有無</strong></td>
@@ -665,7 +603,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>出産回数 (回)</strong></td>
@@ -675,7 +612,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>死産・流産の有無</strong></td>
@@ -685,7 +621,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>死産の回数 (回)</strong></td>
@@ -695,7 +630,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>流産 (自然)の回数 (回)</strong></td>
@@ -705,7 +639,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>流産 (人工)の回数 (回)</strong></td>
@@ -715,7 +648,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>生育歴および教育歴</strong></td>
@@ -725,7 +657,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>就労の有無</strong></td>
@@ -735,7 +666,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>職業分類</strong></td>
@@ -745,7 +675,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
@@ -755,7 +684,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>社会歴</strong></td>
@@ -765,7 +693,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>渡航歴</strong></td>
@@ -775,7 +702,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>予防接種歴</strong></td>
@@ -785,7 +711,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>出生時身長 (cm)</strong></td>
@@ -795,7 +720,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>出生時体重 (g)</strong></td>
@@ -805,7 +729,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>出生時頭囲 (cm)</strong></td>
@@ -815,7 +738,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>登録時身長 (cm)</strong></td>
@@ -825,7 +747,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>登録時体重 (kg)</strong></td>
@@ -835,7 +756,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>登録時頭囲 (cm)</strong></td>
@@ -845,7 +765,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>測定時年齢 (YM)</strong></td>
@@ -855,7 +774,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>診察時身体情報</strong></td>
@@ -865,7 +783,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>診察時身長 (cm)</strong></td>
@@ -875,7 +792,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>診察時体重 (kg)</strong></td>
@@ -885,7 +801,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>診察時頭囲 (cm)</strong></td>
@@ -895,7 +810,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>身体所見</strong></td>
@@ -905,7 +819,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>検査所見</strong></td>
@@ -915,7 +828,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>常用薬</strong></td>
@@ -925,7 +837,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>アレルギー</strong></td>
@@ -935,7 +846,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>飲酒習慣の有無</strong></td>
@@ -945,7 +855,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>飲酒量</strong></td>
@@ -955,7 +864,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>喫煙習慣の有無</strong></td>
@@ -965,7 +873,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>本数 (本/日)</strong></td>
@@ -975,7 +882,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>喫煙年数（年）</strong></td>
@@ -985,7 +891,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>MONDO / ICD-10</strong></td>
@@ -995,7 +900,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>疑い病名</strong></td>
@@ -1005,7 +909,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>遺伝性疾患の疑い</strong></td>
@@ -1015,7 +918,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>家族性への該当の有無</strong></td>
@@ -1025,7 +927,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>家系内に関連する症状等</strong></td>
@@ -1035,7 +936,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>多系統疾患への該当の有無</strong></td>
@@ -1045,7 +945,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>疾患領域</strong></td>
@@ -1055,7 +954,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
@@ -1065,7 +963,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>診断状況</strong></td>
@@ -1075,7 +972,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>臨床診断名確定の有無</strong></td>
@@ -1085,7 +981,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>MONDO / ICD-10</strong></td>
@@ -1095,7 +990,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>臨床診断</strong></td>
@@ -1105,7 +999,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>臨床診断_診断年月</strong></td>
@@ -1115,7 +1008,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>MONDO / ICD-10</strong></td>
@@ -1125,7 +1017,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>確定診断</strong></td>
@@ -1135,7 +1026,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>確定診断_診断年月</strong></td>
@@ -1145,7 +1035,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>指定難病認定の有無</strong></td>
@@ -1155,7 +1044,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>NANDO</strong></td>
@@ -1165,7 +1053,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>申請した指定難病</strong></td>
@@ -1175,7 +1062,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>小児慢性特定疾病認定</strong></td>
@@ -1185,7 +1071,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>NANDO</strong></td>
@@ -1195,7 +1080,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>申請した小児慢性特定疾病</strong></td>
@@ -1205,7 +1089,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -1221,7 +1104,6 @@ Casesでは下記の項目を扱うことができます。
       <th colspan="3">一覧表</th>
       <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
       <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>表示可能</th>
@@ -1238,7 +1120,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>症状</strong></td>
@@ -1248,7 +1129,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>現病歴</strong></td>
@@ -1258,7 +1138,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>既往歴</strong></td>
@@ -1268,7 +1147,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>経過</strong></td>
@@ -1278,7 +1156,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>家族歴</strong></td>
@@ -1288,7 +1165,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>症状の有無</strong></td>
@@ -1298,7 +1174,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>重要性</strong></td>
@@ -1308,7 +1183,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>重症度</strong></td>
@@ -1318,7 +1192,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>発症年齢 (YMD)</strong></td>
@@ -1328,7 +1201,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>発症パターン</strong></td>
@@ -1338,7 +1210,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>進行速度</strong></td>
@@ -1348,7 +1219,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>消失年齢 (YMD)</strong></td>
@@ -1358,7 +1228,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>コメント</strong></td>
@@ -1368,7 +1237,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
@@ -1384,7 +1252,6 @@ Casesでは下記の項目を扱うことができます。
       <th colspan="3">一覧表</th>
       <th rowspan="2" class="text-vertical-align-middle">編集モーダル表示</th>
       <th rowspan="2" class="text-vertical-align-middle">日本語のみ表示</th>
-      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>表示可能</th>
@@ -1401,7 +1268,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>遺伝学的検査での異常の有無</strong></td>
@@ -1411,7 +1277,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>遺伝子解析</strong></td>
@@ -1421,7 +1286,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>検査実施日(yyyy/mm/dd)</strong></td>
@@ -1431,7 +1295,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>検査会社/施設名</strong></td>
@@ -1441,7 +1304,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>検査種別</strong></td>
@@ -1451,7 +1313,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
@@ -1461,7 +1322,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>検査結果</strong></td>
@@ -1471,7 +1331,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Gene symbol</strong></td>
@@ -1481,7 +1340,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>NCBI Gene ID</strong></td>
@@ -1491,7 +1349,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Ensemble ID</strong></td>
@@ -1501,7 +1358,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Interpretation Status</strong></td>
@@ -1511,7 +1367,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>cDNA Change</strong></td>
@@ -1521,7 +1376,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Pathogenicity</strong></td>
@@ -1531,7 +1385,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Genotype</strong></td>
@@ -1541,7 +1394,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Reference</strong></td>
@@ -1551,7 +1403,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Chr:Position</strong></td>
@@ -1561,7 +1412,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Transcript</strong></td>
@@ -1571,7 +1421,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Protein Charge</strong></td>
@@ -1581,7 +1430,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Annotation</strong></td>
@@ -1591,7 +1439,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Inheritance</strong></td>
@@ -1601,7 +1448,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Comments</strong></td>
@@ -1611,7 +1457,6 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
