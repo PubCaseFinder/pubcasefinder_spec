@@ -1,6 +1,20 @@
-# 症例基本情報（EN: `Case Info`, KO: `의료사례 기본 정보`） {: #case-info}
+# 症例基本情報
 
-## ID（EN: `ID`, KO: `ID`） {: #id}
+## 大項目
+
+| 項目名 | 説明 |
+| ---- | ---- |
+| **[ID](#id)** | 症例に紐づく各種ID情報を確認/編集することができます。<br>PCF No.、症例ID、家族ID、グループ名 |
+| **[基本情報](#basic-info)** | 症例についての基本情報を編集することができます。<br> 続柄、血縁者の本研究参加の有無、性別、性別 その他詳細、発症の有無、状態、生年月 (yyyy/mm)、登録時年齢 (YMD)、診察時年齢 (YMD)、没年月 (yyyy/mm)、死因、当該疾患以外のときの死因詳細、死因ICD-11コード、最終生存確認日 (yyyy/mm/dd)|
+| **[民族・出生地](#etnicity)** | 症例者のルーツについての情報を編集することができます。<br> 民族 / 集団、出生地 国、都道府県、市区町村|
+| **[出生時](#birth-info)** | 症例者の出生時についての情報を編集することができます。<br> 出生前（胎児）の異常の有無、異常（黄疸等）の有無、医療介助の有無（出産時）、在胎週数 (週)、母親の年齢 (YMD)、父親の年齢 (YMD)|
+| **[生殖補助](#assisted-reproduction)** | 症例者の生殖補助についての情報を編集することができます。<br> 生殖補助医療の有無、生殖補助医療の種類|
+| **[入力者情報](#inputter-info)** | 症例の入力者についての情報を編集することができます。<br> 調査実施日 (yyyy/mm/dd)、診察日 (yyyy/mm/dd)、施設名、施設コード、担当医師名（姓）、担当医師名（名）、入力者名（姓）、入力者名（名）、備考、作成日時、更新日時|
+
+---
+
+
+## ID {: #id}
 
 <table>
   <thead>
@@ -93,7 +107,7 @@
   </tbody>
 </table>
 
-## 基本情報（EN: `Basic Info`, KO: `기본 정보`） {: #basic-info}
+## 基本情報 {: #basic-info}
 
 <table>
   <thead>
@@ -470,7 +484,7 @@
   </tbody>
 </table>
 
-## 民族・出生地（EN: `Etnicity`, KO: `민족・출신지`） {: #etnicity}
+## 民族・出生地 {: #etnicity}
 
 <table>
   <thead>
@@ -603,7 +617,7 @@
   </tbody>
 </table>
 
-## 出生時（EN: `Birth Info`, KO: `출생 정보`） {: #birth-info}
+## 出生時 {: #birth-info}
 
 <table>
   <thead>
@@ -764,7 +778,7 @@
   </tbody>
 </table>
 
-## 生殖補助（EN: `Assisted Reproduction`, KO: `보조 생식`） {: #assisted-reproduction}
+## 生殖補助 {: #assisted-reproduction}
 
 <table>
   <thead>
@@ -853,7 +867,7 @@
   </tbody>
 </table>
 
-## 入力者情報（EN: `Inputter Info`, KO: `입력자 정보`） {: #inputter-info}
+## 入力者情報 {: #inputter-info}
 
 <table>
   <thead>
@@ -1057,8 +1071,7 @@
     </tr>
   </tbody>
 </table>
-
-## 国マスタ {: #country-master}
+ {: #country-master}
 <table>
   <thead>
     <tr>
