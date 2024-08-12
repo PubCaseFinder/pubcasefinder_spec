@@ -30,25 +30,3 @@
 ### 「Aグループ　母」で検索実行
 
 ![実行例3](../../assets/images/cases_search_keyword03.png)
-
----
-
-### 翻訳 {: #translate}
-<table>
-  <thead>
-    <tr>
-      <th>種別</th>
-      <th>JA</th>
-      <th>EN</th>
-      <th>KO</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>プレースホルダー</td>
-      <td><strong>キーワード検索</strong></td>
-      <td>Search keyword</td>
-      <td>키워드 검색</td>
-    </tr>
-  </tbody>
-</table>
