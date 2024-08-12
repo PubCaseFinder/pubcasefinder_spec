@@ -5,7 +5,7 @@
 
 <br>
 
-![Casesのスクリーンショット](./assets/images/cases_20240804.png)
+![Casesのスクリーンショット](../assets/images/cases_20240804.png)
 
 
 | 番号 | 機能 | 詳細 |

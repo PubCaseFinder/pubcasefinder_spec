@@ -21,15 +21,15 @@
 
 ### 検索実行前の表示データ
 
-![実行例1](./assets/images/cases_search_keyword01.png)
+![実行例1](../../assets/images/cases_search_keyword01.png)
 
 ### 「Aグループ」で検索実行
 
-![実行例2](./assets/images/cases_search_keyword02.png)
+![実行例2](../../assets/images/cases_search_keyword02.png)
 
 ### 「Aグループ　母」で検索実行
 
-![実行例3](./assets/images/cases_search_keyword03.png)
+![実行例3](../../assets/images/cases_search_keyword03.png)
 
 ---
 
