@@ -37,7 +37,11 @@ nav:
           - 診断: 'cases/edit/medical#diagnosis'
           - 指定難病: 'cases/edit/medical#designated-incurable-disease'
           - 小児慢性特定疾病: 'cases/edit/medical#chronic-childhood-diseases'
-      - 表現型: 'cases/edit/phenotype'
+      - 表現型:
+        - 概要: 'cases/edit/phenotype'
+        - 詳細:
+          - 臨床症状: 'cases/edit/phenotype#clinical-symptom'
+          - 遺伝型: 'cases/edit/phenotype#genotype'
       - 遺伝型:
         - 概要: 'cases/edit/genotype'
         - 詳細:
