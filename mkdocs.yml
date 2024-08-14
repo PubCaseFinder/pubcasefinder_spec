@@ -71,6 +71,11 @@ nav:
           - 表現型: 'cases/edit/translate#phenotype'
           - 遺伝型: 'cases/edit/translate#genotype'
           - その他: 'cases/edit/translate#other'
+      - その他:
+        - 編集モーダルフッター:
+          - 症例のコピー: 'cases/edit/footer#copy'
+          - Phenopackets: 'cases/edit/footer#phenopackets'
+          - DiseaseSearch: 'cases/edit/footer#diseaseSearch'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
     - 年齢: 'stats/age'
