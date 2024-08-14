@@ -20,27 +20,3 @@
 | 8 | [列の操作](/cases/operations/operation-column) | 列の操作一覧が開く<br>列のデータの一括操作やフィルターをかけることが可能 |
 | 9 | File open | 枠内にファイルをドラッグ&ドロップすることでデータファイルを取り込み<br>編集モーダルを開いている場合はドラッグ&ドロップしてもデータファイルの取り込みは不可 |
 |  | [その他の一覧表操作](/cases/operations/other) | 一覧表でのデータ編集やその他操作 |
-
-
----
-
-### 翻訳 {: #translate}
-
-<table>
-  <thead>
-    <tr>
-      <th>種別</th>
-      <th>JA</th>
-      <th>EN</th>
-      <th>KO</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>確認アラート</td>
-      <td><strong>症例ID {caseId} を削除しますか？</strong></td>
-      <td>Are you sure you want to delete case {caseId}?</td>
-      <td>케이스 ID {caseId}를 삭제하시겠습니까?</td>
-    </tr>
-  </tbody>
-</table>
