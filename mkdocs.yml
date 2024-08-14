@@ -73,6 +73,11 @@ nav:
           - 検体・検査: 'cases/edit/translate#sample-info'
           - 登録: 'cases/edit/translate#registration'
           - その他: 'cases/edit/translate#other'
+      - その他:
+        - 編集モーダルフッター:
+          - 症例のコピー: 'cases/edit/footer#copy'
+          - Phenopackets: 'cases/edit/footer#phenopackets'
+          - DiseaseSearch: 'cases/edit/footer#diseaseSearch'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
     - 年齢: 'stats/age'
