@@ -46,7 +46,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" checked/></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.type.id</td>
       <td></td>
     </tr>
     <tr>
@@ -58,7 +58,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" checked/></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.type.label</td>
       <td></td>
     </tr>
   </tbody>
@@ -178,7 +178,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.excluded</td>
       <td></td>
     </tr>
     <tr>
@@ -197,7 +197,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.modifiers</td>
       <td></td>
     </tr>
     <tr>
@@ -218,7 +218,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.severity</td>
       <td></td>
     </tr>
     <tr>
@@ -231,7 +231,7 @@
       <td rowspan="3">[]</td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
-      <td rowspan="3"></td>
+      <td rowspan="3">proband.phenotypic_features.onset</td>
       <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
     </tr>
     <tr>
@@ -322,7 +322,77 @@
           <li>Rapidly progressive</li>
         </ul>
       </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Progressive</li>
+          <li>Variable progression rate</li>
+          <li>Slowly progressive</li>
+          <li>Nonprogressive</li>
+          <li>Rapidly progressive</li>
+        </ul>
+      </td>
       <td>["slow"]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="3">消失年齢 (YMD)</td>
+      <td rowspan="3">phenotype_resolution</td>
+      <td rowspan="3">Array&lt;string&gt;</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td rowspan="3">[]</td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3">proband.phenotypic_features.resolution</td>
+      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>""</li>
+          <li>0 ~ 11</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- ヶ月を選択 -</li>
+          <li>0 ~ 11</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>""</li>
+          <li>1 ~ 30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- 日を選択 -</li>
+          <li>1 ~ 30</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>コメント</td>
+      <td>phenotype_comments</td>
+      <td>Array&lt;string&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>proband.phenotypic_features.description</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
