@@ -42,7 +42,7 @@ nav:
         - 概要: 'cases/edit/phenotype'
         - 詳細:
           - 臨床症状: 'cases/edit/phenotype#clinical-symptom'
-          - 遺伝型: 'cases/edit/phenotype#genotype'
+          - 症状一覧: 'cases/edit/phenotype#clinical-symptom-list'
       - 遺伝型:
         - 概要: 'cases/edit/genotype'
         - 詳細:
