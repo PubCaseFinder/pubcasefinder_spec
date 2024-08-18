@@ -2,19 +2,28 @@
 
 ## 大項目
 
-| 項目名                            | 説明                                             |
-| --------------------------------- | ------------------------------------------------ |
-| **[臨床症状](#clinical-symptom)** | 臨床症状についての情報を編集することができます。 |
+| 項目名                                 | 説明                                                                                                                                                                           |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[臨床症状](#clinical-symptom)**      | 臨床症状についての情報を編集することができます。                                                                                                                               |
+| **[症状一覧](#clinical-symptom-list)** | 臨床症状フォームから追加した症状がリスト形式で表示されます。<br />各症状毎に症状の詳細を入力・症状の削除をすることができます。<br />また、症状の詳細で絞り込み検索ができます。 |
 
 ## 臨床症状 {: #clinical-symptom}
 
-<img src="/assets/images/cases_edit_phenotype_form.png">
+<img style="border: 1px solid #ccc" src="/assets/images/cases_edit_phenotype_form.png">
 
-このフォームは、患者の臨床症状や病歴の詳細を入力するためのものです。<br />
-まず、入力欄に患者の具体的な症状や兆候を記入します。下部には、現病歴、既往歴、経過、家族歴といった各項目ごとに情報を追加できるボタンがあります。<br />
-これにより、各情報を分かりやすく整理し、症例共有時に必要な詳細を網羅的に記録できます。
+### 機能一覧
 
-**TODO: 機能の説明のテーブルを追加する**
+<!-- prettier-ignore -->
+| 番号 | 機能 | 詳細 |
+| ---- | ---- | ---- |
+| 1 | 症状入力欄 | 入力した文言に応じて、[HPO](https://hpo.jax.org/)（Human Phenotype Ontology）で登録されている症状が表示され、症状を選択すると入力を確定し、タグとして表示されます。 |
+| 2 | 文章から症状を自動抽出 | ボタンをクリックすると文章入力欄が表示されます。文章入力欄に入力した内容から症状を推測して表示し、症状入力欄に追加することができます。 |
+| 3 | 設定 | タグサイズ、クエリー言語を設定することができます。クエリー言語とはjsonに保存される値の言語のことです。 |
+| 4 | 症状の分類わけ | 症状を現病歴、既往歴、経過、家族歴のいずれかに分類することができます。 |
+| 5 | 症状一括削除 | 入力した症状を一括削除することができます。 |
+| 6 | 一覧に追加 | 入力した症状を一覧に追加することができます。 |
+
+### 項目詳細
 
 <table>
   <thead>
@@ -40,36 +49,40 @@
       <td rowspan="5">臨床症状</td>
       <td>phenotype_hpo_id</td>
       <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
-      <td>-</td>
-      <td>-</td>
-      <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" checked/></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td rowspan="2">テキストボックス</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">-</td>
+      <td rowspan="2">[]</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" checked/></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td>proband.phenotypic_features.type.id</td>
       <td></td>
     </tr>
     <tr>
       <td>phenotype_hpo_label</td>
       <td>Array&lt;{ <br />&nbsp name_en: string, <br />&nbsp name_ja: string, <br />&nbsp name_ko: string, <br />&nbsp name_zh: string, <br />&nbsp name_zhcht: string <br /> }&gt;</td>
-      <td>テキストボックス</td>
-      <td>-</td>
-      <td>-</td>
-      <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" checked/></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
-      <td></td>
+      <td>proband.phenotypic_features.type.label</td>
+      <td>設定のクエリー言語で選択した言語で保存されます。</td>
     </tr>
   </tbody>
 </table>
 
-## 症状一覧
+## 症状一覧 {: #clinical-symptom-list}
 
-「症状一覧」では、臨床症状フォームから追加した症状がリスト形式で表示されます。<br />
-各症状は HP コード（Human Phenotype Ontology のコード）とその具体的な説明が表示されます。<br />
-また、症状ごとに詳細表示をオンにして、さらに詳しい情報を追加できます。<br />
-不要な項目は削除可能で、症例情報を効率的に管理できます。
+<img style="border: 1px solid #ccc" src="/assets/images/cases_edit_phenotype_list.png">
+
+### 機能一覧
+
+<!-- prettier-ignore -->
+| 番号 | 機能 | 詳細 |
+| ---- | ---- | ---- |
+| 1 | 症状詳細表示 | 症状詳細を表示することができます。 |
+| 2 | HPO詳細表示 | HPO詳細を表示することができます。 |
+| 3 | 症状削除 | 症状を削除することができます。 |
+| 4 | 常に症状詳細を表示 | 症状詳細表示ボタンを押さなくても、症状詳細を常に表示状態にします。 |
+| 5 | 症状絞り込み検索 | 症状の詳細で絞り込み検索ができます。 |
+
+### 各症状毎の項目詳細
 
 <table>
   <thead>
@@ -178,7 +191,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.excluded</td>
       <td></td>
     </tr>
     <tr>
@@ -197,7 +210,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.modifiers</td>
       <td></td>
     </tr>
     <tr>
@@ -218,7 +231,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td>proband.phenotypic_features.severity</td>
       <td></td>
     </tr>
     <tr>
@@ -231,7 +244,7 @@
       <td rowspan="3">[]</td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
-      <td rowspan="3"></td>
+      <td rowspan="3">proband.phenotypic_features.onset</td>
       <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
     </tr>
     <tr>
@@ -322,7 +335,77 @@
           <li>Rapidly progressive</li>
         </ul>
       </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Progressive</li>
+          <li>Variable progression rate</li>
+          <li>Slowly progressive</li>
+          <li>Nonprogressive</li>
+          <li>Rapidly progressive</li>
+        </ul>
+      </td>
       <td>["slow"]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="3">消失年齢 (YMD)</td>
+      <td rowspan="3">phenotype_resolution</td>
+      <td rowspan="3">Array&lt;string&gt;</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td rowspan="3">[]</td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3">proband.phenotypic_features.resolution</td>
+      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>""</li>
+          <li>0 ~ 11</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- ヶ月を選択 -</li>
+          <li>0 ~ 11</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>
+        <ul>
+          <li>""</li>
+          <li>1 ~ 30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- 日を選択 -</li>
+          <li>1 ~ 30</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>コメント</td>
+      <td>phenotype_comments</td>
+      <td>Array&lt;string&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>proband.phenotypic_features.description</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
