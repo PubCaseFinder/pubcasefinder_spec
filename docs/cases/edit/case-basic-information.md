@@ -173,8 +173,8 @@
         </ul>
       </td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -201,7 +201,7 @@
       </td>
       <td>not_applicable</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -228,7 +228,7 @@
       </td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.sex</td>
       <td></td>
     </tr>
@@ -240,8 +240,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -266,7 +266,7 @@
       </td>
       <td>unkown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>pedigree.persons.affectedStatus</td>
       <td></td>
     </tr>
@@ -291,7 +291,7 @@
       </td>
       <td>unkown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.vitalStatus.status</td>
       <td></td>
     </tr>
@@ -313,8 +313,8 @@
         </ul>
       </td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -326,8 +326,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -339,8 +339,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.timeAtLastEncounter.age.iso8601duration</td>
       <td></td>
     </tr>
@@ -352,8 +352,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -375,8 +375,8 @@
         </ul>
       </td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -388,8 +388,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -401,8 +401,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -414,8 +414,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
