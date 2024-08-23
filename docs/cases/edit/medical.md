@@ -800,7 +800,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -811,9 +810,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -831,9 +827,6 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -849,9 +842,6 @@
       <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
@@ -897,9 +887,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -915,9 +902,6 @@
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「飲酒習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
@@ -963,9 +947,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -982,9 +963,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
     <tr>
@@ -1000,9 +978,6 @@
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
@@ -1023,7 +998,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1037,9 +1011,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1060,9 +1031,6 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1086,7 +1054,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1097,9 +1064,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1141,9 +1105,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1184,9 +1145,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1202,9 +1160,6 @@
       <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「家族性への該当の有無」で「あり」が選択されている場合のみ入力可能となる。</td>
     </tr>
@@ -1246,9 +1201,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1345,9 +1297,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>「多系統疾患への該当の有無」で「あり」が選択されている場合のみチェック可能</td>
     </tr>
     <tr>
@@ -1363,9 +1312,6 @@
       <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「疾患領域」で「その他」をチェックした場合のみ入力可能</td>
     </tr>
@@ -1386,7 +1332,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1400,9 +1345,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1455,9 +1397,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1501,9 +1440,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1523,9 +1459,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1547,9 +1480,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>追加ボタンを押すと、新しい行が追加される</td>
     </tr>
     <tr>
@@ -1569,9 +1499,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1593,9 +1520,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>追加ボタンを押すと、新しい行が追加される</td>
     </tr>
   </tbody>
@@ -1615,7 +1539,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1629,9 +1552,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1684,9 +1604,6 @@
       <td>"not_applied"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1706,9 +1623,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1733,7 +1647,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1747,9 +1660,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1802,9 +1712,6 @@
       <td>"not_applied"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1824,9 +1731,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
