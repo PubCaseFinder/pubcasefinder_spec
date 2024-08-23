@@ -1,6 +1,7 @@
-# ファイルを開く
+# 症例情報を読み込む
 
 画面左部メニューバーの「File open」から、症例情報データを読み込むことができます。<br />
+編集中の症例情報は初期化され、File open で読み込んだ症例情報データで上書きされます。
 
 <img style="width: 100%" src="/assets/images/PubCaseFinder_fig-2_20230728_mark_file_open.png">
 
