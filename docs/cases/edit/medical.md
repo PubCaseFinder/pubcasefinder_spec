@@ -599,171 +599,106 @@
 <table>
   <thead>
     <tr>
-      <th colspan="3">中項目名</th>
-      <th colspan="3">小項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">中項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">小項目名</th>
       <th rowspan="2" class="text-vertical-align-middle">ID</th>
       <th rowspan="2" class="text-vertical-align-middle">型定義</th>
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
-      <th colspan="4">選択肢</th>
+      <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
       <th>値</th>
-      <th>EN</th>
-      <th>JA</th>
-      <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
+      <th>ラベル</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3"><strong>Body Info at Birth</strong></td>
       <td rowspan="3"><strong>出生時身体情報</strong></td>
-      <td rowspan="3"><strong>출생 시 신체 정보</strong></td>
-      <td><strong>Body height (cm)</strong></td>
       <td><strong>身長 (cm)</strong></td>
-      <td><strong>신장 (cm)</strong></td>
       <td>medical_body_height_at_birth</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>Body weight (g)</strong></td>
       <td><strong>体重 (g)</strong></td>
-      <td><strong>체중 (g)</strong></td>
       <td>medical_body_weight_at_birth</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>Head circumference (cm)</strong></td>
       <td><strong>頭囲 (cm)</strong></td>
-      <td><strong>머리둘레 (cm)</strong></td>
       <td>medical_head_circumference_at_birth</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>Body Info at Registration</strong></td>
       <td rowspan="5"><strong>登録時身体情報</strong></td>
-      <td rowspan="5"><strong>출생 시 신체 정보</strong></td>
-      <td><strong>Body height (cm)</strong></td>
       <td><strong>身長 (cm)</strong></td>
-      <td><strong>신장 (cm)</strong></td>
       <td>medical_body_height_at_registration</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>Body weight (kg)</strong></td>
       <td><strong>体重 (kg)</strong></td>
-      <td><strong>체중 (kg)</strong></td>
       <td>medical_body_height_at_registration</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>Head circumference (cm)</strong></td>
       <td><strong>頭囲 (cm)</strong></td>
-      <td><strong>머리둘레 (cm)</strong></td>
       <td>medical_head_circumference_at_registration</td>
       <td>テキスト</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Age at Measurement (YM)</strong></td> 
       <td rowspan="2"><strong>測定時年齢 (YM)</strong></td>
-      <td rowspan="2"><strong>측정 시 연령 (YM)</strong></td>
       <td rowspan="2">medical_age_at_measurement</td>
       <td rowspan="2">テキスト</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2">
       「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M」の形式でjsonに保存される
@@ -773,132 +708,79 @@
       <td>セレクトボックス</td>
       <td>0~11</td>
       <td>0~11</td>
-      <td>0~11</td>
-      <td>0~11</td>
       <td>- ヶ月を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>Body Info at Examination</strong></td>
       <td rowspan="4"><strong>診察時身体情報</strong></td>
-      <td rowspan="4"><strong>검사 시 신체 정보</strong></td>
-      <td><strong>Date(yyyy/mm/dd)</strong></td>
       <td><strong>日付(yyyy/mm/dd)</strong></td>
-      <td><strong>날짜(yyyy/mm/dd)</strong></td>
       <td>medical_body_info_date_at_examination</td>
       <td>配列（日付）</td>
       <td>日付選択インターフェース</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="4">追加ボタンから項目を増やすことが可能。各キーには配列として保存される。</td>
     </tr>
     <tr>
-      <td><strong>Body height (cm)</strong></td>
       <td><strong>身長 (cm)</strong></td>
-      <td><strong>신장 (cm)</strong></td>
       <td>medical_body_height_at_examination</td>
       <td>配列（テキスト）</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>Body weight (kg)</strong></td>
       <td><strong>体重 (kg)</strong></td>
-      <td><strong>체중 (kg)</strong></td>
       <td>medical_body_weight_at_examination</td>
       <td>配列（テキスト）</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>Head circumference (cm)</strong></td>
       <td><strong>頭囲 (cm)</strong></td>
-      <td><strong>머리둘레 (cm)</strong></td>
       <td>medical_head_circumference_at_examination</td>
       <td>配列（テキスト）</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>Physical Findings</strong></td>
       <td><strong>身体所見</strong></td>
-      <td><strong>신체 소견</strong></td>
-      <td>-</td>
-      <td>-</td>
       <td>-</td>
       <td>medical_physical_findings</td>
       <td>テキスト</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>Examination Findings</strong></td>
       <td><strong>検査初見</strong></td>
-      <td><strong>검사 소견</strong></td>
-      <td>-</td>
-      <td>-</td>
       <td>-</td>
       <td>medical_examination_findings</td>
       <td>テキスト</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
@@ -918,7 +800,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -929,9 +810,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -949,9 +827,6 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -967,9 +842,6 @@
       <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
@@ -1015,9 +887,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1033,9 +902,6 @@
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「飲酒習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
@@ -1081,9 +947,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1100,9 +963,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
     <tr>
@@ -1118,9 +978,6 @@
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
@@ -1141,7 +998,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1155,9 +1011,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1178,9 +1031,6 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1204,7 +1054,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1215,9 +1064,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1259,9 +1105,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1302,9 +1145,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1320,9 +1160,6 @@
       <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「家族性への該当の有無」で「あり」が選択されている場合のみ入力可能となる。</td>
     </tr>
@@ -1364,9 +1201,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1463,9 +1297,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>「多系統疾患への該当の有無」で「あり」が選択されている場合のみチェック可能</td>
     </tr>
     <tr>
@@ -1481,9 +1312,6 @@
       <td>-</td>
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>「疾患領域」で「その他」をチェックした場合のみ入力可能</td>
     </tr>
@@ -1504,7 +1332,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1518,9 +1345,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1573,9 +1397,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1619,9 +1440,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1641,9 +1459,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1665,9 +1480,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>追加ボタンを押すと、新しい行が追加される</td>
     </tr>
     <tr>
@@ -1687,9 +1499,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1711,9 +1520,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>追加ボタンを押すと、新しい行が追加される</td>
     </tr>
   </tbody>
@@ -1733,7 +1539,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1747,9 +1552,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1802,9 +1604,6 @@
       <td>"not_applied"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1824,9 +1623,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1851,7 +1647,6 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1865,9 +1660,6 @@
       <th>EN</th>
       <th>JA</th>
       <th>KO</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -1920,9 +1712,6 @@
       <td>"not_applied"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
@@ -1942,9 +1731,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
