@@ -15,7 +15,7 @@ Casesでは下記の項目を扱うことができます。
 ---
 
 ### 症例基本情報 {: #case-info}
-各項目の編集については[こちら](/cases/edit/case-basic-information)
+各項目の編集については[こちら](../edit/case-basic-information)
 
 <table>
   <thead>
@@ -424,7 +424,7 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 診療 {: #medical}
-各項目の編集については[こちら](/cases/edit/medical)
+各項目の編集については[こちら](../edit/medical)
 
 <table>
   <thead>
@@ -1094,7 +1094,7 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 表現型 {: #phenotype}
-各項目の編集については[こちら](/cases/edit/phenotype)
+各項目の編集については[こちら](../edit/phenotype)
 
 <table>
   <thead>
@@ -1242,7 +1242,7 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 遺伝型 {: #genotype}
-各項目の編集については[こちら](/cases/edit/genotype)
+各項目の編集については[こちら](../edit/genotype)
 
 <table>
   <thead>
@@ -1462,7 +1462,7 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 家系 {: #family}
-各項目の編集については[こちら](/cases/edit/family-info)
+各項目の編集については[こちら](../edit/family-info)
 
 <table>
   <thead>
@@ -1718,7 +1718,7 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 検体・検査 {: #sample}
-各項目の編集については[こちら](/cases/edit/sample-info)
+各項目の編集については[こちら](../edit/sample-info)
 
 <table>
   <thead>
@@ -2118,7 +2118,7 @@ Casesでは下記の項目を扱うことができます。
 </table>
 
 ### 登録 {: #registration}
-各項目の編集については[こちら](/cases/edit/registration)
+各項目の編集については[こちら](../edit/registration)
 
 <table>
   <thead>
