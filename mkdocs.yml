@@ -3,6 +3,7 @@ site_name: 'CaseSharing Spec（開発中）'
 theme:
   name: readthedocs
   locale: ja
+  custom_dir: custom_theme
 
 nav:
   - CaseSharing Specについて: /
