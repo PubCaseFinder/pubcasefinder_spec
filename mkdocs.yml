@@ -21,12 +21,13 @@ nav:
     - 編集:
       - 症例基本情報:
         - 概要: 'cases/edit/case-basic-information'
-        - ID: 'cases/edit/case-basic-information#id'
-        - 基本情報: 'cases/edit/case-basic-information#basic'
-        - 民族・出生地: 'cases/edit/case-basic-information#etnicity'
-        - 出生時: 'cases/edit/case-basic-information#birth'
-        - 生殖補助: 'cases/edit/case-basic-information#assisted'
-        - 入力者情報: 'cases/edit/case-basic-information#inputter'
+        - 詳細:
+          - ID: 'cases/edit/case-basic-information#id'
+          - 基本情報: 'cases/edit/case-basic-information#basic'
+          - 民族・出生地: 'cases/edit/case-basic-information#etnicity'
+          - 出生時: 'cases/edit/case-basic-information#birth'
+          - 生殖補助: 'cases/edit/case-basic-information#assisted'
+          - 入力者情報: 'cases/edit/case-basic-information#inputter'
       - 診療:
         - 概要: 'cases/edit/medical'
         - 詳細:
@@ -51,21 +52,24 @@ nav:
           - 結果詳細: 'cases/edit/genotype#details-of-result'
       - 家系:
         - 概要: 'cases/edit/family-info'
-        - 家族歴: 'cases/edit/family-info#family-history'
-        - 遺伝形式: 'cases/edit/family-info#mode-of-inheritance'
-        - 親族（がん・生活習慣病）: 'cases/edit/family-info#relatives'
-        - 民族: 'cases/edit/family-info#ethnicity'
-        - 近親婚: 'cases/edit/family-info#consanguinity'
-        - 家系図: 'cases/edit/family-info#pedigree'
+        - 詳細:
+          - 家族歴: 'cases/edit/family-info#family-history'
+          - 遺伝形式: 'cases/edit/family-info#mode-of-inheritance'
+          - 親族（がん・生活習慣病）: 'cases/edit/family-info#relatives'
+          - 民族: 'cases/edit/family-info#ethnicity'
+          - 近親婚: 'cases/edit/family-info#consanguinity'
+          - 家系図: 'cases/edit/family-info#pedigree'
       - 検体・検査:
         - 概要: 'cases/edit/sample-info'
-        - 検体採取: 'cases/edit/sample-info#sample-collection'
-        - 血液検査等: 'cases/edit/sample-info#blood-test'
-        - その他検査: 'cases/edit/sample-info#other-test'
+        - 詳細:
+          - 検体採取: 'cases/edit/sample-info#sample-collection'
+          - 血液検査等: 'cases/edit/sample-info#blood-test'
+          - その他検査: 'cases/edit/sample-info#other-test'
       - 登録:
         - 概要: 'cases/edit/registration'
-        - 患者について: 'cases/edit/registration#patient-info'
-        - 同意書・アセント: 'cases/edit/registration#consent-ascent'
+        - 詳細:
+          - 患者について: 'cases/edit/registration#patient-info'
+          - 同意書・アセント: 'cases/edit/registration#consent-ascent'
       - 翻訳:
         - 概要: 'cases/edit/translate'
         - 詳細:
