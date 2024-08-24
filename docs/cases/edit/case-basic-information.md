@@ -27,16 +27,12 @@
       <th rowspan="2">初期値</th>
       <th rowspan="2">clearボタン</th>
       <th rowspan="2">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2">Phenopackets</th>
       <th rowspan="2">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -47,12 +43,9 @@
       <td>-</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>P + {{作成年}} + {{月}} + {{日}} + {{時間}} + {{秒}} + {{ミリ秒}}</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -63,12 +56,9 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>C + {{表示中の症例の連番7桁}}</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>1</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.id. / subject.id / pedigree.persons.individual_id</td>
       <td></td>
     </tr>
@@ -79,12 +69,9 @@
       <td>テキストボックス、セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>""</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>1</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>id  / pedigree.persons.family_id</td>
       <td>一覧に表示中の家族IDをプルダウンから選択可能</td>
     </tr>
@@ -95,12 +82,9 @@
       <td>テキストボックス、セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>""</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>1</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td>一覧に表示中のグループIDをプルダウンから選択可能</td>
     </tr>
@@ -120,16 +104,12 @@
       <th rowspan="2">初期値</th>
       <th rowspan="2">clearボタン</th>
       <th rowspan="2">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2">Phenopackets</th>
       <th rowspan="2">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -193,11 +173,8 @@
         </ul>
       </td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -224,10 +201,7 @@
       </td>
       <td>not_applicable</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -254,10 +228,7 @@
       </td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.sex</td>
       <td></td>
     </tr>
@@ -269,11 +240,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -298,10 +266,7 @@
       </td>
       <td>unkown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>pedigree.persons.affectedStatus</td>
       <td></td>
     </tr>
@@ -326,10 +291,7 @@
       </td>
       <td>unkown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.vitalStatus.status</td>
       <td></td>
     </tr>
@@ -351,11 +313,8 @@
         </ul>
       </td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -367,11 +326,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -383,11 +339,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.timeAtLastEncounter.age.iso8601duration</td>
       <td></td>
     </tr>
@@ -399,11 +352,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -425,11 +375,8 @@
         </ul>
       </td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -441,11 +388,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -457,11 +401,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -473,11 +414,8 @@
       <td>-</td>
       <td>-</td>
       <td>null</td>
-      <td>-</td>
-      <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -497,16 +435,12 @@
       <th rowspan="2">初期値</th>
       <th rowspan="2">clearボタン</th>
       <th rowspan="2">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2">Phenopackets</th>
       <th rowspan="2">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -524,9 +458,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -540,9 +471,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -560,9 +488,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -576,9 +501,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -592,9 +514,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -608,9 +527,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -630,16 +546,12 @@
       <th rowspan="2">初期値</th>
       <th rowspan="2">clearボタン</th>
       <th rowspan="2">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2">Phenopackets</th>
       <th rowspan="2">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -665,9 +577,6 @@
       <td>不明</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -693,9 +602,6 @@
       <td>不明</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -721,9 +627,6 @@
       <td>不明</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -737,9 +640,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -753,9 +653,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -769,9 +666,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -791,16 +685,12 @@
       <th rowspan="2">初期値</th>
       <th rowspan="2">clearボタン</th>
       <th rowspan="2">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2">Phenopackets</th>
       <th rowspan="2">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -826,9 +716,6 @@
       <td>不明</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -858,9 +745,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -880,16 +764,12 @@
       <th rowspan="2">初期値</th>
       <th rowspan="2">clearボタン</th>
       <th rowspan="2">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2">Phenopackets</th>
       <th rowspan="2">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -903,9 +783,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -919,9 +796,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -935,9 +809,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -951,9 +822,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -967,9 +835,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -983,9 +848,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -999,9 +861,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>proband.metadata.createdBy</td>
       <td></td>
     </tr>
@@ -1015,9 +874,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>proband.metadata.createdBy</td>
       <td></td>
     </tr>
@@ -1031,9 +887,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -1047,9 +900,6 @@
       <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>proband.metadata.created / metadata.created</td>
       <td></td>
     </tr>
@@ -1063,15 +913,14 @@
       <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
   </tbody>
 </table>
- {: #country-master}
+
+
+## 国マスタ {: #country-master}
 <table>
   <thead>
     <tr>
