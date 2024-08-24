@@ -1344,6 +1344,128 @@
 
 ### 表現型 {: #phenotype}
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">大項目名</th>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">選択肢</th>
+    </tr>
+    <tr>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>臨床症状</td>
+      <td>Clinical Symptom</td>
+      <td>임상 증상</td>
+      <td>現病歴</td>
+      <td>Current Medical History</td>
+      <td>현재 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>既往歴</td>
+      <td>Previous Medical History</td>
+      <td>과거 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>経過</td>
+      <td>Process</td>
+      <td>경과</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>家族歴</td>
+      <td>Family History</td>
+      <td>가족력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>症状の有無</td>
+      <td>Excluded</td>
+      <td>증상의 유무</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>重要性</td>
+      <td>Clinical relevance</td>
+      <td>중요성</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>重症度</td>
+      <td>Severity</td>
+      <td>중증도</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>発症年齢 (YMD)</td>
+      <td>Age of Onset (YMD)</td>
+      <td>발병연령 (YMD)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>発症パターン</td>
+      <td>Temporal pattern</td>
+      <td>발병 패턴</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>進行速度</td>
+      <td>Pace of progression</td>
+      <td>진행 속도</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>消失年齢 (YMD)</td>
+      <td>Resolution</td>
+      <td>실종 연령(YMD)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>コメント</td>
+      <td>Comments</td>
+      <td>코멘트</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 遺伝型 {: #genotype}
 
 <table>
