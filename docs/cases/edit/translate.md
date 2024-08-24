@@ -1344,6 +1344,277 @@
 
 ### 表現型 {: #phenotype}
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">大項目名</th>
+      <th colspan="3">中項目名</th>
+      <th colspan="3">選択肢</th>
+    </tr>
+    <tr>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+      <th>JA</th>
+      <th>EN</th>
+      <th>KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="12"><strong>臨床症状</strong></td>
+      <td rowspan="12">Clinical Symptom</td>
+      <td rowspan="12">임상 증상</td>
+      <td><strong>現病歴</strong></td>
+      <td>Current Medical History</td>
+      <td>현재 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>既往歴</strong></td>
+      <td>Previous Medical History</td>
+      <td>과거 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>経過</strong></td>
+      <td>Process</td>
+      <td>경과</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>家族歴</strong></td>
+      <td>Family History</td>
+      <td>가족력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>症状の有無</strong></td>
+      <td>Excluded</td>
+      <td>증상의 유무</td>
+      <td>
+        <ul>
+          <li><strong>症状あり</strong></li>
+          <li><strong>症状なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Yes</li>
+          <li>No</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>증상 있음</li>
+          <li>증상 없음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>重要性</strong></td>
+      <td>Clinical relevance</td>
+      <td>중요성</td>
+      <td>
+        <ul>
+          <li><strong>通常</strong></li>
+          <li><strong>高い</strong></li>
+          <li><strong>低い</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Normal</li>
+          <li>Distinctive finding</li>
+          <li>Minor finding</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>보통</li>
+          <li>높음</li>
+          <li>낮음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>重症度</strong></td>
+      <td>Severity</td>
+      <td>중증도</td>
+      <td>
+        <ul>
+          <li><strong>境界域</strong></li>
+          <li><strong>重度</strong></li>
+          <li><strong>最重度</strong></li>
+          <li><strong>中等度</strong></li>
+          <li><strong>軽度</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Borderline</li>
+          <li>Severe</li>
+          <li>Profound</li>
+          <li>Moderate</li>
+          <li>Mild</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>경계영역</li>
+          <li>중증</li>
+          <li>가장 무거운</li>
+          <li>보통 높음</li>
+          <li>경증</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>発症年齢 (YMD)</strong></td>
+      <td>Age of Onset (YMD)</td>
+      <td>발병연령 (YMD)</td>
+      <td>
+        <ul>
+          <li><strong>- ヶ月を選択 -</strong></li>
+          <li><strong>- 日を選択 -</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- Select Month -</li>
+          <li>- Select Day -</li>
+        </ul>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>発症パターン</strong></td>
+      <td>Temporal pattern</td>
+      <td>발병 패턴</td>
+      <td>
+        <ul>
+          <li><strong>Unknown</strong></li>
+          <li><strong>Recurrent Acute</strong></li>
+          <li><strong>Subacute</strong></li>
+          <li><strong>Fluctuating</strong></li>
+          <li><strong>Migratory</strong></li>
+          <li><strong>Diurnal</strong></li>
+          <li><strong>Stable</strong></li>
+          <li><strong>Insidious onset</strong></li>
+          <li><strong>Prolonged</strong></li>
+          <li><strong>Nocturnal</strong></li>
+          <li><strong>Chronic</strong></li>
+          <li><strong>Transient</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Recurrent Acute</li>
+          <li>Subacute</li>
+          <li>Fluctuating</li>
+          <li>Migratory</li>
+          <li>Diurnal</li>
+          <li>Stable</li>
+          <li>Insidious onset</li>
+          <li>Prolonged</li>
+          <li>Nocturnal</li>
+          <li>Chronic</li>
+          <li>Transient</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Recurrent Acute</li>
+          <li>Subacute</li>
+          <li>Fluctuating</li>
+          <li>Migratory</li>
+          <li>Diurnal</li>
+          <li>Stable</li>
+          <li>Insidious onset</li>
+          <li>Prolonged</li>
+          <li>Nocturnal</li>
+          <li>Chronic</li>
+          <li>Transient</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>進行速度</strong></td>
+      <td>Pace of progression</td>
+      <td>진행 속도</td>
+      <td>
+        <ul>
+          <li><strong>Unknown</strong></li>
+          <li><strong>Progressive</strong></li>
+          <li><strong>Variable progression rate</strong></li>
+          <li><strong>Slowly progressive</strong></li>
+          <li><strong>Nonprogressive</strong></li>
+          <li><strong>Rapidly progressive</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Progressive</li>
+          <li>Variable progression rate</li>
+          <li>Slowly progressive</li>
+          <li>Nonprogressive</li>
+          <li>Rapidly progressive</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Progressive</li>
+          <li>Variable progression rate</li>
+          <li>Slowly progressive</li>
+          <li>Nonprogressive</li>
+          <li>Rapidly progressive</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>消失年齢 (YMD)</strong></td>
+      <td>Resolution</td>
+      <td>실종 연령(YMD)</td>
+      <td>
+        <ul>
+          <li><strong>- ヶ月を選択 -</strong></li>
+          <li><strong>- 日を選択 -</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- Select Month -</li>
+          <li>- Select Day -</li>
+        </ul>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>コメント</strong></td>
+      <td>Comments</td>
+      <td>코멘트</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 遺伝型 {: #genotype}
 
 <table>
