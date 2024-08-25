@@ -17,7 +17,7 @@
     - フィルターを適用している場合は、フィルターによって非表示となっている値は配置変更しない
 - `Filter by condition`
     - データのフィルターが可能
-    - 項目のデータ種別によって使用可能な選択肢は下記参照
+    - [項目](../../items)の「データ種別」によって使用可能な選択肢は下記参照
     - [Handsontable Guides > Column filter > Filter different types of data](https://handsontable.com/docs/12.3/javascript-data-grid/column-filter/#filter-different-types-of-data)
 - `Filter by value`
     - チェックボックスの選択肢を値で絞り込む
