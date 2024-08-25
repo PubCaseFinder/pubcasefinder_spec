@@ -21,6 +21,7 @@
     - [Handsontable Guides > Column filter > Filter different types of data](https://handsontable.com/docs/12.3/javascript-data-grid/column-filter/#filter-different-types-of-data)
 - `Filter by value`
     - チェックボックスの選択肢を値で絞り込む
+        - 値は大文字小文字を区別しない
     - チェックボックスの選択有無でフィルターがかかる為、値を絞り込むだけでは一覧表のフィルターにはならない
 - `チェックボックス`
     - 選択しているもののみでフィルターをかける
