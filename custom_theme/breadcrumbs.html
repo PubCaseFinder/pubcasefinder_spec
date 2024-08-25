@@ -81,7 +81,7 @@ function replaceBreadcrumbs() {
 /**
  * JSON文字列を正しいJSONに変換する
  * @param {string} str - JSON文字列
- * @returns {object} - JSONオブジェクト
+ * @returns {string} - JSON文字列
  */
 function prepareJsonString(str) {
   return str.replace(/'/g, '"')
@@ -117,7 +117,10 @@ function transformConfigNav(nav) {
  * @returns {string} - 現在のパス
  */
 function getCurrentPath() {
-  const path = window.location.pathname.replace(/^\//, '').replace(/\/$/, '');
+  let path = window.location.pathname.replace(/^\//, '').replace(/\/$/, '');
+  if (path.includes('ja/latest/')) {
+    path = path.replace('ja/latest/', '');
+  }
   const hash = window.location.hash;
   return path + hash;
 }
