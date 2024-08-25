@@ -20,9 +20,10 @@
     - [項目](../../items)の一覧表の「データ種別」によって使用可能な選択肢は下記参照
     - [Handsontable Guides > Column filter > Filter different types of data](https://handsontable.com/docs/12.3/javascript-data-grid/column-filter/#filter-different-types-of-data)
 - `Filter by value`
-    - チェックボックスの選択肢を値で絞り込む
-        - 値は大文字小文字を区別しない
-    - チェックボックスの選択有無でフィルターがかかる為、値を絞り込むだけでは一覧表のフィルターにはならない
+    - チェックボックスの選択肢を入力した値で検索
+        - 大文字小文字を区別しない
+        - 部分一致
+    - チェックボックスの選択有無でフィルターがかかる為、値を入力して検索するだけでは一覧表のフィルターにはならない
 - `チェックボックス`
     - 選択しているもののみでフィルターをかける
     - `Select all`
