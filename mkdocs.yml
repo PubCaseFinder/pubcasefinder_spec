@@ -94,6 +94,7 @@ nav:
     - 症状: 'stats/symptoms'
   - File open:
     - 仕様: 'file-open/specifications'
+    - 翻訳: 'file-open/translate'
   - File save:
     - 仕様: 'file-save/specifications'
   - File merge:
