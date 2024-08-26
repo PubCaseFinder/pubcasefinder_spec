@@ -17,7 +17,6 @@ nav:
       - 項目追加: 'cases/operations/add-items'
       - 症例追加: 'cases/operations/add-case'
       - 列の操作: 'cases/operations/operation-column'
-      - その他: 'cases/operations/other'
       - 翻訳: 'cases/operations/translate'
     - 編集:
       - 症例基本情報:
