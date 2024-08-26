@@ -92,7 +92,7 @@
       <td><strong>検体種別</strong></td>
       <td><strong>-</strong></td>
       <td>sample_type</td>
-      <td>string | null</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>チェックボックス</td>
       <td>
         <ul>
@@ -128,7 +128,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>検体種別で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td rowspan="3"><strong>検体採取時の処方内容</strong></td>

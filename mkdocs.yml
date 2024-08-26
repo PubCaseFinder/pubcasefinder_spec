@@ -9,6 +9,7 @@ nav:
   - CaseSharing Specについて: /
   - 全体構成:
     - 画面仕様: 'overall-structure/screen-specifications'
+    - 翻訳: 'overall-structure/translate'
   - Cases:
     - 画面仕様: 'cases/screen-specifications'
     - 項目: 'cases/items'
@@ -94,6 +95,7 @@ nav:
     - 症状: 'stats/symptoms'
   - File open:
     - 仕様: 'file-open/specifications'
+    - 翻訳: 'file-open/translate'
   - File save:
     - 仕様: 'file-save/specifications'
   - File merge:

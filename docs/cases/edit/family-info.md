@@ -160,7 +160,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>	母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>
@@ -371,7 +371,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>遺伝性がん検査実施の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>がん罹患歴の有無</strong></td>
@@ -422,7 +422,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>がん腫で「その他」を選択した時のみ入力可能状態になります。</td>
+      <td>がん腫で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>罹患年齢</strong></td>
@@ -538,7 +538,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>生活習慣病罹患歴詳細で「その他」を選択した時のみ入力可能状態になります。</td>
+      <td>生活習慣病罹患歴詳細で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>

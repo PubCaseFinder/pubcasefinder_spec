@@ -209,7 +209,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>同意取得者で「代諾者」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>代諾者等の続柄その他詳細</strong></td>
@@ -222,7 +222,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>代諾者等の続柄で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>同意書のバージョン</strong></td>
@@ -273,7 +273,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>同意取得日（yyyy/mm/dd）</strong></td>
@@ -336,7 +336,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>同意撤回の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>代諾者等の続柄</strong></td>
@@ -375,7 +375,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>同意撤回者で「代諾者等」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>代諾者等の続柄その他詳細</strong></td>
@@ -452,7 +452,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>同意撤回アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>
