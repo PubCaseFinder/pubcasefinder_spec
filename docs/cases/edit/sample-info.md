@@ -92,7 +92,7 @@
       <td><strong>検体種別</strong></td>
       <td><strong>-</strong></td>
       <td>sample_type</td>
-      <td>string | null</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>チェックボックス</td>
       <td>
         <ul>
