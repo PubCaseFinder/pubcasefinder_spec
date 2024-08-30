@@ -46,7 +46,7 @@
   <tbody>
     <tr>
       <td rowspan="6">現病歴</td>
-      <td rowspan="3">発症年齢 (年)</td>
+      <td rowspan="3">発症年齢 (YMD)</td>
       <td rowspan="3">-</td>
       <td rowspan="3">medical_age_onset</td>
       <td rowspan="3">string</td>
@@ -57,7 +57,9 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">
+      「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>D」の形式でjsonに保存される
+      </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -67,7 +69,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -76,7 +77,6 @@
       <td>- 日を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
