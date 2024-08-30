@@ -25,16 +25,12 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -60,9 +56,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -88,9 +81,6 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -104,9 +94,6 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>proband.interpretation.interpretation</td>
       <td></td>
     </tr>
@@ -133,16 +120,12 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -156,9 +139,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>値の持ち方は、yyyy-MM-dd形式</td>
     </tr>
@@ -194,9 +174,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -224,9 +201,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -240,9 +214,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         検査種別で「その他」を選択している時のみ入力可<br>
@@ -273,9 +244,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -302,16 +270,12 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
-      <th colspan="3">一覧表示/操作</th>
       <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
       <th>ラベル</th>
-      <th>デフォルト表示</th>
-      <th>編集可能</th>
-      <th>列追加可能</th>
     </tr>
   </thead>
   <tbody>
@@ -325,9 +289,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.gene.symbol</td>
       <td></td>
     </tr>
@@ -341,9 +302,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -357,9 +315,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -389,9 +344,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.interpretationStatus</td>
       <td></td>
     </tr>
@@ -405,9 +357,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>
         proband.interpretation.diagnosis.genomic_interpretations[i]<br>.call.variation_descriptor.expressions.valueのkey名<br><br>
         ※key名に対する値はgenotype_transcript
@@ -442,9 +391,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.variantInterpretation.acmgPathogenicityClassification</td>
       <td></td>
     </tr>
@@ -470,9 +416,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>
         proband.interpretation.diagnosis.genomic_interpretations[i]<br>.call.variation_descriptor.allelic_state<br><br>
         ※下記objectで格納<br>
@@ -508,9 +451,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -524,9 +464,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -540,9 +477,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>
         proband.interpretation.diagnosis.genomic_interpretations[i]<br>.call.variation_descriptor.expressions.valueのkeyに対する値<br><br>
         ※key名はgenotype_cdna_change
@@ -559,9 +493,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -611,9 +542,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -655,9 +583,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
@@ -671,9 +596,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td></td>
     </tr>
