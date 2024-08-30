@@ -1365,9 +1365,94 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="12"><strong>臨床症状</strong></td>
-      <td rowspan="12">Clinical Symptom</td>
-      <td rowspan="12">임상 증상</td>
+      <td rowspan="9"><strong>臨床症状</strong></td>
+      <td rowspan="9">Clinical Symptom</td>
+      <td rowspan="9">임상 증상</td>
+      <td><strong>患者の兆候または症状を入力</strong></td>
+      <td>Type in patient's signs and symptoms</td>
+      <td>Type in patient's signs and symptoms</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>文章から症状を自動抽出</strong></td>
+      <td>Automatically extract signs and symptoms from text</td>
+      <td>Automatically extract signs and symptoms from text</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>診療録や症例報告などのテキストを入力してください。</strong></td>
+      <td>Type in the patient phenotype description.</td>
+      <td>Type in the patient phenotype description.</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>設定</strong></td>
+      <td>Setting</td>
+      <td>Setting</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>タグサイズ</strong></td>
+      <td rowspan="3">Tag size</td>
+      <td rowspan="3">Tag size</td>
+      <td><strong>小</strong></td>
+      <td>Small</td>
+      <td>Small</td>
+    </tr>
+    <tr>
+      <td><strong>中</strong></td>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td><strong>大</strong></td>
+      <td>Large</td>
+      <td>Large</td>
+    </tr>
+    <tr>
+      <td><strong>クエリー言語</strong></td>
+      <td>Query language</td>
+      <td>Query language</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>一覧に追加</strong></td>
+      <td>ADD TO LIST</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="12"><strong>症状一覧</strong></td>
+      <td rowspan="12">Symptoms list</td>
+      <td rowspan="12">-</td>
+      <td><strong>詳細を表示</strong></td>
+      <td>Show details</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>すべてクリア</strong></td>
+      <td>CLEAR ALL</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
       <td><strong>現病歴</strong></td>
       <td>Current Medical History</td>
       <td>현재 병력</td>
