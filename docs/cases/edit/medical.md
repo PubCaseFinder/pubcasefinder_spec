@@ -720,7 +720,7 @@
       <td><strong>日付(yyyy/mm/dd)</strong></td>
       <td>medical_body_info_date_at_examination</td>
       <td>配列（日付）</td>
-      <td>日付選択インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -1239,7 +1239,7 @@
       <td><strong>診断年月（yyyy/mm/dd）</strong></td>
       <td>medical_clinical_diagnosis_date</td>
       <td>Array&lt;string&gt;</td>
-      <td>日付選択インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>[]</td>
@@ -1269,7 +1269,7 @@
       <td><strong>診断年月（yyyy/mm/dd）</strong></td>
       <td>medical_final_diagnosis_date</td>
       <td>Array&lt;string&gt;</td>
-      <td>日付選択インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>[]</td>

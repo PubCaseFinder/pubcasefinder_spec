@@ -410,7 +410,7 @@
       <td><strong>最終生存確認日 (yyyy/mm/dd)</strong></td>
       <td>case_last_date_of_confirmation_of_survival</td>
       <td>string</td>
-      <td>日付選択インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -777,7 +777,7 @@
       <td><strong>調査実施日 (yyyy/mm/dd)</strong></td>
       <td>case_date_of_survey</td>
       <td>string</td>
-      <td>日付選択インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -790,7 +790,7 @@
       <td><strong>診察日 (yyyy/mm/dd)</strong></td>
       <td>case_examination_day</td>
       <td>string</td>
-      <td>日付選択インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
