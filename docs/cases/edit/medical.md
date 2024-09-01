@@ -1187,6 +1187,7 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1223,6 +1224,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>-</strong></td>
@@ -1248,6 +1250,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td rowspan="2"><strong>臨床診断</strong></td>
@@ -1260,6 +1263,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1277,6 +1281,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>追加ボタンを押すと、新しい行が追加される</td>
     </tr>
     <tr>
@@ -1290,6 +1295,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1307,6 +1313,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>追加ボタンを押すと、新しい行が追加される</td>
     </tr>
   </tbody>
@@ -1326,6 +1333,7 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1362,6 +1370,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>申請した指定難病</strong></td>
@@ -1374,6 +1383,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1398,6 +1408,7 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1434,6 +1445,7 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>申請した小児慢性特定疾病</strong></td>
@@ -1446,6 +1458,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
