@@ -631,7 +631,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -644,7 +644,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -657,7 +657,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -671,7 +671,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -684,7 +684,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -697,7 +697,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -710,7 +710,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td rowspan="2">
       「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M」の形式でjsonに保存される
       </td>
@@ -722,7 +722,7 @@
       <td>- ヶ月を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
     </tr>
     <tr>
       <td rowspan="4"><strong>診察時身体情報</strong></td>
@@ -735,7 +735,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td></td>
       <td rowspan="4">追加ボタンから項目を増やすことが可能。各キーには配列として保存される。</td>
     </tr>
     <tr>
@@ -748,7 +748,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>体重 (kg)</strong></td>
@@ -760,7 +760,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
@@ -772,7 +772,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>-</td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>身体所見</strong></td>
@@ -785,7 +785,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -799,7 +799,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>-</td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>
