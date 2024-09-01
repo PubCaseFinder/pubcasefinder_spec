@@ -818,6 +818,7 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -837,6 +838,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>アレルギー</strong></td>
@@ -848,6 +850,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -875,6 +878,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>飲酒量</strong></td>
@@ -886,6 +890,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td>「飲酒習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
     <tr>
@@ -913,6 +918,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>本数 (本/日)</strong></td>
@@ -924,6 +930,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
     <tr>
@@ -936,6 +943,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
     </tr>
   </tbody>
