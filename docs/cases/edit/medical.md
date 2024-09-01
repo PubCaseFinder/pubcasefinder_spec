@@ -609,8 +609,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -801,8 +801,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -938,8 +938,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -980,8 +980,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1153,8 +1153,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1292,8 +1292,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1364,8 +1364,8 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
-      <th rowspan="2" class="text-vertical-align-middle">初期化ボタン</th>
-      <th rowspan="2" class="text-vertical-align-middle">削除ボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
