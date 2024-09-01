@@ -39,7 +39,7 @@
       <td><strong>-</strong></td>
       <td>sample_sampling_date</td>
       <td>string | null</td>
-      <td>日付選択インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
