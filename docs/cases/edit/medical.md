@@ -963,6 +963,7 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -982,6 +983,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
@@ -1005,6 +1007,7 @@
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
       <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
@@ -1036,6 +1039,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>家族性への該当の有無</strong></td>
@@ -1060,6 +1064,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>家系内に関連する症状等</strong></td>
@@ -1071,6 +1076,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td>「家族性への該当の有無」で「あり」が選択されている場合のみ入力可能となる。</td>
     </tr>
     <tr>
@@ -1095,6 +1101,7 @@
       <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -1147,6 +1154,7 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
       <td>「多系統疾患への該当の有無」で「あり」が選択されている場合のみチェック可能</td>
     </tr>
     <tr>
@@ -1159,6 +1167,7 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td>「疾患領域」で「その他」をチェックした場合のみ入力可能</td>
     </tr>
   </tbody>
