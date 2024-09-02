@@ -2,7 +2,7 @@
 
 画面左部メニューバーの「File merge」から、症例情報データを読み込むと現在の編集中の Cases のデータに結合させることができます。<br />
 
-<img style="width: 100%" src="/assets/images/PubCaseFinder_fig-2_20230728_mark_file_merge.png">
+<img style="width: 100%" src="../../assets/images/PubCaseFinder_fig-2_20230728_mark_file_merge.png">
 
 読み込むことができるファイルは以下の形式です。
 

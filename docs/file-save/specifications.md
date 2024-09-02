@@ -2,7 +2,7 @@
 
 画面左部メニューバーの「File save」から、Cases の編集内容を保存することができます。<br />
 
-<img style="width: 100%" src="/assets/images/PubCaseFinder_fig-2_20230728_mark_file_save.png">
+<img style="width: 100%" src="../../assets/images/PubCaseFinder_fig-2_20230728_mark_file_save.png">
 
 ファイルは以下の形式で保存することができます。
 
