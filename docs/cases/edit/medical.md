@@ -58,7 +58,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-      「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>D」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
@@ -712,7 +712,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="2">
-      「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
@@ -977,7 +977,7 @@
       <td><strong>疾患名</strong></td>
       <td>medical_suspected_disease_name</td>
       <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
       <td>""</td>
@@ -987,7 +987,7 @@
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
-          <li>追加ボタンを押すと、新しい行が追加される</li>
+          <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
     </tr>
@@ -1257,7 +1257,7 @@
       <td><strong>疾患名</strong></td>
       <td>medical_suspected_disease_name</td>
       <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
       <td>[]</td>
@@ -1267,7 +1267,7 @@
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
-          <li>追加ボタンを押すと、新しい行が追加される</li>
+          <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
     </tr>
@@ -1282,14 +1282,14 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンを押すと、新しい行が追加される</td>
+      <td>追加ボタンから複数登録が可能</td>
     </tr>
     <tr>
       <td rowspan="2"><strong>確定診断</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_final_diagnosis_name</td>
       <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
       <td>[]</td>
@@ -1299,7 +1299,7 @@
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
-          <li>追加ボタンを押すと、新しい行が追加される</li>
+          <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
     </tr>
@@ -1314,7 +1314,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンを押すと、新しい行が追加される</td>
+      <td>追加ボタンから複数登録が可能</td>
     </tr>
   </tbody>
 </table>
@@ -1377,7 +1377,7 @@
       <td><strong>疾患名</strong></td>
       <td>medical_applied_intractable_disease_name</td>
       <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
       <td>[]</td>
@@ -1387,7 +1387,7 @@
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
-          <li>追加ボタンを押すと、新しい行が追加される</li>
+          <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
     </tr>
@@ -1452,7 +1452,7 @@
       <td><strong>疾患名</strong></td>
       <td>medical_applied_pediatric_disease_name</td>
       <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
       <td>[]</td>
@@ -1462,7 +1462,7 @@
       <td>
         <ul>
           <li>入力した文字に一致した文言をサジェストとして表示する</li>
-          <li>追加ボタンを押すと、新しい行が追加される</li>
+          <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
     </tr>
