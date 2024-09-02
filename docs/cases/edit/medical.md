@@ -58,7 +58,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-      「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>D」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
@@ -712,7 +712,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="2">
-      「<span class="highlight-text">&lt;テキストボックス（数字）に入力した値&gt;</span>Y<span class="highlight-text">&lt;セレクトボックスで選択した値&gt;</span>M」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
