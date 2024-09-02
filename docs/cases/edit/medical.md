@@ -986,7 +986,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に`/static/data/mondo_utf8.tsv`から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1255,7 +1255,7 @@
     <tr>
       <td rowspan="2"><strong>臨床診断</strong></td>
       <td><strong>疾患名</strong></td>
-      <td>medical_suspected_disease_name</td>
+      <td>medical_clinical_diagnosis_name</td>
       <td>Array&lt;string&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
@@ -1266,7 +1266,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に`/static/data/mondo_icd10_utf8.tsv`から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1298,7 +1298,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に`/static/data/mondo_icd10_utf8.tsv`から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1386,7 +1386,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に`/static/data/nando_utf8.tsv`から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1461,7 +1461,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に`/static/data/nando_utf8.tsv`から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
