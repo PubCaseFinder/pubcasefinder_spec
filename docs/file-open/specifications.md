@@ -3,7 +3,7 @@
 画面左部メニューバーの「File open」から、症例情報データを読み込むことができます。<br />
 編集中の症例情報は初期化され、File open で読み込んだ症例情報データで上書きされます。
 
-<img style="width: 100%" src="/assets/images/PubCaseFinder_fig-2_20230728_mark_file_open.png">
+<img style="width: 100%" src="../../assets/images/PubCaseFinder_fig-2_20230728_mark_file_open.png">
 
 読み込むことができるファイルは以下の形式です。
 
@@ -15,4 +15,4 @@
 
 「File open」から症例情報データを読み込もうとすると、データを読み込む前に確認アラートを表示します。
 
-<img style="width: 500px" src="/assets/images/confirm_file_open_modal.png">
+<img style="width: 500px" src="../../assets/images/confirm_file_open_modal.png">
