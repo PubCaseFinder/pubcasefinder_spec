@@ -508,7 +508,7 @@
       <td><strong>民族 / 集団</strong></td>
       <td>case_ethnicity_group</td>
       <td>string | null</td>
-      <td>セレクトボックス</td>
+      <td>テキストボックス ＋ セレクトボックス</td>
       <td>
         <a href="../master#country-master">国マスタ</a>
       </td>
@@ -538,7 +538,7 @@
       <td><strong>出生地 国</strong></td>
       <td>case_country_of_birth</td>
       <td>string | null</td>
-      <td>セレクトボックス</td>
+      <td>テキストボックス ＋ セレクトボックス</td>
       <td>
         <a href="../master#country-master">国マスタ</a>
       </td>
