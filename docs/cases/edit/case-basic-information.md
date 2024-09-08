@@ -65,7 +65,7 @@
     <tr>
       <td rowspan="2"><strong>家族ID</strong></td>
       <td rowspan="2">case_family_id</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -88,7 +88,7 @@
     <tr>
       <td rowspan="2"><strong>グループ名</strong></td>
       <td rowspan="2">case_group</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -136,7 +136,7 @@
     <tr>
       <td><strong>続柄</strong></td>
       <td>case_relationship</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>セレクトボックス</td>
       <td>
         <ul>
@@ -202,7 +202,7 @@
       <td><strong>血縁者の本研究参加の有無</strong></td>
       <td>case_participation_of_relatives_in_this_study</td>
       <td>string</td>
-      <td>ラジオボタン        </td>
+      <td>ラジオボタン</td>
       <td>
         <ul>
           <li>not_applicable</li>
@@ -228,8 +228,8 @@
     <tr>
       <td><strong>性別</strong></td>
       <td>case_sex</td>
-      <td>string</td>
-      <td>ラジオボタン        </td>
+      <td>string | null</td>
+      <td>ラジオボタン</td>
       <td>
         <ul>
           <li>unknown</li>
@@ -255,7 +255,7 @@
     <tr>
       <td><strong>性別 その他詳細</strong></td>
       <td>case_sex_details</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -269,7 +269,7 @@
       <td><strong>発症の有無</strong></td>
       <td>case_presence_or_absence_of_onset</td>
       <td>string</td>
-      <td>ラジオボタン        </td>
+      <td>ラジオボタン</td>
       <td>
         <ul>
           <li>unknown</li>
@@ -284,7 +284,7 @@
           <li>未発症</li>
         </ul>
       </td>
-      <td>unkown</td>
+      <td>"unkown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>pedigree.persons.affectedStatus</td>
@@ -294,7 +294,7 @@
       <td><strong>状態</strong></td>
       <td>case_life_status</td>
       <td>string</td>
-      <td>ラジオボタン        </td>
+      <td>ラジオボタン</td>
       <td>
         <ul>
           <li>unknown</li>
@@ -309,7 +309,7 @@
           <li>故人</li>
         </ul>
       </td>
-      <td>unkown</td>
+      <td>"unkown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.vitalStatus.status</td>
@@ -318,7 +318,7 @@
     <tr>
       <td><strong>生年月 (yyyy/mm)</strong></td>
       <td>case_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>セレクトボックス</td>
       <td>
         <ul>
@@ -341,7 +341,7 @@
     <tr>
       <td rowspan="3"><strong>登録時年齢 (YMD)</strong></td>
       <td rowspan="3">case_age</td>
-      <td rowspan="3">string</td>
+      <td rowspan="3">string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -374,7 +374,7 @@
     <tr>
       <td rowspan="3"><strong>診察時年齢 (YMD)</strong></td>
       <td rowspan="3">case_age_on_examination</td>
-      <td rowspan="3">string</td>
+      <td rowspan="3">string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -407,7 +407,7 @@
     <tr>
       <td><strong>没年月 (yyyy/mm)</strong></td>
       <td>case_death</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
@@ -420,7 +420,7 @@
     <tr>
       <td><strong>死因</strong></td>
       <td>case_cause_of_death</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>セレクトボックス</td>
       <td>
         <ul>
@@ -443,7 +443,7 @@
     <tr>
       <td><strong>当該疾患以外のときの死因詳細</strong></td>
       <td>case_cause_of_death_details</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -456,7 +456,7 @@
     <tr>
       <td><strong>死因ICD-11コード</strong></td>
       <td>case_icd_11_code_of_cause_of_death</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -469,7 +469,7 @@
     <tr>
       <td><strong>最終生存確認日 (yyyy/mm/dd)</strong></td>
       <td>case_last_date_of_confirmation_of_survival</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
@@ -507,7 +507,7 @@
     <tr>
       <td><strong>民族 / 集団</strong></td>
       <td>case_ethnicity_group</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>セレクトボックス</td>
       <td>
         <a href="../master#country-master">国マスタ</a>
@@ -524,7 +524,7 @@
     <tr>
       <td><strong>自由記載</strong></td>
       <td>case_free_comment_about_ethnicity_group</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -537,7 +537,7 @@
     <tr>
       <td><strong>出生地 国</strong></td>
       <td>case_country_of_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>セレクトボックス</td>
       <td>
         <a href="../master#country-master">国マスタ</a>
@@ -554,7 +554,7 @@
     <tr>
       <td><strong>都道府県</strong></td>
       <td>case_state_of_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -567,7 +567,7 @@
     <tr>
       <td><strong>市区町村</strong></td>
       <td>case_city_of_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -580,7 +580,7 @@
     <tr>
       <td><strong>自由記載</strong></td>
       <td>case_free_comment_about_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -693,7 +693,7 @@
     <tr>
       <td><strong>在胎週数 (週)</strong></td>
       <td>case_gestational_age_at_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -706,7 +706,7 @@
     <tr>
       <td rowspan="3"><strong>母親の年齢 (YMD)</strong></td>
       <td rowspan="3">case_age_of_mother_at_birth</td>
-      <td rowspan="3">string</td>
+      <td rowspan="3">string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -739,7 +739,7 @@
     <tr>
       <td rowspan="3"><strong>父親の年齢 (YMD)</strong></td>
       <td rowspan="3">case_age_of_father_at_birth</td>
-      <td rowspan="3">string</td>
+      <td rowspan="3">string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -876,7 +876,7 @@
     <tr>
       <td><strong>調査実施日 (yyyy/mm/dd)</strong></td>
       <td>case_date_of_survey</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
@@ -889,7 +889,7 @@
     <tr>
       <td><strong>診察日 (yyyy/mm/dd)</strong></td>
       <td>case_examination_day</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
@@ -902,7 +902,7 @@
     <tr>
       <td><strong>施設名</strong></td>
       <td>case_name_of_facility</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -915,7 +915,7 @@
     <tr>
       <td><strong>施設コード</strong></td>
       <td>case_code_of_facility</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -928,7 +928,7 @@
     <tr>
       <td><strong>担当医師名（姓）</strong></td>
       <td>case_family_name_of_doctor_in_charge</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -941,7 +941,7 @@
     <tr>
       <td><strong>担当医師名（名）</strong></td>
       <td>case_first_name_of_doctor_in_charge</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -954,7 +954,7 @@
     <tr>
       <td><strong>入力者名（姓）</strong></td>
       <td>case_family_name_of_inputter</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -967,7 +967,7 @@
     <tr>
       <td><strong>入力者名（名）</strong></td>
       <td>case_first_name_of_inputter</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -980,7 +980,7 @@
     <tr>
       <td><strong>備考</strong></td>
       <td>case_note</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>

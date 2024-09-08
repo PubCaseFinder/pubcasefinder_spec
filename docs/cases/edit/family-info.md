@@ -190,7 +190,7 @@
     <tr>
       <td><strong>遺伝形式</strong></td>
       <td>family_mode_inheritance</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>ラジオボタン（階層あり）</td>
       <td>
         <ul>

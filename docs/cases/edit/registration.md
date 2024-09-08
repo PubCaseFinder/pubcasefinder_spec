@@ -35,7 +35,7 @@
     <tr>
       <td><strong>主病名（疑い病名、症状含む）</strong></td>
       <td>registration_disease_name</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
