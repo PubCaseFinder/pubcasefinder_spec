@@ -46,7 +46,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>検体識別ID</strong></td>
@@ -220,7 +220,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>白血球数（WBC）</strong></td>

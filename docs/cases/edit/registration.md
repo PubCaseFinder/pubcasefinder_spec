@@ -286,7 +286,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>同意撤回の有無</strong></td>
@@ -452,7 +452,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>同意撤回アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>同意撤回アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）<br>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
   </tbody>
 </table>
