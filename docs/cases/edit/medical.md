@@ -52,10 +52,10 @@
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td rowspan="3">null</td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3"></td>
       <td rowspan="3">
         「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
       </td>
@@ -64,19 +64,11 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- ヶ月を選択 -</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- 日を選択 -</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>主訴</strong></td>
@@ -141,7 +133,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -159,7 +151,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンから複数登録が可能です。</td>
+      <td>追加ボタンから複数登録が可能</td>
     </tr>
     <tr>
       <td><strong>既往歴疾患名_備考</strong></td>
@@ -224,7 +216,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -293,11 +285,11 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「あり」を選択すると「妊娠回数 (回)」欄が活性化します</td>
+      <td></td>
     </tr>
     <tr>
       <td rowspan="2"><strong>妊娠回数（回）</strong></td>
@@ -311,7 +303,12 @@
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"></td>
-      <td rowspan="2">チェックすると、テキストボックス（数字）欄が非活性になり、入力した値をクリアします</td>
+      <td rowspan="2">
+        <ul>
+          <li>「妊娠の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</li>
+          <li>「不明」にチェックすると、「妊娠回数（回）」の入力欄が非活性になり、入力した値をクリア</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>チェックボックス</td>
@@ -339,11 +336,11 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「あり」を選択すると「出産回数 (回)」欄が活性化します</td>
+      <td></td>
     </tr>
     <tr>
       <td rowspan="2"><strong>出産回数 (回)</strong></td>
@@ -357,7 +354,12 @@
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"></td>
-      <td rowspan="2">チェックすると、テキストボックス（数字）欄が非活性になり、入力した値をクリアします</td>
+      <td rowspan="2">
+        <ul>
+          <li>「出産の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</li>
+          <li>「不明」にチェックすると、「出産回数 (回)」の入力欄が非活性になり、入力した値をクリア</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>チェックボックス</td>
@@ -385,11 +387,11 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「あり」を選択すると「死産の回数 (回)」、「流産 (自然)の回数 (回)」、「流産 (人工)の回数 (回)」欄が活性化します</td>
+      <td></td>
     </tr>
     <tr>
       <td rowspan="2"><strong>死産の回数 (回)</strong></td>
@@ -403,7 +405,12 @@
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"></td>
-      <td rowspan="2"></td>
+      <td rowspan="6">
+        <ul>
+          <li>「死産・流産の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</li>
+          <li>「不明」にチェックすると、各項目の入力欄が非活性になり、入力した値をクリア</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>チェックボックス</td>
@@ -423,7 +430,6 @@
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"></td>
-      <td rowspan="2"></td>
     </tr>
     <tr>
       <td>チェックボックス</td>
@@ -442,7 +448,6 @@
       <td>null</td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
-      <td rowspan="2"></td>
       <td rowspan="2"></td>
     </tr>
     <tr>
@@ -486,7 +491,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -534,7 +539,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>その他をチェックすると「その他詳細」欄が活性化します</td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
@@ -548,7 +553,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「職業分類」欄で「その他」にチェックすると活性化します</td>
+      <td>「職業分類」で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>社会歴</strong></td>
@@ -623,7 +628,7 @@
       <td rowspan="3"><strong>出生時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_birth</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -636,7 +641,7 @@
     <tr>
       <td><strong>体重 (g)</strong></td>
       <td>medical_body_weight_at_birth</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -649,7 +654,7 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_birth</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -663,7 +668,7 @@
       <td rowspan="5"><strong>登録時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -676,7 +681,7 @@
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -689,7 +694,7 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_registration</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -702,14 +707,14 @@
     <tr>
       <td rowspan="2"><strong>測定時年齢 (YM)</strong></td>
       <td rowspan="2">medical_age_at_measurement</td>
-      <td rowspan="2">テキスト</td>
+      <td rowspan="2">string</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td rowspan="2">""</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
       <td rowspan="2">
         「{{yyyy}} + Y + {{mm}} + M」の形式でjsonに保存される
       </td>
@@ -718,33 +723,29 @@
       <td>セレクトボックス</td>
       <td>0~11</td>
       <td>0~11</td>
-      <td>- ヶ月を選択 -</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td rowspan="4"><strong>診察時身体情報</strong></td>
       <td><strong>日付(yyyy/mm/dd)</strong></td>
       <td>medical_body_info_date_at_examination</td>
-      <td>配列（日付） | null</td>
+      <td>Array&lt;string | null&gt;</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td rowspan="4">追加ボタンから項目を増やすことが可能。各キーには配列として保存される。</td>
+      <td rowspan="4">追加ボタンから複数登録が可能</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_examination</td>
-      <td>配列（テキスト）</td>
+      <td>Array&lt;string&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -752,11 +753,11 @@
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_weight_at_examination</td>
-      <td>配列（テキスト）</td>
+      <td>Array&lt;string&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -764,11 +765,11 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_examination</td>
-      <td>配列（テキスト）</td>
+      <td>Array&lt;string&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -777,7 +778,7 @@
       <td><strong>身体所見</strong></td>
       <td>-</td>
       <td>medical_physical_findings</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -791,7 +792,7 @@
       <td><strong>検査初見</strong></td>
       <td>-</td>
       <td>medical_examination_findings</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -829,7 +830,7 @@
     <tr>
       <td><strong>常用薬</strong></td>
       <td>medical_medications</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -842,7 +843,7 @@
     <tr>
       <td><strong>アレルギー</strong></td>
       <td>medical_allergies</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -855,7 +856,7 @@
     <tr>
       <td><strong>飲酒習慣の有無</strong></td>
       <td>medical_presence_of_drinking_habits</td>
-      <td>text</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -873,8 +874,8 @@
           <li>過去はあり、現在はなし</li>
         </ul>
       </td>
-      <td>unknown</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>"unknown"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -890,12 +891,12 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「飲酒習慣の有無」が「あり」の場合のみ入力可能となる。</td>
+      <td>「飲酒習慣の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>喫煙習慣の有無</strong></td>
       <td>medical_presence_of_smoking_habits</td>
-      <td>text</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -913,8 +914,8 @@
           <li>過去はあり、現在はなし</li>
         </ul>
       </td>
-      <td>unknown</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>"unknown"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -930,7 +931,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
+      <td>「喫煙習慣の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>喫煙年数（年）</strong></td>
@@ -943,7 +944,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「喫煙習慣の有無」が「あり」の場合のみ入力可能となる。</td>
+      <td>「喫煙習慣の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>
@@ -1034,9 +1035,9 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -1059,9 +1060,9 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -1076,7 +1077,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「家族性への該当の有無」で「あり」が選択されている場合のみ入力可能となる。</td>
+      <td>「家族性への該当の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>多系統疾患への該当の有無</strong></td>
@@ -1097,9 +1098,9 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -1152,9 +1153,9 @@
       </td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「多系統疾患への該当の有無」で「あり」が選択されている場合のみチェック可能</td>
+      <td>「多系統疾患への該当の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
@@ -1167,7 +1168,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「疾患領域」で「その他」をチェックした場合のみ入力可能</td>
+      <td>「疾患領域」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>
@@ -1260,8 +1261,8 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
@@ -1278,8 +1279,6 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>追加ボタンから複数登録が可能</td>
     </tr>
@@ -1292,8 +1291,8 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
@@ -1310,8 +1309,6 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>追加ボタンから複数登録が可能</td>
     </tr>
