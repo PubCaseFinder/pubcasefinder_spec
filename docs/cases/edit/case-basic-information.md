@@ -63,30 +63,50 @@
       <td>※箇所は、「症例が追加される毎にオートインクリメントされるカウント+1」の数値を0埋めした7桁の文字列</td>
     </tr>
     <tr>
-      <td><strong>家族ID</strong></td>
-      <td>case_family_id</td>
-      <td>string</td>
-      <td>テキストボックス、セレクトボックス</td>
+      <td rowspan="2"><strong>家族ID</strong></td>
+      <td rowspan="2">case_family_id</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>id  / pedigree.persons.family_id</td>
-      <td>一覧に表示中の家族IDをプルダウンから選択可能</td>
+      <td>id</td>
+      <td></td>
     </tr>
     <tr>
-      <td><strong>グループ名</strong></td>
-      <td>case_group</td>
-      <td>string</td>
-      <td>テキストボックス、セレクトボックス</td>
+      <td>セレクトボックス</td>
+      <td>一覧に表示中の家族IDをプルダウンから選択可能</td>
+      <td>-</td>
+      <td> - 登録済み家族ID - </td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>pedigree.persons.family_id</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>グループ名</strong></td>
+      <td rowspan="2">case_group</td>
+      <td rowspan="2">string</td>
+      <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>一覧に表示中のグループIDをプルダウンから選択可能</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>一覧に表示中のグループ名をプルダウンから選択可能</td>
+      <td>-</td>
+      <td> - 登録済みグループ名 - </td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -319,29 +339,69 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>登録時年齢 (YMD)</strong></td>
-      <td>case_age</td>
-      <td>string</td>
-      <td>テキストボックス (数字)、セレクトボックス</td>
+      <td rowspan="3"><strong>登録時年齢 (YMD)</strong></td>
+      <td rowspan="3">case_age</td>
+      <td rowspan="3">string</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td rowspan="3">
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+      </td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- ヶ月を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>診察時年齢 (YMD)</strong></td>
-      <td>case_age_on_examination</td>
-      <td>string</td>
-      <td>テキストボックス (数字)、セレクトボックス</td>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- 日を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>診察時年齢 (YMD)</strong></td>
+      <td rowspan="3">case_age_on_examination</td>
+      <td rowspan="3">string</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>proband.subject.timeAtLastEncounter.age.iso8601duration</td>
+      <td></td>
+      <td rowspan="3">
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+      </td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- ヶ月を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- 日を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
