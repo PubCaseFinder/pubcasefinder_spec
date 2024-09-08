@@ -12,6 +12,9 @@ Casesでは下記の項目を扱うことができます。
 - **[検体・検査](#sample)**
 - **[登録](#registration)**
 
+<br>
+※ 一覧表の「データ種別」はHandsontableで用意されているUIの種別なので、[こちら](https://handsontable.com/docs/12.3/javascript-data-grid/cell-type/)の仕様に基づきます
+
 ---
 
 ### 症例基本情報 {: #case-info}
