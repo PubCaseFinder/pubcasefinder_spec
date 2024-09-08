@@ -138,7 +138,7 @@
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -173,7 +173,7 @@
           <li>学術研究</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -200,7 +200,7 @@
           <li>その他</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -213,7 +213,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -243,7 +243,7 @@
           <li>検査中</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -288,7 +288,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.gene.symbol</td>
@@ -301,7 +301,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -314,7 +314,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -343,7 +343,7 @@
           <li>Causative</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.interpretationStatus</td>
@@ -356,7 +356,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>
@@ -390,7 +390,7 @@
           <li>PATHOGENIC</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.variantInterpretation.acmgPathogenicityClassification</td>
@@ -415,7 +415,7 @@
           <li>hemizygous</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>
@@ -450,7 +450,7 @@
           <li>"GRCh36 (hg18)"</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -463,7 +463,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -476,7 +476,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>
@@ -492,7 +492,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -541,7 +541,7 @@
           <li>unknown</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -582,7 +582,7 @@
           <li>unknown</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -595,7 +595,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
