@@ -53,7 +53,7 @@
           <li>なし</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -78,7 +78,7 @@
           <li>なし</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>

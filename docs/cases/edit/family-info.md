@@ -67,7 +67,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -92,7 +92,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -117,7 +117,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -130,11 +130,11 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>流産 (自然) の回数</strong></td>
@@ -143,11 +143,11 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>流産 (人工) の回数</strong></td>
@@ -156,11 +156,11 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>	母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>
@@ -190,7 +190,7 @@
     <tr>
       <td><strong>遺伝形式</strong></td>
       <td>family_mode_inheritance</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>ラジオボタン（階層あり）</td>
       <td>
         <ul>
@@ -258,10 +258,16 @@
 </table>
 
 ## 親族（がん・生活習慣病） {: #relatives}
-
+- 下記を1つの親族（がん・生活習慣病）の項目群とし、複数の親族情報を登録可能
+    - 各項目のデータは親族の登録数分の配列
+        - 例）1つ目の親族は各項目の配列の0番目
+- 親族はボタン操作で「追加」「削除」が可能
+    - 「削除」ボタン押下時は下記文言の確認アラートを表示し、「OK」押下時のみ実行
+        - 「削除しますか？」
 <table>
   <thead>
     <tr>
+      <th rowspan="2">中項目名</th>
       <th rowspan="2">項目名</th>
       <th rowspan="2">ID</th>
       <th rowspan="2">型定義</th>
@@ -280,10 +286,11 @@
   </thead>
   <tbody>
     <tr>
+      <td></td>
       <td><strong>親族名称</strong></td>
       <td>family_relative_name</td>
       <td>Array&lt;string|null&gt;</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>
@@ -323,6 +330,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>家系図における世代番号 (親族)</strong></td>
       <td>family_generation_number_of_relative</td>
       <td>Array&lt;string|null&gt;</td>
@@ -336,6 +344,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>遺伝性がん検査実施の有無</strong></td>
       <td>family_presence_of_genetic_cancer_testing</td>
       <td>Array&lt;string|null&gt;</td>
@@ -361,6 +370,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>遺伝性がん検査の結果ファイル</strong></td>
       <td>family_genetic_cancer_testing_result_file</td>
       <td>Array&lt;string|null&gt;</td>
@@ -374,6 +384,7 @@
       <td>遺伝性がん検査実施の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>がん罹患歴の有無</strong></td>
       <td>family_presence_of_cancer_history</td>
       <td>Array&lt;string|null&gt;</td>
@@ -399,17 +410,21 @@
       <td></td>
     </tr>
     <tr>
+      <td rowspan="3"><strong>がん罹患歴詳細</strong></td>
       <td><strong>がん種</strong></td>
       <td>family_cancer_history_cancer_type</td>
       <td>Array&lt;Array&lt;string|null&gt;&gt;</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>リンクはる</td>
       <td>リンクはる</td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">
+        追加ボタンから項目を増やすことが可能。各キーには配列として保存される<br>
+        「その他詳細」はがん腫で「その他」を選択している時のみ入力可（それ以外の場合は非活性）
+      </td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
@@ -422,7 +437,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>がん腫で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>罹患年齢</strong></td>
@@ -462,7 +476,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>

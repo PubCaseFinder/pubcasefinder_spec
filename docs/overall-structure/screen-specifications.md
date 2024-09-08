@@ -46,7 +46,7 @@ CaseSharingについての説明モーダルの表示。
 <br>
 **③各種リンクアイコン**
 
-アイコン押下で各種ページリンクの一覧のプルダウン表示。リンク押下時は別タブを開く。
+アイコン押下で各種ページリンクの一覧の表示。リンク押下時は別タブを開く。
 
 <img src="../../assets/images/link_list.png" width="300" style="display: block;"/>
 
@@ -60,7 +60,7 @@ CaseSharingについての説明モーダルの表示。
 <br>
 **④各種サービス**
 
-アイコン押下で各種サービス一覧のプルダウン表示。リンク押下時は別タブを開く。
+アイコン押下で各種サービス一覧のセレクトボックス表示。リンク押下時は別タブを開く。
 <img src="../../assets/images/service_list.png" width="300" style="display: block;"/>
 
 - DiseaseSearch：[https://pubcasefinder.dbcls.jp/](https://pubcasefinder.dbcls.jp/)
@@ -70,6 +70,6 @@ CaseSharingについての説明モーダルの表示。
 <br>
 **⑤多言語切替**
 
-アイコン押下で対応言語のプルダウン表示。
+アイコン押下で対応言語のセレクトボックス表示。
 
 <img src="../../assets/images/lang_switch.png" width="200" style="display: block;"/>

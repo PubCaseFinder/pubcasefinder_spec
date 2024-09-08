@@ -35,7 +35,7 @@
     <tr>
       <td><strong>主病名（疑い病名、症状含む）</strong></td>
       <td>registration_disease_name</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -176,7 +176,7 @@
       <td><strong>代諾者等の続柄</strong></td>
       <td>registration_proxy_relation</td>
       <td>string | null</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>
@@ -286,7 +286,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>同意撤回の有無</strong></td>
@@ -342,7 +342,7 @@
       <td><strong>代諾者等の続柄</strong></td>
       <td>registration_proxy_relation_withdrawer</td>
       <td>string | null</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>
@@ -452,7 +452,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>同意撤回アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>同意撤回アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）<br>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
   </tbody>
 </table>
