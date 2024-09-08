@@ -487,6 +487,7 @@
 <table>
   <thead>
     <tr>
+      <th rowspan="2">中項目名</th>
       <th rowspan="2">項目名</th>
       <th rowspan="2">ID</th>
       <th rowspan="2">型定義</th>
@@ -505,6 +506,7 @@
   </thead>
   <tbody>
     <tr>
+      <td></td>
       <td><strong>民族 / 集団</strong></td>
       <td>case_ethnicity_group</td>
       <td>string | null</td>
@@ -522,6 +524,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>自由記載</strong></td>
       <td>case_free_comment_about_ethnicity_group</td>
       <td>string | null</td>
@@ -535,7 +538,8 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>出生地 国</strong></td>
+      <td rowspan="4"><strong>出生地</strong></td>
+      <td><strong>国</strong></td>
       <td>case_country_of_birth</td>
       <td>string | null</td>
       <td>テキストボックス ＋ セレクトボックス</td>
