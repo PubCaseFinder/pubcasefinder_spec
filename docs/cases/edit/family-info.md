@@ -134,7 +134,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>流産 (自然) の回数</strong></td>
@@ -147,7 +147,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>流産 (人工) の回数</strong></td>
@@ -160,7 +160,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>	母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>母親の死産・流産の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>
