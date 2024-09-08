@@ -13,7 +13,7 @@ nav:
   - Cases:
     - 画面仕様: 'cases/screen-specifications'
     - 項目: 'cases/items'
-    - 操作:
+    - 操作詳細:
       - キーワード検索: 'cases/operations/search-keyword'
       - 項目追加: 'cases/operations/add-items'
       - 症例追加: 'cases/operations/add-case'
