@@ -141,7 +141,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -224,7 +224,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -293,7 +293,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -344,7 +344,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -395,7 +395,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -499,7 +499,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -636,7 +636,7 @@
       <td rowspan="3"><strong>出生時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_birth</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -649,7 +649,7 @@
     <tr>
       <td><strong>体重 (g)</strong></td>
       <td>medical_body_weight_at_birth</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -662,7 +662,7 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_birth</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -676,7 +676,7 @@
       <td rowspan="5"><strong>登録時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -689,7 +689,7 @@
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -702,7 +702,7 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_registration</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -715,7 +715,7 @@
     <tr>
       <td rowspan="2"><strong>測定時年齢 (YM)</strong></td>
       <td rowspan="2">medical_age_at_measurement</td>
-      <td rowspan="2">テキスト</td>
+      <td rowspan="2">string</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -740,11 +740,11 @@
       <td rowspan="4"><strong>診察時身体情報</strong></td>
       <td><strong>日付(yyyy/mm/dd)</strong></td>
       <td>medical_body_info_date_at_examination</td>
-      <td>配列（日付） | null</td>
+      <td>Array&lt;string | null&gt;</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -753,11 +753,11 @@
     <tr>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_examination</td>
-      <td>配列（テキスト）</td>
+      <td>Array&lt;string&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -765,11 +765,11 @@
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_weight_at_examination</td>
-      <td>配列（テキスト）</td>
+      <td>Array&lt;string&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -777,11 +777,11 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_examination</td>
-      <td>配列（テキスト）</td>
+      <td>Array&lt;string&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -790,7 +790,7 @@
       <td><strong>身体所見</strong></td>
       <td>-</td>
       <td>medical_physical_findings</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -804,7 +804,7 @@
       <td><strong>検査初見</strong></td>
       <td>-</td>
       <td>medical_examination_findings</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -842,7 +842,7 @@
     <tr>
       <td><strong>常用薬</strong></td>
       <td>medical_medications</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -855,7 +855,7 @@
     <tr>
       <td><strong>アレルギー</strong></td>
       <td>medical_allergies</td>
-      <td>テキスト</td>
+      <td>string</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -868,7 +868,7 @@
     <tr>
       <td><strong>飲酒習慣の有無</strong></td>
       <td>medical_presence_of_drinking_habits</td>
-      <td>text</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -886,7 +886,7 @@
           <li>過去はあり、現在はなし</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -908,7 +908,7 @@
     <tr>
       <td><strong>喫煙習慣の有無</strong></td>
       <td>medical_presence_of_smoking_habits</td>
-      <td>text</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -926,7 +926,7 @@
           <li>過去はあり、現在はなし</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1047,7 +1047,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -1072,7 +1072,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -1110,7 +1110,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
