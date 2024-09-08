@@ -66,7 +66,7 @@
       <td>phenotype_hpo_label</td>
       <td>Array&lt;{ <br />&nbsp name_en: string, <br />&nbsp name_ja: string, <br />&nbsp name_ko: string, <br />&nbsp name_zh: string, <br />&nbsp name_zhcht: string <br /> }&gt;</td>
       <td>proband.phenotypic_features.type.label</td>
-      <td>設定のクエリー言語で選択した言語で保存されます。</td>
+      <td>設定のクエリー言語で選択した言語で保存される。</td>
     </tr>
   </tbody>
 </table>
@@ -249,7 +249,7 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.onset</td>
-      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
+      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存される</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -366,7 +366,7 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.resolution</td>
-      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
+      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存される</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
