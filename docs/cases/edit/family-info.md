@@ -1,15 +1,19 @@
 # 家系
 
+家系のページでは、患者の家族に関する重要な情報を管理します。<br />
+この情報は、遺伝性疾患の診断や、家族性のリスク評価に不可欠です。<br />
+患者の遺伝的背景を理解し、適切な遺伝カウンセリングや予防策を提供するための基礎となります。
+
 ## 大項目
 
-| 項目名 | 説明 |
-| ---- | ---- |
-| **[家族歴](#family-history)** |  |
-| **[遺伝形式](#mode-of-inheritance)** | |
-| **[親族（がん・生活習慣病）](#relatives)** | |
-| **[民族](#ethnicity)** | |
-| **[近親婚](#consanguinity)** | |
-| **[家系図](#pedigree)** | |
+| 項目名                                     | 説明                                                           |
+| ------------------------------------------ | -------------------------------------------------------------- |
+| **[家族歴](#family-history)**              | 家族歴に関する情報を編集することができます。                   |
+| **[遺伝形式](#mode-of-inheritance)**       | 遺伝形式に関する情報を編集することができます。                 |
+| **[親族（がん・生活習慣病）](#relatives)** | 親族（がん・生活習慣病）に関する情報を編集することができます。 |
+| **[民族](#ethnicity)**                     | 民族に関する情報を編集することができます。                     |
+| **[近親婚](#consanguinity)**               | 近親婚に関する情報を編集することができます。                   |
+| **[家系図](#pedigree)**                    | 家系図に関する情報を編集することができます。                   |
 
 ---
 
@@ -672,26 +676,27 @@
 ## 家系図 {: #pedigree}
 
 - 家系図には[pedigreejs](https://ccge-boadicea.github.io/pedigreejs/)を使用
-    - 2024年8月現在、使用バージョンは`3.0.0`
+  - 2024 年 8 月現在、使用バージョンは`3.0.0`
 
 ![家系図](../../assets/images/pedigree.png)
 
 下記を正しく設定することで家系図が自動生成できる
 
-| 家系図生成用データキー | 症例データの参照キー | ラベル |
-| ---- | ---- | ---- |
-| name | PCFNo　| 症例基本情報 > ID > PCF No. |
-| display_name | case_id　| 症例基本情報 > ID > 症例ID |
-| sex | case_sex　| 症例基本情報 > 基本情報 > 性別 |
-| age | case_age YMD形式の年齢（Y）　| 症例基本情報 > 基本情報 > 登録時年齢 (YMD) |
-| status | case_life_status　| 症例基本情報 > 基本情報 > 状態 |
-| relationship | case_relationship　| 症例基本情報 > 基本情報 > 続柄 |
-| spouse_id | case_spouse_id　|  |
-| parent_id | case_parent_id　|  |
-| diagnosis | medical_final_diagnosis_name　| 診療 > 診断 > 確定診断 > 疾患名 |
-| father | relationshipを元にPCFNoを格納　|  |
-| mother | relationshipを元にPCFNoを格納　|  |
-| top_level | father,mother,childrenを元に家系図のトップに位置するかをbooleanで設定　|  |
+| 家系図生成用データキー | 症例データの参照キー                                                       | ラベル                                     |
+| ---------------------- | -------------------------------------------------------------------------- | ------------------------------------------ |
+| name                   | PCFNo 　                                                                   | 症例基本情報 > ID > PCF No.                |
+| display_name           | case_id 　                                                                 | 症例基本情報 > ID > 症例 ID                |
+| sex                    | case_sex 　                                                                | 症例基本情報 > 基本情報 > 性別             |
+| age                    | case_age YMD 形式の年齢（Y）　                                             | 症例基本情報 > 基本情報 > 登録時年齢 (YMD) |
+| status                 | case_life_status 　                                                        | 症例基本情報 > 基本情報 > 状態             |
+| relationship           | case_relationship 　                                                       | 症例基本情報 > 基本情報 > 続柄             |
+| spouse_id              | case_spouse_id 　                                                          |                                            |
+| parent_id              | case_parent_id 　                                                          |                                            |
+| diagnosis              | medical_final_diagnosis_name 　                                            | 診療 > 診断 > 確定診断 > 疾患名            |
+| father                 | relationship を元に PCFNo を格納　                                         |                                            |
+| mother                 | relationship を元に PCFNo を格納　                                         |                                            |
+| top_level              | father,mother,children を元に家系図のトップに位置するかを boolean で設定　 |                                            |
 
 ### ダウンロード
-JSON,SVG,PNG形式で生成した家系図をダウンロードできる。
+
+JSON,SVG,PNG 形式で生成した家系図をダウンロードできる。
