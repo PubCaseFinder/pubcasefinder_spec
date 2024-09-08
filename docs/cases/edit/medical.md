@@ -1,6 +1,8 @@
 # 診療 {: #medical-examination}
 
-「診療」セクションでは、患者の医療情報を包括的に管理し、編集することができます。このセクションは以下の主要な項目で構成されています。
+このセクションでは、患者の医療情報を体系的に管理します。<br />
+体系的に管理された情報は、長期的な治療計画の立案や、疾患の傾向分析にも役立ちます。<br />
+また、医療従事者間での情報共有が容易になり、効率的な診療支援と包括的な患者ケアが可能となります。<br />
 
 ## 大項目
 
@@ -14,9 +16,6 @@
 | **[診断](#diagnosis)**                                                       | 最終的な診断結果や診断過程の情報を管理します。                                                   |
 | **[指定難病](#designated-intractable-disease)**                              | 指定難病に関する認定状況や申請情報を記録します。                                                 |
 | **[小児慢性特定疾病](#chronic-pediatric-disease)**                           | 小児慢性特定疾病に関する認定状況や申請情報を管理します。                                         |
-
-これらの項目を通じて、患者の医療情報を体系的に整理し、効率的な診療支援と情報管理を行うことができます。<br />
-各項目は詳細な入力フィールドを持ち、必要に応じて情報の追加、編集、削除が可能です。
 
 ---
 
@@ -49,7 +48,7 @@
       <td rowspan="3"><strong>発症年齢 (YMD)</strong></td>
       <td rowspan="3"><strong>-</strong></td>
       <td rowspan="3">medical_age_onset</td>
-      <td rowspan="3">string</td>
+      <td rowspan="3">string | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -83,7 +82,7 @@
       <td><strong>主訴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_chief_complaint</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -97,7 +96,7 @@
       <td><strong>経過</strong></td>
       <td><strong>-</strong></td>
       <td>medical_process</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -111,7 +110,7 @@
       <td><strong>現病歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_current_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -152,7 +151,7 @@
       <td><strong>既往歴疾患名</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_disease_of_previous_history_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string | null&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -166,7 +165,7 @@
       <td><strong>既往歴疾患名_備考</strong></td>
       <td><strong>-</strong></td>
       <td>medical_note_of_previous_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -180,7 +179,7 @@
       <td><strong>既往歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_previous_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -194,7 +193,7 @@
       <td><strong>出生前および周産期の病歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_prenatal_perinatal_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -235,7 +234,7 @@
       <td><strong>合併症疾患名</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_complication_history_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string | null&gt;</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -249,7 +248,7 @@
       <td><strong>合併症疾患名_備考</strong></td>
       <td><strong>-</strong></td>
       <td>medical_note_of_complications</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -263,7 +262,7 @@
       <td><strong>合併症歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_complication_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -304,7 +303,7 @@
       <td rowspan="2"><strong>妊娠回数（回）</strong></td>
       <td rowspan="2"><strong>-</strong></td>
       <td rowspan="2">medical_number_of_pregnancy</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -350,7 +349,7 @@
       <td rowspan="2"><strong>出産回数 (回)</strong></td>
       <td rowspan="2"><strong>-</strong></td>
       <td rowspan="2">medical_number_of_childbirth</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -396,7 +395,7 @@
       <td rowspan="2"><strong>死産の回数 (回)</strong></td>
       <td rowspan="2"><strong>-</strong></td>
       <td rowspan="2">medical_number_of_stillbirth</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -416,7 +415,7 @@
       <td rowspan="2"><strong>流産 (自然)の回数 (回)</strong></td>
       <td rowspan="2"><strong>-</strong></td>
       <td rowspan="2">medical_number_of_miscarriage</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -436,7 +435,7 @@
       <td rowspan="2"><strong>流産 (人工)の回数 (回)</strong></td>
       <td rowspan="2"><strong>-</strong></td>
       <td rowspan="2">medical_number_of_artificial_abortion</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -457,7 +456,7 @@
       <td><strong>生育歴および教育歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_early_developmental_and_schooling_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -497,7 +496,7 @@
       <td><strong>職業分類</strong></td>
       <td><strong>-</strong></td>
       <td>medical_occupational_classification</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string | null&gt;</td>
       <td>チェックボックス</td>
       <td>
         <ul>
@@ -541,7 +540,7 @@
       <td><strong>その他詳細</strong></td>
       <td><strong>-</strong></td>
       <td>medical_occupational_classification_other_details</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -555,7 +554,7 @@
       <td><strong>社会歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_social_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -570,7 +569,7 @@
       <td><strong>渡航歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_travel_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -584,7 +583,7 @@
       <td><strong>予防接種歴</strong></td>
       <td><strong>-</strong></td>
       <td>medical_vaccination_history</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -728,7 +727,7 @@
       <td rowspan="4"><strong>診察時身体情報</strong></td>
       <td><strong>日付(yyyy/mm/dd)</strong></td>
       <td>medical_body_info_date_at_examination</td>
-      <td>配列（日付）</td>
+      <td>配列（日付） | null</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
@@ -883,7 +882,7 @@
     <tr>
       <td><strong>飲酒量</strong></td>
       <td>medical_drinking</td>
-      <td>number</td>
+      <td>number | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -923,7 +922,7 @@
     <tr>
       <td><strong>本数 (本/日)</strong></td>
       <td>medical_number_of_smoking</td>
-      <td>number</td>
+      <td>number | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -936,7 +935,7 @@
     <tr>
       <td><strong>喫煙年数（年）</strong></td>
       <td>medical_years_of_smoking</td>
-      <td>number</td>
+      <td>number | null</td>
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
@@ -986,7 +985,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「/static/data/mondo_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1200,7 +1199,7 @@
       <td><strong>-</strong></td>
       <td><strong>診断状況</strong></td>
       <td>medical_case_solved</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -1230,7 +1229,7 @@
       <td><strong>-</strong></td>
       <td><strong>臨床診断名確定の有無</strong></td>
       <td>medical_confirmation_of_clinical_diagnosis</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -1255,7 +1254,7 @@
     <tr>
       <td rowspan="2"><strong>臨床診断</strong></td>
       <td><strong>疾患名</strong></td>
-      <td>medical_suspected_disease_name</td>
+      <td>medical_clinical_diagnosis_name</td>
       <td>Array&lt;string&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
@@ -1266,7 +1265,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1298,7 +1297,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1386,7 +1385,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に「/static/data/nando_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
@@ -1461,7 +1460,7 @@
       <td></td>
       <td>
         <ul>
-          <li>入力した文字に一致した文言をサジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に「/static/data/nando_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
         </ul>
       </td>
