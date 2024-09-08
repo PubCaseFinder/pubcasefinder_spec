@@ -52,10 +52,10 @@
       <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td rowspan="3">null</td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="3"></td>
       <td rowspan="3">
         「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
       </td>
@@ -64,19 +64,11 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- ヶ月を選択 -</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- 日を選択 -</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>主訴</strong></td>
@@ -719,10 +711,10 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
+      <td rowspan="2">""</td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"></td>
       <td rowspan="2">
         「{{yyyy}} + Y + {{mm}} + M」の形式でjsonに保存される
       </td>
@@ -731,10 +723,6 @@
       <td>セレクトボックス</td>
       <td>0~11</td>
       <td>0~11</td>
-      <td>- ヶ月を選択 -</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
     </tr>
     <tr>
       <td rowspan="4"><strong>診察時身体情報</strong></td>
