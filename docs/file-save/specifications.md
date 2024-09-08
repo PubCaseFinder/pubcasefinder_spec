@@ -1,6 +1,7 @@
 # 症例情報を保存する
 
 画面左部メニューバーの「File save」から、Cases の編集内容を保存することができます。<br />
+Cases でのキーワード検索、列のフィルター操作は影響せず、データ表示の絞り込み時でも全データ保存されます。
 
 <img style="width: 100%" src="../../assets/images/PubCaseFinder_fig-2_20230728_mark_file_save.png">
 
