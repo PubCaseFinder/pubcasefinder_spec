@@ -59,7 +59,7 @@
       <td>C{※}</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td>proband.id. / subject.id / pedigree.persons.individual_id</td>
+      <td>proband.id / subject.id / pedigree.persons.individual_id</td>
       <td>※箇所は、「症例が追加される毎にオートインクリメントされるカウント+1」の数値を0埋めした7桁の文字列</td>
     </tr>
     <tr>
