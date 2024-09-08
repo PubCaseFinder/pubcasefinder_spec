@@ -283,7 +283,7 @@
       <td><strong>親族名称</strong></td>
       <td>family_relative_name</td>
       <td>Array&lt;string|null&gt;</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>
@@ -402,7 +402,7 @@
       <td><strong>がん種</strong></td>
       <td>family_cancer_history_cancer_type</td>
       <td>Array&lt;Array&lt;string|null&gt;&gt;</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>リンクはる</td>
       <td>リンクはる</td>
       <td>[]</td>

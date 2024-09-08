@@ -148,7 +148,7 @@
       <td><strong>投与経路</strong></td>
       <td>sample_route_of_administration</td>
       <td>Array&lt;string|null&gt;</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>oral</li>

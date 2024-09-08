@@ -176,7 +176,7 @@
       <td><strong>代諾者等の続柄</strong></td>
       <td>registration_proxy_relation</td>
       <td>string | null</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>
@@ -342,7 +342,7 @@
       <td><strong>代諾者等の続柄</strong></td>
       <td>registration_proxy_relation_withdrawer</td>
       <td>string | null</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>

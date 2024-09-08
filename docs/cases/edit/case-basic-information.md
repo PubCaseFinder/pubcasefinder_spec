@@ -77,7 +77,7 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>一覧に表示中の家族IDをプルダウンから選択可能</td>
+      <td>一覧に表示中の家族IDをセレクトボックスから選択可能</td>
       <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>一覧に表示中のグループ名をプルダウンから選択可能</td>
+      <td>一覧に表示中のグループ名をセレクトボックスから選択可能</td>
       <td>-</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
