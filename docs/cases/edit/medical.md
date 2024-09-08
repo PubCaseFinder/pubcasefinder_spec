@@ -875,7 +875,7 @@
         </ul>
       </td>
       <td>"unknown"</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -915,7 +915,7 @@
         </ul>
       </td>
       <td>"unknown"</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -1036,8 +1036,8 @@
         </ul>
       </td>
       <td>"unknown"</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -1061,8 +1061,8 @@
         </ul>
       </td>
       <td>"unknown"</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -1099,8 +1099,8 @@
         </ul>
       </td>
       <td>"unknown"</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
@@ -1153,7 +1153,7 @@
       </td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td>「多系統疾患への該当の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
