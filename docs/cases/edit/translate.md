@@ -1994,23 +1994,23 @@
       <td>Reference</td>
       <td>
         <ul>
-          <li><strong>"GRCh37 (hg19)"</strong></li>
-          <li><strong>"GRCh38 (hg38)"</strong></li>
-          <li><strong>"GRCh36 (hg18)"</strong></li>
+          <li><strong>GRCh37 (hg19)</strong></li>
+          <li><strong>GRCh38 (hg38)</strong></li>
+          <li><strong>GRCh36 (hg18)</strong></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>"GRCh37 (hg19)"</li>
-          <li>"GRCh38 (hg38)"</li>
-          <li>"GRCh36 (hg18)"</li>
+          <li>GRCh37 (hg19)</li>
+          <li>GRCh38 (hg38)</li>
+          <li>GRCh36 (hg18)</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>"GRCh37 (hg19)"</li>
-          <li>"GRCh38 (hg38)"</li>
-          <li>"GRCh36 (hg18)"</li>
+          <li>GRCh37 (hg19)</li>
+          <li>GRCh38 (hg38)</li>
+          <li>GRCh36 (hg18)</li>
         </ul>
       </td>
     </tr>

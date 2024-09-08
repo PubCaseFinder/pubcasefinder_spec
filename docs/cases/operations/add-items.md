@@ -17,7 +17,7 @@
 
 <br>
 
-<img src="/assets/images/cases_add_items.png" alt="項目追加のスクリーンショット" width="500">
+<img src="../../../assets/images/cases_add_items.png" alt="項目追加のスクリーンショット" width="500">
 
 ---
 
@@ -58,7 +58,7 @@
 
 <br>
 
-<img src="/assets/images/cases_add_items_custom.png" alt="カスタムカテゴリのスクリーンショット">
+<img src="../../../assets/images/cases_add_items_custom.png" alt="カスタムカテゴリのスクリーンショット">
 
 #### 削除
 
