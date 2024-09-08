@@ -1261,8 +1261,8 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
@@ -1279,8 +1279,6 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>追加ボタンから複数登録が可能</td>
     </tr>
@@ -1293,8 +1291,8 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
+      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
@@ -1311,8 +1309,6 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>追加ボタンから複数登録が可能</td>
     </tr>
