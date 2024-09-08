@@ -6,21 +6,21 @@
 
 ## 大項目
 
-| 項目名                                 | 説明                                                                                                                                                                                                   |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **[臨床症状](#clinical-symptom)**      | 患者の観察可能な症状や兆候を記録します。Human Phenotype Ontology (HPO)に基づいて標準化された用語を使用し、症状の詳細な記述、重症度、発症時期などを含みます。この情報は診断や治療計画の立案に重要です。 |
-| **[症状一覧](#clinical-symptom-list)** | 入力された臨床症状の一覧を表示し、管理します。各症状の詳細情報や関連データを確認でき、症状の追加、編集、絞り込み検索、削除などの操作が可能です。                                                       |
+| 項目名                                 | 説明                                                                                                                       |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **[臨床症状](#clinical-symptom)**      | 患者の兆候または症状を入力して、症状一覧に追加することができます。<br />臨床症状は入力内容をもとにサジェストを表示します。 |
+| **[症状一覧](#clinical-symptom-list)** | 臨床症状から追加された症状を一覧で表示することができます。<br /> 詳細の表示や絞り込み検索ができます。                      |
 
 ## 臨床症状 {: #clinical-symptom}
 
-<img style="border: 1px solid #ccc" src="/assets/images/cases_edit_phenotype_form.png">
+<img style="border: 1px solid #ccc;" src="../../../assets/images/cases_edit_phenotype_form.png">
 
 ### 機能一覧
 
 <!-- prettier-ignore -->
 | 番号 | 機能 | 詳細 |
 | ---- | ---- | ---- |
-| 1 | 症状入力欄 | 入力した文言に応じて、[HPO](https://hpo.jax.org/)（Human Phenotype Ontology）で登録されている症状が表示され、症状を選択すると入力を確定し、タグとして表示されます。 |
+| 1 | 症状入力欄 | 入力した文言に応じて、データベースに保存されているHPO（Human Phenotype Ontology）症状がサジェストとして表示され、症状を選択すると入力を確定し、タグとして表示されます。 |
 | 2 | 文章から症状を自動抽出 | ボタンをクリックすると文章入力欄が表示されます。文章入力欄に入力した内容から症状を推測して表示し、症状入力欄に追加することができます。 |
 | 3 | 設定 | タグサイズ、クエリー言語を設定することができます。クエリー言語とはjsonに保存される値の言語のことです。 |
 | 4 | 症状の分類わけ | 症状を現病歴、既往歴、経過、家族歴のいずれかに分類することができます。 |
@@ -56,24 +56,29 @@
       <td rowspan="2">テキストボックス</td>
       <td rowspan="2">-</td>
       <td rowspan="2">-</td>
-      <td rowspan="2">[]</td>
+      <td>[]</td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" checked/></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.type.id</td>
-      <td></td>
+      <td rowspan="2">
+        <ul>
+          <li>テキストボックスに入力する度に「/tokeninput_hpo」エンドポイントを呼ぶことで、独自のデータベースからHPOデータを取得しサジェストとして表示する</li>
+          <li>phenotype_hpo_labelの値は設定のクエリー言語で選択した言語で保存される</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>phenotype_hpo_label</td>
       <td>Array&lt;{ <br />&nbsp name_en: string, <br />&nbsp name_ja: string, <br />&nbsp name_ko: string, <br />&nbsp name_zh: string, <br />&nbsp name_zhcht: string <br /> }&gt;</td>
+      <td>[]</td>
       <td>proband.phenotypic_features.type.label</td>
-      <td>設定のクエリー言語で選択した言語で保存される。</td>
     </tr>
   </tbody>
 </table>
 
 ## 症状一覧 {: #clinical-symptom-list}
 
-<img style="border: 1px solid #ccc" src="/assets/images/cases_edit_phenotype_list.png">
+<img style="border: 1px solid #ccc" src="../../../assets/images/cases_edit_phenotype_list.png">
 
 ### 機能一覧
 
