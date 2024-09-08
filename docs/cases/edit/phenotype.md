@@ -66,7 +66,7 @@
       <td>phenotype_hpo_label</td>
       <td>Array&lt;{ <br />&nbsp name_en: string, <br />&nbsp name_ja: string, <br />&nbsp name_ko: string, <br />&nbsp name_zh: string, <br />&nbsp name_zhcht: string <br /> }&gt;</td>
       <td>proband.phenotypic_features.type.label</td>
-      <td>設定のクエリー言語で選択した言語で保存されます。</td>
+      <td>設定のクエリー言語で選択した言語で保存される。</td>
     </tr>
   </tbody>
 </table>
@@ -97,6 +97,7 @@
       <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
       <th colspan="2">選択肢</th>
       <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">各症状の初期値</th>
       <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
       <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
@@ -121,6 +122,7 @@
       </td>
       <td>-</td>
       <td>[]</td>
+      <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -139,6 +141,7 @@
       </td>
       <td>-</td>
       <td>[]</td>
+      <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -157,6 +160,7 @@
       </td>
       <td>-</td>
       <td>[]</td>
+      <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -175,6 +179,7 @@
       </td>
       <td>-</td>
       <td>[]</td>
+      <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -193,6 +198,7 @@
       </td>
       <td>-</td>
       <td>[]</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.excluded</td>
@@ -212,6 +218,7 @@
       </td>
       <td>-</td>
       <td>[]</td>
+      <td>"normal"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.modifiers</td>
@@ -233,6 +240,7 @@
       </td>
       <td>-</td>
       <td>[]</td>
+      <td>"borderline"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.severity</td>
@@ -246,40 +254,21 @@
       <td>-</td>
       <td>-</td>
       <td rowspan="3">[]</td>
+      <td rowspan="3">""</td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.onset</td>
-      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
+      <td rowspan="3">「{{yy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>
-        <ul>
-          <li>""</li>
-          <li>0 ~ 11</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>- ヶ月を選択 -</li>
-          <li>0 ~ 11</li>
-        </ul>
-      </td>
+      <td>0 ~ 11</td>
+      <td>0 ~ 11</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>
-        <ul>
-          <li>""</li>
-          <li>1 ~ 30</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>- 日を選択 -</li>
-          <li>1 ~ 30</li>
-        </ul>
-      </td>
+      <td>1 ~ 31</td>
+      <td>1 ~ 31</td>
     </tr>
     <tr>
       <td>発症パターン</td>
@@ -318,7 +307,8 @@
           <li>Transient</li>
         </ul>
       </td>
-      <td>["unknown"]</td>
+      <td>[]</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -349,7 +339,8 @@
           <li>Rapidly progressive</li>
         </ul>
       </td>
-      <td>["slow"]</td>
+      <td>[]</td>
+      <td>"Unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -363,40 +354,21 @@
       <td>-</td>
       <td>-</td>
       <td rowspan="3">[]</td>
+      <td rowspan="3">""</td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.resolution</td>
-      <td rowspan="3">年月日それぞれの入力欄で入力した値が一つとなって「24Y8M8D」という形式で保存されます</td>
+      <td rowspan="3">「{{yy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>
-        <ul>
-          <li>""</li>
-          <li>0 ~ 11</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>- ヶ月を選択 -</li>
-          <li>0 ~ 11</li>
-        </ul>
-      </td>
+      <td>0 ~ 11</td>
+      <td>0 ~ 11</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>
-        <ul>
-          <li>""</li>
-          <li>1 ~ 30</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>- 日を選択 -</li>
-          <li>1 ~ 30</li>
-        </ul>
-      </td>
+      <td>1 ~ 31</td>
+      <td>1 ~ 31</td>
     </tr>
     <tr>
       <td>コメント</td>
@@ -406,6 +378,7 @@
       <td>-</td>
       <td>-</td>
       <td>[]</td>
+      <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.description</td>
