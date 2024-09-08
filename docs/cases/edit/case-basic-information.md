@@ -185,7 +185,7 @@
       <td>ラジオボタン        </td>
       <td>
         <ul>
-          <li>"not_applicable"</li>
+          <li>not_applicable</li>
           <li>not_participated</li>
           <li>already_participated</li>
           <li>plan_to_participate</li>
