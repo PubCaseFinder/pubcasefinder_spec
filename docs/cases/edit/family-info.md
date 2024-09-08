@@ -67,7 +67,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -92,7 +92,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -117,7 +117,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -130,7 +130,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -143,7 +143,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -156,7 +156,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>

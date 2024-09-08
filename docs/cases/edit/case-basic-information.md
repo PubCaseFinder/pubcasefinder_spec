@@ -43,11 +43,11 @@
       <td>-</td>
       <td>-</td>
       <td>-</td>
-      <td>P + {{作成年}} + {{月}} + {{日}} + {{時間}} + {{秒}} + {{ミリ秒}}</td>
+      <td>P{yyyy}{M}{d}{HH}{mm}{ss}{SSS}{※}</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>※箇所は、ランダムな数値を36進数の文字列にし、3文字目から7文字目までの5文字</td>
     </tr>
     <tr>
       <td><strong>症例ID</strong></td>
@@ -56,11 +56,11 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>C + {{表示中の症例の連番7桁}}</td>
+      <td>C{※}</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.id. / subject.id / pedigree.persons.individual_id</td>
-      <td></td>
+      <td>※箇所は、「症例が追加される毎にオートインクリメントされるカウント+1」の数値を0埋めした7桁の文字列</td>
     </tr>
     <tr>
       <td><strong>家族ID</strong></td>
@@ -185,7 +185,7 @@
       <td>ラジオボタン        </td>
       <td>
         <ul>
-          <li>not_applicable</li>
+          <li>"not_applicable"</li>
           <li>not_participated</li>
           <li>already_participated</li>
           <li>plan_to_participate</li>
@@ -199,7 +199,7 @@
           <li>参加予定</li>
         </ul>
       </td>
-      <td>not_applicable</td>
+      <td>"not_applicable"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -574,7 +574,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>不明</td>
+      <td>"不明"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -599,7 +599,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>不明</td>
+      <td>"不明"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -624,7 +624,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>不明</td>
+      <td>"不明"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -713,7 +713,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>不明</td>
+      <td>"不明"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -897,7 +897,7 @@
       <td>-</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
+      <td>{yyyy}/{M}/{d} {HH}:{mm}:{ss}</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.metadata.created / metadata.created</td>
@@ -910,7 +910,7 @@
       <td>-</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
+      <td>{yyyy}/{M}/{d} {HH}:{mm}:{ss}</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>

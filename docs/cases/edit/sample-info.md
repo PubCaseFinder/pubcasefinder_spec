@@ -345,7 +345,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>[null]</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -358,7 +358,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>[null]</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -371,7 +371,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>[null]</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
