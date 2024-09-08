@@ -38,7 +38,7 @@
     <tr>
       <td><strong>主病名（疑い病名、症状含む）</strong></td>
       <td>registration_disease_name</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
@@ -96,6 +96,69 @@
       </td>
       <td>"not_applicable"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>遺伝性疾患 / 非遺伝性疾患</strong></td>
+      <td>registration_genetic_status</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>not_applicable</li>
+          <li>genetic</li>
+          <li>non_genetic</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>該当なし</li>
+          <li>遺伝性疾患</li>
+          <li>非遺伝性疾患</li>
+        </ul>
+      </td>
+      <td>"not_applicable"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>罹患有無</strong></td>
+      <td>registration_affection</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>not_applicable</li>
+          <li>affected</li>
+          <li>not_affected</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>該当なし</li>
+          <li>罹患</li>
+          <li>非罹患</li>
+        </ul>
+      </td>
+      <td>"not_applicable"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>備考</strong></td>
+      <td>registration_note</td>
+      <td>string | null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -179,7 +242,7 @@
       <td><strong>代諾者等の続柄</strong></td>
       <td>registration_proxy_relation</td>
       <td>string | null</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>
@@ -289,7 +352,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>同意撤回の有無</strong></td>
@@ -339,13 +402,13 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>同意撤回の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td rowspan="5">同意撤回の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>代諾者等の続柄</strong></td>
       <td>registration_proxy_relation_withdrawer</td>
       <td>string | null</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>father</li>
@@ -378,7 +441,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>同意撤回者で「代諾者等」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>代諾者等の続柄その他詳細</strong></td>
@@ -391,7 +453,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>同意撤回書のバージョン</strong></td>
@@ -403,7 +464,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -429,7 +489,6 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>同意撤回アセントのバージョン</strong></td>
@@ -442,7 +501,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td rowspan="2">同意撤回アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）<br>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>同意撤回日（yyyy/mm/dd）</strong></td>
@@ -455,7 +514,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>同意撤回アセントの有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>

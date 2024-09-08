@@ -49,7 +49,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>検体識別ID</strong></td>
@@ -145,13 +145,15 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">
+        追加ボタンから項目を増やすことが可能。各キーには配列として保存される。
+      </td>
     </tr>
     <tr>
       <td><strong>投与経路</strong></td>
       <td>sample_route_of_administration</td>
       <td>Array&lt;string|null&gt;</td>
-      <td>プルダウン</td>
+      <td>セレクトボックス</td>
       <td>
         <ul>
           <li>oral</li>
@@ -172,7 +174,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>YJコード</strong></td>
@@ -184,7 +185,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
       <td></td>
     </tr>
   </tbody>
@@ -223,7 +223,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>白血球数（WBC）</strong></td>
@@ -348,11 +348,11 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>[null]</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">追加ボタンから項目を増やすことが可能。各キーには配列として保存される。</td>
     </tr>
     <tr>
       <td><strong>検査値</strong></td>
@@ -361,10 +361,8 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>[null]</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -374,10 +372,8 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>[null]</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
       <td></td>
     </tr>
   </tbody>

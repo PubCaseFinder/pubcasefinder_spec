@@ -7,13 +7,17 @@
 
 ## 症例のコピー {: #copy}
 
-現在編集中の症例をコピーすることができます。ボタン押下で一覧表の一番下に症例のコピーが追加されます。
-PCF No.以外全てのデータがコピーされます。
+現在編集中の症例をコピーすることができます。ボタン押下で一覧表の一番下に症例のコピーが追加されます。以下の項目以外全てのデータがコピーされます。
+
+- case_created_at
+- case_updated_at
+- PCF No.
+- case_id
 
 
 ## Phenopackets {: #phenopackets}
 
-[症例基本情報](cases/edit/case-basic-information)の基本情報>続柄で「発端者（本人）」が選択された状態だと、現在編集集の症例をPhenopacketsのフォーマットに変換したデータをyaml形式でダウンロードすることができます。
+[症例基本情報](cases/edit/case-basic-information)の基本情報>続柄で「発端者（本人）」が選択された状態だと、現在編集中の症例をPhenopacketsのフォーマットに変換したデータをyaml形式でダウンロードすることができます。
 Phenopacketsについては以下をご確認ください。
 
 - [公式サイト](http://phenopackets.org/)
