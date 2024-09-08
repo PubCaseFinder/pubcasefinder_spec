@@ -56,7 +56,7 @@
       <td rowspan="2">テキストボックス</td>
       <td rowspan="2">-</td>
       <td rowspan="2">-</td>
-      <td rowspan="2">[]</td>
+      <td>[]</td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" checked/></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.type.id</td>
@@ -65,6 +65,7 @@
     <tr>
       <td>phenotype_hpo_label</td>
       <td>Array&lt;{ <br />&nbsp name_en: string, <br />&nbsp name_ja: string, <br />&nbsp name_ko: string, <br />&nbsp name_zh: string, <br />&nbsp name_zhcht: string <br /> }&gt;</td>
+      <td>[]</td>
       <td>proband.phenotypic_features.type.label</td>
       <td>設定のクエリー言語で選択した言語で保存される。</td>
     </tr>
