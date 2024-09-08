@@ -21,16 +21,16 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">項目名</th>
-      <th rowspan="2">ID</th>
-      <th rowspan="2">型定義</th>
-      <th rowspan="2">入力形式</th>
-      <th colspan="2">選択肢</th>
-      <th rowspan="2">初期値</th>
-      <th rowspan="2">clearボタン</th>
-      <th rowspan="2">deleteボタン</th>
-      <th rowspan="2">Phenopackets</th>
-      <th rowspan="2">備考</th>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="2" class="text-vertical-align-middle">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
@@ -116,16 +116,16 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">項目名</th>
-      <th rowspan="2">ID</th>
-      <th rowspan="2">型定義</th>
-      <th rowspan="2">入力形式</th>
-      <th colspan="2">選択肢</th>
-      <th rowspan="2">初期値</th>
-      <th rowspan="2">clearボタン</th>
-      <th rowspan="2">deleteボタン</th>
-      <th rowspan="2">Phenopackets</th>
-      <th rowspan="2">備考</th>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="2" class="text-vertical-align-middle">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
@@ -483,17 +483,17 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">中項目名</th>
-      <th rowspan="2">項目名</th>
-      <th rowspan="2">ID</th>
-      <th rowspan="2">型定義</th>
-      <th rowspan="2">入力形式</th>
-      <th colspan="2">選択肢</th>
-      <th rowspan="2">初期値</th>
-      <th rowspan="2">clearボタン</th>
-      <th rowspan="2">deleteボタン</th>
-      <th rowspan="2">Phenopackets</th>
-      <th rowspan="2">備考</th>
+      <th rowspan="2" class="text-vertical-align-middle">中項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="2" class="text-vertical-align-middle">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
@@ -598,16 +598,16 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">項目名</th>
-      <th rowspan="2">ID</th>
-      <th rowspan="2">型定義</th>
-      <th rowspan="2">入力形式</th>
-      <th colspan="2">選択肢</th>
-      <th rowspan="2">初期値</th>
-      <th rowspan="2">clearボタン</th>
-      <th rowspan="2">deleteボタン</th>
-      <th rowspan="2">Phenopackets</th>
-      <th rowspan="2">備考</th>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="2" class="text-vertical-align-middle">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
@@ -773,16 +773,16 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">項目名</th>
-      <th rowspan="2">ID</th>
-      <th rowspan="2">型定義</th>
-      <th rowspan="2">入力形式</th>
-      <th colspan="2">選択肢</th>
-      <th rowspan="2">初期値</th>
-      <th rowspan="2">clearボタン</th>
-      <th rowspan="2">deleteボタン</th>
-      <th rowspan="2">Phenopackets</th>
-      <th rowspan="2">備考</th>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="2" class="text-vertical-align-middle">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
@@ -852,16 +852,16 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">項目名</th>
-      <th rowspan="2">ID</th>
-      <th rowspan="2">型定義</th>
-      <th rowspan="2">入力形式</th>
-      <th colspan="2">選択肢</th>
-      <th rowspan="2">初期値</th>
-      <th rowspan="2">clearボタン</th>
-      <th rowspan="2">deleteボタン</th>
-      <th rowspan="2">Phenopackets</th>
-      <th rowspan="2">備考</th>
+      <th rowspan="2" class="text-vertical-align-middle">項目名</th>
+      <th rowspan="2" class="text-vertical-align-middle">ID</th>
+      <th rowspan="2" class="text-vertical-align-middle">型定義</th>
+      <th rowspan="2" class="text-vertical-align-middle">入力形式</th>
+      <th colspan="2" class="text-vertical-align-middle">選択肢</th>
+      <th rowspan="2" class="text-vertical-align-middle">初期値</th>
+      <th rowspan="2" class="text-vertical-align-middle">clearボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">deleteボタン</th>
+      <th rowspan="2" class="text-vertical-align-middle">Phenopackets</th>
+      <th rowspan="2" class="text-vertical-align-middle">備考</th>
     </tr>
     <tr>
       <th>値</th>
