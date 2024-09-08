@@ -97,6 +97,69 @@
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td><strong>遺伝性疾患 / 非遺伝性疾患</strong></td>
+      <td>registration_genetic_status</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>not_applicable</li>
+          <li>genetic</li>
+          <li>non_genetic</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>該当なし</li>
+          <li>遺伝性疾患</li>
+          <li>非遺伝性疾患</li>
+        </ul>
+      </td>
+      <td>"not_applicable"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>罹患有無</strong></td>
+      <td>registration_affection</td>
+      <td>string</td>
+      <td>ラジオボタン</td>
+      <td>
+        <ul>
+          <li>not_applicable</li>
+          <li>affected</li>
+          <li>not_affected</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>該当なし</li>
+          <li>罹患</li>
+          <li>非罹患</li>
+        </ul>
+      </td>
+      <td>"not_applicable"</td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>備考</strong></td>
+      <td>registration_note</td>
+      <td>string | null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
