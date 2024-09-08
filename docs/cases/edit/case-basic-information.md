@@ -644,29 +644,69 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>母親の年齢 (YMD)</strong></td>
-      <td>case_age_of_mother_at_birth</td>
-      <td>string</td>
-      <td>テキストボックス (数字)、セレクトボックス</td>
+      <td rowspan="3"><strong>母親の年齢 (YMD)</strong></td>
+      <td rowspan="3">case_age_of_mother_at_birth</td>
+      <td rowspan="3">string</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td rowspan="3">
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+      </td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- ヶ月を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>父親の年齢 (YMD)</strong></td>
-      <td>case_age_of_father_at_birth</td>
-      <td>string</td>
-      <td>テキストボックス (数字)、セレクトボックス</td>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- 日を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>父親の年齢 (YMD)</strong></td>
+      <td rowspan="3">case_age_of_father_at_birth</td>
+      <td rowspan="3">string</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td rowspan="3">
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+      </td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- ヶ月を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>セレクトボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>- 日を選択 -</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
   </tbody>
