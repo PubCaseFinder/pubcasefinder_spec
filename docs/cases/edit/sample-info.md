@@ -142,7 +142,9 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">
+        追加ボタンから項目を増やすことが可能。各キーには配列として保存される。
+      </td>
     </tr>
     <tr>
       <td><strong>投与経路</strong></td>
@@ -169,7 +171,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>YJコード</strong></td>
@@ -181,7 +182,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
       <td></td>
     </tr>
   </tbody>
@@ -347,9 +347,9 @@
       <td>-</td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">追加ボタンから項目を増やすことが可能。各キーには配列として保存される。</td>
     </tr>
     <tr>
       <td><strong>検査値</strong></td>
@@ -360,8 +360,6 @@
       <td>-</td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -373,8 +371,6 @@
       <td>-</td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
       <td></td>
     </tr>
   </tbody>
