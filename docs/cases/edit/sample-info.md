@@ -347,7 +347,7 @@
       <td>-</td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td rowspan="3"><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td rowspan="3">追加ボタンから項目を増やすことが可能。各キーには配列として保存される。</td>
     </tr>
@@ -360,7 +360,6 @@
       <td>-</td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
     </tr>
     <tr>
@@ -372,7 +371,6 @@
       <td>-</td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
     </tr>
   </tbody>
