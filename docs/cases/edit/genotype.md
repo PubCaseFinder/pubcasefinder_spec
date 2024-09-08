@@ -438,16 +438,16 @@
       <td>セレクトボックス</td>
       <td>
         <ul>
-          <li>"GRCh37 (hg19)"</li>
-          <li>"GRCh38 (hg38)"</li>
-          <li>"GRCh36 (hg18)"</li>
+          <li>GRCh37 (hg19)</li>
+          <li>GRCh38 (hg38)</li>
+          <li>GRCh36 (hg18)</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>"GRCh37 (hg19)"</li>
-          <li>"GRCh38 (hg38)"</li>
-          <li>"GRCh36 (hg18)"</li>
+          <li>GRCh37 (hg19)</li>
+          <li>GRCh38 (hg38)</li>
+          <li>GRCh36 (hg18)</li>
         </ul>
       </td>
       <td>[]</td>
