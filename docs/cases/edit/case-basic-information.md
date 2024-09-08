@@ -69,7 +69,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td rowspan="2">null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>id</td>
@@ -79,7 +79,6 @@
       <td>セレクトボックス</td>
       <td>一覧に表示中の家族IDをプルダウンから選択可能</td>
       <td>-</td>
-      <td> - 登録済み家族ID - </td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>pedigree.persons.family_id</td>
@@ -92,7 +91,7 @@
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td rowspan="2">null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -102,7 +101,6 @@
       <td>セレクトボックス</td>
       <td>一覧に表示中のグループ名をプルダウンから選択可能</td>
       <td>-</td>
-      <td> - 登録済みグループ名 - </td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -345,7 +343,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td rowspan="3">null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -357,7 +355,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- ヶ月を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -366,7 +363,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- 日を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -378,7 +374,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td rowspan="3">null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -390,7 +386,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- ヶ月を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -399,7 +394,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- 日を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -714,7 +708,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td rowspan="3">null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -726,7 +720,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- ヶ月を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -735,7 +728,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- 日を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -747,7 +739,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>null</td>
+      <td rowspan="3">null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -759,7 +751,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- ヶ月を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -768,7 +759,6 @@
       <td>セレクトボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>- 日を選択 -</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
