@@ -13,7 +13,7 @@
 
 ## 臨床症状 {: #clinical-symptom}
 
-<img style="border: 1px solid #ccc" src="/assets/images/cases_edit_phenotype_form.png">
+<img style="border: 1px solid #ccc;" src="../../../assets/images/cases_edit_phenotype_form.png">
 
 ### 機能一覧
 
@@ -73,7 +73,7 @@
 
 ## 症状一覧 {: #clinical-symptom-list}
 
-<img style="border: 1px solid #ccc" src="/assets/images/cases_edit_phenotype_list.png">
+<img style="border: 1px solid #ccc" src="../../../assets/images/cases_edit_phenotype_list.png">
 
 ### 機能一覧
 
