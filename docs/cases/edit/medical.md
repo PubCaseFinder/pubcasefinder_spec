@@ -151,7 +151,12 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンから複数登録が可能</td>
+      <td>
+        <ul>
+          <li>テキストボックスに入力した値を「/static/data/icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>追加ボタンから複数登録が可能</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>既往歴疾患名_備考</strong></td>
