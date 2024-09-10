@@ -1178,7 +1178,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「疾患領域」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>「疾患領域」で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
   </tbody>
 </table>

@@ -201,7 +201,12 @@
           <li>症状なし</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>yes</li>
+          <li>no</li>
+        </ul>
+      </td>
       <td>[]</td>
       <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -221,7 +226,13 @@
           <li>低い</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>normal</li>
+          <li>distinctive</li>
+          <li>minor</li>
+        </ul>
+      </td>
       <td>[]</td>
       <td>"normal"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -243,7 +254,15 @@
           <li>軽度</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>borderline</li>
+          <li>severe</li>
+          <li>profound</li>
+          <li>moderate</li>
+          <li>mild</li>
+        </ul>
+      </td>
       <td>[]</td>
       <td>"borderline"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
