@@ -102,6 +102,7 @@ nav:
     - 仕様: 'file-save/specifications'
   - File merge:
     - 仕様: 'file-merge/specifications'
+    - 翻訳: 'file-merge/translate'
 
 extra_css:
   - assets/css/custom.css
