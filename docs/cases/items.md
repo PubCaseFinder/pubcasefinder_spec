@@ -875,8 +875,8 @@ Casesでは下記の項目を扱うことができます。
       <td>medical_body_height_at_examination</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>text</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>-</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
@@ -885,8 +885,8 @@ Casesでは下記の項目を扱うことができます。
       <td>medical_body_weight_at_examination</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>text</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>-</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
@@ -895,8 +895,8 @@ Casesでは下記の項目を扱うことができます。
       <td>medical_head_circumference_at_examination</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td>text</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td>-</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
