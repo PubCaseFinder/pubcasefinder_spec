@@ -1810,8 +1810,17 @@
           <li><strong>ラボコープ・ジャパン</strong></li>
           <li><strong>LSI メディエンス</strong></li>
           <li><strong>学術研究</strong></li>
+          <li><strong>その他</strong></li>
         </ul>
       </td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>検査会社/施設名 (その他詳細)</strong></td>
+      <td>Testing Company/Facility Name</td>
+      <td>검사회사/시설명</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>

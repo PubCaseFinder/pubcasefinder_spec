@@ -159,6 +159,7 @@
           <li>ラボコープ・ジャパン</li>
           <li>LSI メディエンス</li>
           <li>学術研究</li>
+          <li>others</li>
         </ul>
       </td>
       <td>
@@ -171,6 +172,7 @@
           <li>ラボコープ・ジャパン</li>
           <li>LSI メディエンス</li>
           <li>学術研究</li>
+          <li>その他</li>
         </ul>
       </td>
       <td>[]</td>
@@ -178,6 +180,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
+    </tr>
+    <tr>
+      <td><strong>検査会社/施設名 (その他詳細)</strong></td>
+      <td>genotype_testing_company_name_other_details</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>
+        検査会社/施設名で「その他」を選択している時のみ入力可<br>
+        （それ以外の場合は非活性）
+      </td>
     </tr>
     <tr>
       <td><strong>検査種別</strong></td>
