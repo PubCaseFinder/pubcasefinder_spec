@@ -901,9 +901,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>本数 (本/日)</strong></td>
-      <td>Number (per day)</td>
-      <td>개수 (개/일)</td>
+      <td><strong>喫煙本数 (本/日)</strong></td>
+      <td>Number of Smoking (per day)</td>
+      <td>흡연개수 (개/일)</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
