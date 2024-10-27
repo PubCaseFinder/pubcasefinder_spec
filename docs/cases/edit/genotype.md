@@ -179,7 +179,10 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>
+        日本語以外の場合は非表示<br>
+        →その他詳細に入力がある場合、値に"others"が入る
+      </td>
     </tr>
     <tr>
       <td><strong>検査会社/施設名 (その他詳細)</strong></td>
@@ -194,7 +197,8 @@
       <td></td>
       <td>
         検査会社/施設名で「その他」を選択している時のみ入力可<br>
-        （それ以外の場合は非活性）
+        （それ以外の場合は非活性）<br>
+        ※日本語の場合のみの制御
       </td>
     </tr>
     <tr>
