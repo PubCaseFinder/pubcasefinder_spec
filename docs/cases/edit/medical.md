@@ -894,7 +894,7 @@
       <td><strong>飲酒量</strong></td>
       <td>medical_drinking</td>
       <td>number | null</td>
-      <td>テキストボックス（数字）</td>
+      <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
