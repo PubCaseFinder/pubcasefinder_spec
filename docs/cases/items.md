@@ -1101,7 +1101,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>臨床診断</strong></td>
+      <td><strong>臨床診断_疾患名</strong></td>
       <td>medical_clinical_diagnosis_name</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1131,7 +1131,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>確定診断</strong></td>
+      <td><strong>確定診断_疾患名</strong></td>
       <td>medical_final_diagnosis_name</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
