@@ -861,7 +861,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>診察時身体情報</strong></td>
+      <td><strong>診察時身体情報_日付</strong></td>
       <td>medical_body_info_date_at_examination</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
