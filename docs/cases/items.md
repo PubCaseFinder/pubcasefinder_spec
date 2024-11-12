@@ -751,7 +751,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>その他詳細</strong></td>
+      <td><strong>職業分類 その他詳細</strong></td>
       <td>medical_occupational_classification_other_details</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1061,7 +1061,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>その他詳細</strong></td>
+      <td><strong>疾患領域 その他詳細</strong></td>
       <td>medical_disease_area_details</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1447,7 +1447,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
     </tr>
     <tr>
-      <td><strong>検査会社/施設名 (その他詳細)</strong></td>
+      <td><strong>検査会社/施設名 その他詳細</strong></td>
       <td>genotype_testing_company_name_other_details</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1467,7 +1467,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>その他詳細</strong></td>
+      <td><strong>検査種別 その他詳細</strong></td>
       <td>genotype_testing_other_details</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1790,7 +1790,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>その他詳細</strong></td>
+      <td><strong>がん種 その他詳細</strong></td>
       <td>family_cancer_history_cancer_type_other_details</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1830,7 +1830,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>その他詳細</strong></td>
+      <td><strong>生活習慣病罹患歴 その他詳細</strong></td>
       <td>family_lifestyle_disease_history_other_details</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1973,7 +1973,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>その他詳細</strong></td>
+      <td><strong>検体種別 その他詳細</strong></td>
       <td>sample_type_other_detail</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
