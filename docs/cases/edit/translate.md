@@ -1817,7 +1817,7 @@
       <td>-</td>
     </tr>
     <tr>
-      <td><strong>検査会社/施設名 (その他詳細)</strong></td>
+      <td><strong>その他詳細</strong></td>
       <td>Testing Company/Facility Name</td>
       <td>검사회사/시설명</td>
       <td>-</td>

@@ -185,7 +185,7 @@
       </td>
     </tr>
     <tr>
-      <td><strong>検査会社/施設名 (その他詳細)</strong></td>
+      <td><strong>その他詳細</strong></td>
       <td>genotype_testing_company_name_other_details</td>
       <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス</td>
