@@ -236,7 +236,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td rowspan="7">数字以外を入力すると、数字制限アラートが表示される</td>
     </tr>
     <tr>
       <td><strong>赤血球数（RBC）</strong></td>
@@ -248,7 +248,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -262,7 +261,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>ヘマトクリット</strong></td>
@@ -274,7 +272,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -288,7 +285,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>総タンパク（TP）</strong></td>
@@ -301,7 +297,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>アルブミン（ALB）</strong></td>
@@ -313,7 +308,6 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
   </tbody>

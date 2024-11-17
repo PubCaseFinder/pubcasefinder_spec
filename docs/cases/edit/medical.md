@@ -646,7 +646,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">数字以外を入力すると、数字制限アラートが表示される</td>
     </tr>
     <tr>
       <td><strong>体重 (g)</strong></td>
@@ -659,7 +659,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
@@ -671,7 +670,6 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -686,7 +684,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td rowspan="3">数字以外を入力すると、数字制限アラートが表示される</td>
     </tr>
     <tr>
       <td><strong>体重 (kg)</strong></td>
@@ -699,7 +697,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
@@ -711,7 +708,6 @@
       <td>""</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -746,7 +742,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td rowspan="4">追加ボタンから複数登録が可能</td>
+      <td>追加ボタンから複数登録が可能</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
@@ -759,6 +755,12 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
+      <td rowspan="3">
+        <ul>
+          <li>追加ボタンから複数登録が可能</li>
+          <li>数字以外を入力すると、数字制限アラートが表示される</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>体重 (kg)</strong></td>
