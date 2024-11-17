@@ -3387,5 +3387,11 @@
       <td>Are you sure you want to delete this item?</td>
       <td>삭제하시겠습니까?</td>
     </tr>
+    <tr>
+      <td>数字制限アラート</td>
+      <td><strong>数字のみを入力してください。</strong></td>
+      <td>Please enter only numbers.</td>
+      <td>숫자만 입력하세요.</td>
+    </tr>
   </tbody>
 </table>
