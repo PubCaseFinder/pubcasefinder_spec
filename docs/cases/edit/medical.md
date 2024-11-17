@@ -896,7 +896,7 @@
       <td><strong>飲酒量</strong></td>
       <td>medical_drinking</td>
       <td>number | null</td>
-      <td>テキストボックス（数字）</td>
+      <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -933,7 +933,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>本数 (本/日)</strong></td>
+      <td><strong>喫煙本数 (本/日)</strong></td>
       <td>medical_number_of_smoking</td>
       <td>number | null</td>
       <td>テキストボックス（数字）</td>

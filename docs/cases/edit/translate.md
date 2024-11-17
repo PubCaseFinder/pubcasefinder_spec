@@ -901,9 +901,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>本数 (本/日)</strong></td>
-      <td>Number (per day)</td>
-      <td>개수 (개/일)</td>
+      <td><strong>喫煙本数 (本/日)</strong></td>
+      <td>Number of Smoking (per day)</td>
+      <td>흡연개수 (개/일)</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1810,8 +1810,17 @@
           <li><strong>ラボコープ・ジャパン</strong></li>
           <li><strong>LSI メディエンス</strong></li>
           <li><strong>学術研究</strong></li>
+          <li><strong>その他</strong></li>
         </ul>
       </td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>Testing Company/Facility Name</td>
+      <td>검사회사/시설명</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
