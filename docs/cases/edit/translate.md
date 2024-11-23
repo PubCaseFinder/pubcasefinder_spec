@@ -480,7 +480,7 @@
     <tr>
       <td><strong>父親の年齢 (YMD)</strong></td>
       <td>Age of father (YMD)</td>
-      <td>-</td>
+      <td>아버지의 나이 (YMD)</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
