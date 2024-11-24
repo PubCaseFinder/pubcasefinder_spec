@@ -14,8 +14,8 @@
         - 複数キーワード（それぞれは部分一致）のすべてを含む症例を絞り込む
         - ハイライトする項目はキーワードを1つでも含んでいるもの
     - キーワードは大文字小文字を区別しない
-- 一覧表の検索実行にはHandsontableのPlugin（[search](https://handsontable.com/docs/12.3/javascript-data-grid/api/search/)）を使用
-- 一覧表の検索実行後の絞り込み表示にはHandsontableのPlugin（[hiddenRows](https://handsontable.com/docs/12.3/javascript-data-grid/api/hidden-rows/)）を使用
+- 一覧表の検索実行にはHandsontableのPlugin（[search](https://handsontable.com/docs/14.6/javascript-data-grid/api/search/)）を使用
+- 一覧表の検索実行後の絞り込み表示にはHandsontableのPlugin（[hiddenRows](https://handsontable.com/docs/14.6/javascript-data-grid/api/hidden-rows/)）を使用
 
 <br>
 
