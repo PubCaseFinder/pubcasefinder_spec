@@ -1786,9 +1786,9 @@
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>検査結果</strong></td>
-      <td rowspan="5">Testing Result</td>
-      <td rowspan="5">검사 결과</td>
+      <td rowspan="6"><strong>検査結果</strong></td>
+      <td rowspan="6">Testing Result</td>
+      <td rowspan="6">검사 결과</td>
       <td><strong>検査実施日(yyyy/mm/dd)</strong></td>
       <td>Date of Testing (yyyy/mm/dd)</td>
       <td>검사 실시일(yyyy/mm/dd)</td>
@@ -1865,9 +1865,30 @@
       <td><strong>検査結果</strong></td>
       <td>Result of Testing</td>
       <td>검사 결과</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>陰性</li>
+          <li>陽性</li>
+          <li>検査中</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Negative</li>
+          <li>Positive</li>
+          <li>In progress</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>음성</li>
+          <li>양성</li>
+          <li>검사 중</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td rowspan="14"><strong>結果詳細</strong></td>
