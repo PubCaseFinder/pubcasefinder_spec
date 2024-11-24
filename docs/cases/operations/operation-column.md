@@ -18,7 +18,7 @@
 - `Filter by condition`
     - データのフィルターが可能
     - [項目](../../items)の一覧表の「データ種別」によって使用可能な選択肢は下記参照
-    - [Handsontable Guides > Column filter > Filter different types of data](https://handsontable.com/docs/12.3/javascript-data-grid/column-filter/#filter-different-types-of-data)
+    - [Handsontable Guides > Column filter > Filter different types of data](https://handsontable.com/docs/14.6/javascript-data-grid/column-filter/#filter-different-types-of-data)
 - `Filter by value`
     - チェックボックスの選択肢を入力した値で検索
         - 大文字小文字を区別しない

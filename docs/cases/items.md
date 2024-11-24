@@ -13,7 +13,7 @@ Casesでは下記の項目を扱うことができます。
 - **[登録](#registration)**
 
 <br>
-※ 一覧表の「データ種別」はHandsontableで用意されているUIの種別なので、[こちら](https://handsontable.com/docs/12.3/javascript-data-grid/cell-type/)の仕様に基づきます
+※ 一覧表の「データ種別」はHandsontableで用意されているUIの種別なので、[こちら](https://handsontable.com/docs/14.6/javascript-data-grid/cell-type/)の仕様に基づきます
 
 ---
 
