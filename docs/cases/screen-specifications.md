@@ -142,5 +142,13 @@
         行、列どちらも使用可能
       </td>
     </tr>
+    <tr>
+      <td>-</td>
+      <td>キーボードショートカット</td>
+      <td>
+        Google SheetsやMicrosoft Excelで使い慣れたショートカットが使用可能<br>
+        仕様詳細はHandsontableの<a href="https://handsontable.com/docs/14.6/javascript-data-grid/keyboard-shortcuts/" target="_blank">こちら</a>を参照
+      </td>
+    </tr>
   </tbody>
 </table>
