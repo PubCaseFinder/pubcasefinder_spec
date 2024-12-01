@@ -1,11 +1,11 @@
 # 画面仕様
 
-- 一覧表には[Handsontable](https://handsontable.com/)を使用
+- 一覧表には[Handsontable](https://handsontable.com/){:target="_blank"}を使用
     - 2024年12月現在、使用バージョンは`14.6.1`
 
 <br>
 
-![Casesのスクリーンショット](../assets/images/cases_20240804.png)
+![Casesのスクリーンショット](../assets/images/cases_20241201.png)
 
 <table>
   <thead>
@@ -23,31 +23,36 @@
     </tr>
     <tr>
       <td>2</td>
+      <td>元に戻す/やり直す（進む）</td>
+      <td>変更履歴がある場合に、元に戻す/やり直す（進む）操作が可能<br>変更履歴がない場合は非活性<br>※症例削除、列の移動、行の移動、File open/mergeをした際には変更履歴がクリアされる</td>
+    </tr>
+    <tr>
+      <td>3</td>
       <td>リロード</td>
       <td>ブラウザ固有の確認アラートを表示し、「OK」押下時のみページのリロードを行う<br>リロード後は一覧表の内容は初期化</td>
     </tr>
     <tr>
-      <td>3</td>
+      <td>4</td>
       <td><a href="../operations/search-keyword">キーワード検索</a></td>
       <td>入力したキーワードを含む症例を絞り込む</td>
     </tr>
     <tr>
-      <td>4</td>
+      <td>5</td>
       <td><a href="../operations/add-items">項目追加</a></td>
       <td>項目の編集ドロップダウンを開く<br>項目の新規作成、表示項目の追加や削除が可能</td>
     </tr>
     <tr>
-      <td>5</td>
+      <td>6</td>
       <td><a href="../operations/add-case">症例追加</a></td>
       <td>一覧表の後ろに症例を追加</td>
     </tr>
     <tr>
-      <td>6</td>
+      <td>7</td>
       <td>症例削除</td>
       <td>下記文言の確認アラートを表示し、「OK」押下時のみ実行<br>「症例ID {caseId} を削除しますか？」</td>
     </tr>
     <tr>
-      <td>7</td>
+      <td>8</td>
       <td>症例編集</td>
       <td>
         症例の編集モーダルが開く<br>
@@ -64,12 +69,12 @@
       </td>
     </tr>
     <tr>
-      <td>8</td>
+      <td>9</td>
       <td><a href="../operations/operation-column">列の操作</a></td>
       <td>列の操作一覧が開く<br>列のデータの一括操作やフィルターをかけることが可能</td>
     </tr>
     <tr>
-      <td>9</td>
+      <td>10</td>
       <td>File open</td>
       <td>
         枠内にファイルをドラッグ&ドロップすることでデータファイルを取り込み<br>
@@ -107,6 +112,14 @@
         ヘッダ、行番号、セル上で右クリックすることで開くメニューで下記機能が使用可能<br>
         <ul>
           <li>
+            Undo
+            <ul><li>元に戻す<br>※仕様詳細は「2.元に戻す/やり直す（進む）」を参照</li></ul>
+          </li>
+          <li>
+            Redo
+            <ul><li>やり直す（進む）<br>※仕様詳細は「2.元に戻す/やり直す（進む）」を参照</li></ul>
+          </li>
+          <li>
             Alignment
             <ul><li>配置変更する</li></ul>
           </li>
@@ -127,6 +140,14 @@
       <td>
         セルの右下の小さな四角をドラッグし、選択したセルの値を隣接するセルにコピーする<br>
         行、列どちらも使用可能
+      </td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>キーボードショートカット</td>
+      <td>
+        Google SheetsやMicrosoft Excelで使い慣れたショートカットが使用可能<br>
+        仕様詳細はHandsontableの<a href="https://handsontable.com/docs/14.6/javascript-data-grid/keyboard-shortcuts/" target="_blank">こちら</a>を参照
       </td>
     </tr>
   </tbody>
