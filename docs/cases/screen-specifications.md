@@ -1,6 +1,6 @@
 # 画面仕様
 
-- 一覧表には[Handsontable](https://handsontable.com/)を使用
+- 一覧表には[Handsontable](https://handsontable.com/){:target="_blank"}を使用
     - 2024年12月現在、使用バージョンは`14.6.1`
 
 <br>
