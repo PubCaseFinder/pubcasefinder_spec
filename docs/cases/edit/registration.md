@@ -229,7 +229,7 @@
         <ul>
           <li>該当なし</li>
           <li>本人</li>
-          <li>代諾者</li>
+          <li>代諾者等</li>
         </ul>
       </td>
       <td>"not_applicable"</td>

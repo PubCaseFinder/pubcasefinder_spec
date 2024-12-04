@@ -3116,7 +3116,7 @@
         <ul>
           <li><strong>該当なし</strong></li>
           <li><strong>本人</strong></li>
-          <li><strong>代諾者</strong></li>
+          <li><strong>代諾者等</strong></li>
         </ul>
       </td>
       <td>
@@ -3130,7 +3130,7 @@
         <ul>
           <li>해당사항 없음</li>
           <li>본인</li>
-          <li>대리인</li>
+          <li>대리인 등</li>
         </ul>
       </td>
     </tr>
