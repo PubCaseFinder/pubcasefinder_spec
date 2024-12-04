@@ -3135,9 +3135,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
-      <td>Proxy relation</td>
-      <td>대리인 등의 속사정</td>
+      <td><strong>同意取得 代諾者等の続柄</strong></td>
+      <td>Obtaining Consent Proxy Relation</td>
+      <td>동의 취득 대리인 등의 속사정</td>
       <td>
         <ul>
           <li><strong>父</strong></li>
@@ -3182,9 +3182,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
-      <td>Proxy relation other details</td>
-      <td>대리인 등의 속사정 기타 자세한 내용</td>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
@@ -3292,9 +3292,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
-      <td>Proxy relation</td>
-      <td>대리인 등의 속사정</td>
+      <td><strong>同意撤回 代諾者等の続柄</strong></td>
+      <td>Consent Withdrawal Proxy Relation</td>
+      <td>동의 철회 대리인 등의 속사정</td>
       <td>
         <ul>
           <li><strong>父</strong></li>
@@ -3339,9 +3339,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
-      <td>Proxy relation other details</td>
-      <td>대리인 등의 속사정 기타 자세한 내용</td>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
