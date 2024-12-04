@@ -275,7 +275,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>同意取得者で「代諾者」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>同意取得者で「代諾者等」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>代諾者等の続柄その他詳細</strong></td>
