@@ -2456,7 +2456,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
+      <td><strong>同意取得 代諾者等の続柄</strong></td>
       <td>registration_proxy_relation</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -2466,7 +2466,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td><strong>同意取得 代諾者等の続柄その他詳細</strong></td>
       <td>registration_proxy_relation_other</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -2536,7 +2536,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
+      <td><strong>同意撤回 代諾者等の続柄</strong></td>
       <td>registration_proxy_relation_withdrawer</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -2546,7 +2546,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td><strong>同意撤回 代諾者等の続柄その他詳細</strong></td>
       <td>registration_proxy_relation_withdrawer_other_details</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>

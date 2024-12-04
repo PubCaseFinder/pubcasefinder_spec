@@ -229,7 +229,7 @@
         <ul>
           <li>該当なし</li>
           <li>本人</li>
-          <li>代諾者</li>
+          <li>代諾者等</li>
         </ul>
       </td>
       <td>"not_applicable"</td>
@@ -239,7 +239,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
+      <td><strong>同意取得 代諾者等の続柄</strong></td>
       <td>registration_proxy_relation</td>
       <td>string | null</td>
       <td>セレクトボックス</td>
@@ -275,10 +275,10 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>同意取得者で「代諾者」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>同意取得者で「代諾者等」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td><strong>その他詳細</strong></td>
       <td>registration_proxy_relation_other</td>
       <td>string | null</td>
       <td>テキストボックス</td>
@@ -288,7 +288,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>代諾者等の続柄で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>同意取得 代諾者等の続柄で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>同意書のバージョン</strong></td>
@@ -402,10 +402,10 @@
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td rowspan="5">同意撤回の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>同意撤回の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
+      <td><strong>同意撤回 代諾者等の続柄</strong></td>
       <td>registration_proxy_relation_withdrawer</td>
       <td>string | null</td>
       <td>セレクトボックス</td>
@@ -441,9 +441,10 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td>同意撤回者で「代諾者等」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
+      <td><strong>その他詳細</strong></td>
       <td>registration_proxy_relation_withdrawer_other_details</td>
       <td>string | null</td>
       <td>テキストボックス</td>
@@ -453,6 +454,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td>同意撤回 代諾者等の続柄で「その他」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>同意撤回書のバージョン</strong></td>
@@ -465,6 +467,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td rowspan="2">同意撤回の有無で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>同意撤回アセントの有無</strong></td>
