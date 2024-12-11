@@ -352,8 +352,8 @@
       <td>-</td>
     <tr>
       <td><strong>自由記載（民族 / 集団）</strong></td>
-      <td>Free Comment</td>
-      <td>기타</td>
+      <td>Free Comment (Ethnicity / Group)</td>
+      <td>기타 (민족 / 그룹)</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
@@ -380,8 +380,8 @@
       <td>-</td>
     <tr>
       <td><strong>自由記載（出生地）</strong></td>
-      <td>Free Comment</td>
-      <td>상세 주소</td>
+      <td>Free Comment (Birth information)</td>
+      <td>상세 주소 (출생지)</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
