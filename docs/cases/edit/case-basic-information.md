@@ -521,7 +521,7 @@
     </tr>
     <tr>
       <td></td>
-      <td><strong>自由記載</strong></td>
+      <td><strong>自由記載（民族 / 集団）</strong></td>
       <td>case_free_comment_about_ethnicity_group</td>
       <td>string | null</td>
       <td>テキストボックス</td>
@@ -578,7 +578,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>自由記載</strong></td>
+      <td><strong>自由記載（出生地）</strong></td>
       <td>case_free_comment_about_birth</td>
       <td>string | null</td>
       <td>テキストボックス</td>
