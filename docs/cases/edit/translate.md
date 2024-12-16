@@ -675,7 +675,7 @@
     <tr>
       <td rowspan="4"><strong>出生時身体情報</strong></td>
       <td rowspan="4">Body Info at Birth</td>
-      <td rowspan="4">출생 시 신체 정보</td>
+      <td rowspan="4">출산 시 신체정보</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
@@ -704,7 +704,7 @@
     <tr>
       <td rowspan="5"><strong>登録時身体情報</strong></td>
       <td rowspan="5">Body Info at Registration</td>
-      <td rowspan="5">출생 시 신체 정보</td>
+      <td rowspan="5">등록 시 신체정보</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
