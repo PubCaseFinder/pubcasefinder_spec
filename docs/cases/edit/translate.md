@@ -5,7 +5,7 @@
 | JA                                          | EN       | KO            |
 | ------------------------------------------- | -------- | ------------- |
 | **[症例基本情報](#case-basic-information)** | Case Info | 의료사례 기본 정보 |
-| **[診療](#medical)** | Medical | 찰 정보 |
+| **[診療](#medical)** | Medical | 진찰 정보 |
 | **[表現型](#phenotype)** | Phenotype | 표현형 정보 |
 | **[遺伝型](#genotype)** | Genotype | 유전자형 정보 |
 | **[家系](#family-info)** | Family | 가계 정보 |
@@ -675,7 +675,7 @@
     <tr>
       <td rowspan="4"><strong>出生時身体情報</strong></td>
       <td rowspan="4">Body Info at Birth</td>
-      <td rowspan="4">출생 시 신체 정보</td>
+      <td rowspan="4">출산 시 신체정보</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
@@ -704,7 +704,7 @@
     <tr>
       <td rowspan="5"><strong>登録時身体情報</strong></td>
       <td rowspan="5">Body Info at Registration</td>
-      <td rowspan="5">출생 시 신체 정보</td>
+      <td rowspan="5">등록 시 신체정보</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
