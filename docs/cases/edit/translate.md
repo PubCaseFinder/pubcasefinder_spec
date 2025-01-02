@@ -347,9 +347,9 @@
       <td><strong>民族 / 集団</strong></td>
       <td>Ethnicity / Group</td>
       <td>민족 / 그룹</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td><strong><a href="../master#country-master">国マスタ</a></strong></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
     <tr>
       <td><strong>自由記載（民族 / 集団）</strong></td>
       <td>Free Comment (Ethnicity / Group)</td>
@@ -359,11 +359,11 @@
       <td>-</td>
     <tr>
       <td><strong>出生地 国</strong></td>
-      <td>Country</td>
-      <td>국가</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>Birth information Country</td>
+      <td>출생지 국가</td>
+      <td><strong><a href="../master#country-master">国マスタ</a></strong></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
     <tr>
       <td><strong>都道府県</strong></td>
       <td>State</td>
