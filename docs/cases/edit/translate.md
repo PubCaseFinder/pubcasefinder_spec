@@ -359,8 +359,8 @@
       <td>-</td>
     <tr>
       <td><strong>出生地 国</strong></td>
-      <td>Country</td>
-      <td>국가</td>
+      <td>Birth information Country</td>
+      <td>출생지 국가</td>
       <td><strong><a href="../master#country-master">国マスタ</a></strong></td>
       <td><a href="../master#country-master">国マスタ</a></td>
       <td><a href="../master#country-master">国マスタ</a></td>
