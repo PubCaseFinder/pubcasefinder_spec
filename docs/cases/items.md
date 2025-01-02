@@ -1324,7 +1324,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>発症年齢 (YMD)</strong></td>
+      <td><strong>症状の発症年齢 (YMD)</strong></td>
       <td>phenotype_age_onset</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1354,7 +1354,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>消失年齢 (YMD)</strong></td>
+      <td><strong>症状の消失年齢 (YMD)</strong></td>
       <td>phenotype_resolution</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
