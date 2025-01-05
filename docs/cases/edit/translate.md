@@ -89,9 +89,9 @@
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="14"><strong>基本情報</strong></td>
-      <td rowspan="14">Basic Info</td>
-      <td rowspan="14">기본 정보</td>
+      <td rowspan="15"><strong>基本情報</strong></td>
+      <td rowspan="15">Basic Info</td>
+      <td rowspan="15">기본 정보</td>
       <td><strong>続柄</strong></td>
       <td>Relationship</td>
       <td>관계</td>
@@ -176,6 +176,16 @@
           <li>기타(어머니 쪽)</li>
         </ul>
       </td>
+    </tr>
+    <tr>
+      <td><strong>誰の配偶者かを選択</strong></td>
+      <td>
+        <p>Select Spouse</p>
+      </td>
+      <td>배우자 선택</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td><strong>血縁者の本研究参加の有無</strong></td>
