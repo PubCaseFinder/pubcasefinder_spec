@@ -246,7 +246,7 @@
           <li>その他</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.sex</td>
