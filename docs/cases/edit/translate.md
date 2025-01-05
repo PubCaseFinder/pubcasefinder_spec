@@ -89,9 +89,9 @@
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="15"><strong>基本情報</strong></td>
-      <td rowspan="15">Basic Info</td>
-      <td rowspan="15">기본 정보</td>
+      <td rowspan="16"><strong>基本情報</strong></td>
+      <td rowspan="16">Basic Info</td>
+      <td rowspan="16">기본 정보</td>
       <td><strong>続柄</strong></td>
       <td>Relationship</td>
       <td>관계</td>
@@ -179,10 +179,16 @@
     </tr>
     <tr>
       <td><strong>誰の配偶者かを選択</strong></td>
-      <td>
-        <p>Select Spouse</p>
-      </td>
+      <td>Select Spouse</td>
       <td>배우자 선택</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>親を選択</strong></td>
+      <td>Select Parent</td>
+      <td>부모 선택</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
