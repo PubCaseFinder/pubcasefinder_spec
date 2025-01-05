@@ -336,7 +336,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>片方未選択の場合、一覧表には「yyyy/-」あるいは「-/mm」との形式で表示される</td>
     </tr>
     <tr>
       <td rowspan="3"><strong>登録時年齢 (YMD)</strong></td>
