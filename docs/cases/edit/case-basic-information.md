@@ -246,7 +246,7 @@
           <li>その他</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.sex</td>
@@ -336,7 +336,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>片方未選択の場合、一覧表には「yyyy/-」あるいは「-/mm」との形式で表示される</td>
     </tr>
     <tr>
       <td rowspan="3"><strong>登録時年齢 (YMD)</strong></td>
@@ -350,21 +350,21 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>1~31</td>
+      <td>1~31</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -381,21 +381,21 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>1~31</td>
+      <td>1~31</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
