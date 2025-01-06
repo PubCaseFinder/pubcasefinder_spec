@@ -405,13 +405,28 @@
       <td>case_death</td>
       <td>string | null</td>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>状態で「故人」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>
+        <ul>
+          <li>状態で「故人」を選択している時のみ入力可（それ以外の場合は非活性）</li>
+          <li>片方未選択の場合、一覧表には「yyyy/-」あるいは「-/mm」との形式で表示される</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>死因</strong></td>
@@ -447,7 +462,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>状態で「故人」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>死因で「当該疾患以外」を選択した時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>死因ICD-11コード</strong></td>
@@ -623,8 +638,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -634,7 +649,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -648,8 +663,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -659,7 +674,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -673,8 +688,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -684,7 +699,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -798,8 +813,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -809,7 +824,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
