@@ -221,7 +221,7 @@ Casesでは下記の項目を扱うことができます。
       <td><strong>民族 / 集団</strong></td>
       <td>case_ethnicity_group</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input"/></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>dropdown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
