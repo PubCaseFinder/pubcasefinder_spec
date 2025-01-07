@@ -221,14 +221,14 @@ Casesでは下記の項目を扱うことができます。
       <td><strong>民族 / 集団</strong></td>
       <td>case_ethnicity_group</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td><input type="checkbox" class="readonly-input"/></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td>dropdown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>自由記載</strong></td>
+      <td><strong>自由記載（民族 / 集団）</strong></td>
       <td>case_free_comment_about_ethnicity_group</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -268,7 +268,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>自由記載</strong></td>
+      <td><strong>自由記載（出生地）</strong></td>
       <td>case_free_comment_about_birth</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -1181,7 +1181,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" checked /></td>
     </tr>
     <tr>
-      <td><strong>小児慢性特定疾病認定</strong></td>
+      <td><strong>小児慢性特定疾病認定の有無</strong></td>
       <td>medical_presence_of_pediatric_chronic_specific_disease_certification</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
