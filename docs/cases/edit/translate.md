@@ -728,19 +728,421 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>病歴・生活歴</strong></td>
-      <td>Disease and Life History</td>
-      <td>병력・생활력</td>
+      <td rowspan="34"><strong>病歴・生活歴</strong></td>
+      <td rowspan="34">Disease and Life History</td>
+      <td rowspan="34">병력・생활력</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>現病歴</strong></td>
+      <td rowspan="4">Current Disease</td>
+      <td rowspan="4">현재 질병</td>
+    </tr>
+    <tr>
+      <td><strong>発症年齢 (YMD)</strong></td>
+      <td>Age of Onset (YMD)</td>
+      <td>발병연령 (YMD)</td>
+      <td>
+        <ul>
+          <li><strong>- ヶ月を選択 -</strong></li>
+          <li><strong>- 日を選択 -</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- Select Month -</li>
+          <li>- Select Day -</li>
+        </ul>
+      </td>
       <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>主訴</strong></td>
+      <td>Chief Complaint</td>
+      <td>주요호소증상</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
+    <tr>
+      <td><strong>経過</strong></td>
+      <td>Process</td>
+      <td>경과</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="6"><strong>既往歴</strong></td>
+      <td rowspan="6">Previous Disease</td>
+      <td rowspan="6">기왕력</td>
+    </tr>
+    <tr>
+      <td><strong>既往歴の有無</strong></td>
+      <td>Presence of Previous History</td>
+      <td>병력 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>既往歴疾患名</strong></td>
+      <td>Disease Name of Previous History</td>
+      <td>병력 질환명</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
+      <td>질병명</td>
+    </tr>
+    <tr>
+      <td><strong>既往歴疾患名_備考</strong></td>
+      <td>Note of Previous History</td>
+      <td>병력 질환명_비고</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>既往歴</strong></td>
+      <td>Previous Disease</td>
+      <td>기왕력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>出生前および周産期の病歴</strong></td>
+      <td>Prenatal Perinatal History</td>
+      <td>출산 및 주산기 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>合併症歴</strong></td>
+      <td rowspan="5">Complications</td>
+      <td rowspan="5">합병증 병력</td>
+    </tr>
+    <tr>
+      <td><strong>合併症の有無</strong></td>
+      <td>Presence of Complications</td>
+      <td>합병증 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>合併症疾患名</strong></td>
+      <td>Disease Name of Complications</td>
+      <td>합병증 질환명</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
+      <td>질병명</td>
+    </tr>
+    <tr>
+      <td><strong>合併症疾患名_備考</strong></td>
+      <td>Note of Complications</td>
+      <td>합병증 질환명_비고</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>合併症歴</strong></td>
+      <td>Complications</td>
+      <td>합병증 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="9"><strong>妊娠・出産情報</strong></td>
+      <td rowspan="9">Pregnancy and Childbirth</td>
+      <td rowspan="9">임신・출산 정보</td>
+    </tr>
+    <tr>
+      <td><strong>妊娠の有無</strong></td>
+      <td>Presence of Pregnancy</td>
+      <td>임신 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>妊娠回数（回）</strong></td>
+      <td>Number of Pregnancy</td>
+      <td>임신 횟수(회)</td>
+      <td>不明</td>
+      <td>unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>出産の有無</strong></td>
+      <td>Presence of Childbirth</td>
+      <td>출산 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>出産回数 (回)</strong></td>
+      <td>Number of Childbirth</td>
+      <td>출산 횟수 (회)</td>
+      <td>不明</td>
+      <td>unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>死産・流産の有無</strong></td>
+      <td>Presence of Miscarriage or Stillbirth</td>
+      <td>사산・유산의 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>死産の回数 (回)</strong></td>
+      <td>Number of Stillbirth</td>
+      <td>사산 횟수 (회)</td>
+      <td>不明</td>
+      <td>unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>流産 (自然)の回数 (回)</strong></td>
+      <td>Number of Miscarriage</td>
+      <td>유산(자연유산) 횟수(회)</td>
+      <td>不明</td>
+      <td>unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>流産 (人工)の回数 (回)</strong></td>
+      <td>Number of Artificial Abortion</td>
+      <td>유산(인공) 횟수(회)</td>
+      <td>不明</td>
+      <td>unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td rowspan="6"><strong>教育歴・社会歴</strong></td>
+      <td rowspan="6">Education and Social</td>
+      <td rowspan="6">학력・사회경력</td>
+    </tr>
+    <tr>
+      <td><strong>生育歴および教育歴</strong></td>
+      <td>Early Developmental and Schooling History</td>
+      <td>초기 발달사와 학교 생활사</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>就労の有無</strong></td>
+      <td>Presence of Employment</td>
+      <td>취업 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>職業分類</strong></td>
+      <td>Occupational Classification</td>
+      <td>직업 분류</td>
+      <td>
+        <ul>
+          <li><strong>管理的職業</strong></li>
+          <li><strong>専門的・技術的職業</strong></li>
+          <li><strong>事務的職業</strong></li>
+          <li><strong>販売の職業</strong></li>
+          <li><strong>サービスの職業</strong></li>
+          <li><strong>保安の職業</strong></li>
+          <li><strong>農林漁業の職業</strong></li>
+          <li><strong>生産工程の職業</strong></li>
+          <li><strong>輸送・機械運転の職業</strong></li>
+          <li><strong>建設・採掘の職業</strong></li>
+          <li><strong>運輸・清掃・包装の職業</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Managerial occupation</li>
+          <li>Professional technical occupation</li>
+          <li>Clerical occupation</li>
+          <li>Sales occupation</li>
+          <li>Service occupation</li>
+          <li>Security occupation</li>
+          <li>Agriculture forestry fishing occupation</li>
+          <li>Production process occupation</li>
+          <li>Transportation machine operation occupation</li>
+          <li>Construction mining occupation</li>
+          <li>Transportation cleaning packaging occupation</li>
+          <li>Others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>관리 분야 경력</li>
+          <li>전문・기술직</li>
+          <li>사무직</li>
+          <li>판매 직업</li>
+          <li>서비스 직업</li>
+          <li>보안 직업</li>
+          <li>농림어업의 직업</li>
+          <li>생산 공정의 직업</li>
+          <li>운송・기계 운전의 직업</li>
+          <li>건설・광업의 직업</li>
+          <li>운송・청소・포장 직업</li>
+          <li>기타</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>社会歴</strong></td>
+      <td>Social History</td>
+      <td>사회생활력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>渡航歴・予防接種歴</strong></td>
+      <td rowspan="3">Travel and Vaccination</td>
+      <td rowspan="3">여행력・예방접종력</td>
+    </tr>
+    <tr>
+      <td><strong>渡航歴</strong></td>
+      <td>Travel History</td>
+      <td>여행 이력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>予防接種歴</strong></td>
+      <td>Vaccination History</td>
+      <td>예방 접종 이력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+
+
     <!-- 身体情報・所見 -->
     <tr>
       <td rowspan="17"><strong>身体情報・所見</strong></td>
