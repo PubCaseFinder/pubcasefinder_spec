@@ -1211,9 +1211,21 @@
       <td><strong>測定時年齢 (YM)</strong></td>
       <td>Age at Measurement (YM)</td>
       <td>측정 시 연령 (YM)</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li><strong>- ヶ月を選択 -</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- Select Month -</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td rowspan="5"><strong>診察時身体情報</strong></td>
