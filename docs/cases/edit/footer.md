@@ -9,11 +9,8 @@
 
 現在編集中の症例をコピーすることができます。ボタン押下で一覧表の一番下に症例のコピーが追加されます。以下の項目以外全てのデータがコピーされます。
 
-- case_created_at
 - case_updated_at
 - PCF No.
-- case_id
-
 
 ## Phenopackets {: #phenopackets}
 
