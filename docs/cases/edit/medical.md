@@ -201,7 +201,7 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>合併病歴</strong></td>
+      <td rowspan="4"><strong>合併症歴</strong></td>
       <td><strong>合併症の有無</strong></td>
       <td><strong>-</strong></td>
       <td>medical_presence_of_complications</td>
