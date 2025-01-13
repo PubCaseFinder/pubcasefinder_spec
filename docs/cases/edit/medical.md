@@ -518,7 +518,7 @@
       <td><strong>職業分類</strong></td>
       <td><strong>-</strong></td>
       <td>medical_occupational_classification</td>
-      <td>Array&lt;string | null&gt;</td>
+      <td>Array&lt;string&gt;  | null</td>
       <td>チェックボックス</td>
       <td>
         <ul>
