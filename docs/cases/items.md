@@ -2466,7 +2466,7 @@ Casesでは下記の項目を扱うことができます。
       <td><input type="checkbox" class="readonly-input" /></td>
     </tr>
     <tr>
-      <td><strong>同意取得 代諾者等の続柄その他詳細</strong></td>
+      <td><strong>同意取得 代諾者等の続柄 その他詳細</strong></td>
       <td>registration_proxy_relation_other</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
