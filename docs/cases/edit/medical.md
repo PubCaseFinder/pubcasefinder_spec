@@ -57,7 +57,7 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
@@ -155,6 +155,8 @@
         <ul>
           <li>テキストボックスに入力した値を「/static/data/icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>1文字以上入力するとサジェストが表示される</li>
         </ul>
       </td>
     </tr>
@@ -201,7 +203,7 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>合併病歴</strong></td>
+      <td rowspan="4"><strong>合併症歴</strong></td>
       <td><strong>合併症の有無</strong></td>
       <td><strong>-</strong></td>
       <td>medical_presence_of_complications</td>
@@ -243,6 +245,8 @@
         <ul>
           <li>テキストボックスに入力した値を「/static/data/icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>1文字以上入力するとサジェストが表示される</li>
         </ul>
       </td>
     </tr>
@@ -317,6 +321,7 @@
         <ul>
           <li>「妊娠の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</li>
           <li>「不明」にチェックすると、「妊娠回数（回）」の入力欄が非活性になり、入力した値をクリア</li>
+          <li>「不明」にチェックした場合、"unknown"として保存される</li>
         </ul>
       </td>
     </tr>
@@ -368,6 +373,7 @@
         <ul>
           <li>「出産の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</li>
           <li>「不明」にチェックすると、「出産回数 (回)」の入力欄が非活性になり、入力した値をクリア</li>
+          <li>「不明」にチェックした場合、"unknown"として保存される</li>
         </ul>
       </td>
     </tr>
@@ -380,7 +386,7 @@
     <tr>
       <td><strong>死産・流産の有無</strong></td>
       <td><strong>-</strong></td>
-      <td>medical_presence_of_stillbirth_miscarriage</td>
+      <td>medical_presence_of_miscarriage_or_stillbirth</td>
       <td>string</td>
       <td>ラジオボタン</td>
       <td>
@@ -419,6 +425,7 @@
         <ul>
           <li>「死産・流産の有無」で「あり」を選択している時のみ入力可（それ以外の場合は非活性）</li>
           <li>「不明」にチェックすると、各項目の入力欄が非活性になり、入力した値をクリア</li>
+          <li>「不明」にチェックした場合、"unknown"として保存される</li>
         </ul>
       </td>
     </tr>
@@ -511,7 +518,7 @@
       <td><strong>職業分類</strong></td>
       <td><strong>-</strong></td>
       <td>medical_occupational_classification</td>
-      <td>Array&lt;string | null&gt;</td>
+      <td>Array&lt;string&gt;  | null</td>
       <td>チェックボックス</td>
       <td>
         <ul>
@@ -1000,6 +1007,8 @@
         <ul>
           <li>テキストボックスに入力した値を「/static/data/mondo_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>1文字以上入力するとサジェストが表示される</li>
         </ul>
       </td>
     </tr>
@@ -1280,6 +1289,8 @@
         <ul>
           <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>1文字以上入力するとサジェストが表示される</li>
         </ul>
       </td>
     </tr>
@@ -1310,6 +1321,8 @@
         <ul>
           <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>1文字以上入力するとサジェストが表示される</li>
         </ul>
       </td>
     </tr>
@@ -1396,6 +1409,8 @@
         <ul>
           <li>テキストボックスに入力した値を元に「/static/data/nando_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>1文字以上入力するとサジェストが表示される</li>
         </ul>
       </td>
     </tr>
@@ -1471,6 +1486,8 @@
         <ul>
           <li>テキストボックスに入力した値を元に「/static/data/nando_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>1文字以上入力するとサジェストが表示される</li>
         </ul>
       </td>
     </tr>
