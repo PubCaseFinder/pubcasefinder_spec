@@ -386,7 +386,7 @@
     <tr>
       <td><strong>死産・流産の有無</strong></td>
       <td><strong>-</strong></td>
-      <td>medical_presence_of_stillbirth_miscarriage</td>
+      <td>medical_presence_of_miscarriage_or_stillbirth</td>
       <td>string</td>
       <td>ラジオボタン</td>
       <td>
