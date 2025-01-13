@@ -57,7 +57,7 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
