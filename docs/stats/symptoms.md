@@ -1,14 +1,14 @@
 # 症状
 
-このグラフでは、疾患に紐づく症状とその発症/治癒年齢の平均値を表す。また、バーの色で重症度を示すことでどの症状が何歳の時にどれくらいの重症度で発症したかを読み取ることができる。
+このグラフでは、疾患に紐づく症状とその発症/消失年齢の平均値を表す。また、バーの色で重症度を示すことでどの症状が何歳の時にどれくらいの重症度で発症したかを読み取ることができる。
 
 ![症状グラフ](../../assets/images/stats_symptons.png)
 
 ## データ仕様
 | 項目名 | 説明 |
 | ---- | ---- |
-| データ項目 | 発症年齢（phenotype_age_onset）、治癒年齢（phenotype_resolution）、診断名（medical_final_diagnosis）、症状（phenotype_hpo_label）、重症度（phenotype_severity） |
-| データ形式 | 発症年齢はYMD表記の配列、治癒年齢はYMD表記の配列、診断名は文字列、症状は各言語文字列で定義したオブジェクトの配列 |
+| データ項目 | 発症年齢（phenotype_age_onset）、消失年齢（phenotype_resolution）、診断名（medical_final_diagnosis）、症状（phenotype_hpo_label）、重症度（phenotype_severity） |
+| データ形式 | 発症年齢はYMD表記の配列、消失年齢はYMD表記の配列、診断名は文字列、症状は各言語文字列で定義したオブジェクトの配列 |
 
 データ例）
 ```
