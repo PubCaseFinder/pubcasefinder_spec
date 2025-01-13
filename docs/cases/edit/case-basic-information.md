@@ -199,6 +199,40 @@
       <td></td>
     </tr>
     <tr>
+      <td><strong>誰の配偶者かを選択</strong></td>
+      <td>case_spouse_id</td>
+      <td>string | null</td>
+      <td>セレクトボックス</td>
+      <td>
+        同じ家族IDで、「子ども」「同胞」「おじおば」の該当する続柄の症例ID
+      </td>
+      <td>
+        同じ家族IDで、「子ども」「同胞」「おじおば」の該当する続柄の症例ID
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>続柄で「子どもの配偶者」「兄弟の配偶者」「おじおばの配偶者」を選択している時のみ入力可（それ以外の場合は非表示）</td>
+    </tr>
+    <tr>
+      <td><strong>親を選択</strong></td>
+      <td>case_parent_id</td>
+      <td>string | null</td>
+      <td>セレクトボックス</td>
+      <td>
+        同じ家族IDで、「同胞」「子ども」「おじ（父方）」「おば（父方）」「おじ（母方）」「おば（母方）」の該当する続柄の症例ID
+      </td>
+      <td>
+        同じ家族IDで、「同胞」「子ども」「おじ（父方）」「おば（父方）」「おじ（母方）」「おば（母方）」の該当する続柄の症例ID
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>続柄で「甥姪」「孫」「いとこ」を選択している時のみ入力可（それ以外の場合は非表示）</td>
+    </tr>
+    <tr>
       <td><strong>血縁者の本研究参加の有無</strong></td>
       <td>case_participation_of_relatives_in_this_study</td>
       <td>string</td>
