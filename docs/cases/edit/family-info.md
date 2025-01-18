@@ -723,3 +723,66 @@ JSON,SVG,PNG 形式で生成した家系図をダウンロードできます。
 | 家系に同性の親がいる場合 | 家系に同性の親がいるため、家系図を生成できません。 |
 | 子供の配偶者に孫がいない場合 | <症例ID>は子どものいない配偶者です。家系図上では描画されません。 |
 | その他想定外のエラー | 家系図の表示に失敗しました。FAQを確認してください。 |
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">項目名</th>
+      <th rowspan="2">ID</th>
+      <th rowspan="2">型定義</th>
+      <th rowspan="2">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2">初期値</th>
+      <th rowspan="2">clearボタン</th>
+      <th rowspan="2">deleteボタン</th>
+      <th rowspan="2">Phenopackets</th>
+      <th rowspan="2">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>家系図PDF</strong></td>
+      <td>family_family_tree_pdf</td>
+      <td>string | null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>家系図作成日 (yyyy/mm/dd)</strong></td>
+      <td>family_date_of_family_tree</td>
+      <td>string|null</td>
+      <td>カレンダー選択</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>値の持ち方は、yyyy/MM/dd形式</td>
+    </tr>
+    <tr>
+      <td><strong>家系図における世代番号 (本人)</strong></td>
+      <td>family_generation_number_of_proband</td>
+      <td>string | null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+

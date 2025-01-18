@@ -3169,12 +3169,28 @@
       </td>
     </tr>
     <tr>
-      <td><strong>家系図</strong></td>
-      <td>Pedigree</td>
-      <td>가계도</td>
+      <td rowspan="3"><strong>家系図</strong></td>
+      <td rowspan="3">Pedigree</td>
+      <td rowspan="3">가계도</td>
+      <td><strong>家系図PDF</strong></td>
+      <td>Family Tree PDF</td>
+      <td>가계도 PDF</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>家系図作成日 (yyyy/mm/dd)</strong></td>
+      <td>Date of Family Tree</td>
+      <td>가계도 작성일 (yyyy/mm/dd)</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>家系図における世代番号 (本人)</strong></td>
+      <td>Generation Number of Proband</td>
+      <td>가계도의 세대번호 (본인)</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>

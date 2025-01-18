@@ -95,6 +95,7 @@ nav:
     - 性別: 'stats/gender'
     - グループ名: 'stats/group-name'
     - 症状: 'stats/symptoms'
+    - 翻訳: 'stats/translate'
   - File open:
     - 仕様: 'file-open/specifications'
     - 翻訳: 'file-open/translate'
