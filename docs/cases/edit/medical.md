@@ -303,7 +303,7 @@
     <tr>
       <td><strong>合併症歴</strong></td>
       <td><strong>-</strong></td>
-      <td>medical_complication_history</td>
+      <td>medical_complications_history</td>
       <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
