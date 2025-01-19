@@ -682,23 +682,23 @@
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_birth</td>
       <td>string</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス (数字)	</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td rowspan="3">数字以外を入力すると、数字制限アラートが表示される</td>
+      <td rowspan="6"></td>
     </tr>
     <tr>
       <td><strong>体重 (g)</strong></td>
       <td>medical_body_weight_at_birth</td>
       <td>string</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス (数字)	</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -707,10 +707,10 @@
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_birth</td>
       <td>string</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -720,23 +720,22 @@
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_registration</td>
       <td>string</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td rowspan="3">数字以外を入力すると、数字制限アラートが表示される</td>
     </tr>
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_height_at_registration</td>
       <td>string</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -745,10 +744,10 @@
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_registration</td>
       <td>string</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -760,7 +759,7 @@
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td rowspan="2">""</td>
+      <td rowspan="2">null</td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"></td>
@@ -781,38 +780,32 @@
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンから複数登録が可能</td>
+      <td rowspan="4">追加ボタンから複数登録が可能</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_examination</td>
-      <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>Array&lt;string | null&gt;</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td rowspan="3">
-        <ul>
-          <li>追加ボタンから複数登録が可能</li>
-          <li>数字以外を入力すると、数字制限アラートが表示される</li>
-        </ul>
-      </td>
     </tr>
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_weight_at_examination</td>
-      <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>Array&lt;string | null&gt;</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -820,11 +813,11 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_examination</td>
-      <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>Array&lt;string | null&gt;</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -837,7 +830,7 @@
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -851,7 +844,7 @@
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
