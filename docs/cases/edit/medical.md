@@ -113,7 +113,7 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>既往歴</strong></td>
+      <td rowspan="6"><strong>既往歴</strong></td>
       <td><strong>既往歴の有無</strong></td>
       <td><strong>-</strong></td>
       <td>medical_presence_of_previous_history</td>
@@ -140,7 +140,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>既往歴疾患名</strong></td>
+      <td rowspan="2"><strong>既往歴疾患名</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_disease_of_previous_history_name</td>
       <td>Array&lt;string | null&gt;</td>
@@ -153,10 +153,28 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>ICD-10</strong></td>
+      <td>medical_disease_of_previous_history_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>既往歴疾患名 > 疾患名で選択した値に応じてICD-10に表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -999,7 +1017,7 @@
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -1019,7 +1037,7 @@
       <td>-</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input"/></td>
       <td></td>
