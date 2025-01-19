@@ -113,7 +113,7 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>既往歴</strong></td>
+      <td rowspan="6"><strong>既往歴</strong></td>
       <td><strong>既往歴の有無</strong></td>
       <td><strong>-</strong></td>
       <td>medical_presence_of_previous_history</td>
@@ -140,7 +140,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>既往歴疾患名</strong></td>
+      <td rowspan="2"><strong>既往歴疾患名</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_disease_of_previous_history_name</td>
       <td>Array&lt;string | null&gt;</td>
@@ -153,10 +153,28 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>ICD-10</strong></td>
+      <td>medical_disease_of_previous_history_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>既往歴疾患名 > 疾患名で選択した値に応じてICD-10に表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -203,7 +221,7 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>合併症歴</strong></td>
+      <td rowspan="5"><strong>合併症歴</strong></td>
       <td><strong>合併症の有無</strong></td>
       <td><strong>-</strong></td>
       <td>medical_presence_of_complications</td>
@@ -230,7 +248,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>合併症疾患名</strong></td>
+      <td rowspan="2"><strong>合併症疾患名</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_complication_history_name</td>
       <td>Array&lt;string | null&gt;</td>
@@ -251,6 +269,24 @@
       </td>
     </tr>
     <tr>
+      <td><strong>ICD-10</strong></td>
+      <td>medical_complication_history_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>合併症疾患名 > 疾患名で選択した値に応じてICD-10に表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」を参照</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td><strong>合併症疾患名_備考</strong></td>
       <td><strong>-</strong></td>
       <td>medical_note_of_complications</td>
@@ -267,7 +303,7 @@
     <tr>
       <td><strong>合併症歴</strong></td>
       <td><strong>-</strong></td>
-      <td>medical_complication_history</td>
+      <td>medical_complications_history</td>
       <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
@@ -645,24 +681,24 @@
       <td rowspan="3"><strong>出生時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_birth</td>
-      <td>string</td>
-      <td>テキストボックス</td>
+      <td>string | null</td>
+      <td>テキストボックス (数字)	</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td rowspan="3">数字以外を入力すると、数字制限アラートが表示される</td>
+      <td rowspan="6"></td>
     </tr>
     <tr>
       <td><strong>体重 (g)</strong></td>
       <td>medical_body_weight_at_birth</td>
-      <td>string</td>
-      <td>テキストボックス</td>
+      <td>string | null</td>
+      <td>テキストボックス (数字)	</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -670,11 +706,11 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_birth</td>
-      <td>string</td>
-      <td>テキストボックス</td>
+      <td>string | null</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -683,24 +719,23 @@
       <td rowspan="5"><strong>登録時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>string</td>
-      <td>テキストボックス</td>
+      <td>string | null</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td rowspan="3">数字以外を入力すると、数字制限アラートが表示される</td>
     </tr>
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>string</td>
-      <td>テキストボックス</td>
+      <td>string | null</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -708,11 +743,11 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_registration</td>
-      <td>string</td>
-      <td>テキストボックス</td>
+      <td>string | null</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -720,16 +755,16 @@
     <tr>
       <td rowspan="2"><strong>測定時年齢 (YM)</strong></td>
       <td rowspan="2">medical_age_at_measurement</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td rowspan="2">""</td>
+      <td rowspan="2">null</td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"></td>
       <td rowspan="2">
-        「{{yyyy}} + Y + {{mm}} + M」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
@@ -745,38 +780,38 @@
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンから複数登録が可能</td>
-    </tr>
-    <tr>
-      <td><strong>身長 (cm)</strong></td>
-      <td>medical_body_height_at_examination</td>
-      <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
-      <td>-</td>
-      <td>-</td>
-      <td>[]</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input" checked /></td>
-      <td></td>
-      <td rowspan="3">
+      <td rowspan="4">
         <ul>
           <li>追加ボタンから複数登録が可能</li>
-          <li>数字以外を入力すると、数字制限アラートが表示される</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>「{{YYYY}} + / + {{MM}} + / + {{DD}}」の形式でjsonに保存される</li>
         </ul>
       </td>
     </tr>
     <tr>
+      <td><strong>身長 (cm)</strong></td>
+      <td>medical_body_height_at_examination</td>
+      <td>Array&lt;string | null&gt;</td>
+      <td>テキストボックス (数字)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_weight_at_examination</td>
-      <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>Array&lt;string | null&gt;</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -784,11 +819,11 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_examination</td>
-      <td>Array&lt;string&gt;</td>
-      <td>テキストボックス</td>
+      <td>Array&lt;string | null&gt;</td>
+      <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -797,11 +832,11 @@
       <td><strong>身体所見</strong></td>
       <td>-</td>
       <td>medical_physical_findings</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -811,11 +846,11 @@
       <td><strong>検査初見</strong></td>
       <td>-</td>
       <td>medical_examination_findings</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -849,11 +884,11 @@
     <tr>
       <td><strong>常用薬</strong></td>
       <td>medical_medications</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -862,11 +897,11 @@
     <tr>
       <td><strong>アレルギー</strong></td>
       <td>medical_allergies</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -879,10 +914,10 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
-          <li>Present before, but currently absent</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+          <li>present_before_but_currently_absent</li>
         </ul>
       </td>
       <td>
@@ -919,10 +954,10 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
-          <li>Present before, but currently absent</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+          <li>present_before_but_currently_absent</li>
         </ul>
       </td>
       <td>
@@ -992,23 +1027,41 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3"><strong>疑い病名</strong></td>
+      <td rowspan="2"><strong>疑い病名</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_suspected_disease_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/mondo_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_utf8.tsv">/static/data/mondo_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>OMIM / Orphanet</strong></td>
+      <td>medical_suspected_disease_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>疑い病名 > 疾患名で選択した値に応じてOMIM / Orphanetに表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_utf8.tsv">/static/data/mondo_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -1090,11 +1143,11 @@
     <tr>
       <td><strong>家系内に関連する症状等</strong></td>
       <td>medical_symptoms_related_within_family_lineage</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1107,9 +1160,9 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1132,23 +1185,23 @@
       <td>チェックボックス</td>
       <td>
         <ul>
-          <li>Congenital abnormality</li>
-          <li>Facial abnormality</li>
-          <li>Nerve and muscle</li>
-          <li>Kidney and urinary tract</li>
-          <li>Respiratory system</li>
-          <li>Circulatory system</li>
-          <li>Bone and cartilage</li>
-          <li>Blood</li>
-          <li>Endocrine and metabolism</li>
-          <li>Liver biliary spleen</li>
-          <li>Digestive system</li>
-          <li>Skin</li>
-          <li>Ear nose throat</li>
-          <li>Eye</li>
-          <li>Limbs</li>
-          <li>Mental</li>
-          <li>Other</li>
+          <li>congenital_abnormality</li>
+          <li>facial_abnormality</li>
+          <li>nerve_and_muscle</li>
+          <li>kidney_and_urinary_tract</li>
+          <li>respiratory_system</li>
+          <li>circulatory_system</li>
+          <li>bone_and_cartilage</li>
+          <li>blood</li>
+          <li>endocrine_and_metabolism</li>
+          <li>liver_biliary_spleen</li>
+          <li>digestive_system</li>
+          <li>skin</li>
+          <li>ear_nose_throat</li>
+          <li>eye</li>
+          <li>limbs</li>
+          <li>mental</li>
+          <li>other</li>
         </ul>
       </td>
       <td>
@@ -1181,11 +1234,11 @@
     <tr>
       <td><strong>その他詳細</strong></td>
       <td>medical_disease_area_details</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1221,7 +1274,7 @@
       <td><strong>-</strong></td>
       <td><strong>診断状況</strong></td>
       <td>medical_case_solved</td>
-      <td>string | null</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -1241,7 +1294,7 @@
           <li>未解決</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>UNKNOWN_PROGRESS</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1251,13 +1304,13 @@
       <td><strong>-</strong></td>
       <td><strong>臨床診断名確定の有無</strong></td>
       <td>medical_confirmation_of_clinical_diagnosis</td>
-      <td>string | null</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1267,59 +1320,84 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>臨床診断</strong></td>
+      <td rowspan="3"><strong>臨床診断</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_clinical_diagnosis_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>ICD-10 / OMIM / Orphanet</strong></td>
+      <td>medical_clinical_diagnosis_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>臨床診断 > 疾患名で選択した値に応じてICD-10 / OMIM / Orphanetに表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td><strong>診断年月（yyyy/mm/dd）</strong></td>
       <td>medical_clinical_diagnosis_date</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
-      <td></td>
-      <td>追加ボタンから複数登録が可能</td>
-    </tr>
-    <tr>
-      <td rowspan="2"><strong>確定診断</strong></td>
-      <td><strong>疾患名</strong></td>
-      <td>medical_final_diagnosis_name</td>
-      <td>Array&lt;string&gt;</td>
-      <td>テキストボックス（サジェスト機能付き）</td>
-      <td>-</td>
-      <td>-</td>
-      <td>[]</td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>追加ボタンから複数登録が可能</li>
+          <li>「{{YYYY}} + / + {{MM}} + / + {{DD}}」の形式でjsonに保存される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>確定診断</strong></td>
+      <td><strong>疾患名</strong></td>
+      <td>medical_final_diagnosis_name</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス（サジェスト機能付き）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1327,20 +1405,48 @@
       </td>
     </tr>
     <tr>
+      <td><strong>ICD-10 / OMIM / Orphanet</strong></td>
+      <td>medical_final_diagnosis_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>確定診断 > 疾患名で選択した値に応じてICD-10 / OMIM / Orphanetに表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」を参照</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td><strong>診断年月（yyyy/mm/dd）</strong></td>
       <td>medical_final_diagnosis_date</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンから複数登録が可能</td>
+      <td>
+        <ul>
+          <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+          <li>「{{YYYY}} + / + {{MM}} + / + {{DD}}」の形式でjsonに保存される</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
 
 ## 指定難病 {: #designated-incurable-disease}
+
+※ 指定難病は日本語時しか表示されません
 
 <table>
   <thead>
@@ -1394,23 +1500,41 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>申請した指定難病</strong></td>
+      <td rowspan="2"><strong>申請した指定難病</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_applied_intractable_disease_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を元に「/static/data/nando_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/nando_utf8.tsv">/static/data/nando_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>告示番号</strong></td>
+      <td>medical_applied_intractable_disease_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>申請した指定難病 > 疾患名で選択した値に応じて告示番号に表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/nando_utf8.tsv">/static/data/nando_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -1418,6 +1542,8 @@
 </table>
 
 ## 小児慢性特定疾病 {: #chronic-childhood-diseases}
+
+※ 小児慢性特定疾病は英語時しか表示されません
 
 <table>
   <thead>
@@ -1471,14 +1597,14 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>申請した小児慢性特定疾病</strong></td>
+      <td rowspan="2"><strong>申請した小児慢性特定疾病</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_applied_pediatric_disease_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -1488,6 +1614,24 @@
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>告示番号</strong></td>
+      <td>medical_applied_pediatric_disease_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>申請した小児慢性特定疾病 > 疾患名で選択した値に応じて告示番号に表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/nando_utf8.tsv">/static/data/nando_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>

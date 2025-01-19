@@ -2,16 +2,16 @@
 
 ## 分類
 
-| JA                                          | EN       | KO            |
-| ------------------------------------------- | -------- | ------------- |
-| **[症例基本情報](#case-basic-information)** | Case Info | 의료사례 기본 정보 |
-| **[診療](#medical)** | Medical | 진찰 정보 |
-| **[表現型](#phenotype)** | Phenotype | 표현형 정보 |
-| **[遺伝型](#genotype)** | Genotype | 유전자형 정보 |
-| **[家系](#family-info)** | Family | 가계 정보 |
-| **[検体・検査](#sample-info)** | Sample/Test | 검체・검사 |
-| **[登録](#registration)** | Registration | 등록하기 |
-| **[その他](#other)** |  |  |
+| JA                                          | EN           | KO                 |
+| ------------------------------------------- | ------------ | ------------------ |
+| **[症例基本情報](#case-basic-information)** | Case Info    | 의료사례 기본 정보 |
+| **[診療](#medical)**                        | Medical      | 진찰 정보          |
+| **[表現型](#phenotype)**                    | Phenotype    | 표현형 정보        |
+| **[遺伝型](#genotype)**                     | Genotype     | 유전자형 정보      |
+| **[家系](#family-info)**                    | Family       | 가계 정보          |
+| **[検体・検査](#sample-info)**              | Sample/Test  | 검체・검사         |
+| **[登録](#registration)**                   | Registration | 등록하기           |
+| **[その他](#other)**                        |              |                    |
 
 ---
 
@@ -1142,7 +1142,6 @@
       <td>-</td>
     </tr>
 
-
     <!-- 身体情報・所見 -->
     <tr>
       <td rowspan="17"><strong>身体情報・所見</strong></td>
@@ -1416,8 +1415,8 @@
       <td><strong>疑い病名</strong></td>
       <td>Suspected Disease</td>
       <td>의심 병명</td>
-      <td><strong>Disease Name</strong></td>
-      <td>疾患名</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
       <td>질병명</td>
       <td>-</td>
       <td>-</td>
@@ -1430,7 +1429,7 @@
     <tr>
       <td rowspan="7"><strong>遺伝性疾患と考える根拠</strong></td>
       <td rowspan="7">Basis of Genetic Disease</td>
-      <td rowspan="7">의유전성 질환으로 보는 근거</td>
+      <td rowspan="7">유전성 질환으로 보는 근거</td>
     </tr>
     <tr>
       <td><strong>遺伝性疾患の疑い</strong></td>
@@ -1448,9 +1447,9 @@
       </td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1477,9 +1476,9 @@
       </td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1603,7 +1602,7 @@
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
-      <td>Other detail</td>
+      <td>Other Details</td>
       <td>기타 상세 정보</td>
       <td>-</td>
       <td>-</td>
@@ -1828,6 +1827,7 @@
       <td>-</td>
       <td>-</td>
     </tr>
+
   </tbody>
 </table>
 
@@ -1917,18 +1917,18 @@
     <tr>
       <td><strong>一覧に追加</strong></td>
       <td>ADD TO LIST</td>
-      <td>-</td>
+      <td>목록에 추가</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="12"><strong>症状一覧</strong></td>
-      <td rowspan="12">Symptoms list</td>
-      <td rowspan="12">-</td>
+      <td rowspan="14"><strong>症状一覧</strong></td>
+      <td rowspan="14">Symptoms list</td>
+      <td rowspan="14">증상 목록</td>
       <td><strong>詳細を表示</strong></td>
       <td>Show details</td>
-      <td>-</td>
+      <td>자세히 보기</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1936,7 +1936,7 @@
     <tr>
       <td><strong>すべてクリア</strong></td>
       <td>CLEAR ALL</td>
-      <td>-</td>
+      <td>모두 클리어</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -2017,8 +2017,8 @@
       <td>
         <ul>
           <li>보통</li>
-          <li>높음</li>
-          <li>낮음</li>
+          <li>높은</li>
+          <li>낮은</li>
         </ul>
       </td>
     </tr>
@@ -2070,7 +2070,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>発症パターン</strong></td>
@@ -2176,7 +2181,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>コメント</strong></td>
