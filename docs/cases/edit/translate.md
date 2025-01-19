@@ -1917,18 +1917,18 @@
     <tr>
       <td><strong>一覧に追加</strong></td>
       <td>ADD TO LIST</td>
-      <td>-</td>
+      <td>목록에 추가</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="12"><strong>症状一覧</strong></td>
-      <td rowspan="12">Symptoms list</td>
-      <td rowspan="12">-</td>
+      <td rowspan="14"><strong>症状一覧</strong></td>
+      <td rowspan="14">Symptoms list</td>
+      <td rowspan="14">증상 목록</td>
       <td><strong>詳細を表示</strong></td>
       <td>Show details</td>
-      <td>-</td>
+      <td>자세히 보기</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1936,7 +1936,7 @@
     <tr>
       <td><strong>すべてクリア</strong></td>
       <td>CLEAR ALL</td>
-      <td>-</td>
+      <td>모두 클리어</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -2017,8 +2017,8 @@
       <td>
         <ul>
           <li>보통</li>
-          <li>높음</li>
-          <li>낮음</li>
+          <li>높은</li>
+          <li>낮은</li>
         </ul>
       </td>
     </tr>
@@ -2070,7 +2070,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>発症パターン</strong></td>
@@ -2176,7 +2181,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>コメント</strong></td>

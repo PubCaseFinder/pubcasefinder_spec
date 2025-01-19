@@ -144,6 +144,9 @@
 
 ## 症状一覧 {: #clinical-symptom-list}
 
+臨床症状から「一覧に追加」ボタンで追加された症状が表示されます。<br />
+各症状ごとに HP:&lt;ID&gt;、症状(日)、症状(英)のデータが表示されます。
+
 <img style="border: 1px solid #ccc" src="../../../assets/images/cases_edit_phenotype_list.png">
 
 ### 機能一覧
@@ -152,8 +155,8 @@
 | 番号 | 機能 | 詳細 |
 | ---- | ---- | ---- |
 | 1 | 症状詳細表示 | 症状詳細を各症状の下部に表示します。 |
-| 2 | 症状削除 | 症状を削除することができます。 |
-| 3 | HPO詳細表示 | HPO詳細を表示することができます。 |
+| 2 | 症状削除 | 症状を削除することができます。削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ削除します。 |
+| 3 | HPO ID 表示 | HPO ID を表示します。 |
 | 4 | 症状の数 | 症状一覧に表示されている症状の数を表示します。 |
 | 5 | 常に症状詳細を表示 | 症状詳細表示ボタンを押さなくても、症状詳細が常に表示された状態になります。 |
 | 6 | 症状絞り込み検索 | 症状の詳細で絞り込み検索ができます。<br />症状絞り込み検索機能の詳細は「[症状絞り込み検索機能の詳細](#symptom-search-detail)」を参照してください。 |
@@ -211,13 +214,13 @@
       <td>phenotype_medical_current_history</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
+      <td>-</td>
       <td>
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
       <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -230,13 +233,13 @@
       <td>phenotype_medical_previous_history</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
+      <td>-</td>
       <td>
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
       <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -249,13 +252,13 @@
       <td>phenotype_process</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
+      <td>-</td>
       <td>
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
       <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -268,13 +271,13 @@
       <td>phenotype_family_history</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
+      <td>-</td>
       <td>
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
       <td>"無"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -289,14 +292,14 @@
       <td>セレクトボックス</td>
       <td>
         <ul>
-          <li>症状あり</li>
-          <li>症状なし</li>
+          <li>yes</li>
+          <li>no</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>yes</li>
-          <li>no</li>
+          <li>症状あり</li>
+          <li>症状なし</li>
         </ul>
       </td>
       <td>[]</td>
@@ -313,16 +316,16 @@
       <td>セレクトボックス</td>
       <td>
         <ul>
-          <li>通常</li>
-          <li>高い</li>
-          <li>低い</li>
+          <li>normal</li>
+          <li>distinctive</li>
+          <li>minor</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>normal</li>
-          <li>distinctive</li>
-          <li>minor</li>
+          <li>通常</li>
+          <li>高い</li>
+          <li>低い</li>
         </ul>
       </td>
       <td>[]</td>
@@ -339,20 +342,20 @@
       <td>セレクトボックス</td>
       <td>
         <ul>
-          <li>境界域</li>
-          <li>重度</li>
-          <li>最重度</li>
-          <li>中等度</li>
-          <li>軽度</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>borderline</li>
           <li>severe</li>
           <li>profound</li>
           <li>moderate</li>
           <li>mild</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>境界域</li>
+          <li>重度</li>
+          <li>最重度</li>
+          <li>中等度</li>
+          <li>軽度</li>
         </ul>
       </td>
       <td>[]</td>
@@ -374,7 +377,7 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.onset</td>
-      <td rowspan="3">「{{yy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される</td>
+      <td rowspan="3">「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -474,7 +477,7 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.resolution</td>
-      <td rowspan="3">「{{yy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される</td>
+      <td rowspan="3">「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
