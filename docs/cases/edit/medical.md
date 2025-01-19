@@ -681,7 +681,7 @@
       <td rowspan="3"><strong>出生時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)	</td>
       <td>-</td>
       <td>-</td>
@@ -694,7 +694,7 @@
     <tr>
       <td><strong>体重 (g)</strong></td>
       <td>medical_body_weight_at_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)	</td>
       <td>-</td>
       <td>-</td>
@@ -706,7 +706,7 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_birth</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -719,7 +719,7 @@
       <td rowspan="5"><strong>登録時身体情報</strong></td>
       <td><strong>身長 (cm)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -731,7 +731,7 @@
     <tr>
       <td><strong>体重 (kg)</strong></td>
       <td>medical_body_height_at_registration</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -743,7 +743,7 @@
     <tr>
       <td><strong>頭囲 (cm)</strong></td>
       <td>medical_head_circumference_at_registration</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -755,7 +755,7 @@
     <tr>
       <td rowspan="2"><strong>測定時年齢 (YM)</strong></td>
       <td rowspan="2">medical_age_at_measurement</td>
-      <td rowspan="2">string</td>
+      <td rowspan="2">string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
@@ -826,7 +826,7 @@
       <td><strong>身体所見</strong></td>
       <td>-</td>
       <td>medical_physical_findings</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
@@ -840,7 +840,7 @@
       <td><strong>検査初見</strong></td>
       <td>-</td>
       <td>medical_examination_findings</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストエリア</td>
       <td>-</td>
       <td>-</td>
