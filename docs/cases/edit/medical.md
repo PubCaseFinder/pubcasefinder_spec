@@ -764,7 +764,7 @@
       <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="2"></td>
       <td rowspan="2">
-        「{{yyyy}} + Y + {{mm}} + M」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M」の形式でjsonに保存される
       </td>
     </tr>
     <tr>
@@ -784,7 +784,12 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td rowspan="4">追加ボタンから複数登録が可能</td>
+      <td rowspan="4">
+        <ul>
+          <li>追加ボタンから複数登録が可能</li>
+          <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
@@ -878,11 +883,11 @@
     <tr>
       <td><strong>常用薬</strong></td>
       <td>medical_medications</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -891,11 +896,11 @@
     <tr>
       <td><strong>アレルギー</strong></td>
       <td>medical_allergies</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -908,10 +913,10 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
-          <li>Present before, but currently absent</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+          <li>present_before_but_currently_absent</li>
         </ul>
       </td>
       <td>
@@ -948,10 +953,10 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
-          <li>Present before, but currently absent</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
+          <li>present_before_but_currently_absent</li>
         </ul>
       </td>
       <td>
@@ -1050,7 +1055,7 @@
       <td>-</td>
       <td>[null]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td><input type="checkbox" class="readonly-input"/></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
@@ -1137,11 +1142,11 @@
     <tr>
       <td><strong>家系内に関連する症状等</strong></td>
       <td>medical_symptoms_related_within_family_lineage</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1154,9 +1159,9 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1179,23 +1184,23 @@
       <td>チェックボックス</td>
       <td>
         <ul>
-          <li>Congenital abnormality</li>
-          <li>Facial abnormality</li>
-          <li>Nerve and muscle</li>
-          <li>Kidney and urinary tract</li>
-          <li>Respiratory system</li>
-          <li>Circulatory system</li>
-          <li>Bone and cartilage</li>
-          <li>Blood</li>
-          <li>Endocrine and metabolism</li>
-          <li>Liver biliary spleen</li>
-          <li>Digestive system</li>
-          <li>Skin</li>
-          <li>Ear nose throat</li>
-          <li>Eye</li>
-          <li>Limbs</li>
-          <li>Mental</li>
-          <li>Other</li>
+          <li>congenital_abnormality</li>
+          <li>facial_abnormality</li>
+          <li>nerve_and_muscle</li>
+          <li>kidney_and_urinary_tract</li>
+          <li>respiratory_system</li>
+          <li>circulatory_system</li>
+          <li>bone_and_cartilage</li>
+          <li>blood</li>
+          <li>endocrine_and_metabolism</li>
+          <li>liver_biliary_spleen</li>
+          <li>digestive_system</li>
+          <li>skin</li>
+          <li>ear_nose_throat</li>
+          <li>eye</li>
+          <li>limbs</li>
+          <li>mental</li>
+          <li>other</li>
         </ul>
       </td>
       <td>
@@ -1228,11 +1233,11 @@
     <tr>
       <td><strong>その他詳細</strong></td>
       <td>medical_disease_area_details</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1268,7 +1273,7 @@
       <td><strong>-</strong></td>
       <td><strong>診断状況</strong></td>
       <td>medical_case_solved</td>
-      <td>string | null</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -1288,7 +1293,7 @@
           <li>未解決</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>UNKNOWN_PROGRESS</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1298,13 +1303,13 @@
       <td><strong>-</strong></td>
       <td><strong>臨床診断名確定の有無</strong></td>
       <td>medical_confirmation_of_clinical_diagnosis</td>
-      <td>string | null</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1314,7 +1319,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>unknown</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1370,7 +1375,12 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンから複数登録が可能</td>
+      <td>
+        <ul>
+          <li>追加ボタンから複数登録が可能</li>
+          <li>「{{YYYY}} + / + {{MM}} + / + {{DD}}」の形式でjsonに保存される</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td rowspan="3"><strong>確定診断</strong></td>
@@ -1422,12 +1432,19 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
-      <td>追加ボタンから複数登録が可能</td>
+      <td>
+        <ul>
+          <li>追加ボタンから複数登録が可能</li>
+          <li>「{{YYYY}} + / + {{MM}} + / + {{DD}}」の形式でjsonに保存される</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
 
 ## 指定難病 {: #designated-incurable-disease}
+
+※ 指定難病は日本語時しか表示されません
 
 <table>
   <thead>
@@ -1523,6 +1540,8 @@
 </table>
 
 ## 小児慢性特定疾病 {: #chronic-childhood-diseases}
+
+※ 小児慢性特定疾病は英語時しか表示されません
 
 <table>
   <thead>
