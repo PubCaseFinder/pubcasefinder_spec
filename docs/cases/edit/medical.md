@@ -992,14 +992,14 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3"><strong>疑い病名</strong></td>
+      <td rowspan="2"><strong>疑い病名</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_suspected_disease_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>""</td>
+      <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
@@ -1009,6 +1009,24 @@
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>OMIM / Orphanet</strong></td>
+      <td>medical_suspected_disease_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input"/></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>疑い病名 > 疾患名で選択した値に応じてOMIM / Orphanetに表示される</li>
+          <li>データは「/static/data/mondo_utf8.tsv」を参照</li>
         </ul>
       </td>
     </tr>
