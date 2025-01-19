@@ -1328,52 +1328,72 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>臨床診断</strong></td>
+      <td rowspan="3"><strong>臨床診断</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_clinical_diagnosis_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>ICD-10 / OMIM / Orphanet</strong></td>
+      <td>medical_complication_history_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>臨床診断 > 疾患名で選択した値に応じてICD-10 / OMIM / Orphanetに表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td><strong>診断年月（yyyy/mm/dd）</strong></td>
       <td>medical_clinical_diagnosis_date</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>追加ボタンから複数登録が可能</td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>確定診断</strong></td>
+      <td rowspan="3"><strong>確定診断</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_final_diagnosis_name</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" /></td>
-      <td rowspan="2"><input type="checkbox" class="readonly-input" checked /></td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/mondo_icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1381,13 +1401,33 @@
       </td>
     </tr>
     <tr>
+      <td><strong>ICD-10 / OMIM / Orphanet</strong></td>
+      <td>medical_final_diagnosis_id</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
+      <td></td>
+      <td>
+        <ul>
+          <li>確定診断 > 疾患名で選択した値に応じてICD-10 / OMIM / Orphanetに表示される</li>
+          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」を参照</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td><strong>診断年月（yyyy/mm/dd）</strong></td>
       <td>medical_final_diagnosis_date</td>
-      <td>Array&lt;string&gt;</td>
+      <td>Array&lt;string|null&gt;</td>
       <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
-      <td>[]</td>
+      <td>[null]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td></td>
       <td>追加ボタンから複数登録が可能</td>
     </tr>
