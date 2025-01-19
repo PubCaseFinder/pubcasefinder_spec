@@ -1350,7 +1350,7 @@
     </tr>
     <tr>
       <td><strong>ICD-10 / OMIM / Orphanet</strong></td>
-      <td>medical_complication_history_id</td>
+      <td>medical_clinical_diagnosis_id</td>
       <td>Array&lt;string|null&gt;</td>
       <td>-</td>
       <td>-</td>
