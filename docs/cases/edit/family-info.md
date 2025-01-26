@@ -483,6 +483,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>生活習慣病罹患歴の有無</strong></td>
       <td>family_presence_of_lifestyle_disease_history</td>
       <td>Array&lt;string|null&gt;</td>
@@ -508,6 +509,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>生活習慣病罹患歴詳細</strong></td>
       <td>family_lifestyle_disease_history</td>
       <td>Array&lt;Array&lt;string|null&gt;&gt;</td>
@@ -545,6 +547,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>その他詳細</strong></td>
       <td>family_lifestyle_disease_history_other_details</td>
       <td>Array&lt;string|null&gt;</td>
