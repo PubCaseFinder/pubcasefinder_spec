@@ -314,7 +314,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.gene.symbol</td>
-      <td rowspan="3">「/static/data/gene_id_list.tsv」に該当する値（完全一致）を入力すると、他の2項目を自動保管する</td>
+      <td rowspan="3">「/static/data/gene_id_list.tsv」に該当する値（完全一致）を入力すると、他の2項目を自動補完する</td>
     </tr>
     <tr>
       <td><strong>NCBI Gene ID</strong></td>
