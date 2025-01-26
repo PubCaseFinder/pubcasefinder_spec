@@ -2954,9 +2954,159 @@
       <td><strong>がん種</strong></td>
       <td>Cancer Type</td>
       <td>암종</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li><strong>中枢神経系</strong></li>
+          <li><strong>脳</strong></li>
+          <li><strong>眼</strong></li>
+          <li><strong>口腔</strong></li>
+          <li><strong>咽頭</strong></li>
+          <li><strong>喉頭</strong></li>
+          <li><strong>鼻・副鼻腔</strong></li>
+          <li><strong>唾液腺</strong></li>
+          <li><strong>甲状腺</strong></li>
+          <li><strong>肺</strong></li>
+          <li><strong>胸膜</strong></li>
+          <li><strong>胸腺</strong></li>
+          <li><strong>乳</strong></li>
+          <li><strong>食道</strong></li>
+          <li><strong>胃</strong></li>
+          <li><strong>十二指腸乳頭部</strong></li>
+          <li><strong>小腸</strong></li>
+          <li><strong>虫垂</strong></li>
+          <li><strong>大腸</strong></li>
+          <li><strong>肝</strong></li>
+          <li><strong>胆嚢</strong></li>
+          <li><strong>胆道</strong></li>
+          <li><strong>膵</strong></li>
+          <li><strong>腎</strong></li>
+          <li><strong>腎盂</strong></li>
+          <li><strong>副腎</strong></li>
+          <li><strong>膀胱</strong></li>
+          <li><strong>尿管</strong></li>
+          <li><strong>前立腺</strong></li>
+          <li><strong>精巣</strong></li>
+          <li><strong>陰茎</strong></li>
+          <li><strong>子宮体部</strong></li>
+          <li><strong>子宮頚部</strong></li>
+          <li><strong>卵巣/卵管</strong></li>
+          <li><strong>膣</strong></li>
+          <li><strong>皮膚</strong></li>
+          <li><strong>皮下</strong></li>
+          <li><strong>骨</strong></li>
+          <li><strong>筋肉</strong></li>
+          <li><strong>軟部組織</strong></li>
+          <li><strong>腹膜</strong></li>
+          <li><strong>髄膜</strong></li>
+          <li><strong>骨髄系</strong></li>
+          <li><strong>リンパ系</strong></li>
+          <li><strong>末梢神経系</strong></li>
+          <li><strong>原発不明</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Central nervous system</li>
+          <li>Brain</li>
+          <li>Eye</li>
+          <li>Oral cavity</li>
+          <li>Pharynx</li>
+          <li>Larynx</li>
+          <li>Nasal and paranasal sinuses</li>
+          <li>Salivary gland</li>
+          <li>Thyroid</li>
+          <li>Lung</li>
+          <li>Pleura</li>
+          <li>Thymus</li>
+          <li>Breast</li>
+          <li>Esophagus</li>
+          <li>Stomach</li>
+          <li>Duodenum</li>
+          <li>Small intestine</li>
+          <li>Appendix</li>
+          <li>Colon</li>
+          <li>Liver</li>
+          <li>Gallbladder</li>
+          <li>Bile duct</li>
+          <li>Pancreas</li>
+          <li>Kidney</li>
+          <li>Renal pelvis</li>
+          <li>Adrenal gland</li>
+          <li>Bladder</li>
+          <li>Ureter</li>
+          <li>Prostate</li>
+          <li>Testis</li>
+          <li>Penis</li>
+          <li>Uterine body</li>
+          <li>Cervix</li>
+          <li>Ovary/fallopian tube</li>
+          <li>Vagina</li>
+          <li>Skin</li>
+          <li>Subcutaneous</li>
+          <li>Bone</li>
+          <li>Muscle</li>
+          <li>Soft tissue</li>
+          <li>Peritoneum</li>
+          <li>Meninges</li>
+          <li>Bone marrow system</li>
+          <li>Lymphatic system</li>
+          <li>Peripheral nervous system</li>
+          <li>Unknown primary</li>
+          <li>Others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>중추신경계</li>
+          <li>두뇌</li>
+          <li>눈</li>
+          <li>구강</li>
+          <li>인두</li>
+          <li>후두</li>
+          <li>코-부비동</li>
+          <li>침샘</li>
+          <li>갑상선</li>
+          <li>폐</li>
+          <li>흉막</li>
+          <li>흉선</li>
+          <li>우유</li>
+          <li>식도</li>
+          <li>위</li>
+          <li>십이지장 유두</li>
+          <li>소장</li>
+          <li>맹장</li>
+          <li>대장</li>
+          <li>간</li>
+          <li>담낭</li>
+          <li>담도</li>
+          <li>췌장</li>
+          <li>신장</li>
+          <li>신우</li>
+          <li>부신</li>
+          <li>방광</li>
+          <li>요도 카테터</li>
+          <li>전립선</li>
+          <li>고환</li>
+          <li>음경</li>
+          <li>자궁체부</li>
+          <li>자궁경부</li>
+          <li>스가모/오비덕트</li>
+          <li>질</li>
+          <li>피부</li>
+          <li>피하</li>
+          <li>뼈</li>
+          <li>근육</li>
+          <li>연조직</li>
+          <li>복막</li>
+          <li>수막</li>
+          <li>골수계</li>
+          <li>림프계</li>
+          <li>말초신경계</li>
+          <li>원전 불명</li>
+          <li>기타</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
