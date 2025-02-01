@@ -789,9 +789,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -852,9 +852,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -907,9 +907,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -941,9 +941,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -975,9 +975,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -1038,9 +1038,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
