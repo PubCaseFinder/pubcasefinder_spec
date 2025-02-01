@@ -2,16 +2,16 @@
 
 ## 分類
 
-| JA                                          | EN       | KO            |
-| ------------------------------------------- | -------- | ------------- |
-| **[症例基本情報](#case-basic-information)** | Case Info | 의료사례 기본 정보 |
-| **[診療](#medical)** | Medical | 진찰 정보 |
-| **[表現型](#phenotype)** | Phenotype | 표현형 정보 |
-| **[遺伝型](#genotype)** | Genotype | 유전자형 정보 |
-| **[家系](#family-info)** | Family | 가계 정보 |
-| **[検体・検査](#sample-info)** | Sample/Test | 검체・검사 |
-| **[登録](#registration)** | Registration | 등록하기 |
-| **[その他](#other)** |  |  |
+| JA                                          | EN           | KO                 |
+| ------------------------------------------- | ------------ | ------------------ |
+| **[症例基本情報](#case-basic-information)** | Case Info    | 의료사례 기본 정보 |
+| **[診療](#medical)**                        | Medical      | 진찰 정보          |
+| **[表現型](#phenotype)**                    | Phenotype    | 표현형 정보        |
+| **[遺伝型](#genotype)**                     | Genotype     | 유전자형 정보      |
+| **[家系](#family-info)**                    | Family       | 가계 정보          |
+| **[検体・検査](#sample-info)**              | Sample/Test  | 검체・검사         |
+| **[登録](#registration)**                   | Registration | 등록하기           |
+| **[その他](#other)**                        |              |                    |
 
 ---
 
@@ -1142,7 +1142,6 @@
       <td>-</td>
     </tr>
 
-
     <!-- 身体情報・所見 -->
     <tr>
       <td rowspan="17"><strong>身体情報・所見</strong></td>
@@ -1416,8 +1415,8 @@
       <td><strong>疑い病名</strong></td>
       <td>Suspected Disease</td>
       <td>의심 병명</td>
-      <td><strong>Disease Name</strong></td>
-      <td>疾患名</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
       <td>질병명</td>
       <td>-</td>
       <td>-</td>
@@ -1430,7 +1429,7 @@
     <tr>
       <td rowspan="7"><strong>遺伝性疾患と考える根拠</strong></td>
       <td rowspan="7">Basis of Genetic Disease</td>
-      <td rowspan="7">의유전성 질환으로 보는 근거</td>
+      <td rowspan="7">유전성 질환으로 보는 근거</td>
     </tr>
     <tr>
       <td><strong>遺伝性疾患の疑い</strong></td>
@@ -1448,9 +1447,9 @@
       </td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1477,9 +1476,9 @@
       </td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1603,7 +1602,7 @@
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
-      <td>Other detail</td>
+      <td>Other Details</td>
       <td>기타 상세 정보</td>
       <td>-</td>
       <td>-</td>
@@ -1828,6 +1827,7 @@
       <td>-</td>
       <td>-</td>
     </tr>
+
   </tbody>
 </table>
 
@@ -1917,18 +1917,18 @@
     <tr>
       <td><strong>一覧に追加</strong></td>
       <td>ADD TO LIST</td>
-      <td>-</td>
+      <td>목록에 추가</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="12"><strong>症状一覧</strong></td>
-      <td rowspan="12">Symptoms list</td>
-      <td rowspan="12">-</td>
+      <td rowspan="14"><strong>症状一覧</strong></td>
+      <td rowspan="14">Symptoms list</td>
+      <td rowspan="14">증상 목록</td>
       <td><strong>詳細を表示</strong></td>
       <td>Show details</td>
-      <td>-</td>
+      <td>자세히 보기</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1936,7 +1936,7 @@
     <tr>
       <td><strong>すべてクリア</strong></td>
       <td>CLEAR ALL</td>
-      <td>-</td>
+      <td>모두 클리어</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -2017,8 +2017,8 @@
       <td>
         <ul>
           <li>보통</li>
-          <li>높음</li>
-          <li>낮음</li>
+          <li>높은</li>
+          <li>낮은</li>
         </ul>
       </td>
     </tr>
@@ -2070,7 +2070,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>発症パターン</strong></td>
@@ -2176,7 +2181,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>コメント</strong></td>
@@ -2954,9 +2964,159 @@
       <td><strong>がん種</strong></td>
       <td>Cancer Type</td>
       <td>암종</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li><strong>中枢神経系</strong></li>
+          <li><strong>脳</strong></li>
+          <li><strong>眼</strong></li>
+          <li><strong>口腔</strong></li>
+          <li><strong>咽頭</strong></li>
+          <li><strong>喉頭</strong></li>
+          <li><strong>鼻・副鼻腔</strong></li>
+          <li><strong>唾液腺</strong></li>
+          <li><strong>甲状腺</strong></li>
+          <li><strong>肺</strong></li>
+          <li><strong>胸膜</strong></li>
+          <li><strong>胸腺</strong></li>
+          <li><strong>乳</strong></li>
+          <li><strong>食道</strong></li>
+          <li><strong>胃</strong></li>
+          <li><strong>十二指腸乳頭部</strong></li>
+          <li><strong>小腸</strong></li>
+          <li><strong>虫垂</strong></li>
+          <li><strong>大腸</strong></li>
+          <li><strong>肝</strong></li>
+          <li><strong>胆嚢</strong></li>
+          <li><strong>胆道</strong></li>
+          <li><strong>膵</strong></li>
+          <li><strong>腎</strong></li>
+          <li><strong>腎盂</strong></li>
+          <li><strong>副腎</strong></li>
+          <li><strong>膀胱</strong></li>
+          <li><strong>尿管</strong></li>
+          <li><strong>前立腺</strong></li>
+          <li><strong>精巣</strong></li>
+          <li><strong>陰茎</strong></li>
+          <li><strong>子宮体部</strong></li>
+          <li><strong>子宮頚部</strong></li>
+          <li><strong>卵巣/卵管</strong></li>
+          <li><strong>膣</strong></li>
+          <li><strong>皮膚</strong></li>
+          <li><strong>皮下</strong></li>
+          <li><strong>骨</strong></li>
+          <li><strong>筋肉</strong></li>
+          <li><strong>軟部組織</strong></li>
+          <li><strong>腹膜</strong></li>
+          <li><strong>髄膜</strong></li>
+          <li><strong>骨髄系</strong></li>
+          <li><strong>リンパ系</strong></li>
+          <li><strong>末梢神経系</strong></li>
+          <li><strong>原発不明</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Central nervous system</li>
+          <li>Brain</li>
+          <li>Eye</li>
+          <li>Oral cavity</li>
+          <li>Pharynx</li>
+          <li>Larynx</li>
+          <li>Nasal and paranasal sinuses</li>
+          <li>Salivary gland</li>
+          <li>Thyroid</li>
+          <li>Lung</li>
+          <li>Pleura</li>
+          <li>Thymus</li>
+          <li>Breast</li>
+          <li>Esophagus</li>
+          <li>Stomach</li>
+          <li>Duodenum</li>
+          <li>Small intestine</li>
+          <li>Appendix</li>
+          <li>Colon</li>
+          <li>Liver</li>
+          <li>Gallbladder</li>
+          <li>Bile duct</li>
+          <li>Pancreas</li>
+          <li>Kidney</li>
+          <li>Renal pelvis</li>
+          <li>Adrenal gland</li>
+          <li>Bladder</li>
+          <li>Ureter</li>
+          <li>Prostate</li>
+          <li>Testis</li>
+          <li>Penis</li>
+          <li>Uterine body</li>
+          <li>Cervix</li>
+          <li>Ovary/fallopian tube</li>
+          <li>Vagina</li>
+          <li>Skin</li>
+          <li>Subcutaneous</li>
+          <li>Bone</li>
+          <li>Muscle</li>
+          <li>Soft tissue</li>
+          <li>Peritoneum</li>
+          <li>Meninges</li>
+          <li>Bone marrow system</li>
+          <li>Lymphatic system</li>
+          <li>Peripheral nervous system</li>
+          <li>Unknown primary</li>
+          <li>Others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>중추신경계</li>
+          <li>두뇌</li>
+          <li>눈</li>
+          <li>구강</li>
+          <li>인두</li>
+          <li>후두</li>
+          <li>코-부비동</li>
+          <li>침샘</li>
+          <li>갑상선</li>
+          <li>폐</li>
+          <li>흉막</li>
+          <li>흉선</li>
+          <li>우유</li>
+          <li>식도</li>
+          <li>위</li>
+          <li>십이지장 유두</li>
+          <li>소장</li>
+          <li>맹장</li>
+          <li>대장</li>
+          <li>간</li>
+          <li>담낭</li>
+          <li>담도</li>
+          <li>췌장</li>
+          <li>신장</li>
+          <li>신우</li>
+          <li>부신</li>
+          <li>방광</li>
+          <li>요도 카테터</li>
+          <li>전립선</li>
+          <li>고환</li>
+          <li>음경</li>
+          <li>자궁체부</li>
+          <li>자궁경부</li>
+          <li>스가모/오비덕트</li>
+          <li>질</li>
+          <li>피부</li>
+          <li>피하</li>
+          <li>뼈</li>
+          <li>근육</li>
+          <li>연조직</li>
+          <li>복막</li>
+          <li>수막</li>
+          <li>골수계</li>
+          <li>림프계</li>
+          <li>말초신경계</li>
+          <li>원전 불명</li>
+          <li>기타</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
