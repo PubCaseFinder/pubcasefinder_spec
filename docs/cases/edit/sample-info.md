@@ -216,7 +216,7 @@
       <td><strong>検査実施日（yyyy/mm/dd）</strong></td>
       <td>sample_test_date</td>
       <td>string|null</td>
-      <td>日付入力インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
