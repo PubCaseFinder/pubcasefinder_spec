@@ -2715,7 +2715,7 @@
     <tr>
       <td rowspan="7"><strong>家族歴</strong></td>
       <td rowspan="7">Family History</td>
-      <td rowspan="7">가족력</td>
+      <td rowspan="7">가족 역사</td>
       <td><strong>家族歴</strong></td>
       <td>Family History</td>
       <td>가족력</td>
