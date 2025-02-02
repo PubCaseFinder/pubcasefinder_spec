@@ -2715,7 +2715,7 @@
     <tr>
       <td rowspan="7"><strong>家族歴</strong></td>
       <td rowspan="7">Family History</td>
-      <td rowspan="7">가족력</td>
+      <td rowspan="7">가족 역사</td>
       <td><strong>家族歴</strong></td>
       <td>Family History</td>
       <td>가족력</td>
@@ -4081,12 +4081,6 @@
       <td><strong>削除しますか？</strong></td>
       <td>Are you sure you want to delete this item?</td>
       <td>삭제하시겠습니까?</td>
-    </tr>
-    <tr>
-      <td>数字制限アラート</td>
-      <td><strong>数字のみを入力してください。</strong></td>
-      <td>Please enter only numbers.</td>
-      <td>숫자만 입력하세요.</td>
     </tr>
   </tbody>
 </table>
