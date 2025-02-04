@@ -262,7 +262,7 @@
     <tr>
       <td><strong>性別</strong></td>
       <td>case_sex</td>
-      <td>string | null</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -672,8 +672,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -697,8 +697,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -722,8 +722,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -847,8 +847,8 @@
       <td>
         <ul>
           <li>unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>

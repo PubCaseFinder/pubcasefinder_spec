@@ -458,8 +458,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -484,8 +484,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -510,8 +510,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -563,8 +563,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -789,9 +789,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -852,9 +852,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -907,9 +907,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -925,7 +925,7 @@
       <td>Number of Pregnancy</td>
       <td>임신 횟수(회)</td>
       <td>不明</td>
-      <td>unknown</td>
+      <td>Unknown</td>
       <td>알 수 없음</td>
     </tr>
     <tr>
@@ -941,9 +941,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -959,7 +959,7 @@
       <td>Number of Childbirth</td>
       <td>출산 횟수 (회)</td>
       <td>不明</td>
-      <td>unknown</td>
+      <td>Unknown</td>
       <td>알 수 없음</td>
     </tr>
     <tr>
@@ -975,9 +975,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -993,7 +993,7 @@
       <td>Number of Stillbirth</td>
       <td>사산 횟수 (회)</td>
       <td>不明</td>
-      <td>unknown</td>
+      <td>Unknown</td>
       <td>알 수 없음</td>
     </tr>
     <tr>
@@ -1001,7 +1001,7 @@
       <td>Number of Miscarriage</td>
       <td>유산(자연유산) 횟수(회)</td>
       <td>不明</td>
-      <td>unknown</td>
+      <td>Unknown</td>
       <td>알 수 없음</td>
     </tr>
     <tr>
@@ -1009,7 +1009,7 @@
       <td>Number of Artificial Abortion</td>
       <td>유산(인공) 횟수(회)</td>
       <td>不明</td>
-      <td>unknown</td>
+      <td>Unknown</td>
       <td>알 수 없음</td>
     </tr>
     <tr>
@@ -1038,9 +1038,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -1447,9 +1447,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -1476,9 +1476,9 @@
       </td>
       <td>
         <ul>
-          <li>unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>

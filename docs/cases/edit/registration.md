@@ -345,7 +345,7 @@
       <td><strong>同意取得日（yyyy/mm/dd）</strong></td>
       <td>registration_consent_acquisition_date</td>
       <td>string | null</td>
-      <td>日付入力インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -510,7 +510,7 @@
       <td><strong>同意撤回日（yyyy/mm/dd）</strong></td>
       <td>registration_consent_withdrawal_date</td>
       <td>string | null</td>
-      <td>日付入力インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>

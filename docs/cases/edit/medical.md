@@ -1097,9 +1097,9 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1122,9 +1122,9 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
-          <li>Unknown</li>
-          <li>Absent</li>
-          <li>Present</li>
+          <li>unknown</li>
+          <li>absent</li>
+          <li>present</li>
         </ul>
       </td>
       <td>
@@ -1294,7 +1294,7 @@
           <li>未解決</li>
         </ul>
       </td>
-      <td>UNKNOWN_PROGRESS</td>
+      <td>"UNKNOWN_PROGRESS"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1320,7 +1320,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>unknown</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
