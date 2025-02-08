@@ -63,3 +63,35 @@
 | 凡例 | 重症度（mild〜profound）の色分布をグラデーション表示。重症度が高くなるにつれて青から赤に変化 |
 | ツールチップ | ユーザーが特定のバーにマウスオーバーした際、症状と始点・終点の値を表示 |
 | 疾患名セレクトボックス | グラフ中央上部に位置するセレクトボックスから表示する疾患が選択できる |
+
+## 重症度の色
+<table>
+  <thead>
+    <tr>
+      <th>重症度</th>
+      <th>色</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>軽度</td>
+      <td><span style="display: inline-block; width: 14px; height: 14px; background-color: #569FE5; margin-right: 4px;"></span>#569FE5</td>
+    </tr>
+    <tr>
+      <td>中等度</td>
+      <td><span style="display: inline-block; width: 14px; height: 14px; background-color: #A0D0FF; margin-right: 4px;"></span>#A0D0FF</td>
+    </tr>
+    <tr>
+      <td>境界域</td>
+      <td><span style="display: inline-block; width: 14px; height: 14px; background-color: #E0C1FF; margin-right: 4px;"></span>#E0C1FF</td>
+    </tr>
+    <tr>
+      <td>重度</td>
+      <td><span style="display: inline-block; width: 14px; height: 14px; background-color: #FFB1D2; margin-right: 4px;"></span>#FFB1D2</td>
+    </tr>
+    <tr>
+      <td>最重度</td>
+      <td><span style="display: inline-block; width: 14px; height: 14px; background-color: #FF8177; margin-right: 4px;"></span>#FF8177</td>
+    </tr>
+  </tbody>
+</table>

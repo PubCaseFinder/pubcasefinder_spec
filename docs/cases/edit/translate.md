@@ -315,33 +315,101 @@
       <td><strong>生年月 (yyyy/mm)</strong></td>
       <td>Birth (yyyy/mm)</td>
       <td>출생 연월 (yyyy/mm)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>1800〜現在の年</li>
+            <li>1~12</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>登録時年齢 (YMD)</strong></td>
       <td>Age on Registration (YMD)</td>
       <td>등록시 연령 (YMD)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 1~31</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 1~31</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 1~31</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>診察時年齢 (YMD)</strong></td>
       <td>Age on Examination (YMD)</td>
       <td>진찰시 연령 (YMD)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 1~31</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 1~31</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 1~31</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>没年月 (yyyy/mm)</strong></td>
       <td>Death (yyyy/mm)</td>
       <td>사망 연월 (yyyy/mm)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>1800〜現在の年</li>
+            <li>1~12</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>死因</strong></td>
