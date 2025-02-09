@@ -164,7 +164,7 @@
     <tr>
       <td><strong>ICD-10</strong></td>
       <td>medical_disease_of_previous_history_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{ string: string }|null&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -272,7 +272,7 @@
     <tr>
       <td><strong>ICD-10</strong></td>
       <td>medical_complication_history_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{ string: string }|null&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
