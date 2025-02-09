@@ -236,7 +236,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td rowspan="7"></td>
+      <td rowspan="29"></td>
     </tr>
     <tr>
       <td><strong>赤血球数（RBC）</strong></td>

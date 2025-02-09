@@ -821,7 +821,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>主訴</strong></td>
