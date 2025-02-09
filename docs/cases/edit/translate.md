@@ -796,14 +796,14 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="34"><strong>病歴・生活歴</strong></td>
-      <td rowspan="34">Disease and Life History</td>
-      <td rowspan="34">병력・생활력</td>
+      <td rowspan="35"><strong>病歴・生活歴</strong></td>
+      <td rowspan="35">Disease and Life History</td>
+      <td rowspan="35">병력・생활력</td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>現病歴</strong></td>
-      <td rowspan="4">Current Disease</td>
-      <td rowspan="4">현재 질병</td>
+      <td rowspan="5"><strong>現病歴</strong></td>
+      <td rowspan="5">Current Disease</td>
+      <td rowspan="5">현재 질병</td>
     </tr>
     <tr>
       <td><strong>発症年齢 (YMD)</strong></td>
@@ -840,6 +840,14 @@
       <td><strong>経過</strong></td>
       <td>Process</td>
       <td>경과</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>現病歴</strong></td>
+      <td>Current Medical History</td>
+      <td>현재 병력</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
