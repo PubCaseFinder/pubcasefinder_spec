@@ -652,6 +652,7 @@
       <td></td>
       <td></td>
     </tr>
+
   </tbody>
 </table>
 
@@ -1041,7 +1042,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_utf8.tsv">/static/data/mondo_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="/assets/data/mondo_utf8.tsv">/assets/data/mondo_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1062,7 +1063,7 @@
       <td>
         <ul>
           <li>疑い病名 > 疾患名で選択した値に応じてOMIM / Orphanetに表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_utf8.tsv">/static/data/mondo_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/mondo_utf8.tsv">/assets/data/mondo_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
