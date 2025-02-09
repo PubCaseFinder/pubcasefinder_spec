@@ -901,8 +901,8 @@
     </tr>
     <tr>
       <td><strong>既往歴</strong></td>
-      <td>Previous Disease</td>
-      <td>기왕력</td>
+      <td>Previous Medical History</td>
+      <td>과거 병력</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
