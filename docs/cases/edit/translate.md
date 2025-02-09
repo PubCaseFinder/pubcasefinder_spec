@@ -1496,12 +1496,12 @@
       <td><strong>疑い病名</strong></td>
       <td>Suspected Disease</td>
       <td>의심 병명</td>
+      <td><strong>疑い病名</strong></td>
+      <td>Suspected Disease Name</td>
+      <td>의심 병명</td>
       <td><strong>疾患名</strong></td>
       <td>Disease Name</td>
       <td>질병명</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
