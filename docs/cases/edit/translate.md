@@ -964,7 +964,7 @@
     </tr>
     <tr>
       <td><strong>合併症歴</strong></td>
-      <td>Complications</td>
+      <td>Complications History</td>
       <td>합병증 병력</td>
       <td>-</td>
       <td>-</td>
