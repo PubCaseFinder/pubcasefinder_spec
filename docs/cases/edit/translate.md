@@ -3595,9 +3595,9 @@
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="8"><strong>血液検査等</strong></td>
-      <td rowspan="8">Blood Test</td>
-      <td rowspan="8">혈액 검사 등</td>
+      <td rowspan="31"><strong>血液検査等</strong></td>
+      <td rowspan="31">Blood Test</td>
+      <td rowspan="31">혈액 검사 등</td>
       <td><strong>検査実施日（yyyy/mm/dd）</strong></td>
       <td>Test date</td>
       <td>검사 실시일（yyyy/mm/dd）</td>
@@ -3678,6 +3678,295 @@
       <td><strong>アルブミン（ALB）</strong></td>
       <td>Albumin (ALB)</td>
       <td>알부민（ALB）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>総ビリルビン（T-Bil）</strong></td>
+      <td>Total bilirubin (T-Bil)</td>
+      <td>총 빌리루빈（T-Bil）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アルカリフォスファターゼ（ALP）</strong></td>
+      <td>Alkaline phosphatase (ALP)</td>
+      <td>알칼리성 포스파타제（ALP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アスパラギン酸アミノトランスフェラーゼ（AST(GOT)）</strong></td>
+      <td>Aspartate aminotransferase (AST(</td>
+      <td>아스파라긴산 아미노전이효소（AST(GOT)）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アラニンアミノトランスフェラーゼ（ALT(GPT)）</strong></td>
+      <td>Alanine aminotransferase (ALT(GPT))</td>
+      <td>알라닌 아미노전이효소（ALT(GPT)）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>乳酸脱水素酵素（LDH）</strong></td>
+      <td>Lactate dehydrogenase (LDH)</td>
+      <td>젖산 탈수소 효소（LDH）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>クレアチンキナーゼ（CK)</strong></td>
+      <td>Creatine kinase (CK)</td>
+      <td>크레아틴 키나아제（CK)</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>γグルタミールトランスぺプチダーゼ（γ-GTP）</strong></td>
+      <td>Gamma-glutamyltransferase (γ</td>
+      <td>γ-글루타밀 트랜스페티데이즈 효소（γ-GTP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>クレアチニン（CRE）</strong></td>
+      <td>Creatinine (CRE)</td>
+      <td>크레아티닌（CRE）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>尿酸（UA）</strong></td>
+      <td>Uric acid (UA)</td>
+      <td>요산（UA）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>尿素窒素（BUN）</strong></td>
+      <td>Blood urea nitrogen (BUN)</td>
+      <td>요소 질소（BUN）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アミラーゼ（AMY）</strong></td>
+      <td>Amylase (AMY)</td>
+      <td>아밀라아제（AMY）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>総コレステロール（T-CHO）</strong></td>
+      <td>Total cholesterol (T-CHO)</td>
+      <td>총 콜레스테롤（T-CHO）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>トリグリセライド（TG）</strong></td>
+      <td>Triglyceride (TG)</td>
+      <td>트리글리세라이드（TG）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>LDLコレステロール（LDL-CHO）</strong></td>
+      <td>LDL cholesterol (LDL-CHO)</td>
+      <td>LDL 콜레스테롤（LDL-CHO）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>HDLコレステロール（HDL-CHO）</strong></td>
+      <td>HDL cholesterol (HDL-CHO)</td>
+      <td>HDL 콜레스테롤（HDL-CHO）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>ナトリウム（Na）</strong></td>
+      <td>Sodium (Na)</td>
+      <td>나트륨（Na）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>カリウム（K）</strong></td>
+      <td>Potassium (K)</td>
+      <td>칼륨（K）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>無機リン（IP）</strong></td>
+      <td>Inorganic phosphorus (IP)</td>
+      <td>무기 인（IP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>クロール（Cl）</strong></td>
+      <td>Chloride (Cl)</td>
+      <td>크롤링（Cl）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>カルシウム（Ca）</strong></td>
+      <td>Calcium (Ca)</td>
+      <td>칼슘（Ca）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>Ｃ反応性蛋白（CRP）</strong></td>
+      <td>C-reactive protein (CRP)</td>
+      <td>C 반응성 단백질（CRP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>グルコース（GLU）</strong></td>
+      <td>Glucose (GLU)</td>
+      <td>포도당（GLU）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>ヘモグロビンエーワンシー（HbA1c）</strong></td>
+      <td>Hemoglobin A1c (HbA1c)</td>
+      <td>헤모글로빈 에이원씨（HbA1c）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>その他検査</strong></td>
+      <td rowspan="3">Other Test</td>
+      <td rowspan="3">기타 검사</td>
+      <td><strong>検査項目名</strong></td>
+      <td>Test item</td>
+      <td>검사 항목명</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>検査値</strong></td>
+      <td>Test value</td>
+      <td>검사값</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>単位</strong></td>
+      <td>Unit</td>
+      <td>단위</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
