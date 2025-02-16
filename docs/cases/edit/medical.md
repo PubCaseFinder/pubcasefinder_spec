@@ -1052,7 +1052,7 @@
     <tr>
       <td><strong>OMIM / Orphanet</strong></td>
       <td>medical_suspected_disease_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{[key: string]: string;}&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1352,7 +1352,7 @@
     <tr>
       <td><strong>ICD-10 / OMIM / Orphanet</strong></td>
       <td>medical_clinical_diagnosis_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{[key: string]: string;}&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1409,7 +1409,7 @@
     <tr>
       <td><strong>ICD-10 / OMIM / Orphanet</strong></td>
       <td>medical_final_diagnosis_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{[key: string]: string;}&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1525,7 +1525,7 @@
     <tr>
       <td><strong>告示番号</strong></td>
       <td>medical_applied_intractable_disease_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{[key: string]: string;}&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1602,7 +1602,7 @@
       <td rowspan="2"><strong>申請した小児慢性特定疾病</strong></td>
       <td><strong>疾患名</strong></td>
       <td>medical_applied_pediatric_disease_name</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{[key: string]: string;}&gt;</td>
       <td>テキストボックス（サジェスト機能付き）</td>
       <td>-</td>
       <td>-</td>
