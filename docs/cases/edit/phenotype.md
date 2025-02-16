@@ -307,7 +307,12 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.excluded</td>
-      <td></td>
+      <td>
+        <ul>
+          <li>症状入力テキストボックスに直接入力した場合の初期値→「症状あり」</li>
+          <li>分類分けから入力した場合の初期値→「症状なし」</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>重要性</td>
