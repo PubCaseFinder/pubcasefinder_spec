@@ -236,7 +236,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td rowspan="29"></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>赤血球数（RBC）</strong></td>
@@ -248,6 +248,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -261,6 +262,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>ヘマトクリット</strong></td>
@@ -272,6 +274,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -285,6 +288,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>総タンパク（TP）</strong></td>
@@ -296,6 +300,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -309,6 +314,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>総ビリルビン（T-Bil）</strong></td>
@@ -320,6 +326,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -333,6 +340,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>アスパラギン酸アミノトランスフェラーゼ（AST(GOT)）</strong></td>
@@ -344,6 +352,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -357,6 +366,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>クレアチンキナーゼ（CK)</strong></td>
@@ -368,6 +378,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -381,6 +392,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>クレアチニン（CRE）</strong></td>
@@ -392,6 +404,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -405,6 +418,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>尿素窒素（BUN）</strong></td>
@@ -416,6 +430,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -429,6 +444,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>総コレステロール（T-CHO）</strong></td>
@@ -440,6 +456,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -453,6 +470,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>LDLコレステロール（LDL-CHO）</strong></td>
@@ -464,6 +482,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -477,6 +496,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>ナトリウム（Na）</strong></td>
@@ -488,6 +508,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -501,6 +522,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>無機リン（IP）</strong></td>
@@ -512,6 +534,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -525,6 +548,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>カルシウム（Ca）</strong></td>
@@ -536,6 +560,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -549,6 +574,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>グルコース（GLU）</strong></td>
@@ -561,6 +587,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td><strong>ヘモグロビンエーワンシー（HbA1c）</strong></td>
@@ -572,6 +599,7 @@
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>
