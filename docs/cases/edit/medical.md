@@ -62,13 +62,14 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
     </tr>
     <tr>
+
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>1~31</td>
+      <td>1~31</td>
     </tr>
     <tr>
       <td><strong>主訴</strong></td>
@@ -153,7 +154,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="/assets/data/icd10_utf8.tsv">/assets/data/icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -163,7 +164,7 @@
     <tr>
       <td><strong>ICD-10</strong></td>
       <td>medical_disease_of_previous_history_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{ string: string }|null&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -174,7 +175,7 @@
       <td>
         <ul>
           <li>既往歴疾患名 > 疾患名で選択した値に応じてICD-10に表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/icd10_utf8.tsv">/assets/data/icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -261,7 +262,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「/static/data/icd10_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="/assets/data/icd10_utf8.tsv">/assets/data/icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -271,7 +272,7 @@
     <tr>
       <td><strong>ICD-10</strong></td>
       <td>medical_complication_history_id</td>
-      <td>Array&lt;string|null&gt;</td>
+      <td>Array&lt;{ string: string }|null&gt;</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -282,7 +283,7 @@
       <td>
         <ul>
           <li>合併症疾患名 > 疾患名で選択した値に応じてICD-10に表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/icd10_utf8.tsv">/static/data/icd10_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/icd10_utf8.tsv">/assets/data/icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -651,6 +652,7 @@
       <td></td>
       <td></td>
     </tr>
+
   </tbody>
 </table>
 
@@ -1040,7 +1042,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_utf8.tsv">/static/data/mondo_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="/assets/data/mondo_utf8.tsv">/assets/data/mondo_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1061,7 +1063,7 @@
       <td>
         <ul>
           <li>疑い病名 > 疾患名で選択した値に応じてOMIM / Orphanetに表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_utf8.tsv">/static/data/mondo_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/mondo_utf8.tsv">/assets/data/mondo_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -1340,7 +1342,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="/assets/data/mondo_icd10_utf8.tsv">/assets/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1361,7 +1363,7 @@
       <td>
         <ul>
           <li>臨床診断 > 疾患名で選択した値に応じてICD-10 / OMIM / Orphanetに表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/mondo_icd10_utf8.tsv">/assets/data/mondo_icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -1397,7 +1399,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を「<a href="/assets/data/mondo_icd10_utf8.tsv">/assets/data/mondo_icd10_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1418,7 +1420,7 @@
       <td>
         <ul>
           <li>確定診断 > 疾患名で選択した値に応じてICD-10 / OMIM / Orphanetに表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/mondo_icd10_utf8.tsv">/static/data/mondo_icd10_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/mondo_icd10_utf8.tsv">/assets/data/mondo_icd10_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -1513,7 +1515,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を元に「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/nando_utf8.tsv">/static/data/nando_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に「<a href="/assets/data/nando_utf8.tsv">/assets/data/nando_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1534,7 +1536,7 @@
       <td>
         <ul>
           <li>申請した指定難病 > 疾患名で選択した値に応じて告示番号に表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/nando_utf8.tsv">/static/data/nando_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/nando_utf8.tsv">/assets/data/nando_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>
@@ -1610,7 +1612,7 @@
       <td></td>
       <td>
         <ul>
-          <li>テキストボックスに入力した値を元に「/static/data/nando_utf8.tsv」から該当する疾患を検索し、サジェストとして表示する</li>
+          <li>テキストボックスに入力した値を元に「<a href="/assets/data/nando_utf8.tsv">/assets/data/nando_utf8.tsv</a>」から該当する疾患を検索し、サジェストとして表示する</li>
           <li>追加ボタンから複数登録が可能</li>
           <li>削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ実行</li>
           <li>1文字以上入力するとサジェストが表示される</li>
@@ -1631,7 +1633,7 @@
       <td>
         <ul>
           <li>申請した小児慢性特定疾病 > 疾患名で選択した値に応じて告示番号に表示される</li>
-          <li>データは「<a href="https://github.com/PubCaseFinder/pubcasefinder/blob/pcf-4.1.0/static/data/nando_utf8.tsv">/static/data/nando_utf8.tsv</a>」を参照</li>
+          <li>データは「<a href="/assets/data/nando_utf8.tsv">/assets/data/nando_utf8.tsv</a>」を参照</li>
         </ul>
       </td>
     </tr>

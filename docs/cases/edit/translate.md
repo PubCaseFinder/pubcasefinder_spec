@@ -796,14 +796,14 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="34"><strong>病歴・生活歴</strong></td>
-      <td rowspan="34">Disease and Life History</td>
-      <td rowspan="34">병력・생활력</td>
+      <td rowspan="35"><strong>病歴・生活歴</strong></td>
+      <td rowspan="35">Disease and Life History</td>
+      <td rowspan="35">병력・생활력</td>
     </tr>
     <tr>
-      <td rowspan="4"><strong>現病歴</strong></td>
-      <td rowspan="4">Current Disease</td>
-      <td rowspan="4">현재 질병</td>
+      <td rowspan="5"><strong>現病歴</strong></td>
+      <td rowspan="5">Current Disease</td>
+      <td rowspan="5">현재 질병</td>
     </tr>
     <tr>
       <td><strong>発症年齢 (YMD)</strong></td>
@@ -821,7 +821,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>主訴</strong></td>
@@ -835,6 +840,14 @@
       <td><strong>経過</strong></td>
       <td>Process</td>
       <td>경과</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>現病歴</strong></td>
+      <td>Current Medical History</td>
+      <td>현재 병력</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -888,8 +901,8 @@
     </tr>
     <tr>
       <td><strong>既往歴</strong></td>
-      <td>Previous Disease</td>
-      <td>기왕력</td>
+      <td>Previous Medical History</td>
+      <td>과거 병력</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -951,7 +964,7 @@
     </tr>
     <tr>
       <td><strong>合併症歴</strong></td>
-      <td>Complications</td>
+      <td>Complications History</td>
       <td>합병증 병력</td>
       <td>-</td>
       <td>-</td>
@@ -1483,12 +1496,12 @@
       <td><strong>疑い病名</strong></td>
       <td>Suspected Disease</td>
       <td>의심 병명</td>
+      <td><strong>疑い病名</strong></td>
+      <td>Suspected Disease Name</td>
+      <td>의심 병명</td>
       <td><strong>疾患名</strong></td>
       <td>Disease Name</td>
       <td>질병명</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1799,8 +1812,8 @@
     </tr>
     <tr>
       <td><strong>指定難病認定の有無</strong></td>
-      <td>Presence of Designated Intractable Disease Certification</td>
-      <td>지정 난치병 인정 여부</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1813,32 +1826,16 @@
           <li><strong>非認定</strong></li>
         </ul>
       </td>
-      <td>
-        <ul>
-          <li>Other</li>
-          <li>Not applied</li>
-          <li>In progress</li>
-          <li>Approved</li>
-          <li>Not approved</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>해당사항 없음</li>
-          <li>미신청</li>
-          <li>애플리케이션에서</li>
-          <li>인증</li>
-          <li>비인증</li>
-        </ul>
-      </td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td><strong>申請した指定難病</strong></td>
-      <td>Designated intractable disease applied for</td>
-      <td>신청한 난치병 병명</td>
+      <td>-</td>
+      <td>-</td>
       <td><strong>疾患名</strong></td>
-      <td>Disease Name</td>
-      <td>질병명</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1851,8 +1848,8 @@
     </tr>
     <tr>
       <td><strong>小児慢性特定疾病認定の有無</strong></td>
-      <td>Presence of Pediatric Chronic Specific Disease Certification</td>
-      <td>소아 만성 특정질환 인정 여부</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1865,32 +1862,16 @@
           <li><strong>非認定</strong></li>
         </ul>
       </td>
-      <td>
-        <ul>
-          <li>Other</li>
-          <li>Not applied</li>
-          <li>In progress</li>
-          <li>Approved</li>
-          <li>Not approved</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>해당사항 없음</li>
-          <li>미신청</li>
-          <li>애플리케이션에서</li>
-          <li>인증</li>
-          <li>비인증</li>
-        </ul>
-      </td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td><strong>申請した小児慢性特定疾病</strong></td>
-      <td>Designated Pediatric Chronic Specific Disease</td>
-      <td>신청한 소아 만성 특정질환</td>
+      <td>-</td>
+      <td>-</td>
       <td><strong>疾患名</strong></td>
-      <td>Disease Name</td>
-      <td>질병명</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
