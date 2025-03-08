@@ -214,15 +214,21 @@
       <td>phenotype_medical_current_history</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
-      <td>-</td>
       <td>
+        <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -233,15 +239,21 @@
       <td>phenotype_medical_previous_history</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
-      <td>-</td>
       <td>
+        <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -252,15 +264,21 @@
       <td>phenotype_process</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
-      <td>-</td>
       <td>
+        <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -271,15 +289,21 @@
       <td>phenotype_family_history</td>
       <td>Array&lt;string&gt;</td>
       <td>チェックボックス</td>
-      <td>-</td>
       <td>
+        <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
         <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
