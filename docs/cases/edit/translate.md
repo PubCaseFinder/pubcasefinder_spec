@@ -1994,33 +1994,93 @@
       <td><strong>現病歴</strong></td>
       <td>Current Medical History</td>
       <td>현재 병력</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>既往歴</strong></td>
       <td>Previous Medical History</td>
       <td>과거 병력</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>経過</strong></td>
       <td>Process</td>
       <td>경과</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>家族歴</strong></td>
       <td>Family History</td>
       <td>가족력</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>症状の有無</strong></td>
