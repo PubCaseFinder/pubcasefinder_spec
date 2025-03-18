@@ -2094,9 +2094,10 @@
       </td>
       <td>
         <ul>
-          <li>Yes</li>
           <li>No</li>
+          <li>Yes</li>
         </ul>
+        ※ 英語のみ「excluded」に対してのno/yesで項目自体の意味が反転
       </td>
       <td>
         <ul>
