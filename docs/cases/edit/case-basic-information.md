@@ -563,7 +563,7 @@
         <a href="../master#country-master">国マスタ</a>
       </td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -595,7 +595,7 @@
         <a href="../master#country-master">国マスタ</a>
       </td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
