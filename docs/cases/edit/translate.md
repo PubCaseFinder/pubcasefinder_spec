@@ -489,8 +489,8 @@
       <td><strong>都道府県</strong></td>
       <td>State</td>
       <td>시도</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
+      <td><strong><a href="../master#state-master">都道府県マスタ</a></strong></td>
+      <td><a href="../master#state-master">都道府県マスタ</a></td>
       <td>-</td>
     </tr>
     <tr>

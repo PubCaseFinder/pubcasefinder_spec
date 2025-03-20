@@ -563,7 +563,7 @@
         <a href="../master#country-master">国マスタ</a>
       </td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -595,7 +595,7 @@
         <a href="../master#country-master">国マスタ</a>
       </td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -604,14 +604,21 @@
       <td><strong>都道府県</strong></td>
       <td>case_state_of_birth</td>
       <td>string | null</td>
-      <td>テキストボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>テキストボックス ※備考参照</td>
+      <td>- ※備考参照</td>
+      <td>- ※備考参照</td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /> ※備考参照</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>
+        日本語または英語設定かつ、「国」で「日本（JPN）」を選択していた場合のみ下記仕様となる<br>
+        <ul>
+          <li>入力形式：テキストボックス ＋ セレクトボックス</li>
+          <li>選択肢：<a href="../master#state-master">都道府県マスタ</a></li>
+          <li>clearボタン：有り</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>市区町村</strong></td>

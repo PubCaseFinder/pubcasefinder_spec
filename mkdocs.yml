@@ -84,6 +84,7 @@ nav:
           - その他: 'cases/edit/translate#other'
       - マスタ:
         - 国: 'cases/edit/master#country-master'
+        - 都道府県: 'cases/edit/master#state-master'
       - その他:
         - 編集モーダルフッター:
           - 症例のコピー: 'cases/edit/footer#copy'
