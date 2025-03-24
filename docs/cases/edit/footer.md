@@ -14,8 +14,15 @@
 
 ## Phenopackets {: #phenopackets}
 
-[症例基本情報](cases/edit/case-basic-information)の基本情報>続柄で「発端者（本人）」が選択された状態だと、現在編集中の症例をPhenopacketsのフォーマットに変換したデータをyaml形式でダウンロードすることができます。
-Phenopacketsについては以下をご確認ください。
+### ダウンロード
+
+[症例基本情報](cases/edit/case-basic-information)の基本情報>続柄で「発端者（本人）」が選択された状態だと、現在編集中の症例をPhenopacketsのフォーマットに変換したデータをjson、またはyaml形式でダウンロードすることができます。
+
+<img src="/assets/images/phenopacket-download.png" alt="Phenopacketsのダウンロード" width="700"/>
+
+### 公式ドキュメント
+
+Phenopackets自体の仕様については以下をご確認ください。
 
 - [公式サイト](http://phenopackets.org/)
 - [ドキュメント](https://phenopacket-schema.readthedocs.io/en/latest/index.html)
