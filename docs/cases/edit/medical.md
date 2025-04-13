@@ -1479,11 +1479,11 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
+          <li>other</li>
           <li>not_applied</li>
           <li>in_progress</li>
           <li>approved</li>
           <li>not_approved</li>
-          <li>other</li>
         </ul>
       </td>
       <td>
@@ -1495,7 +1495,7 @@
           <li>非認定</li>
         </ul>
       </td>
-      <td>"not_applied"</td>
+      <td>"other"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -1576,11 +1576,11 @@
       <td>ラジオボタン</td>
       <td>
         <ul>
+          <li>other</li>
           <li>not_applied</li>
           <li>in_progress</li>
           <li>approved</li>
           <li>not_approved</li>
-          <li>other</li>
         </ul>
       </td>
       <td>
@@ -1592,7 +1592,7 @@
           <li>非認定</li>
         </ul>
       </td>
-      <td>"not_applied"</td>
+      <td>"other"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
