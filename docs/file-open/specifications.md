@@ -9,7 +9,9 @@
 
 | 番号 | 機能 | 詳細                                                                                                        |
 | ---- | ---- | ----------------------------------------------------------------------------------------------------------- |
-| 1    | json | データを編集・保存するのに一般的な形式です。読み込んだ json ファイルはメニューの Cases から編集が可能です。 |
+| 1    | CaseSharing json | データを編集・保存するのに通常の形式で、File Saveで保存される形式です。読み込んだ CaseSharing json ファイルはメニューの Cases から編集が可能です。 |
+| 2    | Phenopacket json | [Phenopacket](https://phenopacket-schema.readthedocs.io/)形式の json ファイルです。対応している項目はこちらからご確認ください。 |
+| 3    | Phenopacket yaml | [Phenopacket](https://phenopacket-schema.readthedocs.io/)形式の yaml ファイルです。対応している項目はこちらからご確認ください。 |
 
 ## File open 確認アラート
 
