@@ -57,7 +57,8 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"></td>
       <td rowspan="3">
-        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
