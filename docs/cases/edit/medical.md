@@ -66,10 +66,9 @@
       <td>0~11</td>
     </tr>
     <tr>
-
       <td>セレクトボックス</td>
-      <td>1~31</td>
-      <td>1~31</td>
+      <td>0~30</td>
+      <td>0~30</td>
     </tr>
     <tr>
       <td><strong>主訴</strong></td>

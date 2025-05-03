@@ -397,8 +397,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1~31</td>
-      <td>1~31</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -428,8 +428,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1~31</td>
-      <td>1~31</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -776,16 +776,16 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -807,16 +807,16 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>

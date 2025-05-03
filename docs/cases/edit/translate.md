@@ -344,20 +344,20 @@
         <strong>
           <ul>
             <li>M: 0~11</li>
-            <li>D: 1~31</li>
+            <li>D: 0~30</li>
           </ul>
         </strong>
       </td>
       <td>
         <ul>
           <li>M: 0~11</li>
-          <li>D: 1~31</li>
+          <li>D: 0~30</li>
         </ul>
       </td>
       <td>
         <ul>
           <li>M: 0~11</li>
-          <li>D: 1~31</li>
+          <li>D: 0~30</li>
         </ul>
       </td>
     </tr>
@@ -369,20 +369,20 @@
         <strong>
           <ul>
             <li>M: 0~11</li>
-            <li>D: 1~31</li>
+            <li>D: 0~30</li>
           </ul>
         </strong>
       </td>
       <td>
         <ul>
           <li>M: 0~11</li>
-          <li>D: 1~31</li>
+          <li>D: 0~30</li>
         </ul>
       </td>
       <td>
         <ul>
           <li>M: 0~11</li>
-          <li>D: 1~31</li>
+          <li>D: 0~30</li>
         </ul>
       </td>
     </tr>
@@ -602,17 +602,51 @@
       <td><strong>母親の年齢 (YMD)</strong></td>
       <td>Age of mother (YMD)</td>
       <td>어머니의 나이 (YMD)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 0~30</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>父親の年齢 (YMD)</strong></td>
       <td>Age of father (YMD)</td>
       <td>아버지의 나이 (YMD)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 0~30</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td rowspan="2"><strong>生殖補助</strong></td>
