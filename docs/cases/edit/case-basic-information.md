@@ -384,7 +384,8 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
@@ -397,8 +398,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1~31</td>
-      <td>1~31</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -415,7 +416,8 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
@@ -428,8 +430,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1~31</td>
-      <td>1~31</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -771,21 +773,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -802,21 +805,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>

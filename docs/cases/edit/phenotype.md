@@ -408,7 +408,10 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.onset</td>
-      <td rowspan="3">「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される</td>
+      <td rowspan="3">
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
+      </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -417,8 +420,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1 ~ 31</td>
-      <td>1 ~ 31</td>
+      <td>0 ~ 30</td>
+      <td>0 ~ 30</td>
     </tr>
     <tr>
       <td>発症パターン</td>
@@ -508,7 +511,10 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.resolution</td>
-      <td rowspan="3">「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される</td>
+      <td rowspan="3">
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
+      </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -517,8 +523,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1 ~ 31</td>
-      <td>1 ~ 31</td>
+      <td>0 ~ 30</td>
+      <td>0 ~ 30</td>
     </tr>
     <tr>
       <td>コメント</td>
