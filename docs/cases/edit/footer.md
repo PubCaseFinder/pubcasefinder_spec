@@ -41,6 +41,19 @@
   height="800px"
 ></iframe>
 
+### familyスキーマ
+
+Phenopacketには複数のスキーマが定義されていますが、CaseSharingではその中のfamilyスキーマを採用しています。
+このスキーマでは、トップレベル要素に含まれる proband および relatives に、上記の対応表に記載されている Phenopacket スキーマのオブジェクトを内包しています。
+ファイルの読み込み（File OpenやFile Merge）時には、familyスキーマおよび単体のPhenopacketスキーマの両方に対応していますが、エクスポート時はfamilyスキーマ形式でファイルを生成します。
+
+<iframe
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBkJbezbx8lYZ-1R6rCMggGlr8Dyddgxq-c0GX2v6X03elKZgWr9Ga4o2OWrpAmY4cw7q_0JOCuSCp/pubhtml?gid=201189529&amp;single=true&amp;widget=true&amp;headers=false"
+  width="100%"
+  height="400px"
+></iframe>
+
+
 ### 公式ドキュメント
 
 Phenopackets自体の仕様については以下をご確認ください。
