@@ -130,11 +130,11 @@
     <tr>
       <td><strong>死産の回数</strong></td>
       <td>family_number_of_stillbirth_of_mother</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>"unknown"</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -143,11 +143,11 @@
     <tr>
       <td><strong>流産 (自然) の回数</strong></td>
       <td>family_number_of_miscarriage_of_mother</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>"unknown"</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -156,11 +156,11 @@
     <tr>
       <td><strong>流産 (人工) の回数</strong></td>
       <td>family_number_of_artificial_abortion_of_mother</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>"unknown"</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
