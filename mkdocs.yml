@@ -92,8 +92,11 @@ nav:
           - DiseaseSearch: 'cases/edit/footer#diseaseSearch'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
-    - 年齢: 'stats/age'
+    - 症例数: 'stats/case-count'
+    - 家系数: 'stats/family-count'
+    - グループ数: 'stats/group-count'
     - 性別: 'stats/gender'
+    - 登録時年齢: 'stats/age'
     - グループ名: 'stats/group-name'
     - 症状: 'stats/symptoms'
     - 翻訳: 'stats/translate'
