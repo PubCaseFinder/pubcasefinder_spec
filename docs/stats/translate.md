@@ -9,25 +9,41 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="8"><strong>登録時年齢</strong></td>
-      <td>登録時年齢</td>
-      <td>Age on Registration</td>
-      <td>등록시 연령</td>
-    </tr>
-    <tr>
-      <td>年齢</td>
-      <td>Age</td>
-      <td>시대</td>
-    </tr>
-    <tr>
+      <td rowspan="2"><strong>症例数</strong></td>
       <td>症例数</td>
-      <td># of cases</td>
+      <td>Number of cases</td>
       <td>사례 수</td>
     </tr>
     <tr>
-      <td>未記入</td>
-      <td>Null</td>
-      <td>미기입</td>
+      <td colspan="3"><a href="../../cases/edit/translate/#medical">診療>診断>診断状況の選択肢</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>家系数</strong></td>
+      <td>家系数</td>
+      <td>Number of families</td>
+      <td>가족 수</td>
+    </tr>
+    <tr>
+      <td>一番多い家系</td>
+      <td>The most common family</td>
+      <td>가장 많은 가족</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>グループ数</strong></td>
+      <td>グループ数</td>
+      <td>Number of groups</td>
+      <td>그룹 수</td>
+    </tr>
+    <tr>
+      <td>一番多いグループ</td>
+      <td>most common group</td>
+      <td>가장 많은 그룹</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>性別</strong></td>
+      <td>性別</td>
+      <td>Sex</td>
+      <td>성별</td>
     </tr>
     <tr>
       <td>男性</td>
@@ -50,10 +66,25 @@
       <td>불명</td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>性別</strong></td>
-      <td>性別</td>
-      <td>Sex</td>
-      <td>성별</td>
+      <td rowspan="8"><strong>登録時年齢</strong></td>
+      <td>登録時年齢</td>
+      <td>Age on Registration</td>
+      <td>등록시 연령</td>
+    </tr>
+    <tr>
+      <td>年齢</td>
+      <td>Age</td>
+      <td>시대</td>
+    </tr>
+    <tr>
+      <td>症例数</td>
+      <td># of cases</td>
+      <td>사례 수</td>
+    </tr>
+    <tr>
+      <td>未記入</td>
+      <td>Null</td>
+      <td>미기입</td>
     </tr>
     <tr>
       <td>男性</td>
