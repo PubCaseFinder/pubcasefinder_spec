@@ -37,14 +37,31 @@
 
 
 <br>
-**②サービスの説明モーダル表示用アイコン**
+**②ログイン**
+
+Googleアカウントでログインまたは登録が可能<br>
+ログインまたは登録の選択時には離脱アラートが表示される<br>
+選択後は同ブラウザで遷移する為、作業中のデータは破棄される
+
+<img src="../../assets/images/login_modal.png" width="700" style="display: block;"/>
+
+- ログイン
+    - Googleのログイン画面へ遷移
+    - 登録済みのGoogleアカウントでログインが可能
+- 登録
+    - Googleフォームに必要事項を入力して送信
+    - 承認されるとログイン機能が使用可能となる
+
+
+<br>
+**③サービスの説明モーダル表示用アイコン**
 
 CaseSharingについての説明モーダルの表示。
 
 <img src="../../assets/images/info_modal.png" width="700" style="display: block;"/>
 
 <br>
-**③各種リンクアイコン**
+**④各種リンクアイコン**
 
 アイコン押下で各種ページリンクの一覧の表示。リンク押下時は別タブを開く。
 
@@ -58,7 +75,7 @@ CaseSharingについての説明モーダルの表示。
 - Contact：メーラーが立ち上がり、宛先に support@dbcls.rois.ac.jp,pubcasefinder@dbcls.rois.ac.jp がセットされる
 
 <br>
-**④各種サービス**
+**⑤各種サービス**
 
 アイコン押下で各種サービス一覧のセレクトボックス表示。リンク押下時は別タブを開く。
 <img src="../../assets/images/service_list.png" width="300" style="display: block;"/>
@@ -68,7 +85,7 @@ CaseSharingについての説明モーダルの表示。
 - PanelSearch：[https://dev-pubcasefinder.dbcls.jp/panelsearch](https://dev-pubcasefinder.dbcls.jp/panelsearch)
 
 <br>
-**⑤多言語切替**
+**⑥多言語切替**
 
 アイコン押下で対応言語のセレクトボックス表示。
 
