@@ -9,6 +9,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><strong>表示/非表示</strong></td>
+      <td>表示/非表示</td>
+      <td>Display settings</td>
+      <td>표시 설정</td>
+    </tr>
+    <tr>
       <td rowspan="2"><strong>症例数</strong></td>
       <td>症例数</td>
       <td>Number of cases</td>
