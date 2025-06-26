@@ -36,7 +36,7 @@
     </tr>
     <tr>
       <td>一番多いグループ</td>
-      <td>most common group</td>
+      <td>The most common group</td>
       <td>가장 많은 그룹</td>
     </tr>
     <tr>
@@ -68,7 +68,7 @@
     <tr>
       <td rowspan="8"><strong>登録時年齢</strong></td>
       <td>登録時年齢</td>
-      <td>Age on Registration</td>
+      <td>Age on registration</td>
       <td>등록시 연령</td>
     </tr>
     <tr>
@@ -118,10 +118,10 @@
       <td>사례 수</td>
     </tr>
     <tr>
-      <td rowspan="3"><strong>症状</strong></td>
-      <td>症状</td>
-      <td>Sympton</td>
-      <td>증상</td>
+      <td rowspan="3"><strong>症状の経時的推移と重症度（疾患別）</strong></td>
+      <td>症状の経時的推移と重症度（疾患別）</td>
+      <td>Temporal progression and severity of symptoms (by disease)</td>
+      <td>질병별 증상의 시간적 경과와 중증도</td>
     </tr>
     <tr>
       <td>症状</td>

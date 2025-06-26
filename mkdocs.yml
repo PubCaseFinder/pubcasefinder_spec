@@ -98,7 +98,7 @@ nav:
     - 性別: 'stats/gender'
     - 登録時年齢: 'stats/age'
     - グループ名: 'stats/group-name'
-    - 症状: 'stats/symptoms'
+    - 症状の経時的推移と重症度（疾患別）: 'stats/symptoms'
     - 翻訳: 'stats/translate'
   - File open:
     - 仕様: 'file-open/specifications'
