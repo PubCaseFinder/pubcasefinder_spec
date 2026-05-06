@@ -11,6 +11,7 @@
 | **[家系](#family-info)**                    | Family       | 가계 정보          |
 | **[検体・検査](#sample-info)**              | Sample/Test  | 검체・검사         |
 | **[登録](#registration)**                   | Registration | 등록하기           |
+| **[共有](#share)**                          | Share        | 공유               |
 | **[その他](#other)**                        |              |                    |
 
 ---
@@ -4496,6 +4497,83 @@
     </tr>
   </tbody>
 </table>
+
+### 共有 {: #share}
+
+<table>
+  <thead>
+    <tr>
+      <th>種別</th>
+      <th style="min-width: 300px;">JA</th>
+      <th style="min-width: 300px;">EN</th>
+      <th style="min-width: 300px;">KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>タブラベル</td>
+      <td><strong>共有</strong></td>
+      <td>Share</td>
+      <td>공유</td>
+    </tr>
+    <tr>
+      <td>Matching Rules：Required の説明</td>
+      <td><strong>絶対条件（これが一致しないとマッチングなし）</strong></td>
+      <td>Mandatory condition (if this does not match, there will be no matching)</td>
+      <td>Mandatory condition (if this does not match, there will be no matching)</td>
+    </tr>
+    <tr>
+      <td>Matching Rules：Optional の説明</td>
+      <td><strong>両方がOptionalのときのみ有効 — どちらか一方が一致すればマッチ</strong></td>
+      <td>Effective only when both rules are Optional — a match occurs if either one matches</td>
+      <td>Effective only when both rules are Optional — a match occurs if either one matches</td>
+    </tr>
+    <tr>
+      <td>Matching Rules：Ignored の説明</td>
+      <td><strong>無視（そもそも判定に使わない）</strong></td>
+      <td>Ignored (not used for matching at all)</td>
+      <td>Ignored (not used for matching at all)</td>
+    </tr>
+    <tr>
+      <td>ローカルデータ変更アラート</td>
+      <td><strong>症例情報が変更されました。Editモードに移行します。</strong></td>
+      <td>The case information has been updated. Switching to Edit mode.</td>
+      <td>The case information has been updated. Switching to Edit mode.</td>
+    </tr>
+    <tr>
+      <td>削除確認モーダル：タイトル</td>
+      <td><strong>Submissionの削除 &amp; JSONの上書き保存</strong></td>
+      <td>Delete Submission &amp; Overwrite JSON</td>
+      <td>Delete Submission &amp; Overwrite JSON</td>
+    </tr>
+    <tr>
+      <td>削除確認モーダル：メッセージ</td>
+      <td><strong>サブミッション情報を削除しますか？削除すると、サブミッションに紐づくIDがクリアされた新しいJSONファイルが保存されます。</strong></td>
+      <td>Are you sure you want to delete this submission? Deleting it will save a new JSON file with the linked IDs cleared.</td>
+      <td>Are you sure you want to delete this submission? Deleting it will save a new JSON file with the linked IDs cleared.</td>
+    </tr>
+    <tr>
+      <td>削除確認モーダル：確定ボタン</td>
+      <td><strong>削除 &amp; JSONのダウンロード</strong></td>
+      <td>Delete &amp; Download JSON</td>
+      <td>Delete &amp; Download JSON</td>
+    </tr>
+    <tr>
+      <td>サブミッション削除済みアラート</td>
+      <td><strong>Submissionが正常に削除されました</strong></td>
+      <td>Submission deleted successfully</td>
+      <td>Submission deleted successfully</td>
+    </tr>
+    <tr>
+      <td>症例削除不可アラート（サブミッション紐づき時）</td>
+      <td><strong>この症例はサブミッションと紐づいているため削除できません。削除するには、共有タブからサブミッションを削除してから症例を削除してください。</strong></td>
+      <td>This row is linked to a submission and cannot be deleted. To delete it, please remove the submission from the sharing tab first, then delete the row.</td>
+      <td>이 증례는 서브미션과 연결되어 있어 삭제할 수 없습니다. 삭제하려면 공유 탭에서 서브미션을 먼저 삭제한 후 증례를 삭제해 주세요.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ### その他 {: #other}
 

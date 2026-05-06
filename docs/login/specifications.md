@@ -1,0 +1,61 @@
+# ログイン
+
+Google認証を使用したログイン機能。ログインすることで[共有](../cases/edit/share)機能が利用できます。
+
+## ログインモーダル
+
+ヘッダーのログインボタン押下で表示される。
+
+<img src="../../assets/images/login_modal.png" width="500" style="display: block;"/>
+
+<br>
+
+| 番号 | 機能 | 詳細 |
+| ---- | ---- | ---- |
+| 1 | Log in ボタン | Googleアカウントのログイン認証画面に遷移する |
+| 2 | Sign up ボタン | 新規アカウント登録画面に遷移する |
+| 3 | 機能説明 | ログイン後に利用できる機能の説明を多言語で表示する |
+
+### 機能説明の文言
+
+<table>
+  <thead>
+    <tr>
+      <th style="min-width: 300px;">JA</th>
+      <th style="min-width: 300px;">EN</th>
+      <th style="min-width: 300px;">KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="white-space: normal;">
+        DiseaseSearch、CaseSharing、PanelSearchのログインにはGoogle認証を使用しています。一度ログインすると以下のサービスをご利用いただけます。<br>
+        <ul>
+          <li>CaseSharing：症例マッチング機能</li>
+        </ul>
+      </td>
+      <td style="white-space: normal;">
+        DiseaseSearch, CaseSharing, and PanelSearch support Google Login. Log in once to access all of these services.<br>
+        <ul>
+          <li>CaseSharing: Case Matching</li>
+        </ul>
+      </td>
+      <td style="white-space: normal;">
+        DiseaseSearch, CaseSharing, PanelSearch 로그인에 Google 인증을 사용합니다. 한 번의 로그인으로 다음 서비스들을 모두 이용하실 수 있습니다.<br>
+        <ul>
+          <li>CaseSharing: 증례 매칭(Case Matching)</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## ログイン後の変化
+
+ログイン状態によって以下の表示が変わる。
+
+| 要素 | 未ログイン | ログイン済み |
+| ---- | ---- | ---- |
+| ヘッダーの右端 | ログインボタンを表示 | 「My page」ドロップダウンを表示（ログアウト等が可能） |
+| 症例編集モーダルの[共有](../../cases/edit/share)タブ | 非表示 | 表示 |
+| 症例一覧の share_id 列 | 非表示（ファイル読み込みデータに含まれていても非表示） | 表示<br>項目追加からの選択・追加も可能 |
