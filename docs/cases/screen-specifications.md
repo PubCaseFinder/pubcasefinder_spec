@@ -65,6 +65,7 @@
           <li><a href="../edit/family-info">家系</a></li>
           <li><a href="../edit/sample-info">検体・検査</a></li>
           <li><a href="../edit/registration">登録</a></li>
+          <li><a href="../edit/share">共有</a>（<a href="../../login/specifications">ログイン</a>済みの場合のみ表示）</li>
         </ul>
       </td>
     </tr>

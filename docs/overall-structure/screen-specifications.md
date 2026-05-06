@@ -73,3 +73,10 @@ CaseSharingについての説明モーダルの表示。
 アイコン押下で対応言語のセレクトボックス表示。
 
 <img src="../../assets/images/lang_switch.png" width="200" style="display: block;"/>
+
+<br>
+**⑥ログイン**
+
+未ログイン時にボタンが表示される。押下で[ログインモーダル](../../../login/specifications#ログインモーダル)を表示する。<br>
+ログイン済みの場合はログインボタンの代わりに「My page」ドロップダウンが表示される。<br>
+詳細は[ログイン](../../../login/specifications)を参照。

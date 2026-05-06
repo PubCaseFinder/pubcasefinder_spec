@@ -10,6 +10,7 @@ nav:
   - 全体構成:
     - 画面仕様: 'overall-structure/screen-specifications'
     - 翻訳: 'overall-structure/translate'
+    - ログイン: 'login/specifications'
   - Cases:
     - 画面仕様: 'cases/screen-specifications'
     - 項目: 'cases/items'
@@ -71,6 +72,7 @@ nav:
         - 詳細:
           - 患者について: 'cases/edit/registration#patient-info'
           - 同意書・アセント: 'cases/edit/registration#consent-ascent'
+      - 共有: 'cases/edit/share'
       - 翻訳:
         - 概要: 'cases/edit/translate'
         - 詳細:
@@ -81,6 +83,7 @@ nav:
           - 家系: 'cases/edit/translate#family-info'
           - 検体・検査: 'cases/edit/translate#sample-info'
           - 登録: 'cases/edit/translate#registration'
+          - 共有: 'cases/edit/translate#share'
           - その他: 'cases/edit/translate#other'
       - マスタ:
         - 国: 'cases/edit/master#country-master'
