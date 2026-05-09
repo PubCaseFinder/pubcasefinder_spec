@@ -1,7 +1,7 @@
 # 共有
 
 症例情報を CaseSharing Database に登録し、他ユーザーの症例とのマッチングを行う機能。<br>
-[ログイン](../../../login/specifications)済みの場合のみ症例編集モーダルに表示される。
+[ログイン](/overall-structure/login)済みの場合のみ症例編集モーダルに表示される。
 
 ## 画面構成
 

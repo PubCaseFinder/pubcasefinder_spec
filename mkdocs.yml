@@ -10,7 +10,7 @@ nav:
   - 全体構成:
     - 画面仕様: 'overall-structure/screen-specifications'
     - 翻訳: 'overall-structure/translate'
-    - ログイン: 'login/specifications'
+    - ログイン: 'overall-structure/login'
   - Cases:
     - 画面仕様: 'cases/screen-specifications'
     - 項目: 'cases/items'
