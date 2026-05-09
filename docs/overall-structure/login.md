@@ -1,6 +1,6 @@
 # ログイン
 
-Google認証を使用したログイン機能。ログインすることで[共有](/cases/edit/share)機能が利用可能
+Google認証を使用したログイン機能。ログインすることで[共有](../../cases/edit/share)機能が利用可能
 
 ## ログインモーダル {: #login-modal}
 
@@ -69,7 +69,7 @@ Googleフォームで登録内容を入力して送信する。
 | 要素 | 未ログイン | ログイン済み |
 | ---- | ---- | ---- |
 | ヘッダーの右端 | ログインボタンを表示 | <ul>「My page」ドロップダウンメニューを表示（下記が可能）<li>[ユーザー情報](#user-information)ページへの遷移</li><li>ログアウト</li></ul><br><img src="../../assets/images/mypage_dropdown_menu.png" /> |
-| 症例編集モーダルの[共有](/cases/edit/share)タブ | 非表示 | 表示 |
+| 症例編集モーダルの[共有](../../cases/edit/share)タブ | 非表示 | 表示 |
 | 症例一覧の share_id 列 | 非表示（ファイル読み込みデータに含まれていても非表示） | 表示<br>項目追加からの選択・追加も可能 |
 
 ## ユーザー情報 {: #user-information}
