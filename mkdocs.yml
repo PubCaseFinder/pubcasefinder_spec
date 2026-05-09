@@ -72,7 +72,11 @@ nav:
         - 詳細:
           - 患者について: 'cases/edit/registration#patient-info'
           - 同意書・アセント: 'cases/edit/registration#consent-ascent'
-      - 共有: 'cases/edit/share'
+      - 共有:
+        - 概要: 'cases/edit/share'
+        - 詳細:
+          - Submission タブ: 'cases/edit/share#submission'
+          - Match Report タブ: 'cases/edit/share#match-report'
       - 翻訳:
         - 概要: 'cases/edit/translate'
         - 詳細:

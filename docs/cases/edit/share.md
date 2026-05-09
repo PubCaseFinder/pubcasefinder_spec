@@ -1,4 +1,4 @@
-# 共有 {: #share}
+# 共有
 
 症例情報を CaseSharing Database に登録し、他ユーザーの症例とのマッチングを行う機能。<br>
 [ログイン](../../../login/specifications)済みの場合のみ症例編集モーダルに表示される。
@@ -7,7 +7,7 @@
 
 共有タブを開くと「CaseSharing Database」のヘッダーが表示され、画面内に「Submission」「Match Report」の2つのサブタブがある。
 
-## Submission タブ
+## Submission タブ {: #submission}
 
 症例情報の登録・編集・削除を行うタブ。
 
@@ -150,7 +150,7 @@ Medical Info と Genotype Info それぞれについてマッチングルール�
 
 ---
 
-## Match Report タブ
+## Match Report タブ {: #match-report}
 
 自分のサブミッションにマッチした他ユーザーの症例の一覧を表示するタブ。<br>
 
