@@ -199,6 +199,40 @@
       <td></td>
     </tr>
     <tr>
+      <td><strong>誰の配偶者かを選択</strong></td>
+      <td>case_spouse_id</td>
+      <td>string | null</td>
+      <td>セレクトボックス</td>
+      <td>
+        同じ家族IDで、「子ども」「同胞」「おじおば」の該当する続柄の症例ID
+      </td>
+      <td>
+        同じ家族IDで、「子ども」「同胞」「おじおば」の該当する続柄の症例ID
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>続柄で「子どもの配偶者」「兄弟の配偶者」「おじおばの配偶者」を選択している時のみ入力可（それ以外の場合は非表示）</td>
+    </tr>
+    <tr>
+      <td><strong>親を選択</strong></td>
+      <td>case_parent_id</td>
+      <td>string | null</td>
+      <td>セレクトボックス</td>
+      <td>
+        同じ家族IDで、「同胞」「子ども」「おじ（父方）」「おば（父方）」「おじ（母方）」「おば（母方）」の該当する続柄の症例ID
+      </td>
+      <td>
+        同じ家族IDで、「同胞」「子ども」「おじ（父方）」「おば（父方）」「おじ（母方）」「おば（母方）」の該当する続柄の症例ID
+      </td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>続柄で「甥姪」「孫」「いとこ」を選択している時のみ入力可（それ以外の場合は非表示）</td>
+    </tr>
+    <tr>
       <td><strong>血縁者の本研究参加の有無</strong></td>
       <td>case_participation_of_relatives_in_this_study</td>
       <td>string</td>
@@ -228,7 +262,7 @@
     <tr>
       <td><strong>性別</strong></td>
       <td>case_sex</td>
-      <td>string | null</td>
+      <td>string</td>
       <td>ラジオボタン</td>
       <td>
         <ul>
@@ -246,7 +280,7 @@
           <li>その他</li>
         </ul>
       </td>
-      <td>null</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.subject.sex</td>
@@ -336,7 +370,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>片方未選択の場合、一覧表には「yyyy/-」あるいは「-/mm」との形式で表示される</td>
     </tr>
     <tr>
       <td rowspan="3"><strong>登録時年齢 (YMD)</strong></td>
@@ -350,21 +384,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -381,21 +416,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -405,13 +441,28 @@
       <td>case_death</td>
       <td>string | null</td>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>状態で「故人」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>
+        <ul>
+          <li>状態で「故人」を選択している時のみ入力可（それ以外の場合は非活性）</li>
+          <li>片方未選択の場合、一覧表には「yyyy/-」あるいは「-/mm」との形式で表示される</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>死因</strong></td>
@@ -447,7 +498,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>状態で「故人」を選択している時のみ入力可（それ以外の場合は非活性）</td>
+      <td>死因で「当該疾患以外」を選択した時のみ入力可（それ以外の場合は非活性）</td>
     </tr>
     <tr>
       <td><strong>死因ICD-11コード</strong></td>
@@ -514,14 +565,14 @@
         <a href="../master#country-master">国マスタ</a>
       </td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td><strong>自由記載</strong></td>
+      <td><strong>自由記載（民族 / 集団）</strong></td>
       <td>case_free_comment_about_ethnicity_group</td>
       <td>string | null</td>
       <td>テキストボックス</td>
@@ -546,7 +597,7 @@
         <a href="../master#country-master">国マスタ</a>
       </td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td></td>
@@ -555,14 +606,21 @@
       <td><strong>都道府県</strong></td>
       <td>case_state_of_birth</td>
       <td>string | null</td>
-      <td>テキストボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>テキストボックス ※備考参照</td>
+      <td>- ※備考参照</td>
+      <td>- ※備考参照</td>
       <td>null</td>
-      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /> ※備考参照</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
+      <td>
+        日本語または英語設定かつ、「国」で「日本（JPN）」を選択していた場合のみ下記仕様となる<br>
+        <ul>
+          <li>入力形式：テキストボックス ＋ セレクトボックス</li>
+          <li>選択肢：<a href="../master#state-master">都道府県マスタ</a></li>
+          <li>clearボタン：有り</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>市区町村</strong></td>
@@ -578,7 +636,7 @@
       <td></td>
     </tr>
     <tr>
-      <td><strong>自由記載</strong></td>
+      <td><strong>自由記載（出生地）</strong></td>
       <td>case_free_comment_about_birth</td>
       <td>string | null</td>
       <td>テキストボックス</td>
@@ -634,7 +692,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -659,7 +717,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -684,7 +742,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -715,21 +773,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -746,21 +805,22 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
       <td rowspan="3">
-        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される
+        「{{yyyy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
       </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~11</td>
+      <td>0~11</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>-</td>
-      <td>-</td>
+      <td>0~30</td>
+      <td>0~30</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -809,7 +869,7 @@
           <li>あり</li>
         </ul>
       </td>
-      <td>"不明"</td>
+      <td>"unknown"</td>
       <td><input type="checkbox" class="readonly-input" checked /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>

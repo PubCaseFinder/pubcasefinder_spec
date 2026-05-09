@@ -2,16 +2,17 @@
 
 ## 分類
 
-| JA                                          | EN       | KO            |
-| ------------------------------------------- | -------- | ------------- |
-| **[症例基本情報](#case-basic-information)** | Case Info | 의료사례 기본 정보 |
-| **[診療](#medical)** | Medical | 찰 정보 |
-| **[表現型](#phenotype)** | Phenotype | 표현형 정보 |
-| **[遺伝型](#genotype)** | Genotype | 유전자형 정보 |
-| **[家系](#family-info)** | Family | 가계 정보 |
-| **[検体・検査](#sample-info)** | Sample/Test | 검체・검사 |
-| **[登録](#registration)** | Registration | 등록하기 |
-| **[その他](#other)** |  |  |
+| JA                                          | EN           | KO                 |
+| ------------------------------------------- | ------------ | ------------------ |
+| **[症例基本情報](#case-basic-information)** | Case Info    | 의료사례 기본 정보 |
+| **[診療](#medical)**                        | Medical      | 진찰 정보          |
+| **[表現型](#phenotype)**                    | Phenotype    | 표현형 정보        |
+| **[遺伝型](#genotype)**                     | Genotype     | 유전자형 정보      |
+| **[家系](#family-info)**                    | Family       | 가계 정보          |
+| **[検体・検査](#sample-info)**              | Sample/Test  | 검체・검사         |
+| **[登録](#registration)**                   | Registration | 등록하기           |
+| **[共有](#share)**                          | Share        | 공유               |
+| **[その他](#other)**                        |              |                    |
 
 ---
 
@@ -38,15 +39,16 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="4"><strong>ID</strong></td>
-      <td rowspan="4">ID</td>
-      <td rowspan="4">ID</td>
+      <td rowspan="6"><strong>ID</strong></td>
+      <td rowspan="6">ID</td>
+      <td rowspan="6">ID</td>
       <td><strong>PCF No.</strong></td>
       <td>PCF No.</td>
       <td>PCF No.</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>症例ID</strong></td>
       <td>Case ID</td>
@@ -54,6 +56,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>家族ID</strong></td>
       <td>Family ID</td>
@@ -61,6 +64,15 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>登録済み家族ID</strong></td>
+      <td>Registered Family</td>
+      <td>&nbsp;등록된 가족 ID</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
     <tr>
       <td><strong>グループ名</strong></td>
       <td>Group</td>
@@ -68,10 +80,19 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
-      <td rowspan="14"><strong>基本情報</strong></td>
-      <td rowspan="14">Basic Info</td>
-      <td rowspan="14">기본 정보</td>
+      <td><strong>登録済みグループ名</strong></td>
+      <td>Registered Group</td>
+      <td>&nbsp;등록된 그룹명</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="16"><strong>基本情報</strong></td>
+      <td rowspan="16">Basic Info</td>
+      <td rowspan="16">기본 정보</td>
       <td><strong>続柄</strong></td>
       <td>Relationship</td>
       <td>관계</td>
@@ -156,6 +177,23 @@
           <li>기타(어머니 쪽)</li>
         </ul>
       </td>
+    </tr>
+    <tr>
+      <td><strong>誰の配偶者かを選択</strong></td>
+      <td>Select Spouse</td>
+      <td>배우자 선택</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>親を選択</strong></td>
+      <td>Select Parent</td>
+      <td>부모 선택</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
     <tr>
       <td><strong>血縁者の本研究参加の有無</strong></td>
       <td>Participation of relatives in this study</td>
@@ -184,6 +222,7 @@
           <li>참여 예정</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>性別</strong></td>
       <td>Sex</td>
@@ -212,6 +251,7 @@
           <li>기타</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>性別 その他詳細</strong></td>
       <td>Sex Other Details</td>
@@ -219,6 +259,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>発症の有無</strong></td>
       <td>Presence or absence of onset</td>
@@ -244,6 +285,7 @@
           <li>무증상</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>状態</strong></td>
       <td>Life Status</td>
@@ -269,34 +311,107 @@
           <li>고인</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>生年月 (yyyy/mm)</strong></td>
       <td>Birth (yyyy/mm)</td>
       <td>출생 연월 (yyyy/mm)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>1800〜現在の年</li>
+            <li>1~12</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+    </tr>
     <tr>
       <td><strong>登録時年齢 (YMD)</strong></td>
       <td>Age on Registration (YMD)</td>
       <td>등록시 연령 (YMD)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 0~30</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+    </tr>
     <tr>
       <td><strong>診察時年齢 (YMD)</strong></td>
       <td>Age on Examination (YMD)</td>
       <td>진찰시 연령 (YMD)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 0~30</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+    </tr>
     <tr>
       <td><strong>没年月 (yyyy/mm)</strong></td>
       <td>Death (yyyy/mm)</td>
       <td>사망 연월 (yyyy/mm)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>1800〜現在の年</li>
+            <li>1~12</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>1800〜現在の年</li>
+          <li>1~12</li>
+        </ul>
+      </td>
+    </tr>
     <tr>
       <td><strong>死因</strong></td>
       <td>Cause of death</td>
@@ -319,6 +434,7 @@
           <li>기타 질병</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>当該疾患以外のときの死因詳細</strong></td>
       <td>Detail of Cause of death</td>
@@ -326,6 +442,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>死因ICD-11コード</strong></td>
       <td>ICD-11 code of cause of death</td>
@@ -333,6 +450,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>最終生存確認日 (yyyy/mm/dd)</strong></td>
       <td>Last date of confirmation of survival (yyyy/mm/dd)</td>
@@ -340,6 +458,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td rowspan="6"><strong>民族・出生地</strong></td>
       <td rowspan="6">Etnicity</td>
@@ -347,30 +466,34 @@
       <td><strong>民族 / 集団</strong></td>
       <td>Ethnicity / Group</td>
       <td>민족 / 그룹</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td><strong><a href="../master#country-master">国マスタ</a></strong></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
+    </tr>
     <tr>
-      <td><strong>自由記載</strong></td>
-      <td>Free Comment</td>
-      <td>기타</td>
+      <td><strong>自由記載（民族 / 集団）</strong></td>
+      <td>Free Comment (Ethnicity / Group)</td>
+      <td>기타 (민족 / 그룹)</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>出生地 国</strong></td>
-      <td>Country</td>
-      <td>국가</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>Birth information Country</td>
+      <td>출생지 국가</td>
+      <td><strong><a href="../master#country-master">国マスタ</a></strong></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
+      <td><a href="../master#country-master">国マスタ</a></td>
+    </tr>
     <tr>
       <td><strong>都道府県</strong></td>
       <td>State</td>
       <td>시도</td>
-      <td><strong>-</strong></td>
+      <td><strong><a href="../master#state-master">都道府県マスタ</a></strong></td>
+      <td><a href="../master#state-master">都道府県マスタ</a></td>
       <td>-</td>
-      <td>-</td>
+    </tr>
     <tr>
       <td><strong>市区町村</strong></td>
       <td>City</td>
@@ -378,13 +501,15 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
-      <td><strong>自由記載</strong></td>
-      <td>Free Comment</td>
-      <td>상세 주소</td>
+      <td><strong>自由記載（出生地）</strong></td>
+      <td>Free Comment (Birth information)</td>
+      <td>상세 주소 (출생지)</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td rowspan="6"><strong>出生時</strong></td>
       <td rowspan="6">Birth Info</td>
@@ -402,8 +527,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -413,6 +538,7 @@
           <li>있음</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>異常（黄疸等）の有無</strong></td>
       <td>Presence of abnormalities (jaundice, etc.)</td>
@@ -427,8 +553,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -438,6 +564,7 @@
           <li>있음</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>医療介助の有無（出産時）</strong></td>
       <td>Presence of medical assistance at birth</td>
@@ -452,8 +579,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -463,6 +590,7 @@
           <li>있음</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>在胎週数 (週)</strong></td>
       <td>Gestational age at (weeks)</td>
@@ -470,20 +598,57 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>母親の年齢 (YMD)</strong></td>
       <td>Age of mother (YMD)</td>
       <td>어머니의 나이 (YMD)</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 0~30</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+    </tr>
     <tr>
       <td><strong>父親の年齢 (YMD)</strong></td>
       <td>Age of father (YMD)</td>
-      <td>-</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>아버지의 나이 (YMD)</td>
+      <td>
+        <strong>
+          <ul>
+            <li>M: 0~11</li>
+            <li>D: 0~30</li>
+          </ul>
+        </strong>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>M: 0~11</li>
+          <li>D: 0~30</li>
+        </ul>
+      </td>
+    </tr>
     <tr>
       <td rowspan="2"><strong>生殖補助</strong></td>
       <td rowspan="2">Assisted Reproduction</td>
@@ -501,8 +666,8 @@
       <td>
         <ul>
           <li>Unknown</li>
-          <li>absent</li>
-          <li>present</li>
+          <li>Absent</li>
+          <li>Present</li>
         </ul>
       </td>
       <td>
@@ -512,6 +677,7 @@
           <li>있음</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td><strong>生殖補助医療の種類</strong></td>
       <td>Type of assisted reproductive technology</td>
@@ -543,6 +709,7 @@
           <li>알 수 없음</li>
         </ul>
       </td>
+    </tr>
     <tr>
       <td rowspan="11"><strong>入力者情報</strong></td>
       <td rowspan="11">Inputter Info</td>
@@ -553,6 +720,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>診察日 (yyyy/mm/dd)</strong></td>
       <td>Examination day</td>
@@ -560,6 +728,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>施設名</strong></td>
       <td>Facility</td>
@@ -567,6 +736,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>施設コード</strong></td>
       <td>Code Of Facility</td>
@@ -574,6 +744,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>担当医師名（姓）</strong></td>
       <td>Family Name Of Doctor In Charge</td>
@@ -581,6 +752,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>担当医師名（名）</strong></td>
       <td>First Name Of Doctor In Charge</td>
@@ -588,6 +760,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>入力者名（姓）</strong></td>
       <td>Family Name Of Inputter</td>
@@ -595,6 +768,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>入力者名（名）</strong></td>
       <td>First Name Of Inputter</td>
@@ -602,6 +776,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>備考</strong></td>
       <td>Note</td>
@@ -609,6 +784,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>作成日時</strong></td>
       <td>Created At</td>
@@ -616,6 +792,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
     <tr>
       <td><strong>更新日時</strong></td>
       <td>Updated At</td>
@@ -623,6 +800,7 @@
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
   </tbody>
 </table>
 
@@ -653,19 +831,433 @@
   </thead>
   <tbody>
     <tr>
-      <td><strong>病歴・生活歴</strong></td>
-      <td>Disease and Life History</td>
-      <td>병력・생활력</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td rowspan="35"><strong>病歴・生活歴</strong></td>
+      <td rowspan="35">Disease and Life History</td>
+      <td rowspan="35">병력・생활력</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>現病歴</strong></td>
+      <td rowspan="5">Current Disease</td>
+      <td rowspan="5">현재 질병</td>
+    </tr>
+    <tr>
+      <td><strong>発症年齢 (YMD)</strong></td>
+      <td>Age of Onset (YMD)</td>
+      <td>발병연령 (YMD)</td>
+      <td>
+        <ul>
+          <li><strong>- ヶ月を選択 -</strong></li>
+          <li><strong>- 日を選択 -</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- Select Month -</li>
+          <li>- Select Day -</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>主訴</strong></td>
+      <td>Chief Complaint</td>
+      <td>주요호소증상</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
+    <tr>
+      <td><strong>経過</strong></td>
+      <td>Process</td>
+      <td>경과</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>現病歴</strong></td>
+      <td>Current Medical History</td>
+      <td>현재 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="6"><strong>既往歴</strong></td>
+      <td rowspan="6">Previous Disease</td>
+      <td rowspan="6">기왕력</td>
+    </tr>
+    <tr>
+      <td><strong>既往歴の有無</strong></td>
+      <td>Presence of Previous History</td>
+      <td>병력 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>既往歴疾患名</strong></td>
+      <td>Disease Name of Previous History</td>
+      <td>병력 질환명</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
+      <td>질병명</td>
+    </tr>
+    <tr>
+      <td><strong>既往歴疾患名_備考</strong></td>
+      <td>Note of Previous History</td>
+      <td>병력 질환명_비고</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>既往歴</strong></td>
+      <td>Previous Medical History</td>
+      <td>과거 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>出生前および周産期の病歴</strong></td>
+      <td>Prenatal Perinatal History</td>
+      <td>출산 및 주산기 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>合併症歴</strong></td>
+      <td rowspan="5">Complications</td>
+      <td rowspan="5">합병증 병력</td>
+    </tr>
+    <tr>
+      <td><strong>合併症の有無</strong></td>
+      <td>Presence of Complications</td>
+      <td>합병증 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>合併症疾患名</strong></td>
+      <td>Disease Name of Complications</td>
+      <td>합병증 질환명</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
+      <td>질병명</td>
+    </tr>
+    <tr>
+      <td><strong>合併症疾患名_備考</strong></td>
+      <td>Note of Complications</td>
+      <td>합병증 질환명_비고</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>合併症歴</strong></td>
+      <td>Complications History</td>
+      <td>합병증 병력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="9"><strong>妊娠・出産情報</strong></td>
+      <td rowspan="9">Pregnancy and Childbirth</td>
+      <td rowspan="9">임신・출산 정보</td>
+    </tr>
+    <tr>
+      <td><strong>妊娠の有無</strong></td>
+      <td>Presence of Pregnancy</td>
+      <td>임신 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>妊娠回数（回）</strong></td>
+      <td>Number of Pregnancy</td>
+      <td>임신 횟수(회)</td>
+      <td>不明</td>
+      <td>Unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>出産の有無</strong></td>
+      <td>Presence of Childbirth</td>
+      <td>출산 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>出産回数 (回)</strong></td>
+      <td>Number of Childbirth</td>
+      <td>출산 횟수 (회)</td>
+      <td>不明</td>
+      <td>Unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>死産・流産の有無</strong></td>
+      <td>Presence of Miscarriage or Stillbirth</td>
+      <td>사산・유산의 유무</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>死産の回数 (回)</strong></td>
+      <td>Number of Stillbirth</td>
+      <td>사산 횟수 (회)</td>
+      <td>不明</td>
+      <td>Unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>流産 (自然)の回数 (回)</strong></td>
+      <td>Number of Miscarriage</td>
+      <td>유산(자연유산) 횟수(회)</td>
+      <td>不明</td>
+      <td>Unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td><strong>流産 (人工)の回数 (回)</strong></td>
+      <td>Number of Artificial Abortion</td>
+      <td>유산(인공) 횟수(회)</td>
+      <td>不明</td>
+      <td>Unknown</td>
+      <td>알 수 없음</td>
+    </tr>
+    <tr>
+      <td rowspan="6"><strong>教育歴・社会歴</strong></td>
+      <td rowspan="6">Education and Social</td>
+      <td rowspan="6">학력・사회경력</td>
+    </tr>
+    <tr>
+      <td><strong>生育歴および教育歴</strong></td>
+      <td>Early Developmental and Schooling History</td>
+      <td>초기 발달사와 학교 생활사</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>就労の有無</strong></td>
+      <td>Presence of Employment</td>
+      <td>취업 여부</td>
+      <td>
+        <ul>
+          <li><strong>不明</strong></li>
+          <li><strong>あり</strong></li>
+          <li><strong>なし</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Absent</li>
+          <li>Present</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>職業分類</strong></td>
+      <td>Occupational Classification</td>
+      <td>직업 분류</td>
+      <td>
+        <ul>
+          <li><strong>管理的職業</strong></li>
+          <li><strong>専門的・技術的職業</strong></li>
+          <li><strong>事務的職業</strong></li>
+          <li><strong>販売の職業</strong></li>
+          <li><strong>サービスの職業</strong></li>
+          <li><strong>保安の職業</strong></li>
+          <li><strong>農林漁業の職業</strong></li>
+          <li><strong>生産工程の職業</strong></li>
+          <li><strong>輸送・機械運転の職業</strong></li>
+          <li><strong>建設・採掘の職業</strong></li>
+          <li><strong>運輸・清掃・包装の職業</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Managerial occupation</li>
+          <li>Professional technical occupation</li>
+          <li>Clerical occupation</li>
+          <li>Sales occupation</li>
+          <li>Service occupation</li>
+          <li>Security occupation</li>
+          <li>Agriculture forestry fishing occupation</li>
+          <li>Production process occupation</li>
+          <li>Transportation machine operation occupation</li>
+          <li>Construction mining occupation</li>
+          <li>Transportation cleaning packaging occupation</li>
+          <li>Others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>관리 분야 경력</li>
+          <li>전문・기술직</li>
+          <li>사무직</li>
+          <li>판매 직업</li>
+          <li>서비스 직업</li>
+          <li>보안 직업</li>
+          <li>농림어업의 직업</li>
+          <li>생산 공정의 직업</li>
+          <li>운송・기계 운전의 직업</li>
+          <li>건설・광업의 직업</li>
+          <li>운송・청소・포장 직업</li>
+          <li>기타</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>社会歴</strong></td>
+      <td>Social History</td>
+      <td>사회생활력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>渡航歴・予防接種歴</strong></td>
+      <td rowspan="3">Travel and Vaccination</td>
+      <td rowspan="3">여행력・예방접종력</td>
+    </tr>
+    <tr>
+      <td><strong>渡航歴</strong></td>
+      <td>Travel History</td>
+      <td>여행 이력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>予防接種歴</strong></td>
+      <td>Vaccination History</td>
+      <td>예방 접종 이력</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+
     <!-- 身体情報・所見 -->
     <tr>
       <td rowspan="17"><strong>身体情報・所見</strong></td>
@@ -675,7 +1267,7 @@
     <tr>
       <td rowspan="4"><strong>出生時身体情報</strong></td>
       <td rowspan="4">Body Info at Birth</td>
-      <td rowspan="4">출생 시 신체 정보</td>
+      <td rowspan="4">출산 시 신체정보</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
@@ -704,7 +1296,7 @@
     <tr>
       <td rowspan="5"><strong>登録時身体情報</strong></td>
       <td rowspan="5">Body Info at Registration</td>
-      <td rowspan="5">출생 시 신체 정보</td>
+      <td rowspan="5">등록 시 신체정보</td>
     </tr>
     <tr>
       <td><strong>身長 (cm)</strong></td>
@@ -734,9 +1326,21 @@
       <td><strong>測定時年齢 (YM)</strong></td>
       <td>Age at Measurement (YM)</td>
       <td>측정 시 연령 (YM)</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li><strong>- ヶ月を選択 -</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- Select Month -</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td rowspan="5"><strong>診察時身体情報</strong></td>
@@ -901,9 +1505,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>本数 (本/日)</strong></td>
-      <td>Number (per day)</td>
-      <td>개수 (개/일)</td>
+      <td><strong>喫煙本数 (本/日)</strong></td>
+      <td>Number of Smoking (per day)</td>
+      <td>흡연개수 (개/일)</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -927,12 +1531,12 @@
       <td><strong>疑い病名</strong></td>
       <td>Suspected Disease</td>
       <td>의심 병명</td>
-      <td><strong>Disease Name</strong></td>
-      <td>疾患名</td>
+      <td><strong>疑い病名</strong></td>
+      <td>Suspected Disease Name</td>
+      <td>의심 병명</td>
+      <td><strong>疾患名</strong></td>
+      <td>Disease Name</td>
       <td>질병명</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -941,7 +1545,7 @@
     <tr>
       <td rowspan="7"><strong>遺伝性疾患と考える根拠</strong></td>
       <td rowspan="7">Basis of Genetic Disease</td>
-      <td rowspan="7">의유전성 질환으로 보는 근거</td>
+      <td rowspan="7">유전성 질환으로 보는 근거</td>
     </tr>
     <tr>
       <td><strong>遺伝性疾患の疑い</strong></td>
@@ -1114,7 +1718,7 @@
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
-      <td>Other detail</td>
+      <td>Other Details</td>
       <td>기타 상세 정보</td>
       <td>-</td>
       <td>-</td>
@@ -1243,8 +1847,8 @@
     </tr>
     <tr>
       <td><strong>指定難病認定の有無</strong></td>
-      <td>Presence of Designated Intractable Disease Certification</td>
-      <td>지정 난치병 인정 여부</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1257,32 +1861,16 @@
           <li><strong>非認定</strong></li>
         </ul>
       </td>
-      <td>
-        <ul>
-          <li>Other</li>
-          <li>Not applied</li>
-          <li>In progress</li>
-          <li>Approved</li>
-          <li>Not approved</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>해당사항 없음</li>
-          <li>미신청</li>
-          <li>애플리케이션에서</li>
-          <li>인증</li>
-          <li>비인증</li>
-        </ul>
-      </td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td><strong>申請した指定難病</strong></td>
-      <td>Designated intractable disease applied for</td>
-      <td>신청한 난치병 병명</td>
+      <td>-</td>
+      <td>-</td>
       <td><strong>疾患名</strong></td>
-      <td>Disease Name</td>
-      <td>질병명</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1295,8 +1883,8 @@
     </tr>
     <tr>
       <td><strong>小児慢性特定疾病認定の有無</strong></td>
-      <td>Presence of Pediatric Chronic Specific Disease Certification</td>
-      <td>소아 만성 특정질환 인정 여부</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1309,36 +1897,21 @@
           <li><strong>非認定</strong></li>
         </ul>
       </td>
-      <td>
-        <ul>
-          <li>Other</li>
-          <li>Not applied</li>
-          <li>In progress</li>
-          <li>Approved</li>
-          <li>Not approved</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>해당사항 없음</li>
-          <li>미신청</li>
-          <li>애플리케이션에서</li>
-          <li>인증</li>
-          <li>비인증</li>
-        </ul>
-      </td>
+      <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <td><strong>申請した小児慢性特定疾病</strong></td>
-      <td>Designated Pediatric Chronic Specific Disease</td>
-      <td>신청한 소아 만성 특정질환</td>
+      <td>-</td>
+      <td>-</td>
       <td><strong>疾患名</strong></td>
-      <td>Disease Name</td>
-      <td>질병명</td>
+      <td>-</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
+
   </tbody>
 </table>
 
@@ -1428,18 +2001,18 @@
     <tr>
       <td><strong>一覧に追加</strong></td>
       <td>ADD TO LIST</td>
-      <td>-</td>
+      <td>목록에 추가</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="12"><strong>症状一覧</strong></td>
-      <td rowspan="12">Symptoms list</td>
-      <td rowspan="12">-</td>
+      <td rowspan="14"><strong>症状一覧</strong></td>
+      <td rowspan="14">Symptoms list</td>
+      <td rowspan="14">증상 목록</td>
       <td><strong>詳細を表示</strong></td>
       <td>Show details</td>
-      <td>-</td>
+      <td>자세히 보기</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1447,7 +2020,7 @@
     <tr>
       <td><strong>すべてクリア</strong></td>
       <td>CLEAR ALL</td>
-      <td>-</td>
+      <td>모두 클리어</td>
       <td>-</td>
       <td>-</td>
       <td>-</td>
@@ -1456,33 +2029,93 @@
       <td><strong>現病歴</strong></td>
       <td>Current Medical History</td>
       <td>현재 병력</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>既往歴</strong></td>
       <td>Previous Medical History</td>
       <td>과거 병력</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>経過</strong></td>
       <td>Process</td>
       <td>경과</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>家族歴</strong></td>
       <td>Family History</td>
       <td>가족력</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>無</li>
+          <li>有</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>No</li>
+          <li>Yes</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>없음</li>
+          <li>있음</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>症状の有無</strong></td>
@@ -1496,9 +2129,10 @@
       </td>
       <td>
         <ul>
-          <li>Yes</li>
           <li>No</li>
+          <li>Yes</li>
         </ul>
+        ※ 英語のみ「excluded」に対してのno/yesで項目自体の意味が反転
       </td>
       <td>
         <ul>
@@ -1528,8 +2162,8 @@
       <td>
         <ul>
           <li>보통</li>
-          <li>높음</li>
-          <li>낮음</li>
+          <li>높은</li>
+          <li>낮은</li>
         </ul>
       </td>
     </tr>
@@ -1581,7 +2215,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>発症パターン</strong></td>
@@ -1687,7 +2326,12 @@
           <li>- Select Day -</li>
         </ul>
       </td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>- 월 선택 -</li>
+          <li>- 날짜 선택 -</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>コメント</strong></td>
@@ -1786,9 +2430,9 @@
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="5"><strong>検査結果</strong></td>
-      <td rowspan="5">Testing Result</td>
-      <td rowspan="5">검사 결과</td>
+      <td rowspan="6"><strong>検査結果</strong></td>
+      <td rowspan="6">Testing Result</td>
+      <td rowspan="6">검사 결과</td>
       <td><strong>検査実施日(yyyy/mm/dd)</strong></td>
       <td>Date of Testing (yyyy/mm/dd)</td>
       <td>검사 실시일(yyyy/mm/dd)</td>
@@ -1810,8 +2454,17 @@
           <li><strong>ラボコープ・ジャパン</strong></li>
           <li><strong>LSI メディエンス</strong></li>
           <li><strong>学術研究</strong></li>
+          <li><strong>その他</strong></li>
         </ul>
       </td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>Testing Company/Facility Name</td>
+      <td>검사회사/시설명</td>
+      <td>-</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1856,9 +2509,30 @@
       <td><strong>検査結果</strong></td>
       <td>Result of Testing</td>
       <td>검사 결과</td>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li>不明</li>
+          <li>陰性</li>
+          <li>陽性</li>
+          <li>検査中</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Unknown</li>
+          <li>Negative</li>
+          <li>Positive</li>
+          <li>In progress</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>알 수 없음</li>
+          <li>음성</li>
+          <li>양성</li>
+          <li>검사 중</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td rowspan="14"><strong>結果詳細</strong></td>
@@ -2186,7 +2860,7 @@
     <tr>
       <td rowspan="7"><strong>家族歴</strong></td>
       <td rowspan="7">Family History</td>
-      <td rowspan="7">가족력</td>
+      <td rowspan="7">가족 역사</td>
       <td><strong>家族歴</strong></td>
       <td>Family History</td>
       <td>가족력</td>
@@ -2435,9 +3109,159 @@
       <td><strong>がん種</strong></td>
       <td>Cancer Type</td>
       <td>암종</td>
-      <td><strong>-</strong></td>
-      <td>-</td>
-      <td>-</td>
+      <td>
+        <ul>
+          <li><strong>中枢神経系</strong></li>
+          <li><strong>脳</strong></li>
+          <li><strong>眼</strong></li>
+          <li><strong>口腔</strong></li>
+          <li><strong>咽頭</strong></li>
+          <li><strong>喉頭</strong></li>
+          <li><strong>鼻・副鼻腔</strong></li>
+          <li><strong>唾液腺</strong></li>
+          <li><strong>甲状腺</strong></li>
+          <li><strong>肺</strong></li>
+          <li><strong>胸膜</strong></li>
+          <li><strong>胸腺</strong></li>
+          <li><strong>乳</strong></li>
+          <li><strong>食道</strong></li>
+          <li><strong>胃</strong></li>
+          <li><strong>十二指腸乳頭部</strong></li>
+          <li><strong>小腸</strong></li>
+          <li><strong>虫垂</strong></li>
+          <li><strong>大腸</strong></li>
+          <li><strong>肝</strong></li>
+          <li><strong>胆嚢</strong></li>
+          <li><strong>胆道</strong></li>
+          <li><strong>膵</strong></li>
+          <li><strong>腎</strong></li>
+          <li><strong>腎盂</strong></li>
+          <li><strong>副腎</strong></li>
+          <li><strong>膀胱</strong></li>
+          <li><strong>尿管</strong></li>
+          <li><strong>前立腺</strong></li>
+          <li><strong>精巣</strong></li>
+          <li><strong>陰茎</strong></li>
+          <li><strong>子宮体部</strong></li>
+          <li><strong>子宮頚部</strong></li>
+          <li><strong>卵巣/卵管</strong></li>
+          <li><strong>膣</strong></li>
+          <li><strong>皮膚</strong></li>
+          <li><strong>皮下</strong></li>
+          <li><strong>骨</strong></li>
+          <li><strong>筋肉</strong></li>
+          <li><strong>軟部組織</strong></li>
+          <li><strong>腹膜</strong></li>
+          <li><strong>髄膜</strong></li>
+          <li><strong>骨髄系</strong></li>
+          <li><strong>リンパ系</strong></li>
+          <li><strong>末梢神経系</strong></li>
+          <li><strong>原発不明</strong></li>
+          <li><strong>その他</strong></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Central nervous system</li>
+          <li>Brain</li>
+          <li>Eye</li>
+          <li>Oral cavity</li>
+          <li>Pharynx</li>
+          <li>Larynx</li>
+          <li>Nasal and paranasal sinuses</li>
+          <li>Salivary gland</li>
+          <li>Thyroid</li>
+          <li>Lung</li>
+          <li>Pleura</li>
+          <li>Thymus</li>
+          <li>Breast</li>
+          <li>Esophagus</li>
+          <li>Stomach</li>
+          <li>Duodenum</li>
+          <li>Small intestine</li>
+          <li>Appendix</li>
+          <li>Colon</li>
+          <li>Liver</li>
+          <li>Gallbladder</li>
+          <li>Bile duct</li>
+          <li>Pancreas</li>
+          <li>Kidney</li>
+          <li>Renal pelvis</li>
+          <li>Adrenal gland</li>
+          <li>Bladder</li>
+          <li>Ureter</li>
+          <li>Prostate</li>
+          <li>Testis</li>
+          <li>Penis</li>
+          <li>Uterine body</li>
+          <li>Cervix</li>
+          <li>Ovary/fallopian tube</li>
+          <li>Vagina</li>
+          <li>Skin</li>
+          <li>Subcutaneous</li>
+          <li>Bone</li>
+          <li>Muscle</li>
+          <li>Soft tissue</li>
+          <li>Peritoneum</li>
+          <li>Meninges</li>
+          <li>Bone marrow system</li>
+          <li>Lymphatic system</li>
+          <li>Peripheral nervous system</li>
+          <li>Unknown primary</li>
+          <li>Others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>중추신경계</li>
+          <li>두뇌</li>
+          <li>눈</li>
+          <li>구강</li>
+          <li>인두</li>
+          <li>후두</li>
+          <li>코-부비동</li>
+          <li>침샘</li>
+          <li>갑상선</li>
+          <li>폐</li>
+          <li>흉막</li>
+          <li>흉선</li>
+          <li>우유</li>
+          <li>식도</li>
+          <li>위</li>
+          <li>십이지장 유두</li>
+          <li>소장</li>
+          <li>맹장</li>
+          <li>대장</li>
+          <li>간</li>
+          <li>담낭</li>
+          <li>담도</li>
+          <li>췌장</li>
+          <li>신장</li>
+          <li>신우</li>
+          <li>부신</li>
+          <li>방광</li>
+          <li>요도 카테터</li>
+          <li>전립선</li>
+          <li>고환</li>
+          <li>음경</li>
+          <li>자궁체부</li>
+          <li>자궁경부</li>
+          <li>스가모/오비덕트</li>
+          <li>질</li>
+          <li>피부</li>
+          <li>피하</li>
+          <li>뼈</li>
+          <li>근육</li>
+          <li>연조직</li>
+          <li>복막</li>
+          <li>수막</li>
+          <li>골수계</li>
+          <li>림프계</li>
+          <li>말초신경계</li>
+          <li>원전 불명</li>
+          <li>기타</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>その他詳細</strong></td>
@@ -2650,12 +3474,28 @@
       </td>
     </tr>
     <tr>
-      <td><strong>家系図</strong></td>
-      <td>Pedigree</td>
-      <td>가계도</td>
+      <td rowspan="3"><strong>家系図</strong></td>
+      <td rowspan="3">Pedigree</td>
+      <td rowspan="3">가계도</td>
+      <td><strong>家系図PDF</strong></td>
+      <td>Family Tree PDF</td>
+      <td>가계도 PDF</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>家系図作成日 (yyyy/mm/dd)</strong></td>
+      <td>Date of Family Tree</td>
+      <td>가계도 작성일 (yyyy/mm/dd)</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>家系図における世代番号 (本人)</strong></td>
+      <td>Generation Number of Proband</td>
+      <td>가계도의 세대번호 (본인)</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
@@ -2832,9 +3672,9 @@
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="8"><strong>血液検査等</strong></td>
-      <td rowspan="8">Blood Test</td>
-      <td rowspan="8">혈액 검사 등</td>
+      <td rowspan="31"><strong>血液検査等</strong></td>
+      <td rowspan="31">Blood Test</td>
+      <td rowspan="31">혈액 검사 등</td>
       <td><strong>検査実施日（yyyy/mm/dd）</strong></td>
       <td>Test date</td>
       <td>검사 실시일（yyyy/mm/dd）</td>
@@ -2915,6 +3755,295 @@
       <td><strong>アルブミン（ALB）</strong></td>
       <td>Albumin (ALB)</td>
       <td>알부민（ALB）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>総ビリルビン（T-Bil）</strong></td>
+      <td>Total bilirubin (T-Bil)</td>
+      <td>총 빌리루빈（T-Bil）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アルカリフォスファターゼ（ALP）</strong></td>
+      <td>Alkaline phosphatase (ALP)</td>
+      <td>알칼리성 포스파타제（ALP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アスパラギン酸アミノトランスフェラーゼ（AST(GOT)）</strong></td>
+      <td>Aspartate aminotransferase (AST(</td>
+      <td>아스파라긴산 아미노전이효소（AST(GOT)）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アラニンアミノトランスフェラーゼ（ALT(GPT)）</strong></td>
+      <td>Alanine aminotransferase (ALT(GPT))</td>
+      <td>알라닌 아미노전이효소（ALT(GPT)）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>乳酸脱水素酵素（LDH）</strong></td>
+      <td>Lactate dehydrogenase (LDH)</td>
+      <td>젖산 탈수소 효소（LDH）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>クレアチンキナーゼ（CK)</strong></td>
+      <td>Creatine kinase (CK)</td>
+      <td>크레아틴 키나아제（CK)</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>γグルタミールトランスぺプチダーゼ（γ-GTP）</strong></td>
+      <td>Gamma-glutamyltransferase (γ</td>
+      <td>γ-글루타밀 트랜스페티데이즈 효소（γ-GTP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>クレアチニン（CRE）</strong></td>
+      <td>Creatinine (CRE)</td>
+      <td>크레아티닌（CRE）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>尿酸（UA）</strong></td>
+      <td>Uric acid (UA)</td>
+      <td>요산（UA）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>尿素窒素（BUN）</strong></td>
+      <td>Blood urea nitrogen (BUN)</td>
+      <td>요소 질소（BUN）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>アミラーゼ（AMY）</strong></td>
+      <td>Amylase (AMY)</td>
+      <td>아밀라아제（AMY）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>総コレステロール（T-CHO）</strong></td>
+      <td>Total cholesterol (T-CHO)</td>
+      <td>총 콜레스테롤（T-CHO）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>トリグリセライド（TG）</strong></td>
+      <td>Triglyceride (TG)</td>
+      <td>트리글리세라이드（TG）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>LDLコレステロール（LDL-CHO）</strong></td>
+      <td>LDL cholesterol (LDL-CHO)</td>
+      <td>LDL 콜레스테롤（LDL-CHO）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>HDLコレステロール（HDL-CHO）</strong></td>
+      <td>HDL cholesterol (HDL-CHO)</td>
+      <td>HDL 콜레스테롤（HDL-CHO）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>ナトリウム（Na）</strong></td>
+      <td>Sodium (Na)</td>
+      <td>나트륨（Na）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>カリウム（K）</strong></td>
+      <td>Potassium (K)</td>
+      <td>칼륨（K）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>無機リン（IP）</strong></td>
+      <td>Inorganic phosphorus (IP)</td>
+      <td>무기 인（IP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>クロール（Cl）</strong></td>
+      <td>Chloride (Cl)</td>
+      <td>크롤링（Cl）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>カルシウム（Ca）</strong></td>
+      <td>Calcium (Ca)</td>
+      <td>칼슘（Ca）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>Ｃ反応性蛋白（CRP）</strong></td>
+      <td>C-reactive protein (CRP)</td>
+      <td>C 반응성 단백질（CRP）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>グルコース（GLU）</strong></td>
+      <td>Glucose (GLU)</td>
+      <td>포도당（GLU）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>ヘモグロビンエーワンシー（HbA1c）</strong></td>
+      <td>Hemoglobin A1c (HbA1c)</td>
+      <td>헤모글로빈 에이원씨（HbA1c）</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>その他検査</strong></td>
+      <td rowspan="3">Other Test</td>
+      <td rowspan="3">기타 검사</td>
+      <td><strong>検査項目名</strong></td>
+      <td>Test item</td>
+      <td>검사 항목명</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>検査値</strong></td>
+      <td>Test value</td>
+      <td>검사값</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+      <td><strong>-</strong></td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><strong>単位</strong></td>
+      <td>Unit</td>
+      <td>단위</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
@@ -3086,7 +4215,7 @@
         <ul>
           <li><strong>該当なし</strong></li>
           <li><strong>本人</strong></li>
-          <li><strong>代諾者</strong></li>
+          <li><strong>代諾者等</strong></li>
         </ul>
       </td>
       <td>
@@ -3100,14 +4229,14 @@
         <ul>
           <li>해당사항 없음</li>
           <li>본인</li>
-          <li>대리인</li>
+          <li>대리인 등</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
-      <td>Proxy relation</td>
-      <td>대리인 등의 속사정</td>
+      <td><strong>同意取得 代諾者等の続柄</strong></td>
+      <td>Obtaining Consent Proxy Relation</td>
+      <td>동의 취득 대리인 등의 속사정</td>
       <td>
         <ul>
           <li><strong>父</strong></li>
@@ -3152,9 +4281,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
-      <td>Proxy relation other details</td>
-      <td>대리인 등의 속사정 기타 자세한 내용</td>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
@@ -3262,9 +4391,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄</strong></td>
-      <td>Proxy relation</td>
-      <td>대리인 등의 속사정</td>
+      <td><strong>同意撤回 代諾者等の続柄</strong></td>
+      <td>Consent Withdrawal Proxy Relation</td>
+      <td>동의 철회 대리인 등의 속사정</td>
       <td>
         <ul>
           <li><strong>父</strong></li>
@@ -3309,9 +4438,9 @@
       </td>
     </tr>
     <tr>
-      <td><strong>代諾者等の続柄その他詳細</strong></td>
-      <td>Proxy relation other details</td>
-      <td>대리인 등의 속사정 기타 자세한 내용</td>
+      <td><strong>その他詳細</strong></td>
+      <td>Other Details</td>
+      <td>기타 상세 정보</td>
       <td><strong>-</strong></td>
       <td>-</td>
       <td>-</td>
@@ -3368,6 +4497,83 @@
     </tr>
   </tbody>
 </table>
+
+### 共有 {: #share}
+
+<table>
+  <thead>
+    <tr>
+      <th>種別</th>
+      <th style="min-width: 300px;">JA</th>
+      <th style="min-width: 300px;">EN</th>
+      <th style="min-width: 300px;">KO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>タブラベル</td>
+      <td><strong>共有</strong></td>
+      <td>Share</td>
+      <td>공유</td>
+    </tr>
+    <tr>
+      <td>Matching Rules：Required の説明</td>
+      <td><strong>絶対条件（これが一致しないとマッチングなし）</strong></td>
+      <td>Mandatory condition (if this does not match, there will be no matching)</td>
+      <td>Mandatory condition (if this does not match, there will be no matching)</td>
+    </tr>
+    <tr>
+      <td>Matching Rules：Optional の説明</td>
+      <td><strong>両方がOptionalのときのみ有効 — どちらか一方が一致すればマッチ</strong></td>
+      <td>Effective only when both rules are Optional — a match occurs if either one matches</td>
+      <td>Effective only when both rules are Optional — a match occurs if either one matches</td>
+    </tr>
+    <tr>
+      <td>Matching Rules：Ignored の説明</td>
+      <td><strong>無視（そもそも判定に使わない）</strong></td>
+      <td>Ignored (not used for matching at all)</td>
+      <td>Ignored (not used for matching at all)</td>
+    </tr>
+    <tr>
+      <td>ローカルデータ変更アラート</td>
+      <td><strong>症例情報が変更されました。Editモードに移行します。</strong></td>
+      <td>The case information has been updated. Switching to Edit mode.</td>
+      <td>The case information has been updated. Switching to Edit mode.</td>
+    </tr>
+    <tr>
+      <td>削除確認モーダル：タイトル</td>
+      <td><strong>Submissionの削除 &amp; JSONの上書き保存</strong></td>
+      <td>Delete Submission &amp; Overwrite JSON</td>
+      <td>Delete Submission &amp; Overwrite JSON</td>
+    </tr>
+    <tr>
+      <td>削除確認モーダル：メッセージ</td>
+      <td><strong>サブミッション情報を削除しますか？削除すると、サブミッションに紐づくIDがクリアされた新しいJSONファイルが保存されます。</strong></td>
+      <td>Are you sure you want to delete this submission? Deleting it will save a new JSON file with the linked IDs cleared.</td>
+      <td>Are you sure you want to delete this submission? Deleting it will save a new JSON file with the linked IDs cleared.</td>
+    </tr>
+    <tr>
+      <td>削除確認モーダル：確定ボタン</td>
+      <td><strong>削除 &amp; JSONのダウンロード</strong></td>
+      <td>Delete &amp; Download JSON</td>
+      <td>Delete &amp; Download JSON</td>
+    </tr>
+    <tr>
+      <td>サブミッション削除済みアラート</td>
+      <td><strong>Submissionが正常に削除されました</strong></td>
+      <td>Submission deleted successfully</td>
+      <td>Submission deleted successfully</td>
+    </tr>
+    <tr>
+      <td>症例削除不可アラート（サブミッション紐づき時）</td>
+      <td><strong>この症例はサブミッションと紐づいているため削除できません。削除するには、共有タブからサブミッションを削除してから症例を削除してください。</strong></td>
+      <td>This row is linked to a submission and cannot be deleted. To delete it, please remove the submission from the sharing tab first, then delete the row.</td>
+      <td>이 증례는 서브미션과 연결되어 있어 삭제할 수 없습니다. 삭제하려면 공유 탭에서 서브미션을 먼저 삭제한 후 증례를 삭제해 주세요.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ### その他 {: #other}
 

@@ -10,6 +10,10 @@ nav:
   - 全体構成:
     - 画面仕様: 'overall-structure/screen-specifications'
     - 翻訳: 'overall-structure/translate'
+    - ログイン:
+      - 概要: 'overall-structure/login'
+      - ユーザー登録: 'overall-structure/login#sign-up'
+      - ユーザー情報（編集・削除）: 'overall-structure/login#user-information'
   - Cases:
     - 画面仕様: 'cases/screen-specifications'
     - 項目: 'cases/items'
@@ -71,6 +75,11 @@ nav:
         - 詳細:
           - 患者について: 'cases/edit/registration#patient-info'
           - 同意書・アセント: 'cases/edit/registration#consent-ascent'
+      - 共有:
+        - 概要: 'cases/edit/share'
+        - 詳細:
+          - Submission タブ: 'cases/edit/share#submission'
+          - Match Report タブ: 'cases/edit/share#match-report'
       - 翻訳:
         - 概要: 'cases/edit/translate'
         - 詳細:
@@ -81,9 +90,11 @@ nav:
           - 家系: 'cases/edit/translate#family-info'
           - 検体・検査: 'cases/edit/translate#sample-info'
           - 登録: 'cases/edit/translate#registration'
+          - 共有: 'cases/edit/translate#share'
           - その他: 'cases/edit/translate#other'
       - マスタ:
         - 国: 'cases/edit/master#country-master'
+        - 都道府県: 'cases/edit/master#state-master'
       - その他:
         - 編集モーダルフッター:
           - 症例のコピー: 'cases/edit/footer#copy'
@@ -91,10 +102,14 @@ nav:
           - DiseaseSearch: 'cases/edit/footer#diseaseSearch'
   - Stats:
     - 画面仕様: 'stats/screen-specifications'
-    - 年齢: 'stats/age'
+    - 症例数: 'stats/case-count'
+    - 家系数: 'stats/family-count'
+    - グループ数: 'stats/group-count'
     - 性別: 'stats/gender'
+    - 登録時年齢: 'stats/age'
     - グループ名: 'stats/group-name'
-    - 症状: 'stats/symptoms'
+    - 症状の経時的推移と重症度（疾患別）: 'stats/symptoms'
+    - 翻訳: 'stats/translate'
   - File open:
     - 仕様: 'file-open/specifications'
     - 翻訳: 'file-open/translate'

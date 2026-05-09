@@ -130,11 +130,11 @@
     <tr>
       <td><strong>死産の回数</strong></td>
       <td>family_number_of_stillbirth_of_mother</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>"unknown"</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -143,11 +143,11 @@
     <tr>
       <td><strong>流産 (自然) の回数</strong></td>
       <td>family_number_of_miscarriage_of_mother</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>"unknown"</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -156,11 +156,11 @@
     <tr>
       <td><strong>流産 (人工) の回数</strong></td>
       <td>family_number_of_artificial_abortion_of_mother</td>
-      <td>string</td>
+      <td>string | null</td>
       <td>テキストボックス (数字)</td>
       <td>-</td>
       <td>-</td>
-      <td>"unknown"</td>
+      <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -419,8 +419,108 @@
       <td>family_cancer_history_cancer_type</td>
       <td>Array&lt;Array&lt;string|null&gt;&gt;</td>
       <td>セレクトボックス</td>
-      <td>リンクはる</td>
-      <td>リンクはる</td>
+      <td>
+        <ul>
+          <li>central_nervous_system</li>
+          <li>brain</li>
+          <li>eye</li>
+          <li>oral_cavity</li>
+          <li>pharynx</li>
+          <li>larynx</li>
+          <li>nasal_and_paranasal_sinuses</li>
+          <li>salivary_gland</li>
+          <li>thyroid</li>
+          <li>lung</li>
+          <li>pleura</li>
+          <li>thymus</li>
+          <li>breast</li>
+          <li>esophagus</li>
+          <li>stomach</li>
+          <li>duodenum</li>
+          <li>small_intestine</li>
+          <li>appendix</li>
+          <li>colon</li>
+          <li>liver</li>
+          <li>gallbladder</li>
+          <li>bile_duct</li>
+          <li>pancreas</li>
+          <li>kidney</li>
+          <li>renal_pelvis</li>
+          <li>adrenal_gland</li>
+          <li>bladder</li>
+          <li>ureter</li>
+          <li>prostate</li>
+          <li>testis</li>
+          <li>penis</li>
+          <li>uterine_body</li>
+          <li>cervix</li>
+          <li>ovary_fallopian_tube</li>
+          <li>vagina</li>
+          <li>skin</li>
+          <li>subcutaneous</li>
+          <li>bone</li>
+          <li>muscle</li>
+          <li>soft_tissue</li>
+          <li>peritoneum</li>
+          <li>meninges</li>
+          <li>bone_marrow_system</li>
+          <li>lymphatic_system</li>
+          <li>peripheral_nervous_system</li>
+          <li>unknown_primary</li>
+          <li>others</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>中枢神経系</li>
+          <li>脳</li>
+          <li>眼</li>
+          <li>口腔</li>
+          <li>咽頭</li>
+          <li>喉頭</li>
+          <li>鼻・副鼻腔</li>
+          <li>唾液腺</li>
+          <li>甲状腺</li>
+          <li>肺</li>
+          <li>胸膜</li>
+          <li>胸腺</li>
+          <li>乳</li>
+          <li>食道</li>
+          <li>胃</li>
+          <li>十二指腸乳頭部</li>
+          <li>小腸</li>
+          <li>虫垂</li>
+          <li>大腸</li>
+          <li>肝</li>
+          <li>胆嚢</li>
+          <li>胆道</li>
+          <li>膵</li>
+          <li>腎</li>
+          <li>腎盂</li>
+          <li>副腎</li>
+          <li>膀胱</li>
+          <li>尿管</li>
+          <li>前立腺</li>
+          <li>精巣</li>
+          <li>陰茎</li>
+          <li>子宮体部</li>
+          <li>子宮頚部</li>
+          <li>卵巣/卵管</li>
+          <li>膣</li>
+          <li>皮膚</li>
+          <li>皮下</li>
+          <li>骨</li>
+          <li>筋肉</li>
+          <li>軟部組織</li>
+          <li>腹膜</li>
+          <li>髄膜</li>
+          <li>骨髄系</li>
+          <li>リンパ系</li>
+          <li>末梢神経系</li>
+          <li>原発不明</li>
+          <li>その他</li>
+        </ul>
+      </td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
@@ -483,6 +583,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>生活習慣病罹患歴の有無</strong></td>
       <td>family_presence_of_lifestyle_disease_history</td>
       <td>Array&lt;string|null&gt;</td>
@@ -508,6 +609,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>生活習慣病罹患歴詳細</strong></td>
       <td>family_lifestyle_disease_history</td>
       <td>Array&lt;Array&lt;string|null&gt;&gt;</td>
@@ -545,6 +647,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td><strong>その他詳細</strong></td>
       <td>family_lifestyle_disease_history_other_details</td>
       <td>Array&lt;string|null&gt;</td>
@@ -688,12 +791,12 @@
 
 ## 家系図 {: #pedigree}
 
-- 家系図には[pedigreejs](https://ccge-boadicea.github.io/pedigreejs/)を使用
+- 家系図には[pedigreejs](https://ccge-boadicea.github.io/pedigreejs/)を使用しています
   - 2024 年 8 月現在、使用バージョンは`3.0.0`
 
 ![家系図](../../assets/images/pedigree.png)
 
-下記を正しく設定することで家系図が自動生成できる
+下記を正しく設定することで家系図が自動生成できます
 
 | 家系図生成用データキー | 症例データの参照キー                                                       | ラベル                                     |
 | ---------------------- | -------------------------------------------------------------------------- | ------------------------------------------ |
@@ -712,4 +815,77 @@
 
 ### ダウンロード
 
-JSON,SVG,PNG 形式で生成した家系図をダウンロードできる。
+JSON,SVG,PNG 形式で生成した家系図をダウンロードできます。
+
+### エラーメッセージ表示条件
+
+| 条件 | エラーメッセージ |
+| --- | --- |
+| 家系に発端者（本人）が一人もいない場合 | 家系に発端者（本人）がいないため、家系図を生成できません。 |
+| 家系に発端者（本人）が複数いる場合 | 家系に複数の発端者（本人）がいるため、家系図を生成できません。 |
+| 家系に同性の親がいる場合 | 家系に同性の親がいるため、家系図を生成できません。 |
+| 子供の配偶者に孫がいない場合 | <症例ID>は子どものいない配偶者です。家系図上では描画されません。 |
+| その他想定外のエラー | 家系図の表示に失敗しました。FAQを確認してください。 |
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">項目名</th>
+      <th rowspan="2">ID</th>
+      <th rowspan="2">型定義</th>
+      <th rowspan="2">入力形式</th>
+      <th colspan="2">選択肢</th>
+      <th rowspan="2">初期値</th>
+      <th rowspan="2">clearボタン</th>
+      <th rowspan="2">deleteボタン</th>
+      <th rowspan="2">Phenopackets</th>
+      <th rowspan="2">備考</th>
+    </tr>
+    <tr>
+      <th>値</th>
+      <th>ラベル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>家系図PDF</strong></td>
+      <td>family_family_tree_pdf</td>
+      <td>string | null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>家系図作成日 (yyyy/mm/dd)</strong></td>
+      <td>family_date_of_family_tree</td>
+      <td>string|null</td>
+      <td>カレンダー選択</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td>値の持ち方は、yyyy/MM/dd形式</td>
+    </tr>
+    <tr>
+      <td><strong>家系図における世代番号 (本人)</strong></td>
+      <td>family_generation_number_of_proband</td>
+      <td>string | null</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+

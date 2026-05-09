@@ -49,7 +49,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
+      <td>「{{YYYY}}/{{MM}}/{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>検体識別ID</strong></td>
@@ -216,20 +216,20 @@
       <td><strong>検査実施日（yyyy/mm/dd）</strong></td>
       <td>sample_test_date</td>
       <td>string|null</td>
-      <td>日付入力インターフェース</td>
+      <td>カレンダー選択</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td>「{{YYYY}}-{{MM}}-{{DD}}」の形式でjsonに保存される</td>
+      <td>「{{YYYY}}/{{MM}}/{{DD}}」の形式でjsonに保存される</td>
     </tr>
     <tr>
       <td><strong>白血球数（WBC）</strong></td>
       <td>sample_wbc</td>
       <td>string|null</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -242,7 +242,7 @@
       <td><strong>赤血球数（RBC）</strong></td>
       <td>sample_rbc</td>
       <td>string|null</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -255,7 +255,7 @@
       <td><strong>血色素（ヘモグロビン）</strong></td>
       <td>sample_hemoglobin</td>
       <td>string|null</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -268,7 +268,7 @@
       <td><strong>ヘマトクリット</strong></td>
       <td>sample_hematocrit</td>
       <td>string|null</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -281,7 +281,7 @@
       <td><strong>血小板数（PLT）</strong></td>
       <td>sample_plt</td>
       <td>string|null</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -294,7 +294,7 @@
       <td><strong>総タンパク（TP）</strong></td>
       <td>sample_tp</td>
       <td>string|null</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>
@@ -307,7 +307,293 @@
       <td><strong>アルブミン（ALB）</strong></td>
       <td>sample_alb</td>
       <td>string|null</td>
-      <td>テキストボックス</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>総ビリルビン（T-Bil）</strong></td>
+      <td>sample_t_bil</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>アルカリフォスファターゼ（ALP）</strong></td>
+      <td>sample_alp</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>アスパラギン酸アミノトランスフェラーゼ（AST(GOT)）</strong></td>
+      <td>sample_ast_got</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>乳酸脱水素酵素（LDH）</strong></td>
+      <td>sample_ldh</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>クレアチンキナーゼ（CK)</strong></td>
+      <td>sample_ck</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>γグルタミールトランスぺプチダーゼ（γ-GTP）</strong></td>
+      <td>sample_gamma_gtp</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>クレアチニン（CRE）</strong></td>
+      <td>sample_cre</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>尿酸（UA）</strong></td>
+      <td>sample_ua</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>尿素窒素（BUN）</strong></td>
+      <td>sample_bun</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>アミラーゼ（AMY）</strong></td>
+      <td>sample_amy</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>総コレステロール（T-CHO）</strong></td>
+      <td>sample_t_cho</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>トリグリセライド（TG）</strong></td>
+      <td>sample_tg</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>LDLコレステロール（LDL-CHO）</strong></td>
+      <td>sample_ldl_cho</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>HDLコレステロール（HDL-CHO）</strong></td>
+      <td>sample_hdl_cho</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>ナトリウム（Na）</strong></td>
+      <td>sample_na</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>カリウム（K）</strong></td>
+      <td>sample_k</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>無機リン（IP）</strong></td>
+      <td>sample_ip</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>クロール（Cl）</strong></td>
+      <td>sample_cl</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>カルシウム（Ca）</strong></td>
+      <td>sample_ca</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Ｃ反応性蛋白（CRP）</strong></td>
+      <td>sample_crp</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>グルコース（GLU）</strong></td>
+      <td>sample_glu</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
+      <td>-</td>
+      <td>-</td>
+      <td>null</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>ヘモグロビンエーワンシー（HbA1c）</strong></td>
+      <td>sample_hba1c</td>
+      <td>string|null</td>
+      <td>テキストボックス（数字）</td>
       <td>-</td>
       <td>-</td>
       <td>null</td>

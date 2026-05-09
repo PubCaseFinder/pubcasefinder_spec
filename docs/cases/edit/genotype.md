@@ -159,6 +159,7 @@
           <li>ラボコープ・ジャパン</li>
           <li>LSI メディエンス</li>
           <li>学術研究</li>
+          <li>others</li>
         </ul>
       </td>
       <td>
@@ -171,13 +172,34 @@
           <li>ラボコープ・ジャパン</li>
           <li>LSI メディエンス</li>
           <li>学術研究</li>
+          <li>その他</li>
         </ul>
       </td>
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td>
+        日本語以外の場合は非表示<br>
+        →その他詳細に入力がある場合、値に"others"が入る
+      </td>
+    </tr>
+    <tr>
+      <td><strong>その他詳細</strong></td>
+      <td>genotype_testing_company_name_other_details</td>
+      <td>Array&lt;string|null&gt;</td>
+      <td>テキストボックス</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[]</td>
+      <td><input type="checkbox" class="readonly-input" /></td>
+      <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
+      <td>
+        検査会社/施設名で「その他」を選択している時のみ入力可<br>
+        （それ以外の場合は非活性）<br>
+        ※日本語の場合のみの制御
+      </td>
     </tr>
     <tr>
       <td><strong>検査種別</strong></td>
@@ -292,7 +314,7 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.interpretation.diagnosis.genomic_interpretations[i]<br>.gene.symbol</td>
-      <td></td>
+      <td rowspan="3">「/static/data/gene_id_list.tsv」に該当する値（完全一致）を入力すると、他の2項目を自動補完する</td>
     </tr>
     <tr>
       <td><strong>NCBI Gene ID</strong></td>
@@ -305,7 +327,6 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td><strong>Ensemble ID</strong></td>
@@ -317,7 +338,6 @@
       <td>[]</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>

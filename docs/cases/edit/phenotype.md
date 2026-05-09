@@ -20,7 +20,7 @@
 <!-- prettier-ignore -->
 | 番号 | 機能 | 詳細 |
 | ---- | ---- | ---- |
-| 1 | 症状入力テキストボックス | 入力した文言に応じて、データベースに保存されているHPO（Human Phenotype Ontology）症状がサジェストとして表示され、症状を選択すると入力を確定し、タグとして表示されます。<br /> タグの機能の詳細は「[タグ機能の詳細](#tag-detail)」を参照してください。 |
+| 1 | 症状入力テキストボックス | 入力した文言に応じて、データベースに保存されているHPO（Human Phenotype Ontology）症状がサジェストとして表示され、症状を選択すると入力を確定し、タグとして表示されます。<br /> タグの機能の詳細は「[タグ機能の詳細](#tag-detail)」を参照してください。<br /> 1文字以上入力した場合、サジェストが表示されます。 |
 | 2 | 文章から症状を自動抽出 | アイコンを押すと症状抽出モーダルを表示します。<br /> 文章から症状を自動抽出機能の詳細は「[文章から症状を自動抽出機能の詳細](#auto-extract-detail)」を参照してください。 |
 | 3 | 設定 | タグサイズ、クエリー言語を設定することができます。クエリー言語とはjsonに保存される値の言語のことです。 |
 | 4 | 症状の分類わけ | 症状を現病歴、既往歴、経過、家族歴のいずれかに分類することができます。 |
@@ -144,6 +144,9 @@
 
 ## 症状一覧 {: #clinical-symptom-list}
 
+臨床症状から「一覧に追加」ボタンで追加された症状が表示されます。<br />
+各症状ごとに HP:&lt;ID&gt;、症状(日)、症状(英)のデータが表示されます。
+
 <img style="border: 1px solid #ccc" src="../../../assets/images/cases_edit_phenotype_list.png">
 
 ### 機能一覧
@@ -152,8 +155,8 @@
 | 番号 | 機能 | 詳細 |
 | ---- | ---- | ---- |
 | 1 | 症状詳細表示 | 症状詳細を各症状の下部に表示します。 |
-| 2 | 症状削除 | 症状を削除することができます。 |
-| 3 | HPO詳細表示 | HPO詳細を表示することができます。 |
+| 2 | 症状削除 | 症状を削除することができます。削除ボタンを押すと確認アラートが表示され、「OK」押下時のみ削除します。 |
+| 3 | HPO ID 表示 | HPO ID を表示します。 |
 | 4 | 症状の数 | 症状一覧に表示されている症状の数を表示します。 |
 | 5 | 常に症状詳細を表示 | 症状詳細表示ボタンを押さなくても、症状詳細が常に表示された状態になります。 |
 | 6 | 症状絞り込み検索 | 症状の詳細で絞り込み検索ができます。<br />症状絞り込み検索機能の詳細は「[症状絞り込み検索機能の詳細](#symptom-search-detail)」を参照してください。 |
@@ -213,13 +216,19 @@
       <td>チェックボックス</td>
       <td>
         <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
+        <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -232,13 +241,19 @@
       <td>チェックボックス</td>
       <td>
         <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
+        <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -251,13 +266,19 @@
       <td>チェックボックス</td>
       <td>
         <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
+        <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -270,13 +291,19 @@
       <td>チェックボックス</td>
       <td>
         <ul>
+          <li>no</li>
+          <li>yes</li>
+        </ul>
+      </td>
+      <td>
+        （一覧表での表示）
+        <ul>
           <li>無</li>
           <li>有</li>
         </ul>
       </td>
-      <td>-</td>
       <td>[]</td>
-      <td>"無"</td>
+      <td>"no"</td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td></td>
@@ -289,14 +316,14 @@
       <td>セレクトボックス</td>
       <td>
         <ul>
-          <li>症状あり</li>
-          <li>症状なし</li>
+          <li>no</li>
+          <li>yes</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>yes</li>
-          <li>no</li>
+          <li>症状あり</li>
+          <li>症状なし</li>
         </ul>
       </td>
       <td>[]</td>
@@ -304,7 +331,14 @@
       <td><input type="checkbox" class="readonly-input" /></td>
       <td><input type="checkbox" class="readonly-input" /></td>
       <td>proband.phenotypic_features.excluded</td>
-      <td></td>
+      <td>
+        <ul>
+          <li>症状入力テキストボックスに直接入力した場合の初期値→「症状あり」</li>
+          <li>分類分けから入力した場合の初期値→「症状なし」</li>
+        </ul>
+        <br>
+        ※ 選択肢は「excluded」に対してのno→症状あり、yes→症状なし
+      </td>
     </tr>
     <tr>
       <td>重要性</td>
@@ -313,16 +347,16 @@
       <td>セレクトボックス</td>
       <td>
         <ul>
-          <li>通常</li>
-          <li>高い</li>
-          <li>低い</li>
+          <li>normal</li>
+          <li>distinctive</li>
+          <li>minor</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>normal</li>
-          <li>distinctive</li>
-          <li>minor</li>
+          <li>通常</li>
+          <li>高い</li>
+          <li>低い</li>
         </ul>
       </td>
       <td>[]</td>
@@ -339,20 +373,20 @@
       <td>セレクトボックス</td>
       <td>
         <ul>
-          <li>境界域</li>
-          <li>重度</li>
-          <li>最重度</li>
-          <li>中等度</li>
-          <li>軽度</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>borderline</li>
           <li>severe</li>
           <li>profound</li>
           <li>moderate</li>
           <li>mild</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>境界域</li>
+          <li>重度</li>
+          <li>最重度</li>
+          <li>中等度</li>
+          <li>軽度</li>
         </ul>
       </td>
       <td>[]</td>
@@ -374,7 +408,10 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.onset</td>
-      <td rowspan="3">「{{yy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される</td>
+      <td rowspan="3">
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
+      </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -383,8 +420,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1 ~ 31</td>
-      <td>1 ~ 31</td>
+      <td>0 ~ 30</td>
+      <td>0 ~ 30</td>
     </tr>
     <tr>
       <td>発症パターン</td>
@@ -474,7 +511,10 @@
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3"><input type="checkbox" class="readonly-input" /></td>
       <td rowspan="3">proband.phenotypic_features.resolution</td>
-      <td rowspan="3">「{{yy}} + Y + {{mm}} + M + {{dd}} + D」の形式でjsonに保存される</td>
+      <td rowspan="3">
+        「{{Y}} + Y + {{M}} + M + {{D}} + D」の形式でjsonに保存される<br>
+        Y,M,Dどれか1つでも入力があれば0埋め
+      </td>
     </tr>
     <tr>
       <td>セレクトボックス</td>
@@ -483,8 +523,8 @@
     </tr>
     <tr>
       <td>セレクトボックス</td>
-      <td>1 ~ 31</td>
-      <td>1 ~ 31</td>
+      <td>0 ~ 30</td>
+      <td>0 ~ 30</td>
     </tr>
     <tr>
       <td>コメント</td>
