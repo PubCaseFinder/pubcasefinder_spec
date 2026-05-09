@@ -11,11 +11,11 @@
 | 番号 | 機能 | 詳細 |
 | ---- | ---- | ---- |
 | 1 | サイドメニューの開閉 | メニューアイコンクリックで開閉ができる。（上記画像の左⇄右） |
-| 2 | [Cases](/cases/screen-specifications) | 症例の一覧表示。症例の確認、編集が可能。 |
-| 3 | [Stats](/stats/screen-specifications) | 症例の統計情報を可視化したグラフ一覧 |
-| 4 | [File open](/file-open/specifications) | 症例一覧のインポート機能 |
-| 5 | [File save](/file-save/specifications) | 症例一覧のエクスポート機能 |
-| 6 | [File merge](/file-merge/specifications) | 表示中のデータとインポートデータをマージできる機能 |
+| 2 | [Cases](../../cases/screen-specifications) | 症例の一覧表示。症例の確認、編集が可能。 |
+| 3 | [Stats](../../stats/screen-specifications) | 症例の統計情報を可視化したグラフ一覧 |
+| 4 | [File open](../../file-open/specifications) | 症例一覧のインポート機能 |
+| 5 | [File save](../../file-save/specifications) | 症例一覧のエクスポート機能 |
+| 6 | [File merge](../../file-merge/specifications) | 表示中のデータとインポートデータをマージできる機能 |
 
 <br>
 
